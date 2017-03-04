@@ -7,13 +7,6 @@
     <other-services-enabled>false</other-services-enabled>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.10 virtualenv at ~/mymwebsitevenv" project-jdk-type="Python SDK" />
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-      </console-settings>
-    </option>
-  </component>
   <component name="PythonCompatibilityInspectionAdvertiser">
     <option name="version" value="1" />
   </component>
