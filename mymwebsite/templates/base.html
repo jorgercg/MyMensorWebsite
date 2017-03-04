@@ -1,4 +1,4 @@
-{% load staticfiles i18n tz cookielaw_tags%}
+{% load staticfiles i18n tz%}
 {% localtime on %}
 {% get_current_timezone as TIME_ZONE %}
 <!DOCTYPE html>
@@ -40,7 +40,6 @@
         <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
         <meta name="msapplication-config" content="images/browserconfig.xml">
         <meta name="theme-color" content="#00afef">
-        {% cookielaw_banner %}
 		{% block header %}{% endblock %}
 	</head>
     <body>

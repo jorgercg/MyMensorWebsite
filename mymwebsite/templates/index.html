@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles i18n tz %}
+{% load staticfiles i18n tz cookielaw_tags%}
 {% localtime on %}
     {% get_current_timezone as TIME_ZONE %}
     {% block title %}{{ block.super }}{% endblock %}
@@ -23,6 +23,7 @@
                 }
             }
         </style>
+        {% cookielaw_banner %}
         <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
             <ul class="nav nav-bordered nav-stacked flex-column">
                 <li class="nav-header">Examples</li>
