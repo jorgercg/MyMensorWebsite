@@ -49,7 +49,7 @@
 
         <div class="stage" id="stage">
 
-            <div class="block block-inverse block-fill-height app-header">
+            <div class="block block-inverse block-fill-height app-header" style="background-image: url({% static 'images/carousel01.jpg' %});">
                 <div class="container py-4 fixed-top app-navbar">
                     <nav class="navbar navbar-transparent navbar-padded navbar-toggleable-sm">
                         <button
@@ -96,41 +96,6 @@
                     </div>
                 </div>
 
-                <div class="block-background">
-                    <div id="carousel-example-generic-2" class="carousel carousel-light slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <div class="fill">
-                                    <img class="d-block img-fluid" src="{% static 'images/carousel01.jpg' %}"
-                                         alt="First slide">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="fill">
-                                    <img class="d-block img-fluid" src="{% static 'images/carousel02.jpg' %}"
-                                         alt="Second slide">
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carousel-example-generic-2" role="button"
-                           data-slide="prev">
-                            <span class="icon icon-chevron-thin-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel-example-generic-2" role="button"
-                           data-slide="next">
-                            <span class="icon icon-chevron-thin-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-
-
-                </div>
-
             </div>
 
             <div class="block block-secondary app-iphone-block">
@@ -138,7 +103,7 @@
                     <div class="row app-align-center">
 
                         <div class="col-sm-5 hidden-sm-down">
-                            <img class="app-iphone" src="assets/img/startup-2.jpg" style="width: 100%;">
+                            <img class="app-iphone" src="{% static 'images/compostelamediacheck2.jpeg' %}" style="width: 120%;">
                         </div>
 
                         <div class="col-md-6 offset-md-1 col-sm-12 offset-sm-0">
@@ -165,16 +130,16 @@
                 </div>
             </div>
 
-            <div class="block block-inverse block-secondary app-code-block">
+            <div class="block block-foreground block-fill-height" style="background-image: url({% static 'images/carousel02.jpg' %});">
                 <div class="container">
                     <div class="row app-align-center">
                         <div class="col-md-5 push-md-7">
 
                         </div>
                         <div class="col-md-6 pull-md-5">
-                            <h6 class="text-muted text-uppercase">{% trans "Control Made Simple" %}</h6>
+                            <h6 class="text-gray-dark text-uppercase">{% trans "Control Made Simple" %}</h6>
                             <h3>{% trans "Revolutionize your control practices. Work with portability of information and reality." %}</h3>
-                            <p class="lead mb-4 text-muted">{% trans "Using our web application you have access to all your information anywhere, anytime. The reality will be portable for you to be transported to wherever you are." %}</p>
+                            <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you have access to all your information anywhere, anytime. The reality will be portable for you to be transported to wherever you are." %}</p>
                             <button class="btn btn-secondary btn-lg btn-borderless">
                                 {% trans "Read our docs" %}
                             </button>
@@ -354,9 +319,7 @@
                             <ul class="list-unstyled list-spaced">
                                 <li class="mb-2"><h6 class="text-uppercase">Legal</h6></li>
                                 <li class="text-muted">Terms</li>
-                                <li class="text-muted">Legal</li>
                                 <li class="text-muted">Privacy</li>
-                                <li class="text-muted">License</li>
                             </ul>
                         </div>
                     </div>
