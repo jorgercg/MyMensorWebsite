@@ -22,5 +22,5 @@ urlpatterns = [
     url(r'^$', mymviews.index, name='index'),
     url(r'^admin/', admin.site.urls),
     url(r'^terms/', mymviews.terms, name='terms'),
-    url(r'^terms/', mymviews.privacy, name='privacy'),
+    url(r'^privacy/', mymviews.privacy, name='privacy'),
 ]

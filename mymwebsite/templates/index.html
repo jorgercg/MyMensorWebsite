@@ -60,8 +60,8 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <a class="navbar-brand mr-auto" href="">
-                            <strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">MyMensor</strong>
+                        <a class="navbar-brand mr-auto" href="{% url 'index' %}">
+                            <img src="{% static 'images/Logo_MyMensor_NEW3.svg' %}" width="120" height="120" alt="">
                         </a>
 
                         <div class="hidden-sm-down text-uppercase">
@@ -309,8 +309,8 @@
                         <div class="col-md-3 mb-5">
                             <ul class="list-unstyled list-spaced">
                                 <li class="mb-2"><h6 class="text-uppercase">Legal</h6></li>
-                                <li class="text-muted"><a href="terms.html"></a>Terms of Service</li>
-                                <li class="text-muted"><a href="privacy.html"></a>Privacy</li>
+                                <li><a class="text-muted" href="{% url 'terms' %}">Terms of Service</a></li>
+                                <li><a class="text-muted" href="{% url 'privacy' %}">Privacy</a></li>
                             </ul>
                         </div>
                     </div>
