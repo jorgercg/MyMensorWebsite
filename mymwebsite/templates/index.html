@@ -73,10 +73,10 @@
                                     <a class="nav-link" href="minimal/index.html">Minimal</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="bold/index.html">Bold</a>
+                                    <a class="nav-link" href="https://app.mymensor.com/accounts/login/">Login</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="docs/index.html">Docs</a>
+                                    <a class="nav-link" href="https://app.mymensor.com/accounts/register/"><strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">Register</strong></a>
                                 </li>
                             </ul>
                         </div>
@@ -89,7 +89,7 @@
                             <div class="col-sm-10 col-lg-6">
                                 <h1 class="block-titleData frequency">{% trans "Simple and evidenced control." %}</h1>
                                 <p class="lead mb-4 text-muted">{% trans " Use images to control everything remotely <br> using an Android smartphone." %}</p>
-                                <button class="btn btn-primary btn-lg">{% trans "Try Now" %}</button>
+                                <a class="btn btn-primary btn-lg" href="https://app.mymensor.com/accounts/register/" role="button">{% trans "Try Now" %}</a>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,9 @@
                     <div class="row app-align-center">
 
                         <div class="col-sm-5 hidden-sm-down">
-                            <img class="app-iphone" src="{% static 'images/compostelamediacheck2.jpeg' %}" style="width: 120%;">
+                            <a data-toggle="modal" data-target="#mediaModal" data-whatever="{% static 'images/compostelamediacheck2.jpeg' %}">
+                                <img class="app-iphone" src="{% static 'images/compostelamediacheck2.jpeg' %}" alt="" style="width: 120%;">
+                            </a>
                         </div>
 
                         <div class="col-md-6 offset-md-1 col-sm-12 offset-sm-0">
@@ -113,12 +115,12 @@
                                 <div class="col-sm-6 mb-3">
                                     <h5>{% trans "Real Time" %}</h5>
                                     <p>{% trans "The captures come to your view immediately after they occur. You can react immediately, without waiting for someone to send you the information." %}<a
-                                            href="#" class="text-primary">{% trans "See here." %}</a></p>
+                                            href="#" class="text-primary">{% trans " See here." %}</a></p>
                                 </div>
                                 <div class="col-sm-6">
                                     <h5>{% trans "Reliability and Safety " %}</h5>
                                     <p>{% trans " We use world-class servers, maintaining first-class reliability and security." %}<a
-                                            href="#" class="text-primary">{% trans "See here." %}</a>.
+                                            href="#" class="text-primary">{% trans " See here." %}</a>.
                                     </p>
                                 </div>
                             </div>
@@ -317,6 +319,17 @@
                 </div>
             </div>
 
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="mediaModal" tabindex="-1" role="dialog" aria-labelledby="mediaModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img id="mediaContent" class="img-fluid" src="{% static 'images/compostelamediacheck2.jpeg' %}" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     {% endblock %}
     {% block javascript %}
