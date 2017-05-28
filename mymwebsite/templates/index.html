@@ -48,7 +48,8 @@
 
         <div class="stage" id="stage">
 
-            <div class="block block-inverse block-fill-height app-header" style="background-image: url({% static 'images/carousel01.jpg' %});">
+            <div class="block block-inverse block-fill-height app-header"
+                 style="background-image: url({% static 'images/carousel01.jpg' %});">
                 <div class="container py-4 fixed-top app-navbar">
                     <nav class="navbar navbar-transparent navbar-padded navbar-toggleable-sm">
                         <button
@@ -76,7 +77,8 @@
                                     <a class="nav-link" href="https://app.mymensor.com/accounts/login/">Login</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="https://app.mymensor.com/accounts/register/"><strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">Register</strong></a>
+                                    <a class="nav-link" href="https://app.mymensor.com/accounts/register/"><strong
+                                            style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">Register</strong></a>
                                 </li>
                             </ul>
                         </div>
@@ -89,7 +91,8 @@
                             <div class="col-sm-10 col-lg-6">
                                 <h1 class="block-titleData frequency">{% trans "Simple and evidenced control." %}</h1>
                                 <p class="lead mb-4 text-muted">{% trans " Use images to control everything remotely <br> using an Android smartphone." %}</p>
-                                <a class="btn btn-primary btn-lg" href="https://app.mymensor.com/accounts/register/" role="button">{% trans "Try Now" %}</a>
+                                <a class="btn btn-primary btn-lg" href="https://app.mymensor.com/accounts/register/"
+                                   role="button">{% trans "Try Now" %}</a>
                             </div>
                         </div>
                     </div>
@@ -102,8 +105,10 @@
                     <div class="row app-align-center">
 
                         <div class="col-sm-5 hidden-sm-down">
-                            <a data-toggle="modal" data-target="#mediaModal" data-whatever="{% static 'images/compostelamediacheck2.jpeg' %}">
-                                <img class="app-iphone" src="{% static 'images/compostelamediacheck2.jpeg' %}" alt="" style="width: 120%;">
+                            <a data-toggle="modal" data-target="#mediaModal"
+                               data-whatever="{% static 'images/compostelamediacheck2.jpeg' %}">
+                                <img class="app-iphone" src="{% static 'images/compostelamediacheck2.jpeg' %}" alt=""
+                                     style="width: 120%;">
                             </a>
                         </div>
 
@@ -131,7 +136,8 @@
                 </div>
             </div>
 
-            <div class="block block-foreground block-fill-height" style="background-image: url({% static 'images/carousel02.jpg' %});">
+            <div class="block block-foreground block-fill-height"
+                 style="background-image: url({% static 'images/carousel02.jpg' %});">
                 <div class="container">
                     <div class="row app-align-center">
                         <div class="col-md-5 push-md-7">
@@ -150,10 +156,10 @@
             </div>
 
             <div class="block block-inverse app-high-praise"
-                 style="background-image: url(assets/img/startup-3.jpg);">
+                 style="background-image: url({% static 'images/autosharing.jpg' %});">
                 <div class="container">
                     <div class="row app-align-center py-3">
-                        <div class="col-sm-5 push-sm-7 py-5">
+                        <div class="col-sm-5 push-sm-7 py-5" style="background-color: #1DA1F2">
                             <h6 class="text-muted text-uppercase">{% trans "Simplified Sharing" %}</h6>
                             <h3>{% trans " Share captures automatically via Facebook, Twitter and Email." %}</h3>
                             <p class="lead mb-4 text-muted">{% trans " Promote your work with the reliability of the MyMensor certification. Your customers and friends can easily check the location and date of the media capture, even without a MyMensor subscription." %}</p>
@@ -161,6 +167,26 @@
                     </div>
                 </div>
             </div>
+
+            <div class="block block-foreground block-fill-height"
+                 style="background-image: url({% static 'images/bigdatabackground.jpg' %});">
+                <div class="container">
+                    <div class="row app-align-center">
+                        <div class="col-md-5 push-md-7">
+
+                        </div>
+                        <div class="col-md-6 pull-md-5" style="background-color: #a5d3ff">
+                            <h6 class="text-gray-dark text-uppercase">{% trans "Build your own bigdata" %}</h6>
+                            <h3>{% trans "Use our web application to gather and view your data, in numerical and graphical ways." %}</h3>
+                            <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you can stablish operational ranges, yellow and red alarm ranges. Export your data to a CSV file and use wherever you need it." %}</p>
+                            <button class="btn btn-secondary btn-lg btn-borderless">
+                                {% trans "Read our docs" %}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="block block-secondary app-block-marketing-grid">
                 <div class="container text-xs-center">
@@ -175,19 +201,19 @@
 
                     <div class="row app-marketing-grid">
                         <div class="col-md-4 px-4 mb-5">
-                            <img class="mb-1" src="assets/img/startup-9.svg">
+                            <img class="mb-1" src="{% static "images/svgar.svg" %}">
                             <p>
                                 <strong>{% trans "Augmented Reality" %}</strong>{% trans " Capture the image always in the same position. (Available only with MyMensorAR and up)" %}
                             </p>
                         </div>
                         <div class="col-md-4 px-4 mb-5">
-                            <img class="mb-1" src="assets/img/startup-10.svg">
+                            <img class="mb-1" src="{% static "images/svgcertificate.svg" %}">
                             <p>
                                 <strong>{% trans "Certification" %}</strong>{% trans "We automatically certify time and location of the images." %}
                             </p>
                         </div>
                         <div class="col-md-4 px-4 mb-5">
-                            <img class="mb-1" src="assets/img/startup-11.svg">
+                            <img class="mb-1" src="{% static "images/svgsharing.svg" %}">
                             <p>
                                 <strong>{% trans "Sharing" %}</strong>{% trans " We automatically and immediately share your captures." %}
                             </p>
@@ -197,19 +223,19 @@
 
                     <div class="row app-marketing-grid">
                         <div class="col-md-4 px-4 mb-5">
-                            <img class="mb-1" src="assets/img/startup-12.svg">
+                            <img class="mb-1" src="{% static "images/svgdatabasecloud.svg" %}">
                             <p>
                                 <strong>{% trans "Database" %}</strong>{% trans " All data safe. (Available only with MyMensorAR an up)" %}
                             </p>
                         </div>
                         <div class="col-md-4 px-4 mb-5">
-                            <img class="mb-1" src="{% static "images/startup-13.svg" %}">
+                            <img class="mb-1" src="{% static "images/svgmobile.svg" %}">
                             <p>
                                 <strong>{% trans "Mobile Application" %}</strong>{% trans "Android app for capturing images." %}
                             </p>
                         </div>
                         <div class="col-md-4 px-4 mb-5">
-                            <img class="mb-1" src="{% static "images/startup-14.svg" %}">
+                            <img class="mb-1" src="{% static "images/svgsecure.svg" %}">
                             <p>
                                 <strong>{% trans " Secure connections " %}</strong>{% trans " Each transmission is always done in HTTPS." %}
                             </p>
@@ -234,12 +260,15 @@
                             <div class="px-2 mb-2">
                                 <h6 class="text-muted text-uppercase mb-4">MyMensor</h6>
                                 <img class="mb-4" src="assets/img/startup-15.svg">
-                                <p class="pb-2">Even simpler. For those that just need the certification and sharing power.</p>
+                                <p class="pb-2">Even simpler. For those that just need the certification and sharing
+                                    power.</p>
                             </div>
 
                             <ul class="list-unstyled list-bordered text-xs-left my-4">
                                 <li class="py-4"><strong>Certification</strong> time and location</li>
-                                <li class="py-4"><strong>Sharing</strong> automatic sharing to Facebook, Twitter and Email.</li>
+                                <li class="py-4"><strong>Sharing</strong> automatic sharing to Facebook, Twitter and
+                                    Email.
+                                </li>
                                 <li class="py-4"><strong>Secure</strong> all HTTPS</li>
                             </ul>
 
@@ -252,7 +281,8 @@
                             <div class="px-2">
                                 <h6 class="text-muted text-uppercase mb-4">MyMensorAR</h6>
                                 <img class="mb-4" src="assets/img/startup-16.svg">
-                                <p class="pb-2">The one size fits all solution. Use Augmented Reality and Data Features to control your personal and business projects</p>
+                                <p class="pb-2">The one size fits all solution. Use Augmented Reality and Data Features
+                                    to control your personal and business projects</p>
                             </div>
 
                             <ul class="list-unstyled list-bordered text-xs-left my-4">
@@ -295,7 +325,8 @@
                             <ul class="list-unstyled list-spaced">
                                 <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
                                 <li class="text-muted">
-                                    It' been a long journey and we are just starting! Contact us anytime at <a href="mailto: support@mymensor.com">support@mymensor.com</a>.
+                                    It' been a long journey and we are just starting! Contact us anytime at <a
+                                        href="mailto: support@mymensor.com">support@mymensor.com</a>.
                                 </li>
                             </ul>
                         </div>
@@ -326,7 +357,8 @@
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img id="mediaContent" class="img-fluid" src="{% static 'images/compostelamediacheck2.jpeg' %}" alt="">
+                        <img id="mediaContent" class="img-fluid" src="{% static 'images/compostelamediacheck2.jpeg' %}"
+                             alt="">
                     </div>
                 </div>
             </div>
