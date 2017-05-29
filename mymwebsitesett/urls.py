@@ -23,4 +23,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^terms/', mymviews.terms, name='terms'),
     url(r'^privacy/', mymviews.privacy, name='privacy'),
+    url(r'^docs/', mymviews.docs, name='docs'),
+    url(r'^videos/', mymviews.videos, name='videos'),
+    url(r'^faq/', mymviews.faq, name='faq'),
 ]
