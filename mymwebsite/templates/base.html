@@ -1,36 +1,37 @@
-{% load staticfiles i18n tz%}
+{% load staticfiles i18n tz %}
 {% localtime on %}
-{% get_current_timezone as TIME_ZONE %}
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-	    <!-- Basic Page Needs.
-	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    {% get_current_timezone as TIME_ZONE %}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Basic Page Needs.
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>
-			{% block title %}
-				MyMensor
-			{% endblock %}
-		</title>
-	    <meta name="MyMensor Website" content="">
-	    <meta name="Celtapps" content="">
+        <title>
+            {% block title %}
+                MyMensor
+            {% endblock %}
+        </title>
+        <meta name="MyMensor Website" content="">
+        <meta name="Celtapps" content="">
 
-	    <!-- Mobile Specific Metas
-	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Mobile Specific Metas
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	    <!-- FONT
-	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+        <!-- FONT
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600'
+              rel='stylesheet' type='text/css'>
 
-	    <!-- CSS
-	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <link rel="stylesheet" href="{% static 'css/toolkit-startup.css' %}" >
-        <link rel="stylesheet" href="{% static 'css/application-startup.css' %}" >
-        <link rel="stylesheet" href="{% static 'css/cookielaw.css' %}" >
-        <link rel="stylesheet" href="{% static 'css/social-share-kit.css' %}" >
-        <link rel="stylesheet" href="{% static 'css/mymwebsitestyle.css' %}" >
+        <!-- CSS
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link rel="stylesheet" href="{% static 'css/toolkit-startup.css' %}">
+        <link rel="stylesheet" href="{% static 'css/application-startup.css' %}">
+        <link rel="stylesheet" href="{% static 'css/cookielaw.css' %}">
+        <link rel="stylesheet" href="{% static 'css/social-share-kit.css' %}">
+        <link rel="stylesheet" href="{% static 'css/mymwebsitestyle.css' %}">
         <!-- Favicon
 	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
@@ -41,22 +42,53 @@
         <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
         <meta name="msapplication-config" content="images/browserconfig.xml">
         <meta name="theme-color" content="#00afef">
-		{% block header %}{% endblock %}
-	</head>
+        {% block header %}{% endblock %}
+    </head>
     <body>
-        {% block content %}{% endblock %}
-        {% block footer %}{% endblock %}
-        <script src="{% static "js/jquery-3.1.1.min.js" %}"></script>
-        <script src="{% static "js/tether.min.js" %}"></script>
-        <script src="{% static "js/toolkit.js" %}"></script>
-        <script src="{% static "js/application.js" %}"></script>
-        <script src="{% static "js/social-share-kit.js" %}"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="{% static "js/ie10-viewport-bug-workaround.js" %}"></script>
-        <!-- Page Local Scripts
-	    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        {% block javascript %}{% endblock %}
-        {% block extra_head %}{% endblock %}
+    {% block content %}{% endblock %}
+    {% block footer %}
+        <div class="block block-inverse app-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mb-5">
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
+                            <li class="text-muted">
+                                It' been a long journey and we are just starting! Contact us anytime at <a
+                                    href="mailto: contact@mymensor.com">contact@mymensor.com</a>.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 offset-md-1 mb-5">
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2"><h6 class="text-uppercase">Product</h6></li>
+                            <li><a class="text-muted" href="{% url 'docs' %}">Docs</a></li>
+                            <li><a class="text-muted" href="{% url 'videos' %}">Videos</a></li>
+                            <li><a class="text-muted" href="{% url 'faq' %}">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-5">
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2"><h6 class="text-uppercase">Legal</h6></li>
+                            <li><a class="text-muted" href="{% url 'terms' %}">Terms of Service</a></li>
+                            <li><a class="text-muted" href="{% url 'privacy' %}">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+    <script src="{% static "js/jquery-3.1.1.min.js" %}"></script>
+    <script src="{% static "js/tether.min.js" %}"></script>
+    <script src="{% static "js/toolkit.js" %}"></script>
+    <script src="{% static "js/application.js" %}"></script>
+    <script src="{% static "js/social-share-kit.js" %}"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{% static "js/ie10-viewport-bug-workaround.js" %}"></script>
+    <!-- Page Local Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    {% block javascript %}{% endblock %}
+    {% block extra_head %}{% endblock %}
     </body>
-</html>
+    </html>
 {% endlocaltime %}
