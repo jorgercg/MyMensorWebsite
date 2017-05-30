@@ -121,12 +121,12 @@
                                 <div class="col-sm-6 mb-3">
                                     <h5>{% trans "Real Time" %}</h5>
                                     <p>{% trans "The captures come to your view immediately after they occur. You can react immediately, without waiting for someone to send you the information." %}<a
-                                            href="#" class="text-primary">{% trans " See here." %}</a></p>
+                                            href="{% url 'docs' %}" class="text-primary">{% trans " See here." %}</a></p>
                                 </div>
                                 <div class="col-sm-6">
                                     <h5>{% trans "Reliability and Safety " %}</h5>
                                     <p>{% trans " We use world-class servers, maintaining first-class reliability and security." %}<a
-                                            href="#" class="text-primary">{% trans " See here." %}</a>.
+                                            href="{% url 'docs' %}" class="text-primary">{% trans " See here." %}</a>.
                                     </p>
                                 </div>
                             </div>
@@ -148,9 +148,8 @@
                             <h6 class="text-gray-dark text-uppercase">{% trans "Control Made Simple" %}</h6>
                             <h3>{% trans "Revolutionize your control practices. Work with portability of information and reality." %}</h3>
                             <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you have access to all your information anywhere, anytime. The reality will be portable for you to be transported to wherever you are." %}</p>
-                            <button class="btn btn-secondary btn-lg btn-borderless">
-                                {% trans "Read our docs" %}
-                            </button>
+                            <a class="btn btn-secondary btn-lg btn-borderless" href="{% url 'docs' %}"
+                                   role="button">{% trans "Read our docs" %}</a>
                         </div>
                     </div>
                 </div>
@@ -164,6 +163,8 @@
                             <h6 class="text-muted text-uppercase">{% trans "Simplified Sharing" %}</h6>
                             <h3>{% trans " Share captures automatically via Facebook, Twitter and Email." %}</h3>
                             <p class="lead mb-4 text-muted">{% trans " Promote your work with the reliability of the MyMensor certification. Your customers and friends can easily check the location and date of the media capture, even without a MyMensor subscription." %}</p>
+                            <a class="btn btn-secondary btn-lg btn-borderless" href="https://app.mymensor.com/accounts/register/"
+                                   role="button">{% trans "Try Now" %}</a>
                         </div>
                     </div>
                 </div>
@@ -176,13 +177,12 @@
                         <div class="col-md-5 push-md-7">
 
                         </div>
-                        <div class="col-md-6 pull-md-5" style="background-color: #a5d3ff">
+                        <div class="col-md-6 pull-md-5 py-5" style="background-color: #a5d3ff">
                             <h6 class="text-gray-dark text-uppercase">{% trans "Build your own bigdata" %}</h6>
                             <h3>{% trans "Use our web application to gather and view your data, in numerical and graphical ways." %}</h3>
                             <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you can stablish operational ranges, yellow and red alarm ranges. Export your data to a CSV file and use wherever you need it." %}</p>
-                            <button class="btn btn-secondary btn-lg btn-borderless">
-                                {% trans "Read our docs" %}
-                            </button>
+                            <a class="btn btn-secondary btn-lg btn-borderless" href="{% url 'docs' %}"
+                                   role="button">{% trans "Read our docs" %}</a>
                         </div>
                     </div>
                 </div>
@@ -252,7 +252,7 @@
                     <div class="row mb-5">
                         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                             <h6 class="text-muted text-uppercase mb-2">Business Talk</h6>
-                            <h3>No plans. We just bump your plan whenever you need it.</h3>
+                            <h3>Simple plans. Direct to the point.</h3>
                         </div>
                     </div>
 
@@ -260,7 +260,7 @@
                         <div class="col-md-4 px-4 pb-2 mb-5">
                             <div class="px-2 mb-2">
                                 <h6 class="text-muted text-uppercase mb-4">MyMensor</h6>
-                                <img class="mb-4" src="assets/img/startup-15.svg">
+                                <img class="mb-4" src="{% static "images/comingsooncomp.svg" %}">
                                 <p class="pb-2">Even simpler. For those that just need the certification and sharing
                                     power.</p>
                             </div>
@@ -274,7 +274,7 @@
                             </ul>
 
                             <button class="btn btn-lg btn-secondary btn-block">
-                                Coming <span class="hidden-lg-down">SOON</span>
+                                COMING SOON
                             </button>
                         </div>
 
@@ -292,16 +292,15 @@
                                 <li class="py-4"><strong>Database</strong> build your own bigdata</li>
                             </ul>
 
-                            <button class="btn btn-lg btn-primary btn-block">
-                                Start <span class="hidden-lg-down">MyMensorAR account</span>
-                            </button>
+                            <a class="btn btn-primary btn-lg btn-block" href="https://app.mymensor.com/accounts/register/"
+                                   role="button">{% trans "Start MyMensorAR account" %}</a>
                         </div>
 
                         <div class="col-md-4 px-4 pb-1 mb-5">
                             <div class="px-2">
                                 <h6 class="text-muted text-uppercase mb-4">MyMensorCorp</h6>
-                                <img class="mb-4" src="assets/img/startup-17.svg">
-                                <p class="pb-2">A taylor made solution for your corporation.</p>
+                                <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
+                                <p class="pb-2">A taylor made solution for your corporation. Drop us an email and we will build your custom setup together.</p>
                             </div>
 
                             <ul class="list-unstyled list-bordered text-xs-left my-4">
@@ -310,9 +309,9 @@
                                 <li class="py-4"><strong>Mobile App</strong> custom setups</li>
                             </ul>
 
-                            <button class="btn btn-lg btn-primary btn-block">
-                                Upon Request
-                            </button>
+                            <a class="btn btn-primary btn-lg btn-block" href="mailto: contact@mymensor.com"
+                                   role="button">{% trans "Upon Request" %}</a>
+
                         </div>
                     </div>
 
@@ -327,7 +326,7 @@
                                 <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
                                 <li class="text-muted">
                                     It' been a long journey and we are just starting! Contact us anytime at <a
-                                        href="mailto: support@mymensor.com">support@mymensor.com</a>.
+                                        href="mailto: contact@mymensor.com">contact@mymensor.com</a>.
                                 </li>
                             </ul>
                         </div>
