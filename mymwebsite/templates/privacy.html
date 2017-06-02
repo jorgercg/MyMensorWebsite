@@ -1,4 +1,5 @@
 {% extends 'innerbase.html' %}
+{% load i18n %}
 {% block title %}Privacy Policy - {{ block.super }}{% endblock %}
 {% block content %}
     <p></p>
@@ -49,6 +50,14 @@
         or a portion of its assets, you will be notified via email and/or a prominent notice on our Web site of any
         change in ownership or uses of this information, as well as any choices you may have regarding this
         information.</p>
+    <h4 class="text-info text-capitalize">Cookies</h4>
+    <p class="text-justify">{% trans "Cookies are small pieces of text used to store information on web browsers." %}
+        {% trans "They\’re used by many websites to store and receive identifiers and other information on devices, such as a handheld phone or computer. "%}
+        {% trans "Our site and services use cookies and other similar technologies, in order to provide a better service to you and to generally improve our sites and services." %}
+        {% trans "Some portions of our websites are functional without cookies, and you may generally choose whether to accept cookies. "%}
+        {% trans "Most web browsers are set to accept cookies by default, however, you may be able to delete cookiesyourself through your browser\'s cookie manager." %}
+        {% trans "To do so, please follow the instructions provided by your web browser. "%}
+        {% trans "Please note that disabling cookies will reset your session, disable auto-login, and may adversely affect the availability and functionality of our websites and the services we can provide to you." %}</p>
     <h4 class="text-info text-capitalize">Children</h4>
     <p class="text-justify">One must be 13 years old to use MyMensor. We do not use the Service to knowingly solicit
         data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child
