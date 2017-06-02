@@ -17,8 +17,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from mymwebsite import mymviews
+from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = [
+urlpatterns = i18n_patterns(
     url(r'^$', mymviews.index, name='index'),
     url(r'^admin/', admin.site.urls),
     url(r'^terms/', mymviews.terms, name='terms'),
@@ -26,4 +27,4 @@ urlpatterns = [
     url(r'^docs/', mymviews.docs, name='docs'),
     url(r'^videos/', mymviews.videos, name='videos'),
     url(r'^faq/', mymviews.faq, name='faq'),
-]
+)

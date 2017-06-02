@@ -22,7 +22,8 @@
 
         <!-- FONT
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600'
+              rel='stylesheet' type='text/css'>
 
         <!-- CSS
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -105,6 +106,25 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="row">
+                    <div class="col-md-5 mb-5">
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2"><h6 class="text-uppercase">{% trans "Language" %}</h6></li>
+                            {% for language in languages %}
+                                <li>
+                                    <a class="text-muted" href="/{{ language.code }}/"
+                                            {% if language.code == LANGUAGE_CODE %}
+                                       class="selected" {% endif %}>
+                                        {{ language.name_local }}
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
                 </div>
             </div>
         {% endblock %}
