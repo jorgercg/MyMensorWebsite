@@ -19,9 +19,13 @@ from django.contrib import admin
 from mymwebsite import mymviews
 from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = i18n_patterns(
-    url(r'^$', mymviews.index, name='index'),
+urlpatterns = [
     url(r'^admin/', admin.site.urls),
+]
+
+urlpatterns += i18n_patterns(
+    url(r'^$', mymviews.index, name='index'),
+
     url(r'^terms/', mymviews.terms, name='terms'),
     url(r'^privacy/', mymviews.privacy, name='privacy'),
     url(r'^docs/', mymviews.docs, name='docs'),
