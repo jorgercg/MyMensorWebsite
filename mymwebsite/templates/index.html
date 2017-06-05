@@ -23,7 +23,7 @@
                 }
             }
         </style>
-        <div class="stage-shelf stage-shelf-right hidden eupopup eupopup-bottom eupopup-style-compact" id="sidebar">
+        <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
             <ul class="nav nav-bordered nav-stacked flex-column">
                 <li class="nav-item">
                     <a class="nav-link active" href="{% url 'docs' %}">{% trans "Docs" %}</a>
@@ -349,7 +349,7 @@
                         {% if LANGUAGE_CODE == "pt" %}
                         'info': 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
                         'popupTitle': 'Este website utiliza cookies. ',
-                        'popupText': 'Nós utilizamos cookies para lhe dar a melhor experiência. Se você continuar a usar nosso website, consideraremos que você aceita receber todos os cookies deste website.'
+                        'popupText': 'Nós utilizamos cookies para lhe dar a melhor experiência. Se você continuar a usar nosso website, consideraremos que você aceita receber todos os cookies deste website.',
                         'buttonContinueTitle' : 'Continuar',
 		                'buttonLearnmoreTitle' : 'Mais&nbsp;informação'
                         {% else %}
