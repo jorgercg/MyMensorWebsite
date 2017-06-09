@@ -7,16 +7,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-02 19:14+0100\n"
-"PO-Revision-Date: 2017-06-02 20:44+0100\n"
+"POT-Creation-Date: 2017-06-08 20:43+0100\n"
+"PO-Revision-Date: 2017-06-09 18:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.2\n"
+
+#: mymwebsite/templates/base.html:56 mymwebsite/templates/innerbase.html:87
+msgid "About"
+msgstr "Sobre"
+
+#: mymwebsite/templates/base.html:58
+msgid "The journey was long, but we are just starting! Contact us anytime at "
+msgstr ""
+"A jornada foi longa, mas estamos apenas começando! Entre em contato a "
+"qualquer momento em "
+
+#: mymwebsite/templates/base.html:65 mymwebsite/templates/innerbase.html:96
+msgid "Product"
+msgstr "Produto"
+
+#: mymwebsite/templates/base.html:67 mymwebsite/templates/index.html:29
+#: mymwebsite/templates/index.html:69 mymwebsite/templates/innerbase.html:65
+#: mymwebsite/templates/innerbase.html:98
+msgid "Docs"
+msgstr "Docs"
+
+#: mymwebsite/templates/base.html:69 mymwebsite/templates/index.html:32
+#: mymwebsite/templates/index.html:72 mymwebsite/templates/innerbase.html:66
+#: mymwebsite/templates/innerbase.html:100
+msgid "Videos"
+msgstr "Vídeos"
+
+#: mymwebsite/templates/base.html:72 mymwebsite/templates/index.html:35
+#: mymwebsite/templates/index.html:75 mymwebsite/templates/innerbase.html:67
+#: mymwebsite/templates/innerbase.html:103
+msgid "FAQ"
+msgstr "FAQ"
+
+#: mymwebsite/templates/base.html:77
+msgid "Legal"
+msgstr "Legal"
+
+#: mymwebsite/templates/base.html:79 mymwebsite/templates/innerbase.html:110
+msgid "Terms of Service"
+msgstr "Termos de Serviço"
+
+#: mymwebsite/templates/base.html:82 mymwebsite/templates/innerbase.html:113
+msgid "Privacy"
+msgstr "Privacidade"
+
+#: mymwebsite/templates/base.html:92 mymwebsite/templates/innerbase.html:123
+msgid "Language"
+msgstr "Idioma"
 
 #: mymwebsite/templates/faq.html:6
 msgid "Frequently Asked Questions"
@@ -33,12 +81,18 @@ msgid ""
 "photos and videos were taken. You will also be certain that photos and "
 "videos where not tampered with."
 msgstr ""
+"Porque não há nenhum substituto para seus próprios olhos e ouvidos! Com o "
+"MyMensor é como se você estivesse lá. Usando nossa tecnologia você vai saber "
+"quando e onde as fotos e vídeos foram feitos. Você também ficará certo que "
+"fotos e vídeos não foram adulterados."
 
 #: mymwebsite/templates/faq.html:23
 msgid ""
 "Do you need to be sure that something was done? Use MyMensor to verify "
 "completion, with precise location and timing."
 msgstr ""
+"Precisa ter certeza que alguma coisa foi feita? Use MyMensor para verificar "
+"a conclusão, com horário e localização precisos."
 
 #: mymwebsite/templates/faq.html:25
 msgid ""
@@ -47,6 +101,11 @@ msgid ""
 "MyMensor ALL MEDIA is produced with our own software, so you REALLY know "
 "where that media came from."
 msgstr ""
+"As apps mais populares que são usadas para distribuir mídia usando seu "
+"smartphone permitem uso de mídias de qualquer fonte, incluindo fontes "
+"externas. Com o Mymensor todas as mídias são produzidas com o nosso próprio "
+"software, então você realmente sabe de onde a mídia e que ela não foi "
+"alterada."
 
 #: mymwebsite/templates/faq.html:27
 msgid ""
@@ -54,61 +113,80 @@ msgid ""
 "use AR, then the true power of MyMensor emerges, with automatic photos and "
 "filing."
 msgstr ""
+"As possibilidades são infinitas, mesmo não usando a realidade aumentada "
+"(AR). Mas se você usar a AR, então o verdadeiro poder do MyMensor emerge, "
+"com fotos e arquivamento  automáticos."
 
 #: mymwebsite/templates/faq.html:36
 msgid ""
 "Can I share the certified media with someone that DOES NOT have a MyMensor "
 "Account?"
 msgstr ""
+"Posso partilhar a mídia certificada com alguém que NÃO TEM uma conta "
+"MyMensor?"
 
 #: mymwebsite/templates/faq.html:42
 msgid "YES, you can! And you can do it manually or automatically!"
-msgstr ""
+msgstr "Sim, você pode! E você pode fazê-lo manualmente ou automaticamente!"
 
 #: mymwebsite/templates/faq.html:43
 msgid ""
 "In the mobile app you can share your captures using the normal sharing "
 "capabilities of your smartphone."
 msgstr ""
+"No mobile app você pode compartilhar sua captura usando os recursos de "
+"compartilhamento normais do seu smartphone."
 
 #: mymwebsite/templates/faq.html:45
 msgid "When using our webapp, you can do it manually "
-msgstr ""
+msgstr "Ao usar nosso webapp, você pode fazê-lo manualmente "
 
 #: mymwebsite/templates/faq.html:46
 msgid "(See here.)"
-msgstr ""
+msgstr "(Veja aqui.)"
 
 #: mymwebsite/templates/faq.html:48
 msgid ""
 "Or you can automatically share your captures to Twitter, Facebook or email "
 msgstr ""
+"Ou você pode automaticamente compartilhar suas capturas para o Twitter, "
+"Facebook ou e-mail "
 
 #: mymwebsite/templates/faq.html:50
 msgid "(Configure here.)"
-msgstr ""
+msgstr "(Configure aqui.)"
 
 #: mymwebsite/templates/faq.html:59
 msgid "My smartphone clock is wrongly configured, so goodbye certified time?"
 msgstr ""
+"Meu relógio do smartphone está indevidamente configurado, então adeus "
+"horário certificado?"
 
 #: mymwebsite/templates/faq.html:65
 msgid ""
 "No! The only thing you need to certify your time is an internet connection. "
 "Our software DOES NOT use the internal smartphone clock."
 msgstr ""
+"Não! A única coisa que você precisa para ter a certificação de horário é uma "
+"conexão de internet. Nosso software é NÃO USA o relógio interno do "
+"smartphone."
 
 #: mymwebsite/templates/faq.html:66
 msgid ""
 "Every time you run your MyMensor mobile app we check the time using iternet "
 "time servers and after that we use our own clock."
 msgstr ""
+"Cada vez que você executar seu MyMensor mobile app nós verificamos o horário "
+"usando servidores de tempo de internet e, após isto, nós usamos nosso "
+"próprio relógio."
 
 #: mymwebsite/templates/faq.html:67
 msgid ""
 "When you see the green clock icon in your smartphone screen then your time "
 "is certified!"
 msgstr ""
+"Quando você vê o ícone de relógio verde na tela de seu smartphone o seu "
+"horário está certificado!"
 
 #: mymwebsite/templates/faq.html:76
 msgid "FAQ #4"
@@ -166,66 +244,84 @@ msgstr ""
 msgid "Answer to FAQ#10"
 msgstr ""
 
+#: mymwebsite/templates/index.html:38 mymwebsite/templates/index.html:78
+msgid "LOGIN"
+msgstr "ENTRAR"
+
+#: mymwebsite/templates/index.html:42 mymwebsite/templates/index.html:82
+msgid "Register"
+msgstr "Registrar"
+
 #: mymwebsite/templates/index.html:93
 msgid "Simple and evidenced control."
-msgstr ""
+msgstr "Controle simples e evidenciado."
 
 #: mymwebsite/templates/index.html:94
 msgid ""
 " Use images to control everything remotely <br> using an Android smartphone."
 msgstr ""
+"Usar imagens para controlar tudo remotamente<br> usando um smartphone "
+"Android."
 
 #: mymwebsite/templates/index.html:96 mymwebsite/templates/index.html:169
 msgid "Try Now"
-msgstr ""
+msgstr "Experimente agora!"
 
 #: mymwebsite/templates/index.html:117
 msgid "Certified Information"
-msgstr ""
+msgstr "Informação Certificada"
 
 #: mymwebsite/templates/index.html:118
 msgid "Turn captured images into certified information."
-msgstr ""
+msgstr "Transforme imagens capturadas em informações certificadas."
 
 #: mymwebsite/templates/index.html:119
 msgid ""
 "We combine smartphone mobility with database and security technologies to "
 "keep your information organized and accessible."
 msgstr ""
+"Combinamos a mobilidade do smartphone com tecnologias de banco de dados e de "
+"segurança para manter as informações organizadas e acessíveis."
 
 #: mymwebsite/templates/index.html:122
 msgid "Real Time"
-msgstr ""
+msgstr "Em Tempo Real"
 
 #: mymwebsite/templates/index.html:123
 msgid ""
 "The captures come to your view immediately after they occur. You can react "
 "immediately, without waiting for someone to send you the information."
 msgstr ""
+"As capturas chegam até você imediatamente depois que eles ocorrem. Você pode "
+"reagir imediatamente, sem esperar que alguém lhe envie as informações."
 
 #: mymwebsite/templates/index.html:124 mymwebsite/templates/index.html:130
 msgid " See here."
-msgstr ""
+msgstr " Veja aqui.)]"
 
 #: mymwebsite/templates/index.html:128
 msgid "Reliability and Safety "
-msgstr ""
+msgstr "Confiabilidade e Segurança "
 
 #: mymwebsite/templates/index.html:129
 msgid ""
 " We use world-class servers, maintaining first-class reliability and "
 "security."
 msgstr ""
+" Utilizamos servidores de classe mundial, mantendo segurança e "
+"confiabilidade de primeira classe."
 
 #: mymwebsite/templates/index.html:149
 msgid "Control Made Simple"
-msgstr ""
+msgstr "Controle simplificado"
 
 #: mymwebsite/templates/index.html:150
 msgid ""
 "Revolutionize your control practices. Work with portability of information "
 "and reality."
 msgstr ""
+"Revoluciona as práticas de controle. Trabalhe com portabilidade da "
+"informação e da realidade."
 
 #: mymwebsite/templates/index.html:151
 msgid ""
@@ -233,18 +329,22 @@ msgid ""
 "anytime. The reality will be portable for you to be transported to wherever "
 "you are."
 msgstr ""
+"Usando a nossa aplicação webapp você tem acesso a todas as suas informações "
+"em qualquer lugar, a qualquer momento. A realidade será portátil para você "
+"sendo transportada para onde quer que você esteja."
 
 #: mymwebsite/templates/index.html:153 mymwebsite/templates/index.html:187
 msgid "Read our docs"
-msgstr ""
+msgstr "Leia os nossos docs"
 
 #: mymwebsite/templates/index.html:164
 msgid "Simplified Sharing"
-msgstr ""
+msgstr "Compartilhamenro Simplificado"
 
 #: mymwebsite/templates/index.html:165
 msgid " Share captures automatically via Facebook, Twitter and Email."
 msgstr ""
+" Compartilhe suas capturas automaticamente via Facebook, Twitter e E-mail."
 
 #: mymwebsite/templates/index.html:166
 msgid ""
@@ -252,16 +352,21 @@ msgid ""
 "customers and friends can easily check the location and date of the media "
 "capture, even without a MyMensor subscription."
 msgstr ""
+" Promova o seu trabalho com a confiabilidade da certificação MyMensor. Seus "
+"clientes e amigos podem facilmente verificar o local e data de captura da "
+"mídia, mesmo sem uma assinatura MyMensor."
 
 #: mymwebsite/templates/index.html:183
 msgid "Build your own bigdata"
-msgstr ""
+msgstr "Construa seu próprio bigdata"
 
 #: mymwebsite/templates/index.html:184
 msgid ""
 "Use our web application to gather and view your data, in numerical and "
 "graphical ways."
 msgstr ""
+"Use nossa webapp para coletar e visualizar seus dados, em forma gráfica e "
+"numérica."
 
 #: mymwebsite/templates/index.html:185
 msgid ""
@@ -269,95 +374,187 @@ msgid ""
 "red alarm ranges. Export your data to a CSV file and use wherever you need "
 "it."
 msgstr ""
+"Usando nossa webapp, você pode estabelecer faixas operacionais e faixas de "
+"alarme amarelo e vermelho. Exportar seus dados para um arquivo CSV e use "
+"sempre que precisar."
 
 #: mymwebsite/templates/index.html:199
 msgid "Inside MyMensor"
-msgstr ""
+msgstr "Dentro do MyMensor"
 
 #: mymwebsite/templates/index.html:200
 msgid "It's easy to see how we make your life more efficient every day."
-msgstr ""
+msgstr "É fácil ver como podemos tornar sua vida mais eficiente todos os dias."
 
 #: mymwebsite/templates/index.html:209
 msgid "Augmented Reality"
-msgstr ""
+msgstr "Realidade aumentada"
 
 #: mymwebsite/templates/index.html:209
 msgid ""
 " Capture the image always in the same position. Images are filled "
 "automatically. (Available only with MyMensorAR and up)"
 msgstr ""
+"Capture as imagens sempre na mesma posição. Imagens são arquivadas "
+"automaticamente. (Disponível somente com MyMensorAR e acima)"
 
-#: mymwebsite/templates/index.html:215
+#: mymwebsite/templates/index.html:215 mymwebsite/templates/index.html:275
 msgid "Certification"
-msgstr ""
+msgstr "Certificação"
 
 #: mymwebsite/templates/index.html:215
 msgid "We automatically certify time and location of the images."
 msgstr ""
+"Nós automaticamente certificamos o horário e a localização das imagens."
 
-#: mymwebsite/templates/index.html:221
+#: mymwebsite/templates/index.html:221 mymwebsite/templates/index.html:276
 msgid "Sharing"
-msgstr ""
+msgstr "Compartilhamento"
 
 #: mymwebsite/templates/index.html:221
 msgid " We automatically and immediately share your captures."
-msgstr ""
+msgstr " Compartilhamento automático e imediato de suas capturas."
 
-#: mymwebsite/templates/index.html:231
+#: mymwebsite/templates/index.html:231 mymwebsite/templates/index.html:294
 msgid "Database"
-msgstr ""
+msgstr "Banco de Dados"
 
 #: mymwebsite/templates/index.html:231
 msgid " All data safe. (Available only with MyMensorAR an up)"
 msgstr ""
+" Todos os dados seguros. (Disponível somente com MyMensorAR e superior)"
 
 #: mymwebsite/templates/index.html:237
 msgid "Mobile Application"
-msgstr ""
+msgstr "Mobile App"
 
 #: mymwebsite/templates/index.html:237
 msgid "Android app for capturing images."
-msgstr ""
+msgstr "Android app para captura de imagens."
 
 #: mymwebsite/templates/index.html:243
 msgid " Secure connections "
-msgstr ""
+msgstr " Conexões seguras "
 
 #: mymwebsite/templates/index.html:243
 msgid " Each transmission is always done in HTTPS."
+msgstr " Cada transmissão é sempre feita em HTTPS."
+
+#: mymwebsite/templates/index.html:256
+msgid "Business Talk"
+msgstr "Vamos aos Negócios"
+
+#: mymwebsite/templates/index.html:257
+msgid "Simple plans. Direct to the point."
+msgstr "Planos simples. Direto ao ponto."
+
+#: mymwebsite/templates/index.html:271
+msgid ""
+"Even simpler. For those that just need the certification and sharing power."
 msgstr ""
+"Ainda mais simples. Para aqueles que precisam apenas do poder da "
+"certificação e compartilhamento."
+
+#: mymwebsite/templates/index.html:275
+msgid " time and location"
+msgstr " horário e local"
+
+#: mymwebsite/templates/index.html:276
+msgid " automatic sharing to Facebook, Twitter and Email."
+msgstr " compartilhamento automático para Facebook, Twitter e E-mail."
+
+#: mymwebsite/templates/index.html:278
+msgid "Secure"
+msgstr "Seguro"
+
+#: mymwebsite/templates/index.html:278
+msgid " all HTTPS"
+msgstr " tudo HTTPS"
+
+#: mymwebsite/templates/index.html:281
+msgid "COMING SOON"
+msgstr "EM BREVE"
+
+#: mymwebsite/templates/index.html:288
+msgid ""
+"The one size fits all solution. Use Augmented Reality and Data Features to "
+"control your personal and business projects"
+msgstr ""
+"A solução tamanho único. Use a realidade aumentada e os recursos de dados "
+"para controlar seus projetos pessoais e empresariais"
+
+#: mymwebsite/templates/index.html:292
+msgid "ALL MYMENSOR FEATURES PLUS"
+msgstr "TODAS AS CARACTERÍSTICAS DE MYMENSOR MAIS"
+
+#: mymwebsite/templates/index.html:293
+msgid "AR"
+msgstr "AR"
+
+#: mymwebsite/templates/index.html:293
+msgid " automatic and precise captures"
+msgstr " capturas automáticas e precisas"
+
+#: mymwebsite/templates/index.html:294
+msgid " build your own bigdata"
+msgstr " construa seu próprio bigdata"
 
 #: mymwebsite/templates/index.html:299
 msgid "Start MyMensorAR account"
+msgstr "Crie sua conta MyMensorAR"
+
+#: mymwebsite/templates/index.html:311
+msgid ""
+"A taylor made solution for your corporation. Drop us an email and we will "
+"build your custom setup together."
 msgstr ""
+"Uma solução sob medida para sua empresa. Mande um e-mail e juntos vamos "
+"construir sua configuração personalizada."
+
+#: mymwebsite/templates/index.html:315
+msgid "ALL MYMENSORAR FEATURES PLUS"
+msgstr "TODAS AS CARACTERÍSTICAS DE MYMENSORAR MAIS"
+
+#: mymwebsite/templates/index.html:316
+msgid "API access"
+msgstr "Acesso por API"
+
+#: mymwebsite/templates/index.html:316
+msgid " upon request"
+msgstr " mediante solicitação"
 
 #: mymwebsite/templates/index.html:317
+msgid "Mobile App"
+msgstr "Mobile App"
+
+#: mymwebsite/templates/index.html:317
+msgid " custom setups"
+msgstr " configurações personalizadas"
+
+#: mymwebsite/templates/index.html:321
 msgid "Upon Request"
-msgstr ""
+msgstr "Mediante Solicitação"
 
-#: mymwebsite/templates/innerbase.html:64
-msgid "Docs"
-msgstr ""
-
-#: mymwebsite/templates/innerbase.html:65
-msgid "Videos"
-msgstr ""
-
-#: mymwebsite/templates/innerbase.html:66
-msgid "FAQ"
+#: mymwebsite/templates/innerbase.html:89
+msgid ""
+"It\\'s been a long journey and we are just starting! Contact us anytime at"
 msgstr ""
 
 #: mymwebsite/templates/privacy.html:54
 msgid ""
 "Cookies are small pieces of text used to store information on web browsers."
 msgstr ""
+"Cookies são pequenos pedaços de texto usado para armazenar informações nos "
+"navegadores da web."
 
 #: mymwebsite/templates/privacy.html:55
 msgid ""
 "They\\’re used by many websites to store and receive identifiers and other "
 "information on devices, such as a handheld phone or computer. "
 msgstr ""
+"Eles são usados por muitos sites para armazenar e receber identificadores e "
+"outras informações sobre dispositivos, como um telefone portátil ou "
+"computador. "
 
 #: mymwebsite/templates/privacy.html:56
 msgid ""
@@ -365,22 +562,32 @@ msgid ""
 "to provide a better service to you and to generally improve our sites and "
 "services."
 msgstr ""
+"Nosso site e serviços usam cookies e outras tecnologias semelhantes, a fim "
+"de proporcionar um melhor serviço para você e melhorar nossos sites e "
+"serviços de uma maneira geral."
 
 #: mymwebsite/templates/privacy.html:57
 msgid ""
 "Some portions of our websites are functional without cookies, and you may "
 "generally choose whether to accept cookies. "
 msgstr ""
+"Algumas partes de nossos sites são funcionais sem cookies, e você pode optar "
+"por aceitar ou não cookies. "
 
 #: mymwebsite/templates/privacy.html:58
 msgid ""
 "Most web browsers are set to accept cookies by default, however, you may be "
 "able to delete cookiesyourself through your browser\\'s cookie manager."
 msgstr ""
+"A maioria dos navegadores da web são definidos para aceitar cookies, por "
+"padrão, no entanto, você pode ser capaz de apagar cookies através do "
+"Gerenciador de cookie do seu browser."
 
 #: mymwebsite/templates/privacy.html:59
 msgid "To do so, please follow the instructions provided by your web browser. "
 msgstr ""
+"Para fazer isso, por favor siga as instruções fornecidas pelo seu navegador "
+"web. "
 
 #: mymwebsite/templates/privacy.html:60
 msgid ""
@@ -388,11 +595,12 @@ msgid ""
 "login, and may adversely affect the availability and functionality of our "
 "websites and the services we can provide to you."
 msgstr ""
+"Por favor, note que desabilitar cookies irá redefinir sua sessão, desativar "
+"login automático e pode afetar negativamente a disponibilidade e "
+"funcionalidade de nossos websites e os serviços que fornecemos a você."
 
-#: mymwebsitesett/settings.py:116
-msgid "English"
-msgstr "Inglês"
+#~ msgid "English"
+#~ msgstr "Inglês"
 
-#: mymwebsitesett/settings.py:117
-msgid "Portuguese"
-msgstr "Português"
+#~ msgid "Portuguese"
+#~ msgstr "Português"

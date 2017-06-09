@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-02 19:14+0100\n"
+"POT-Creation-Date: 2017-06-08 20:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,52 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: mymwebsite/templates/base.html:56 mymwebsite/templates/innerbase.html:87
+msgid "About"
+msgstr ""
+
+#: mymwebsite/templates/base.html:58
+msgid "The journey was long, but we are just starting! Contact us anytime at "
+msgstr ""
+
+#: mymwebsite/templates/base.html:65 mymwebsite/templates/innerbase.html:96
+msgid "Product"
+msgstr ""
+
+#: mymwebsite/templates/base.html:67 mymwebsite/templates/index.html:29
+#: mymwebsite/templates/index.html:69 mymwebsite/templates/innerbase.html:65
+#: mymwebsite/templates/innerbase.html:98
+msgid "Docs"
+msgstr ""
+
+#: mymwebsite/templates/base.html:69 mymwebsite/templates/index.html:32
+#: mymwebsite/templates/index.html:72 mymwebsite/templates/innerbase.html:66
+#: mymwebsite/templates/innerbase.html:100
+msgid "Videos"
+msgstr ""
+
+#: mymwebsite/templates/base.html:72 mymwebsite/templates/index.html:35
+#: mymwebsite/templates/index.html:75 mymwebsite/templates/innerbase.html:67
+#: mymwebsite/templates/innerbase.html:103
+msgid "FAQ"
+msgstr ""
+
+#: mymwebsite/templates/base.html:77
+msgid "Legal"
+msgstr ""
+
+#: mymwebsite/templates/base.html:79 mymwebsite/templates/innerbase.html:110
+msgid "Terms of Service"
+msgstr ""
+
+#: mymwebsite/templates/base.html:82 mymwebsite/templates/innerbase.html:113
+msgid "Privacy"
+msgstr ""
+
+#: mymwebsite/templates/base.html:92 mymwebsite/templates/innerbase.html:123
+msgid "Language"
+msgstr ""
 
 #: mymwebsite/templates/faq.html:6
 msgid "Frequently Asked Questions"
@@ -165,6 +211,14 @@ msgstr ""
 msgid "Answer to FAQ#10"
 msgstr ""
 
+#: mymwebsite/templates/index.html:38 mymwebsite/templates/index.html:78
+msgid "LOGIN"
+msgstr ""
+
+#: mymwebsite/templates/index.html:42 mymwebsite/templates/index.html:82
+msgid "Register"
+msgstr ""
+
 #: mymwebsite/templates/index.html:93
 msgid "Simple and evidenced control."
 msgstr ""
@@ -287,7 +341,7 @@ msgid ""
 "automatically. (Available only with MyMensorAR and up)"
 msgstr ""
 
-#: mymwebsite/templates/index.html:215
+#: mymwebsite/templates/index.html:215 mymwebsite/templates/index.html:275
 msgid "Certification"
 msgstr ""
 
@@ -295,7 +349,7 @@ msgstr ""
 msgid "We automatically certify time and location of the images."
 msgstr ""
 
-#: mymwebsite/templates/index.html:221
+#: mymwebsite/templates/index.html:221 mymwebsite/templates/index.html:276
 msgid "Sharing"
 msgstr ""
 
@@ -303,7 +357,7 @@ msgstr ""
 msgid " We automatically and immediately share your captures."
 msgstr ""
 
-#: mymwebsite/templates/index.html:231
+#: mymwebsite/templates/index.html:231 mymwebsite/templates/index.html:294
 msgid "Database"
 msgstr ""
 
@@ -327,24 +381,98 @@ msgstr ""
 msgid " Each transmission is always done in HTTPS."
 msgstr ""
 
+#: mymwebsite/templates/index.html:256
+msgid "Business Talk"
+msgstr ""
+
+#: mymwebsite/templates/index.html:257
+msgid "Simple plans. Direct to the point."
+msgstr ""
+
+#: mymwebsite/templates/index.html:271
+msgid ""
+"Even simpler. For those that just need the certification and sharing power."
+msgstr ""
+
+#: mymwebsite/templates/index.html:275
+msgid " time and location"
+msgstr ""
+
+#: mymwebsite/templates/index.html:276
+msgid " automatic sharing to Facebook, Twitter and Email."
+msgstr ""
+
+#: mymwebsite/templates/index.html:278
+msgid "Secure"
+msgstr ""
+
+#: mymwebsite/templates/index.html:278
+msgid " all HTTPS"
+msgstr ""
+
+#: mymwebsite/templates/index.html:281
+msgid "COMING SOON"
+msgstr ""
+
+#: mymwebsite/templates/index.html:288
+msgid ""
+"The one size fits all solution. Use Augmented Reality and Data Features to "
+"control your personal and business projects"
+msgstr ""
+
+#: mymwebsite/templates/index.html:292
+msgid "ALL MYMENSOR FEATURES PLUS"
+msgstr ""
+
+#: mymwebsite/templates/index.html:293
+msgid "AR"
+msgstr ""
+
+#: mymwebsite/templates/index.html:293
+msgid " automatic and precise captures"
+msgstr ""
+
+#: mymwebsite/templates/index.html:294
+msgid " build your own bigdata"
+msgstr ""
+
 #: mymwebsite/templates/index.html:299
 msgid "Start MyMensorAR account"
 msgstr ""
 
+#: mymwebsite/templates/index.html:311
+msgid ""
+"A taylor made solution for your corporation. Drop us an email and we will "
+"build your custom setup together."
+msgstr ""
+
+#: mymwebsite/templates/index.html:315
+msgid "ALL MYMENSORAR FEATURES PLUS"
+msgstr ""
+
+#: mymwebsite/templates/index.html:316
+msgid "API access"
+msgstr ""
+
+#: mymwebsite/templates/index.html:316
+msgid " upon request"
+msgstr ""
+
 #: mymwebsite/templates/index.html:317
+msgid "Mobile App"
+msgstr ""
+
+#: mymwebsite/templates/index.html:317
+msgid " custom setups"
+msgstr ""
+
+#: mymwebsite/templates/index.html:321
 msgid "Upon Request"
 msgstr ""
 
-#: mymwebsite/templates/innerbase.html:64
-msgid "Docs"
-msgstr ""
-
-#: mymwebsite/templates/innerbase.html:65
-msgid "Videos"
-msgstr ""
-
-#: mymwebsite/templates/innerbase.html:66
-msgid "FAQ"
+#: mymwebsite/templates/innerbase.html:89
+msgid ""
+"It\\'s been a long journey and we are just starting! Contact us anytime at"
 msgstr ""
 
 #: mymwebsite/templates/privacy.html:54
@@ -386,12 +514,4 @@ msgid ""
 "Please note that disabling cookies will reset your session, disable auto-"
 "login, and may adversely affect the availability and functionality of our "
 "websites and the services we can provide to you."
-msgstr ""
-
-#: mymwebsitesett/settings.py:116
-msgid "English"
-msgstr ""
-
-#: mymwebsitesett/settings.py:117
-msgid "Portuguese"
 msgstr ""
