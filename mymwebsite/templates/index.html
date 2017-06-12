@@ -2,6 +2,7 @@
 {% load staticfiles i18n tz %}
 {% localtime on %}
     {% get_current_timezone as TIME_ZONE %}
+    {% get_current_language as LANGUAGE_CODE %}
     {% block title %}{{ block.super }}{% endblock %}
     {% block content %}
         <style>
@@ -35,10 +36,10 @@
                     <a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://app.mymensor.com/accounts/login/">{% trans "LOGIN" %}</a>
+                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://app.mymensor.com/accounts/register/"><strong
+                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                 </li>
             </ul>
@@ -75,10 +76,10 @@
                                     <a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="https://app.mymensor.com/accounts/login/">{% trans "LOGIN" %}</a>
+                                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="https://app.mymensor.com/accounts/register/"><strong
+                                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
                                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                                 </li>
                             </ul>
@@ -92,7 +93,7 @@
                             <div class="col-sm-10 col-lg-6">
                                 <h1 class="block-titleData frequency">{% trans "Simple and evidenced control." %}</h1>
                                 <p class="lead mb-4 text-muted">{% trans " Use images to control everything remotely <br> using an Android smartphone." %}</p>
-                                <a class="btn btn-primary btn-lg" href="https://app.mymensor.com/accounts/register/"
+                                <a class="btn btn-primary btn-lg" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                    role="button">{% trans "Try Now" %}</a>
                             </div>
                         </div>
@@ -165,7 +166,7 @@
                             <h3>{% trans " Share captures automatically via Facebook, Twitter and Email." %}</h3>
                             <p class="lead mb-4 text-muted">{% trans " Promote your work with the reliability of the MyMensor certification. Your customers and friends can easily check the location and date of the media capture, even without a MyMensor subscription." %}</p>
                             <a class="btn btn-secondary btn-lg btn-borderless"
-                               href="https://app.mymensor.com/accounts/register/"
+                               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                role="button">{% trans "Try Now" %}</a>
                         </div>
                     </div>
@@ -212,7 +213,7 @@
                         <div class="col-md-4 px-4 mb-5">
                             <img class="mb-1" src="{% static "images/svgcertificate.svg" %}">
                             <p>
-                                <strong>{% trans "Certification" %}</strong>{% trans "We automatically certify time and location of the images." %}
+                                <strong>{% trans "Certification" %}</strong>{% trans " We automatically certify time and location of the images." %}
                             </p>
                         </div>
                         <div class="col-md-4 px-4 mb-5">
@@ -234,7 +235,7 @@
                         <div class="col-md-4 px-4 mb-5">
                             <img class="mb-1" src="{% static "images/svgmobile.svg" %}">
                             <p>
-                                <strong>{% trans "Mobile Application" %}</strong>{% trans "Android app for capturing images." %}
+                                <strong>{% trans "Mobile Application" %}</strong>{% trans " Android app for capturing images." %}
                             </p>
                         </div>
                         <div class="col-md-4 px-4 mb-5">
@@ -262,8 +263,9 @@
                         <div class="col-md-4 px-4 pb-2 mb-5">
                             <div class="px-2 mb-2">
                                 <h5 class="text-primary text-uppercase mb-4">MyMensor</h5>
-                                {% get_current_language as LANGUAGE_CODE %}
                                 {% if LANGUAGE_CODE == "pt" %}
+                                <img class="mb-4" src="{% static "images/comingsooncomp.svg" %}">
+                                {% elif LANGUAGE_CODE == "pt-br" %}
                                 <img class="mb-4" src="{% static "images/comingsooncomp.svg" %}">
                                 {% else %}
                                 <img class="mb-4" src="{% static "images/comingsooncomp.svg" %}">
@@ -295,15 +297,16 @@
                             </ul>
 
                             <a class="btn btn-primary btn-lg btn-block"
-                               href="https://app.mymensor.com/accounts/register/"
+                               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                role="button">{% trans "Start MyMensorAR account" %}</a>
                         </div>
 
                         <div class="col-md-4 px-4 pb-1 mb-5">
                             <div class="px-2">
                                 <h5 class="text-primary text-uppercase mb-4">MyMensorCorp</h5>
-                                {% get_current_language as LANGUAGE_CODE %}
                                 {% if LANGUAGE_CODE == "pt" %}
+                                <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
+                                {% elif LANGUAGE_CODE == "pt-br" %}
                                 <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
                                 {% else %}
                                 <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
