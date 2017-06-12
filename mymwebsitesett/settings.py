@@ -114,6 +114,7 @@ LANGUAGE_CODE = 'en'
 LANGUAGES = (
     ('en', 'English'),
     ('pt', 'Portuguese'),
+    ('pt-br', 'Brazilian Portuguese'),
 )
 
 LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale/'),)
