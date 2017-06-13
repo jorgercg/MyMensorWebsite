@@ -36,7 +36,8 @@
                     <a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
+                    <a class="nav-link"
+                       href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
@@ -76,10 +77,12 @@
                                     <a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
+                                    <a class="nav-link"
+                                       href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
+                                    <a class="nav-link"
+                                       href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
                                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                                 </li>
                             </ul>
@@ -93,7 +96,8 @@
                             <div class="col-sm-10 col-lg-6">
                                 <h1 class="block-titleData frequency">{% trans "Simple and evidenced control." %}</h1>
                                 <p class="lead mb-4 text-muted">{% trans " Use images to control everything remotely <br> using an Android smartphone." %}</p>
-                                <a class="btn btn-primary btn-lg" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
+                                <a class="btn btn-primary btn-lg"
+                                   href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                    role="button">{% trans "Try Now" %}</a>
                             </div>
                         </div>
@@ -107,8 +111,7 @@
                     <div class="row app-align-center">
 
                         <div class="col-sm-5 hidden-sm-down">
-                            <a data-toggle="modal" data-target="#mediaModal"
-                               data-whatever="{% static 'images/compostelamediacheck2.jpeg' %}">
+                            <a href="https://app.mymensor.com/landing/?type=1&key=cap/cap_jorge_0_p_1494930414341.jpg&signature=9014859D377208D84D6EE61DE007345B3F241575D31AB3F1515695930261CA3D">
                                 <img class="app-iphone" src="{% static 'images/compostelamediacheck2.jpeg' %}" alt=""
                                      style="width: 120%;">
                             </a>
@@ -264,18 +267,20 @@
                             <div class="px-2 mb-2">
                                 <h5 class="text-primary text-uppercase mb-4">MyMensor</h5>
                                 {% if LANGUAGE_CODE == "pt" %}
-                                <img class="mb-4" src="{% static "images/comingsooncomp_pt.svg" %}">
+                                    <img class="mb-4" src="{% static "images/comingsooncomp_pt.svg" %}">
                                 {% elif LANGUAGE_CODE == "pt-br" %}
-                                <img class="mb-4" src="{% static "images/comingsooncomp_pt_BR.svg" %}">
+                                    <img class="mb-4" src="{% static "images/comingsooncomp_pt_BR.svg" %}">
                                 {% else %}
-                                <img class="mb-4" src="{% static "images/comingsooncomp.svg" %}">
+                                    <img class="mb-4" src="{% static "images/comingsooncomp.svg" %}">
                                 {% endif %}
                                 <p class="pb-2">{% trans "Even simpler. For those that just need the certification and sharing power." %}</p>
                             </div>
 
                             <ul class="list-unstyled list-bordered text-xs-left my-4">
-                                <li class="py-4"><strong>{% trans "Certification" %}</strong>{% trans " time and location" %}</li>
-                                <li class="py-4"><strong>{% trans "Sharing" %}</strong>{% trans " automatic sharing to Facebook, Twitter and Email." %}
+                                <li class="py-4">
+                                    <strong>{% trans "Certification" %}</strong>{% trans " time and location" %}</li>
+                                <li class="py-4">
+                                    <strong>{% trans "Sharing" %}</strong>{% trans " automatic sharing to Facebook, Twitter and Email." %}
                                 </li>
                                 <li class="py-4"><strong>{% trans "Secure" %}</strong>{% trans " all HTTPS" %}</li>
                             </ul>
@@ -292,52 +297,37 @@
 
                             <ul class="list-unstyled list-bordered text-xs-left my-4">
                                 <li class="py-4"><strong>{% trans "ALL MYMENSOR FEATURES PLUS" %}</strong></li>
-                                <li class="py-4"><strong>{% trans "AR" %}</strong>{% trans " automatic and precise captures" %}</li>
-                                <li class="py-4"><strong>{% trans "Database" %}</strong>{% trans " build your own bigdata" %}</li>
+                                <li class="py-4">
+                                    <strong>{% trans "AR" %}</strong>{% trans " automatic and precise captures" %}</li>
+                                <li class="py-4">
+                                    <strong>{% trans "Database" %}</strong>{% trans " build your own bigdata" %}</li>
                             </ul>
-
                             <a class="btn btn-primary btn-lg btn-block"
                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                role="button">{% trans "Start MyMensorAR account" %}</a>
                         </div>
-
                         <div class="col-md-4 px-4 pb-1 mb-5">
                             <div class="px-2">
                                 <h5 class="text-primary text-uppercase mb-4">MyMensorCorp</h5>
                                 {% if LANGUAGE_CODE == "pt" %}
-                                <img class="mb-4" src="{% static "images/uponrequestcomp_pt.svg" %}">
+                                    <img class="mb-4" src="{% static "images/uponrequestcomp_pt.svg" %}">
                                 {% elif LANGUAGE_CODE == "pt-br" %}
-                                <img class="mb-4" src="{% static "images/uponrequestcomp_pt_BR.svg" %}">
+                                    <img class="mb-4" src="{% static "images/uponrequestcomp_pt_BR.svg" %}">
                                 {% else %}
-                                <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
+                                    <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
                                 {% endif %}
                                 <p class="pb-2">{% trans "A taylor made solution for your corporation. Drop us an email and we will build your custom setup together." %}</p>
                             </div>
-
                             <ul class="list-unstyled list-bordered text-xs-left my-4">
                                 <li class="py-4"><strong>{% trans "ALL MYMENSORAR FEATURES PLUS" %}</strong></li>
-                                <li class="py-4"><strong>{% trans "API access" %}</strong>{% trans " upon request" %}</li>
-                                <li class="py-4"><strong>{% trans "Mobile App" %}</strong>{% trans " custom setups" %}</li>
+                                <li class="py-4"><strong>{% trans "API access" %}</strong>{% trans " upon request" %}
+                                </li>
+                                <li class="py-4"><strong>{% trans "Mobile App" %}</strong>{% trans " custom setups" %}
+                                </li>
                             </ul>
-
                             <a class="btn btn-primary btn-lg btn-block" href="mailto: contact@mymensor.com"
                                role="button">{% trans "Upon Request" %}</a>
-
                         </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="mediaModal" tabindex="-1" role="dialog" aria-labelledby="mediaModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <img id="mediaContent" class="img-fluid" src="{% static 'images/compostelamediacheck2.jpeg' %}"
-                             alt="">
                     </div>
                 </div>
             </div>
@@ -350,21 +340,21 @@
                     $(document).euCookieLawPopup().init({
                         {% get_current_language as LANGUAGE_CODE %}
                         {% if LANGUAGE_CODE == "pt" %}
-                        'info': 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
-                        'popupTitle': 'Este website utiliza cookies. ',
-                        'popupText': 'Nós utilizamos cookies para lhe dar a melhor experiência. Se você continuar a usar nosso website, consideraremos que você aceita receber todos os cookies deste website.',
-                        'buttonContinueTitle' : 'Continuar',
-		                'buttonLearnmoreTitle' : 'Mais&nbsp;informação'
+                            'info': 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
+                            'popupTitle': 'Este website utiliza cookies. ',
+                            'popupText': 'Nós utilizamos cookies para lhe dar a melhor experiência. Se você continuar a usar nosso website, consideraremos que você aceita receber todos os cookies deste website.',
+                            'buttonContinueTitle': 'Continuar',
+                            'buttonLearnmoreTitle': 'Mais&nbsp;informação'
                         {% elif LANGUAGE_CODE == "pt-br" %}
-                        'info': 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
-                        'popupTitle': 'Este website utiliza cookies. ',
-                        'popupText': 'Nós utilizamos cookies para lhe dar a melhor experiência. Se você continuar a usar nosso website, consideraremos que você aceita receber todos os cookies deste website.',
-                        'buttonContinueTitle' : 'Continuar',
-		                'buttonLearnmoreTitle' : 'Mais&nbsp;informação'
+                            'info': 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
+                            'popupTitle': 'Este website utiliza cookies. ',
+                            'popupText': 'Nós utilizamos cookies para lhe dar a melhor experiência. Se você continuar a usar nosso website, consideraremos que você aceita receber todos os cookies deste website.',
+                            'buttonContinueTitle': 'Continuar',
+                            'buttonLearnmoreTitle': 'Mais&nbsp;informação'
                         {% else %}
-                        'info': 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
-                        'popupTitle': 'This website is using cookies. ',
-                        'popupText': 'We use them to give you the best experience. If you continue using our website, we\'ll assume that you are happy to receive all cookies on this website.'
+                            'info': 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
+                            'popupTitle': 'This website is using cookies. ',
+                            'popupText': 'We use them to give you the best experience. If you continue using our website, we\'ll assume that you are happy to receive all cookies on this website.'
                         {% endif %}
                     });
                 }
