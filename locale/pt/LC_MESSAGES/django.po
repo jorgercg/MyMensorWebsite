@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-13 10:41+0100\n"
-"PO-Revision-Date: 2017-06-13 10:56+0100\n"
+"PO-Revision-Date: 2017-06-13 15:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -348,7 +348,7 @@ msgstr "Leia os nossos docs"
 
 #: mymwebsite/templates/index.html:170
 msgid "Simplified Sharing"
-msgstr "Compartilhamenro Simplificado"
+msgstr "Compartilhamento Simplificado"
 
 #: mymwebsite/templates/index.html:171
 msgid " Share captures automatically via Facebook, Twitter and Email."
