@@ -1,76 +1,64 @@
 {% extends 'innerbase.html' %}
+{% load staticfiles i18n %}
 {% block title %}Docs - {{ block.super }}{% endblock %}
 {% block content %}
     <p></p>
-    <h3>Terms of Service</h3>
+    <h3>{% trans "Deeper Info about MyMensor" %}</h3>
     <p></p>
-    <p>Last revision on May 25th 2017.</p>
     <p></p>
-    <p class="text-justify">Please Read Carefully Before Using Our Mobile App and This Website: The following terms of
-        service (“Terms of
-        Service”) govern your use of the MyMensor Website (the “Site”) and the MyMensor mobile and web-based application
-        service accessed through the Site and the Mobile App (“Service”), which servers are operated by Celtapps
-        Software (“MyMensor”). By using the Site and/or the Service, you irrevocably agree that such use is subject to
-        these Terms of Service. If you do not agree to these Terms of Service, you may not use the Site or the Service.
-        If you are entering into these Terms of Service on behalf of an entity, you represent that you have the actual
-        authority to bind such entity to these Terms of Service.</p>
-    <p class="text-justify">MyMensor expressly reserves the right to modify the Terms of Service at any time in its sole
-        discretion, and
-        without prior notice to you, by including such alteration and/or modification in these Terms of Service, along
-        with a notice of the effective date of such modified Terms of Service. Any continued use by you of the Site or
-        the Service after the posting of such modified Terms of Service shall be deemed to indicate your irrevocable
-        agreement to such modified Terms of Service. Accordingly, if at any time you do not agree to be subject to any
-        modified Terms of Service, you may no longer use the Site or Service.</p>
-    <h4 class="text-info">User Account Registration; Passwords and Fees</h4>
-    <p class="text-justify">(a) Account Registration and Use License: In order to access and use all of the features of
-        the Service, you are
-        required to open an account (“User Account”) by registering with MyMensor. When you register for your User
-        Account you must provide true, accurate, current and complete information (“Account Information”), and you agree
-        to update the Account Information in order to ensure that it is current. Upon proper registration and opening of
-        a User Account, and subject to all of the terms and conditions of these Terms of Service, MyMensor hereby grants
-        to you the personal, non-transferable right and license to use the Service, solely for your own internal
-        business purposes, until such time as either you or MyMensor elect to terminate such right in accordance with
-        these Terms and Conditions.</p>
-    <p class="text-justify">(b) Eligibility: As an express condition of being permitted to open a User Account, you
-        represent and warrant
-        that you (i) have the legal capacity (including, without limitation, being of sufficient age) to enter into
-        contracts under the law of the jurisdiction in which you reside, (ii) are at least 13 years of age or older to
-        use the Site, provided that if you are under the age of 18, your parent or legal guardian, as applicable, must
-        expressly consent to your use of the Site.</p>
-    <p class="text-justify">(c) Passwords: Upon registration on the Site, you will provide MyMensor with a password to
-        access your account.
-        You are responsible for maintaining the confidentiality of your password and for all of your activities and
-        those of any third party that occur through your account, whether or not authorized by you. You agree to
-        immediately notify MyMensor of any suspected or actual unauthorized use of your User Account. You agree that
-        MyMensor will not under any circumstances be liable for any cost, loss, damages or expenses arising out of a
-        failure by you to maintain the security of your password.</p>
-    <h4 class="text-info">Site Content</h4>
-    <p class="text-justify">(a) MyMensor Content: Except as may be otherwise noted, the information, materials
-        (including, without limitation, HTML, text, audio, video, white papers, press releases, data sheets, product
-        descriptions, software and FAQs and other content) available on the Site and/or the Service (collectively,
-        “MyMensor Content”) are the copyrighted works of MyMensor and its licensors, and MyMensor and its licensors
-        expressly retain all right title and interest in and to the MyMensor Content, including, without limitation, all
-        intellectual property rights therein and thereto. Except as expressly permitted in these Terms of Service, any
-        use of the MyMensor Content may violate copyright and/or other applicable laws.</p>
-    <p class="text-justify">(b) Third Party Content: In addition to MyMensor Content, the Site and/or the Service may
-        contain information and materials provided to MyMensor by third parties (collectively, “Third Party Content”).
-        Third Party Content is the copyrighted work of its owner, who expressly retains all right title and interest in
-        and to the Third Party Content, including, without limitation, all intellectual property rights therein and
-        thereto. In addition to being subject to these Terms of Service, Third Party Content may also be subject to
-        different and/or additional terms of use and/or privacy policies of such third parties. Please contact the
-        appropriate third party for further information regarding any such different and/or additional terms of use
-        applicable to Third Party Content.</p>
-    <p class="text-justify">(c) Limited Site Content License: MyMensor grants you the limited, revocable,
-        non-transferable, non-exclusive right to use the MyMensor Content and Third Party Content (collectively, “Site
-        Content”) by displaying the Site Content on your computer, and downloading and printing pages from the Site
-        containing Site Content, under the condition that (i) such activity is solely for your personal, education or
-        other noncommercial use, (ii) you do not modify or prepare derivative works from the Site Content, (iii) you do
-        not obscure, alter or remove any notice of copyright set forth on any Site pages or Site Content, (iv) you do
-        not otherwise reproduce, re-distribute or publicly display any of the Site Content and (v) you do not copy any
-        Site Content to any other media or other storage format.</p>
-    <p class="text-justify">(d) Trademarks: All trademarks, service marks and logos included on the Site (“Marks”) are
-        the property of MyMensor or third parties, and you may not use such Marks without the express, prior written
-        consent of MyMensor or the applicable third party.</p>
+    <p class="text-justify">
+        {% trans "MyMensor brings the reality to your grasp, allowing information to flow throughout your team." %}
+        {% trans "Always guided by simplicity in operation, the solution shows through reports and photographic evidence its strength as a support tool in making medium-long term decisions about how your projects are going." %}
+        {% trans "MyMensor allows better sharing of knowledge from experienced professionals, who are no longer in the field, with those who are there." %}
+        {% trans "With time, a massive amount of structured data and photographic evidence will be available to all your team, cutting maintenance costs and streamlining operations." %}
+    </p>
+    <h4 class="text-info">{% trans "How it works?" %}</h4>
+    <h5 class="text-info">{% trans "1. Define what you want to follow-up" %}</h5>
+    <p class="text-justify">
+        {% trans "First you will define what are the things that you want to follow-up." %}
+        {% trans "Want to know the temperature of that bearing that is a headache from time to time? Want to see if a specific store is organized and compliant? Need to follow up closely that pump that repeatedly starts to leak and eventually breaks? All these can be MyMensor verification points." %}
+        {% trans "Of course, you can follow-up digital and analog gauges. Even you can follow-up computer screens!" %}
+        {% trans "You will have to define in what periodicity you will want the VPs to be captured. Please note that this can be changed remotely at any given time." %}
+    </p>
+    <h5 class="text-info">{% trans "2. On-site configuration" %}</h5>
+    <p class="text-justify">
+        {% trans "After the scope is defined you need to perform your configuration." %}
+        {% trans "For each VP you will have to define what is the better capture startegy. There are some alternative strategies for the VP image capturing but we cannot guarantee beforehand that all intended VPs will be technically viable." %}
+        {% trans "To be able to define if you will use AR or not and what type of VP, please refer to our documentation and videos" %}
+    </p>
+    <h5 class="text-info">{% trans "3. Image captures, processing and automatic dashboard updates" %}</h5>
+    <p class="text-justify">
+        {% trans "And finally this is the usage phase!" %}
+        {% trans "Images are captured by you or by someone appointed by you using your MyMensor account, the smartphone uses the internet connection to send the images to MyMensor servers automatically." %}
+        {% trans "Images are processed either by you or someone in your organization and the data is automatically fed into your dashboard." %}
+    </p>
+    <h4 class="text-info">{% trans "Into Details" %}</h4>
+    <h5 class="text-info">{% trans "Verification Points - VPs" %}</h5>
+    <p class="text-justify">
+        {% trans "A VP (Verification Point) is each of the visual targets for the capture of images (pictures). Each VP may have one or several TAGs." %}
+        {% trans "A VP may be a photo of pretty much anything. You will have to assess what can be a standard VP or if it is needed to use one our possible alternative options to capture the required image." %}
+        {% trans "For instance, a VP may be an image of an equipment panel, digital gauges, analog gauges, computer and other devices screens, compliance items etc, and even portable VPs to follow on going jobs and specific problems." %}
+    </p>
+    <h6 class="text-info">{% trans "Standard VPs" %}</h6>
+    <p class="text-justify">
+        {% trans "This is the most common type, where the VP image is enough to identify the subject perfectly." %}
+    </p>
+    <h6 class="text-info">{% trans "Ambiguous VPs" %}</h6>
+    <p class="text-justify">
+        {% trans "How to differentiate panels that are almost the same? How to tell apart one main equipment and its backup?" %}
+        {% trans "To solve this ambiguity problem we developed a specific technology." %}
+        {% trans "In this case you will need to apply small markers (normally to be printed in adhesive) to the subjects to be captured in order to be able to tell them apart." %}
+        {% trans "The markers are small 45mm squares that the smartphone will use to identify images that otherwise would be impossible to differentiate." %}
+    </p>
+    <h6 class="text-info">{% trans "Super VPs" %}</h6>
+    <p class="text-justify">
+        {% trans "One obvious downside of the image recognition technology is that you need an image to recognize." %}
+        {% trans "That means that the VP subject cannot change completely, as the smartphone would be unable to recognize an image that no longer exists." %}
+        {% trans "To solve this problem we developed another specific technology." %}
+        {% trans "In this case we use an specific image as a subject of our VP. This subject is then called (very humbly) by us a super VP." %}
+        {% trans "So, using this super VP you will be able to capture images that change a lot, that change color, or have large parts included or excluded." %}
+        {% trans "The smartphone will always capture the image in the same relative position initially configured for each specific super VP." %}
+    </p>
     <p class="text-justify">(e) Monitoring of Site Content and use of Service: MyMensor reserves the right, but does not
         undertake the obligation, to monitor use of the Site and/or the Service, and to investigate and take appropriate
         legal action against any party that uses the Site in violation of these Terms of Service or applicable law.
