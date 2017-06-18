@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-18 21:19+0100\n"
+"POT-Creation-Date: 2017-06-18 23:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: mymwebsite/templates/base.html:78
+#: mymwebsite/templates/base.html:78 mymwebsite/templates/innerbase.html:109
 msgid "Legal"
 msgstr ""
 
@@ -65,6 +65,246 @@ msgstr ""
 
 #: mymwebsite/templates/base.html:104 mymwebsite/templates/innerbase.html:135
 msgid "Set"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:6
+msgid "Deeper Info about MyMensor"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:10
+msgid ""
+"MyMensor brings the reality to your grasp, allowing information to flow "
+"throughout your team."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:11
+msgid ""
+"Always guided by simplicity in operation, the solution shows through reports "
+"and photographic evidence its strength as a support tool in making medium-"
+"long term decisions about how your projects are going."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:12
+msgid ""
+"MyMensor allows better sharing of knowledge from experienced professionals, "
+"who are no longer in the field, with those who are there."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:13
+msgid ""
+"With time, a massive amount of structured data and photographic evidence "
+"will be available to all your team, cutting maintenance costs and "
+"streamlining operations."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:15
+msgid "How it works?"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:16
+msgid "1. Define what you want to follow-up"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:18
+msgid "First you will define what are the things that you want to follow-up."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:19
+msgid ""
+"Want to know the temperature of that bearing that is a headache from time to "
+"time? Want to see if a specific store is organized and compliant? Need to "
+"follow up closely that pump that repeatedly starts to leak and eventually "
+"breaks? All these can be MyMensor verification points."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:20
+msgid ""
+"Of course, you can follow-up digital and analog gauges. Even you can follow-"
+"up computer screens!"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:21
+msgid ""
+"You will have to define in what periodicity you will want the VPs to be "
+"captured. Please note that this can be changed remotely at any given time."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:23
+msgid "2. On-site configuration"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:25
+msgid "After the scope is defined you need to perform your configuration."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:26
+msgid ""
+"For each VP you will have to define what is the better capture startegy. "
+"There are some alternative strategies for the VP image capturing but we "
+"cannot guarantee beforehand that all intended VPs will be technically viable."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:27
+msgid ""
+"To be able to define if you will use AR or not and what type of VP, please "
+"refer to our documentation and videos"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:29
+msgid "3. Image captures, processing and automatic dashboard updates"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:31
+msgid "And finally this is the usage phase!"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:32
+msgid ""
+"Images are captured by you or by someone appointed by you using your "
+"MyMensor account, the smartphone uses the internet connection to send the "
+"images to MyMensor servers automatically."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:33
+msgid ""
+"Images are processed either by you or someone in your organization and the "
+"data is automatically fed into your dashboard."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:35
+msgid "Into Details"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:36
+msgid "1. Verification Points - VPs"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:38
+msgid ""
+"A VP (Verification Point) is each of the visual targets for the capture of "
+"images (pictures). Each VP may have one or several TAGs."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:39
+msgid ""
+"A VP may be a photo of pretty much anything. You will have to assess what "
+"can be a standard VP or if it is needed to use one our possible alternative "
+"options to capture the required image."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:40
+msgid ""
+"For instance, a VP may be an image of an equipment panel, digital gauges, "
+"analog gauges, computer and other devices screens, compliance items etc, and "
+"even portable VPs to follow on going jobs and specific problems."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:42
+msgid "Standard VPs"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:44
+msgid ""
+"This is the most common type, where the VP image is enough to identify the "
+"subject perfectly."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:46
+msgid "Ambiguous VPs"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:48
+msgid ""
+"How to differentiate panels that are almost the same? How to tell apart one "
+"main equipment and its backup?"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:49
+msgid "To solve this ambiguity problem we developed a specific technology."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:50
+msgid ""
+"In this case you will need to apply small markers (normally to be printed in "
+"adhesive) to the subjects to be captured in order to be able to tell them "
+"apart."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:51
+msgid ""
+"The markers are small 45mm squares that the smartphone will use to identify "
+"images that otherwise would be impossible to differentiate."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:53
+msgid "Super VPs"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:55
+msgid ""
+"One obvious downside of the image recognition technology is that you need an "
+"image to recognize."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:56
+msgid ""
+"That means that the VP subject cannot change completely, as the smartphone "
+"would be unable to recognize an image that no longer exists."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:57
+msgid "To solve this problem we developed another specific technology."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:58
+msgid ""
+"In this case we use an specific image as a subject of our VP. This subject "
+"is then called (very humbly) by us a super VP."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:59
+msgid ""
+"So, using this super VP you will be able to capture images that change a "
+"lot, that change color, or have large parts included or excluded."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:60
+msgid ""
+"The smartphone will always capture the image in the same relative position "
+"initially configured for each specific super VP."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:64
+msgid "2. TAGs"
+msgstr ""
+
+#: mymwebsite/templates/docs.html:66
+msgid "A TAG is the real data contained within a VP."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:67
+msgid ""
+"The TAG will always be a numerical value, so you have to  includ this "
+"concept when preparing your TAG questions."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:68
+msgid ""
+"For instance, in a photo of a certain equipment control panel (that would be "
+"a VP) we can have multiple TAGs: the hour-meter, the tachometer etc."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:69
+msgid ""
+"In an image of compliance items, we can check if an area is tidy as it "
+"should be (10 if perfect, 8 if OK, for example), or if all safety equipment "
+"are in the right place etc."
+msgstr ""
+
+#: mymwebsite/templates/docs.html:70
+msgid ""
+"For each and every TAG you will define a tag question, that will be answered "
+"by you or your team when processing the VPs images."
 msgstr ""
 
 #: mymwebsite/templates/faq.html:6
@@ -220,6 +460,7 @@ msgid "LOGIN"
 msgstr ""
 
 #: mymwebsite/templates/index.html:44 mymwebsite/templates/index.html:86
+#: mymwebsite/templates/innerbase.html:72
 msgid "Register"
 msgstr ""
 

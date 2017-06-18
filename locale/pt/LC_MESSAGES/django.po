@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-18 21:19+0100\n"
-"PO-Revision-Date: 2017-06-18 21:23+0100\n"
+"POT-Creation-Date: 2017-06-18 23:02+0100\n"
+"PO-Revision-Date: 2017-06-18 23:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -50,7 +50,7 @@ msgstr "Vídeos"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: mymwebsite/templates/base.html:78
+#: mymwebsite/templates/base.html:78 mymwebsite/templates/innerbase.html:109
 msgid "Legal"
 msgstr "Legal"
 
@@ -69,6 +69,322 @@ msgstr "Idioma"
 #: mymwebsite/templates/base.html:104 mymwebsite/templates/innerbase.html:135
 msgid "Set"
 msgstr "Definir"
+
+#: mymwebsite/templates/docs.html:6
+msgid "Deeper Info about MyMensor"
+msgstr "Mais informação sobre MyMensor"
+
+#: mymwebsite/templates/docs.html:10
+msgid ""
+"MyMensor brings the reality to your grasp, allowing information to flow "
+"throughout your team."
+msgstr ""
+"MyMensor traz a realidade ao seu alcance, permitindo que a informação flua "
+"em toda a sua equipe."
+
+#: mymwebsite/templates/docs.html:11
+msgid ""
+"Always guided by simplicity in operation, the solution shows through reports "
+"and photographic evidence its strength as a support tool in making medium-"
+"long term decisions about how your projects are going."
+msgstr ""
+"Sempre guiado pela simplicidade de operação, a solução mostra através de "
+"relatórios e provas fotográficas a sua força como ferramenta de apoio na "
+"tomada de decisões de médio e longo prazo sobre como vão seus projetos."
+
+#: mymwebsite/templates/docs.html:12
+msgid ""
+"MyMensor allows better sharing of knowledge from experienced professionals, "
+"who are no longer in the field, with those who are there."
+msgstr ""
+"MyMensor permite o melhor compartilhamento de conhecimento de profissionais "
+"experientes, que já não estão no campo, com aqueles que estão lá."
+
+#: mymwebsite/templates/docs.html:13
+msgid ""
+"With time, a massive amount of structured data and photographic evidence "
+"will be available to all your team, cutting maintenance costs and "
+"streamlining operations."
+msgstr ""
+"Com o tempo, uma enorme quantidade de dados estruturados e provas "
+"fotográficas estará disponível para toda sua equipe, reduzindo dos custos de "
+"manutenção e racionalizando as operações."
+
+#: mymwebsite/templates/docs.html:15
+msgid "How it works?"
+msgstr "Como funciona?"
+
+#: mymwebsite/templates/docs.html:16
+msgid "1. Define what you want to follow-up"
+msgstr "1. Defina o que você quer acompanhar"
+
+#: mymwebsite/templates/docs.html:18
+msgid "First you will define what are the things that you want to follow-up."
+msgstr ""
+"Primeiro você irá definir quais são as coisas que você quer acompanhar."
+
+#: mymwebsite/templates/docs.html:19
+msgid ""
+"Want to know the temperature of that bearing that is a headache from time to "
+"time? Want to see if a specific store is organized and compliant? Need to "
+"follow up closely that pump that repeatedly starts to leak and eventually "
+"breaks? All these can be MyMensor verification points."
+msgstr ""
+"Quer saber a temperatura daquele rolamento que é uma dor de cabeça de vez em "
+"quando? Quero ver se uma área específica está organizado e em conformidade? "
+"Necessita acompanhar de perto aquela bomba que repetidamente começa a vazar "
+"e eventualmente quebra? Todos estes podem ser pontos de verificação do "
+"MyMensor."
+
+#: mymwebsite/templates/docs.html:20
+msgid ""
+"Of course, you can follow-up digital and analog gauges. Even you can follow-"
+"up computer screens!"
+msgstr ""
+"Claro, você pode acompanhamento medidores analógicos e digitais. Você pode "
+"até mesmo acompanhar telas de computador!"
+
+#: mymwebsite/templates/docs.html:21
+msgid ""
+"You will have to define in what periodicity you will want the VPs to be "
+"captured. Please note that this can be changed remotely at any given time."
+msgstr ""
+"Você terá que definir a periodicidade que você vai querer que os VPs sejam "
+"capturados. Por favor, note que isto pode ser mudado remotamente a qualquer "
+"momento."
+
+#: mymwebsite/templates/docs.html:23
+msgid "2. On-site configuration"
+msgstr "2. Configuração no local"
+
+#: mymwebsite/templates/docs.html:25
+msgid "After the scope is defined you need to perform your configuration."
+msgstr "Depois que o escopo é definido você precisa executar a configuração."
+
+#: mymwebsite/templates/docs.html:26
+msgid ""
+"For each VP you will have to define what is the better capture startegy. "
+"There are some alternative strategies for the VP image capturing but we "
+"cannot guarantee beforehand that all intended VPs will be technically viable."
+msgstr ""
+"Para cada VP, você terá que definir o que é a melhor estratégia de captura. "
+"Existem algumas estratégias alternativas para a captura de imagem de VP, mas "
+"nós não podemos garantir a priori que todos os VPs automáticos serão "
+"tecnicamente viáveis."
+
+#: mymwebsite/templates/docs.html:27
+msgid ""
+"To be able to define if you will use AR or not and what type of VP, please "
+"refer to our documentation and videos"
+msgstr ""
+"Para ser capaz de definir se você vai usar o AR ou não e que tipo de VP, por "
+"favor consulte a nossa documentação e vídeos"
+
+#: mymwebsite/templates/docs.html:29
+msgid "3. Image captures, processing and automatic dashboard updates"
+msgstr ""
+"3. Capturas de imagem, processamento e atualização automático do painel "
+"informativo"
+
+#: mymwebsite/templates/docs.html:31
+msgid "And finally this is the usage phase!"
+msgstr "E finalmente, esta é a fase de uso!"
+
+#: mymwebsite/templates/docs.html:32
+msgid ""
+"Images are captured by you or by someone appointed by you using your "
+"MyMensor account, the smartphone uses the internet connection to send the "
+"images to MyMensor servers automatically."
+msgstr ""
+"Imagens são capturadas por você ou por alguém nomeado por você usando sua "
+"conta do MyMensor, o smartphone usa a conexão de internet para enviar as "
+"imagens para os servidores MyMensor automaticamente."
+
+#: mymwebsite/templates/docs.html:33
+msgid ""
+"Images are processed either by you or someone in your organization and the "
+"data is automatically fed into your dashboard."
+msgstr ""
+"Imagens são processadas por você ou alguém da sua organização e os dados são "
+"automaticamente alimentados em seu painel informativo."
+
+#: mymwebsite/templates/docs.html:35
+msgid "Into Details"
+msgstr "Em detalhes"
+
+#: mymwebsite/templates/docs.html:36
+msgid "1. Verification Points - VPs"
+msgstr "1. Pontos de Verificação - VPs"
+
+#: mymwebsite/templates/docs.html:38
+msgid ""
+"A VP (Verification Point) is each of the visual targets for the capture of "
+"images (pictures). Each VP may have one or several TAGs."
+msgstr ""
+"Um VP (ponto de verificação) é cada um dos alvos visuais para a captura de "
+"imagens (fotos). Cada VP pode ter um ou vários TAGs."
+
+#: mymwebsite/templates/docs.html:39
+msgid ""
+"A VP may be a photo of pretty much anything. You will have to assess what "
+"can be a standard VP or if it is needed to use one our possible alternative "
+"options to capture the required image."
+msgstr ""
+"Um VP pode ser uma foto de praticamente qualquer coisa. Você terá que "
+"avaliar o que pode ser um standard VP ou se é necessário usar uma nossas "
+"opções alternativas possíveis para capturar a imagem necessária."
+
+#: mymwebsite/templates/docs.html:40
+msgid ""
+"For instance, a VP may be an image of an equipment panel, digital gauges, "
+"analog gauges, computer and other devices screens, compliance items etc, and "
+"even portable VPs to follow on going jobs and specific problems."
+msgstr ""
+"Por exemplo, um VP pode ser uma imagem de um painel de equipamentos, "
+"medidores digitais, medidores analógicos, computador e outras telas de "
+"dispositivos, itens de conformidade etc e mesmo VPs portáteis para "
+"acompanhar trabalhos e problemas específicos."
+
+#: mymwebsite/templates/docs.html:42
+msgid "Standard VPs"
+msgstr "Standard VPs"
+
+#: mymwebsite/templates/docs.html:44
+msgid ""
+"This is the most common type, where the VP image is enough to identify the "
+"subject perfectly."
+msgstr ""
+"Este é o tipo mais comum, onde a imagem do VP é suficiente para identificar "
+"o objeto perfeitamente."
+
+#: mymwebsite/templates/docs.html:46
+msgid "Ambiguous VPs"
+msgstr "VPs ambíguos"
+
+#: mymwebsite/templates/docs.html:48
+msgid ""
+"How to differentiate panels that are almost the same? How to tell apart one "
+"main equipment and its backup?"
+msgstr ""
+"Como diferenciar os painéis que são quase iguais? Como saber separar um "
+"equipamento principal e seu backup?"
+
+#: mymwebsite/templates/docs.html:49
+msgid "To solve this ambiguity problem we developed a specific technology."
+msgstr ""
+"Para resolver este problema de ambiguidade, desenvolvemos uma tecnologia "
+"específica."
+
+#: mymwebsite/templates/docs.html:50
+msgid ""
+"In this case you will need to apply small markers (normally to be printed in "
+"adhesive) to the subjects to be captured in order to be able to tell them "
+"apart."
+msgstr ""
+"Neste caso você precisará aplicar pequenos marcadores (normalmente a ser "
+"impresso em adesivo) aos objetos a ser capturado para ser capaz de "
+"diferenciá-los."
+
+#: mymwebsite/templates/docs.html:51
+msgid ""
+"The markers are small 45mm squares that the smartphone will use to identify "
+"images that otherwise would be impossible to differentiate."
+msgstr ""
+"Os marcadores são quadrados pequenos de 45 milímetros de lado que o "
+"smartphone usará para identificar imagens que caso contrário seriam "
+"impossíveis de diferenciar."
+
+#: mymwebsite/templates/docs.html:53
+msgid "Super VPs"
+msgstr "Super VPs"
+
+#: mymwebsite/templates/docs.html:55
+msgid ""
+"One obvious downside of the image recognition technology is that you need an "
+"image to recognize."
+msgstr ""
+"Uma desvantagem óbvia da tecnologia de reconhecimento de imagem é que você "
+"precisa de uma imagem para reconhecer."
+
+#: mymwebsite/templates/docs.html:56
+msgid ""
+"That means that the VP subject cannot change completely, as the smartphone "
+"would be unable to recognize an image that no longer exists."
+msgstr ""
+"Isso significa que o objeto do VP não pode mudar completamente, já que o "
+"smartphone seria incapaz de reconhecer uma imagem que não existe mais."
+
+#: mymwebsite/templates/docs.html:57
+msgid "To solve this problem we developed another specific technology."
+msgstr ""
+"Para resolver este problema, desenvolvemos mais uma tecnologia específica."
+
+#: mymwebsite/templates/docs.html:58
+msgid ""
+"In this case we use an specific image as a subject of our VP. This subject "
+"is then called (very humbly) by us a super VP."
+msgstr ""
+"Neste caso, usamos uma imagem específica como objeto de nosso VP. Esta "
+"imagem é então chamada (muito humildemente) por nós um super VP."
+
+#: mymwebsite/templates/docs.html:59
+msgid ""
+"So, using this super VP you will be able to capture images that change a "
+"lot, that change color, or have large parts included or excluded."
+msgstr ""
+"Então, usando este super VP, você será capaz de capturar imagens que mudam "
+"muito, que mudam de cor, ou que têm grandes partes incluídas ou excluídas."
+
+#: mymwebsite/templates/docs.html:60
+msgid ""
+"The smartphone will always capture the image in the same relative position "
+"initially configured for each specific super VP."
+msgstr ""
+"O smartphone sempre irá capturar a imagem na mesma posição relativa, "
+"inicialmente configurada para cada super VP específico."
+
+#: mymwebsite/templates/docs.html:64
+msgid "2. TAGs"
+msgstr "2. TAGs"
+
+#: mymwebsite/templates/docs.html:66
+msgid "A TAG is the real data contained within a VP."
+msgstr "Uma TAG são os dados reais contidos em um VP."
+
+#: mymwebsite/templates/docs.html:67
+msgid ""
+"The TAG will always be a numerical value, so you have to  includ this "
+"concept when preparing your TAG questions."
+msgstr ""
+"A TAG será sempre um valor numérico, então você tem que incluir este "
+"conceito ao preparar suas perguntas de TAG."
+
+#: mymwebsite/templates/docs.html:68
+msgid ""
+"For instance, in a photo of a certain equipment control panel (that would be "
+"a VP) we can have multiple TAGs: the hour-meter, the tachometer etc."
+msgstr ""
+"Por exemplo, em uma foto de um determinado painel de controle de um "
+"equipamento (o que seria um VP) teremos várias TAGs: o medidor da horas, o "
+"tacômetro etc."
+
+#: mymwebsite/templates/docs.html:69
+msgid ""
+"In an image of compliance items, we can check if an area is tidy as it "
+"should be (10 if perfect, 8 if OK, for example), or if all safety equipment "
+"are in the right place etc."
+msgstr ""
+"Em uma imagem de itens de conformidade, podemos verificar se uma área está "
+"arrumada como deveria (10 se perfeito, 8 se Ok, por exemplo), ou se todos os "
+"equipamentos de segurança estão no lugar correto etc."
+
+#: mymwebsite/templates/docs.html:70
+msgid ""
+"For each and every TAG you will define a tag question, that will be answered "
+"by you or your team when processing the VPs images."
+msgstr ""
+"Para cada TAG, você irá definir uma questão de TAG, que será respondida por "
+"você ou sua equipe ao processar as imagens de VPs."
 
 #: mymwebsite/templates/faq.html:6
 msgid "Frequently Asked Questions"
@@ -253,6 +569,7 @@ msgid "LOGIN"
 msgstr "ENTRAR"
 
 #: mymwebsite/templates/index.html:44 mymwebsite/templates/index.html:86
+#: mymwebsite/templates/innerbase.html:72
 msgid "Register"
 msgstr "Registar"
 
