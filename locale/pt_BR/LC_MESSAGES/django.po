@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-13 10:41+0100\n"
-"PO-Revision-Date: 2017-06-13 10:44+0100\n"
+"POT-Creation-Date: 2017-06-18 21:19+0100\n"
+"PO-Revision-Date: 2017-06-18 21:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -611,6 +611,42 @@ msgstr ""
 "Por favor, note que desabilitar cookies irá redefinir sua sessão, desativar "
 "login automático e pode afetar negativamente a disponibilidade e "
 "funcionalidade de nossos websites e os serviços que fornecemos a você."
+
+#: mymwebsite/templates/videos.html:10 mymwebsite/templates/videos.html:16
+msgid "Explainer Video"
+msgstr "Vídeo Explicativo"
+
+#: mymwebsite/templates/videos.html:33
+msgid "Mobile App Videos"
+msgstr "Mobile App Vídeos"
+
+#: mymwebsite/templates/videos.html:39
+msgid "First Steps"
+msgstr "Primeiros Passos"
+
+#: mymwebsite/templates/videos.html:54 mymwebsite/templates/videos.html:108
+msgid "Feature Tour"
+msgstr "Passeio pelas Funcionalidades"
+
+#: mymwebsite/templates/videos.html:69
+msgid "Using Augmented Reality"
+msgstr "Usando a Realidade aumentada"
+
+#: mymwebsite/templates/videos.html:84
+msgid "Capturing Images and Videos"
+msgstr "Capturando Imagens e Vídeos"
+
+#: mymwebsite/templates/videos.html:102
+msgid "Web App Videos"
+msgstr "Web App Vídeos"
+
+#: mymwebsite/templates/videos.html:123
+msgid "Configuring VPs and TAGs"
+msgstr "Confugurando VPS e TAGS"
+
+#: mymwebsite/templates/videos.html:138
+msgid "Media and Data"
+msgstr "Mídia e Dados"
 
 #~ msgid "English"
 #~ msgstr "Inglês"
