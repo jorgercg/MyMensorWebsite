@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-19 19:03+0100\n"
+"POT-Creation-Date: 2017-06-19 19:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -451,7 +451,7 @@ msgstr ""
 #: mymwebsite/templates/faq.html:129
 msgid ""
 "To fully use the MyMensor Mobile App you need a smartphone with at least "
-"Android Lolipop installed, you can use it with KitKat but usage will suffer "
+"Android Lollipop installed, you can use it with KitKat but usage will suffer "
 "and not all features will be present."
 msgstr ""
 
@@ -509,7 +509,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/faq.html:200
-msgid "Where can I find more details abot the MyMensor Web App?"
+msgid "Where can I find more details about the MyMensor Web App?"
 msgstr ""
 
 #: mymwebsite/templates/faq.html:206
@@ -737,8 +737,8 @@ msgstr ""
 
 #: mymwebsite/templates/faq.html:468
 msgid ""
-"Then go to the Configure menu item and select the VPs item. You must check "
-"the share box in each of the VP folders that you want to share automatically."
+"Then go to the Setup menu item and select the VPs item. You must check the "
+"share box in each of the VP folders that you want to share automatically."
 msgstr ""
 
 #: mymwebsite/templates/faq.html:469
