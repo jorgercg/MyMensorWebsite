@@ -263,7 +263,7 @@
             </div>
             <div id="collapse16" class="collapse" role="tabpanel" aria-labelledby="heading16">
                 <div class="card-block">
-                    {% trans "Yes, but the configuration setup will be the same for your user in all smartphones."%}
+                    {% trans "Yes, but the configuration setup will be the same for your user in all smartphones." %}
                     {% trans "In other words, you can divide your VPs to monitor multiple places, but the VPs configuration will be the same in all places." %}
                 </div>
             </div>
@@ -310,7 +310,8 @@
             </div>
             <div id="collapse19" class="collapse" role="tabpanel" aria-labelledby="heading19">
                 <div class="card-block">
-                    {% trans "Images captured without the use of augmented reality, which will automatically go to the AR-OFF folder or are manually directed to other folders before capture, are captured for movement. In Media there is a button to make the move destined for another folder. Images obtained with augmented reality (AR-ON) will automatically go to the preconfigured folders, so you can not move them." %}
+                    {% trans "Images captured without the use of augmented reality, which will automatically go to the AR-OFF folder or are manually directed to other folders before capture, are elegible to be moved to other folders." %}
+                    {% trans "In Media there is a button to move the media to another folder. Images obtained with augmented reality (AR-ON) will automatically go to the preconfigured folders and you cannot move them." %}
                 </div>
             </div>
         </div>
@@ -319,13 +320,245 @@
                 <h5 class="mb-0">
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse20"
                        aria-expanded="false" aria-controls="collapse20">
-                        {% trans "FAQ #20" %}
+                        {% trans "Can I install more than one MyMensor account on my smartphone?" %}
                     </a>
                 </h5>
             </div>
             <div id="collapse20" class="collapse" role="tabpanel" aria-labelledby="heading20">
                 <div class="card-block">
-                    {% trans "Answer to FAQ#20" %}
+                    {% trans "No, your smartphone can only have one active MyMensor account. To activate a new account reinstall MyMensor on your smartphone." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading21">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse21"
+                       aria-expanded="false" aria-controls="collapse21">
+                        {% trans "FAQ #21" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse21" class="collapse" role="tabpanel" aria-labelledby="heading21">
+                <div class="card-block">
+                    {% trans "Answer to FAQ#21" %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading22">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22"
+                       aria-expanded="false" aria-controls="collapse22">
+                        {% trans "Can I use MyMensor Mobile App without internet?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse22" class="collapse" role="tabpanel" aria-labelledby="heading22">
+                <div class="card-block">
+                    {% trans "Yes, captures can be made without the internet connection. On the other hand, the internet signal is fundamental initially for the authentication of the product, and, of course, for sending the images to our servers." %}
+                    {% trans "Please note that the Android system may in some cases report that you are connected but this connection has no internet signal, this failure will not allow you to open the program unless you disconnect this connection without internet." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading23">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse23"
+                       aria-expanded="false" aria-controls="collapse23">
+                        {% trans "How do I get certifications when I'm out of the internet?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse23" class="collapse" role="tabpanel" aria-labelledby="heading23">
+                <div class="card-block">
+                    {% trans "When captures occur in places without internet access, the images obtained are retained in the smartphone and are only sent to the database when the MyMensor is connected in the internet region." %}
+                    {% trans "The MyMensor does not run in the background so you do not discharge the battery of your smartphone. The dates, time and location will be kept certified if it was possible to obtain the green time and location signs indicating that certification access was possible." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading24">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse24"
+                       aria-expanded="false" aria-controls="collapse24">
+                        {% trans "The MyMensor Mobile App is frozen in the startup forever..." %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse24" class="collapse" role="tabpanel" aria-labelledby="heading24">
+                <div class="card-block">
+                    {% trans "Make sure the screen rotation function of your smartphone is enabled. Make sure that you have registered your mymensor account in an internet-connected location to receive the security tokens." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading25">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse25"
+                       aria-expanded="false" aria-controls="collapse25">
+                        {% trans "Forgot your username or password?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse25" class="collapse" role="tabpanel" aria-labelledby="heading25">
+                <div class="card-block">
+                    {% trans "Go to the LOGIN page and reset your password. The name of the user that you registered will come by email, together with a link to register the new password." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading26">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse26"
+                       aria-expanded="false" aria-controls="collapse26">
+                        {% trans "I can not see in the data analysis page graph the regions with the alarm ranges that I set up in configuring tags. Why is this happening?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse26" class="collapse" role="tabpanel" aria-labelledby="heading26">
+                <div class="card-block">
+                    {% trans "Ranges will only appear in the graph when there is only one selected tag. This is to avoid confusions with superimposed ranges." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading27">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse27"
+                       aria-expanded="false" aria-controls="collapse27">
+                        {% trans "How do I find out which TAGs belong to a particular VP?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse27" class="collapse" role="tabpanel" aria-labelledby="heading27">
+                <div class="card-block">
+                    {% trans "In the TAGs item of the Setup menu item you can find this information." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading28">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse28"
+                       aria-expanded="false" aria-controls="collapse28">
+                        {% trans "How to proceed to see in the graph of data analysis only the tags of a particular VP?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse28" class="collapse" role="tabpanel" aria-labelledby="heading28">
+                <div class="card-block">
+                    {% trans "If you want to see the graph, obviously you have already processed some image of this VP. So, inside the portfolio item, you should check if the selected period contains the processed image of this VP." %}
+                    {% trans "Just click on the chart icon at the top right of the image that should be in blue confirming that this image has been processed." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading29">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse29"
+                       aria-expanded="false" aria-controls="collapse29">
+                        {% trans "How can I quickly see the graph of just one TAG?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse29" class="collapse" role="tabpanel" aria-labelledby="heading29">
+                <div class="card-block">
+                    {% trans "Just enter the Data Status and click on the TAG row you want to see." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading30">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse30"
+                       aria-expanded="false" aria-controls="collapse30">
+                        {% trans "Can I automatically share the captured photos and videos?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse30" class="collapse" role="tabpanel" aria-labelledby="heading30">
+                <div class="card-block">
+                    {% trans "Yes, once you have entered our Web App with your credentials, click on the logged in item and set up facebook, twitter accounts that you want to use to automatically share your media." %}
+                    {% trans "Then go to the Configure menu item and select the VPs item. You must check the share box in each of the VP folders that you want to share automatically." %}
+                    {% trans "In this same screen you can also select an email to automatically receive the captured media. Unlike Facebook and Twitter, emails accounts may be different for each VP." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading31">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse31"
+                       aria-expanded="false" aria-controls="collapse31">
+                        {% trans "How do I manually share a specific media?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31">
+                <div class="card-block">
+                    {% trans "In the MyMensor Mobile App, click on the VP folder where the media is located, click on the gallery icon to see the captured media and find the one of interest. Click the share button and the list of apps available on your smartphone will appear for sharing." %}
+                    {% trans "In the MyMensor Web App, enter the media tab, select the VP where the media is located or click directly on the location icon when you are in the Portfolio tab. Just select the app you want to use for sharing now." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading32">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse32"
+                       aria-expanded="false" aria-controls="collapse32">
+                        {% trans "MyMensor Mobile App identifies the target (a vp configured with augmented reality) but I can not capture an image." %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse32" class="collapse" role="tabpanel" aria-labelledby="heading32">
+                <div class="card-block">
+                    {% trans "Keep in mind that the system uses image recognition, if something has changed significantly compared to the configured base image, such as: lighting conditions, brightness, reflections, inclusion, or deletion of objects, you may have difficulty making a new capture." %}
+                    {% trans "In this case choose to reconfigure the image if the changes will actually persist or simply turn off the augmented reality (Selecting AR-OFF) and select the destination folder before you click the shutter to capture." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading33">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse33"
+                       aria-expanded="false" aria-controls="collapse33">
+                        {% trans "Filed in the wrong folder a capture without augmented reality?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse33" class="collapse" role="tabpanel" aria-labelledby="heading33">
+                <div class="card-block">
+                    {% trans "In the MyMensor Web App, enter the media tab, select the VP and identify the media you want. Set the new destination folder and click the move button." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading34">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse34"
+                       aria-expanded="false" aria-controls="collapse34">
+                        {% trans "FAQ #34" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse34" class="collapse" role="tabpanel" aria-labelledby="heading34">
+                <div class="card-block">
+                    {% trans "Answer to FAQ#34" %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading35">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse35"
+                       aria-expanded="false" aria-controls="collapse35">
+                        {% trans "FAQ #35" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse35" class="collapse" role="tabpanel" aria-labelledby="heading35">
+                <div class="card-block">
+                    {% trans "Answer to FAQ#35" %}
                 </div>
             </div>
         </div>
