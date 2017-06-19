@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-19 21:38+0100\n"
+"POT-Creation-Date: 2017-06-19 23:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1071,6 +1071,141 @@ msgstr ""
 msgid "Make Your Request"
 msgstr ""
 
+#: mymwebsite/templates/privacy.html:3
+msgid "Privacy Policy - "
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:6
+msgid "Privacy Policy"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:8
+msgid "Last revision on June 2nd 2017."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:10
+msgid ""
+"This Privacy Policy sets forth MyMensor's policy with respect to information "
+"including\n"
+"        personally identifiable data and other information that is collected "
+"from visitors to the Site and Services.\n"
+"        This privacy policy governs your use of a software application "
+"(“Service”), including both a Mobile app running\n"
+"        on mobile devices, and a Website application that runs on both "
+"mobile and desktop/laptop devices, that was\n"
+"        created by Celtapps Software. "
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:15
+msgid "Information collected and its use"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:16
+msgid ""
+"The Service obtains the information you provide when you download and "
+"register the Service\n"
+"        (“User Provided Data”). Registration is required to use our Service. "
+"When you register with us and use the\n"
+"        Service, you provide: (a) an email address, an username and a "
+"password; (b) information you provide us when you\n"
+"        contact us for help, and; (c) information you enter into our system "
+"when using the Service, such as images,\n"
+"        videos, remarks and numerical data. We may also use the information "
+"you provided us to contact you from time to\n"
+"        time to provide you with important information, required notices and "
+"marketing promotions."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:22
+msgid ""
+"In addition, the Service may collect certain information automatically "
+"(“Collected\n"
+"        Information”), such as the type of mobile device you use, your "
+"mobile devices unique device ID, the IP address\n"
+"        of your device, the geographic location of your device, your "
+"operating system, the type of Internet browsers you\n"
+"        use, and information about the way you use the Service. Sometimes we "
+"aggregate user data anonymously to\n"
+"        understand our customer base better."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:27
+msgid ""
+"This Service collects information about the location of your device. We use "
+"your location\n"
+"        information to provide location certification services. You may at "
+"any time stop us from further allowing us to\n"
+"        have access to your location data by disabling location services "
+"entirely, or specifically for the app, inside\n"
+"        our app or on your mobile device."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:31
+msgid "Data Retention Policy; Managing Your Information"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:32
+msgid ""
+"We will retain User Provided data for as long as you use the Service and for "
+"a reasonable\n"
+"        time thereafter. If you’d like to delete User Provided Data that you "
+"have provided via the Service, you can do\n"
+"        so inside our mobile app and inside our web app, for the relevant "
+"portions of information, furthermore, if you\n"
+"        want to completely wipe all information from our servers please "
+"contact us at support@mymensor.com and we will\n"
+"        respond in a reasonable time. Please note that some or all of the "
+"User Provided Data may be required in order\n"
+"        for the Service to function properly, and we may be required to "
+"retain certain information by law."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:38
+msgid "Third-Party Payment Processor"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:39
+msgid ""
+"We use a third party payment processor to process payments made to us. In "
+"connection with\n"
+"        the processing of such payments, we do not retain any personally "
+"identifiable information or any financial\n"
+"        information such as credit card numbers. All such information is "
+"provided directly to our third party processor,\n"
+"        whose use of your personal information is governed by their privacy "
+"policy (https://www.paypal.com/pt/webapps/mpp/ua/privacy-full?locale."
+"x=en_PT)."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:43
+msgid "Third parties access to information obtained by the Service"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:44
+msgid ""
+"We will share your information with third parties only in the ways that are "
+"described in\n"
+"        this privacy statement. We may disclose collected Information, in "
+"the following manners: (a) as required by law,\n"
+"        such as to comply with a subpoena, or similar legal process; (b) "
+"when we believe in good faith that disclosure\n"
+"        is necessary to protect our rights, protect your safety or the "
+"safety of others, investigate fraud, respond to a\n"
+"        government request, act in urgent circumstances to protect the "
+"personal safety of our users or the public, or\n"
+"        protect against legal liability; (c) if Celtapps Software is "
+"involved in a merger, acquisition, or sale of all\n"
+"        or a portion of its assets, you will be notified via email and/or a "
+"prominent notice on our Web site of any\n"
+"        change in ownership or uses of this information, as well as any "
+"choices you may have regarding this\n"
+"        information."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:53
+msgid "Cookies"
+msgstr ""
+
 #: mymwebsite/templates/privacy.html:54
 msgid ""
 "Cookies are small pieces of text used to store information on web browsers."
@@ -1110,6 +1245,49 @@ msgid ""
 "Please note that disabling cookies will reset your session, disable auto-"
 "login, and may adversely affect the availability and functionality of our "
 "websites and the services we can provide to you."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:61
+msgid "Children"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:62
+msgid ""
+"One must be 13 years old to use MyMensor. We do not use the Service to "
+"knowingly solicit\n"
+"        data from or market to children under the age of 13. If a parent or "
+"guardian becomes aware that his or her child\n"
+"        has provided us with information without their consent, he or she "
+"should contact us at support@mymensor.com. We\n"
+"        will delete such information from our files within a reasonable time."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:66
+msgid "Security"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:67
+msgid ""
+"MyMensor takes reasonable steps to protect your information from loss, "
+"misuse, and\n"
+"        unauthorized access, disclosure, alteration, or destruction. "
+"However, no Internet or email transmission is ever\n"
+"        fully secure or error free. In particular, email sent to or from us "
+"may not be secure. Therefore, you should\n"
+"        take special care in deciding what information you send to us via "
+"email. Please keep this in mind when\n"
+"        disclosing any information to MyMensor."
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:72
+msgid "Contact"
+msgstr ""
+
+#: mymwebsite/templates/privacy.html:73
+msgid ""
+"If you have any questions regarding privacy while using the Service, or have "
+"questions about\n"
+"        our practices, please contact us via email at support@mymensor.com."
 msgstr ""
 
 #: mymwebsite/templates/terms.html:3
