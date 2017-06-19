@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-18 23:02+0100\n"
+"POT-Creation-Date: 2017-06-19 19:03+0100\n"
 "PO-Revision-Date: 2017-06-18 23:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -509,59 +509,402 @@ msgstr ""
 "horário está certificado!"
 
 #: mymwebsite/templates/faq.html:76
-msgid "FAQ #4"
+msgid "What is the advantage of capturing images using augmented reality?"
 msgstr ""
 
 #: mymwebsite/templates/faq.html:82
-msgid "Answer to FAQ#4"
+msgid ""
+"The captured images will be automatically addressed to the storage folders "
+"(VPs), on the other hand the images captured without the augmented reality "
+"will need to be manually addressed to the folders."
 msgstr ""
 
-#: mymwebsite/templates/faq.html:91
-msgid "FAQ #5"
+#: mymwebsite/templates/faq.html:83
+msgid ""
+"You also ensure that the desired angle and position for the image captures "
+"are the same as you have set when configured the VP."
 msgstr ""
 
-#: mymwebsite/templates/faq.html:97
-msgid "Answer to FAQ#5"
+#: mymwebsite/templates/faq.html:92
+msgid "Can I capture images with my smartphone in any position?"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:106
-msgid "FAQ #6"
+#: mymwebsite/templates/faq.html:98
+msgid ""
+"Yes you can, but bear in mind that the MyMensor Mobile App is always in "
+"landscape and that is the way your photos and videos are shown in our Web App"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:112
-msgid "Answer to FAQ#6"
+#: mymwebsite/templates/faq.html:107
+msgid "Can I capture images without using Augmented Reality?"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:121
-msgid "FAQ #7"
+#: mymwebsite/templates/faq.html:113
+msgid ""
+"Yes. Just turn off the AR in the initial capture screen. Let the picture go "
+"automatically to the VP AR-OFF folder or address a destination VP and click "
+"one of the two shutter buttons, either for a photo or a mini-movie (10 "
+"seconds maximum)."
 msgstr ""
 
-#: mymwebsite/templates/faq.html:127
-msgid "Answer to FAQ#7"
+#: mymwebsite/templates/faq.html:114
+msgid ""
+"The destination folder might even be a folder already configured, but that "
+"you understood that it made more sense to archive it"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:136
-msgid "FAQ #8"
+#: mymwebsite/templates/faq.html:123
+msgid "What are the requirements to use the system?"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:142
-msgid "Answer to FAQ#8"
+#: mymwebsite/templates/faq.html:129
+msgid ""
+"To fully use the MyMensor Mobile App you need a smartphone with at least "
+"Android Lolipop installed, you can use it with KitKat but usage will suffer "
+"and not all features will be present."
 msgstr ""
 
-#: mymwebsite/templates/faq.html:151
-msgid "FAQ #9"
+#: mymwebsite/templates/faq.html:130
+msgid ""
+"Also, to use the MyMensor Mobile App your smartphone needs to have a screen "
+"with HD resolution (1280x720) at least."
 msgstr ""
 
-#: mymwebsite/templates/faq.html:157
-msgid "Answer to FAQ#9"
+#: mymwebsite/templates/faq.html:131
+msgid ""
+"To use the MyMensor Web App you generally need a modern browser, the newer "
+"the best!"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:166
-msgid "FAQ #10"
+#: mymwebsite/templates/faq.html:140
+msgid "How do I register and start using MyMensor?"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:172
-msgid "Answer to FAQ#10"
+#: mymwebsite/templates/faq.html:146
+msgid ""
+"Click in the register button and follow the instructions! More info can be "
+"found in the videos section, specially on the Mymensor Mobile App - First "
+"Steps video"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:155
+msgid "How do I get more details about MyMensor Mobile App screens?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:161
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Mobile "
+"App - Feature Tour Video"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:170
+msgid "How do I setup to capture images using Augmented Reality?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:176
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Mobile "
+"App - Using Augmented Reality Video"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:185
+msgid "How do I capture an image with or without using Augmented Reality?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:191
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Mobile "
+"App - Capture Images and Videos Video"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:200
+msgid "Where can I find more details abot the MyMensor Web App?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:206
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Web App - "
+"Feature Tour Video Video"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:215
+msgid "How do I transform images into data?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:221
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Web App - "
+"Configuring VPs and TAGs Video"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:230
+msgid "How do I manage Media and Data information in MyMensor Web App?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:236
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Web App - "
+"Media and Data Video"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:245
+msgid "What are the USES AND BENEFITS of Mymensor?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:251
+msgid "Please check our explainer video at the top of our video section."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:260
+msgid "Can I use my login credentials on more than one smartphone?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:266
+msgid ""
+"Yes, but the configuration setup will be the same for your user in all "
+"smartphones."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:267
+msgid ""
+"In other words, you can divide your VPs to monitor multiple places, but the "
+"VPs configuration will be the same in all places."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:276
+msgid "How do I make a backup of the MyMensor Mobile App configuration?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:282
+msgid ""
+"Please use the backup portion in the Setup Menu of the MyMensor WebApp. You "
+"should backup your configuration frequently."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:291
+msgid "How do I delete an image or video?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:297
+msgid ""
+"In the Mobile, while seing the captures, touch the trash bin to erase the "
+"photo only on the smartphone."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:298
+msgid ""
+"To delete the image in the database you need to locate it in the Media page, "
+"there you will find a trash bin where you can make the final deletion from "
+"the database."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:307
+msgid "How do I move an image or video between VPs folders?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:313
+msgid ""
+"Images captured without the use of augmented reality, which will "
+"automatically go to the AR-OFF folder or are manually directed to other "
+"folders before capture, are elegible to be moved to other folders."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:314
+msgid ""
+"In Media there is a button to move the media to another folder. Images "
+"obtained with augmented reality (AR-ON) will automatically go to the "
+"preconfigured folders and you cannot move them."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:323
+msgid "Can I install more than one MyMensor account on my smartphone?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:329
+msgid ""
+"No, your smartphone can only have one active MyMensor account. To activate a "
+"new account reinstall MyMensor on your smartphone."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:338
+msgid "Can I use MyMensor Mobile App without internet?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:344
+msgid ""
+"Yes, captures can be made without the internet connection. On the other "
+"hand, the internet signal is fundamental initially for the authentication of "
+"the product, and, of course, for sending the images to our servers."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:345
+msgid ""
+"Please note that the Android system may in some cases report that you are "
+"connected but this connection has no internet signal, this failure will not "
+"allow you to open the program unless you disconnect this connection without "
+"internet."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:354
+msgid "How do I get certifications when I'm out of the internet?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:360
+msgid ""
+"When captures occur in places without internet access, the images obtained "
+"are retained in the smartphone and are only sent to the database when the "
+"MyMensor is connected in the internet region."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:361
+msgid ""
+"The MyMensor does not run in the background so you do not discharge the "
+"battery of your smartphone. The dates, time and location will be kept "
+"certified if it was possible to obtain the green time and location signs "
+"indicating that certification access was possible."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:370
+msgid "The MyMensor Mobile App is frozen in the startup forever..."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:376
+msgid ""
+"Make sure the screen rotation function of your smartphone is enabled. Make "
+"sure that you have registered your mymensor account in an internet-connected "
+"location to receive the security tokens."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:385
+msgid "Forgot your username or password?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:391
+msgid ""
+"Go to the LOGIN page and reset your password. The name of the user that you "
+"registered will come by email, together with a link to register the new "
+"password."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:400
+msgid ""
+"I can not see in the data analysis page graph the regions with the alarm "
+"ranges that I set up in configuring tags. Why is this happening?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:406
+msgid ""
+"Ranges will only appear in the graph when there is only one selected tag. "
+"This is to avoid confusions with superimposed ranges."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:415
+msgid "How do I find out which TAGs belong to a particular VP?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:421
+msgid "In the TAGs item of the Setup menu item you can find this information."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:430
+msgid ""
+"How to proceed to see in the graph of data analysis only the tags of a "
+"particular VP?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:436
+msgid ""
+"If you want to see the graph, obviously you have already processed some "
+"image of this VP. So, inside the portfolio item, you should check if the "
+"selected period contains the processed image of this VP."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:437
+msgid ""
+"Just click on the chart icon at the top right of the image that should be in "
+"blue confirming that this image has been processed."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:446
+msgid "How can I quickly see the graph of just one TAG?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:452
+msgid "Just enter the Data Status and click on the TAG row you want to see."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:461
+msgid "Can I automatically share the captured photos and videos?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:467
+msgid ""
+"Yes, once you have entered our Web App with your credentials, click on the "
+"logged in item and set up facebook, twitter accounts that you want to use to "
+"automatically share your media."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:468
+msgid ""
+"Then go to the Configure menu item and select the VPs item. You must check "
+"the share box in each of the VP folders that you want to share automatically."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:469
+msgid ""
+"In this same screen you can also select an email to automatically receive "
+"the captured media. Unlike Facebook and Twitter, emails accounts may be "
+"different for each VP."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:478
+msgid "How do I manually share a specific media?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:484
+msgid ""
+"In the MyMensor Mobile App, click on the VP folder where the media is "
+"located, click on the gallery icon to see the captured media and find the "
+"one of interest. Click the share button and the list of apps available on "
+"your smartphone will appear for sharing."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:485
+msgid ""
+"In the MyMensor Web App, enter the media tab, select the VP where the media "
+"is located or click directly on the location icon when you are in the "
+"Portfolio tab. Just select the app you want to use for sharing now."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:494
+msgid ""
+"MyMensor Mobile App identifies the target (a vp configured with augmented "
+"reality) but I can not capture an image."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:500
+msgid ""
+"Keep in mind that the system uses image recognition, if something has "
+"changed significantly compared to the configured base image, such as: "
+"lighting conditions, brightness, reflections, inclusion, or deletion of "
+"objects, you may have difficulty making a new capture."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:501
+msgid ""
+"In this case choose to reconfigure the image if the changes will actually "
+"persist or simply turn off the augmented reality (Selecting AR-OFF) and "
+"select the destination folder before you click the shutter to capture."
+msgstr ""
+
+#: mymwebsite/templates/faq.html:510
+msgid "Filed in the wrong folder a capture without augmented reality?"
+msgstr ""
+
+#: mymwebsite/templates/faq.html:516
+msgid ""
+"In the MyMensor Web App, enter the media tab, select the VP and identify the "
+"media you want. Set the new destination folder and click the move button."
 msgstr ""
 
 #: mymwebsite/templates/index.html:40 mymwebsite/templates/index.html:81
