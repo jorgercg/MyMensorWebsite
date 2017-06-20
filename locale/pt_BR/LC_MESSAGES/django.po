@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-19 23:33+0100\n"
-"PO-Revision-Date: 2017-06-19 23:34+0100\n"
+"PO-Revision-Date: 2017-06-20 09:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -461,7 +461,7 @@ msgstr ""
 
 #: mymwebsite/templates/faq.html:45
 msgid "When using our webapp, you can do it manually "
-msgstr "Ao usar nosso webapp, você pode fazê-lo manualmente "
+msgstr "Ao usar nossa web app, você pode fazê-lo manualmente "
 
 #: mymwebsite/templates/faq.html:46
 msgid "(See here.)"
@@ -726,8 +726,8 @@ msgid ""
 "Please use the backup portion in the Setup Menu of the MyMensor WebApp. You "
 "should backup your configuration frequently."
 msgstr ""
-"Por favor, use a parte de backup no Menu de configuração de MyMensor WebApp. "
-"Você deve fazer backup de sua configuração frequentemente."
+"Por favor, use a parte de backup no Menu de configuração de MyMensor Web "
+"App. Você deve fazer backup de sua configuração frequentemente."
 
 #: mymwebsite/templates/faq.html:291
 msgid "How do I delete an image or video?"
@@ -1122,8 +1122,8 @@ msgid ""
 "anytime. The reality will be portable for you to be transported to wherever "
 "you are."
 msgstr ""
-"Usando a nossa aplicação webapp você tem acesso a todas as suas informações "
-"em qualquer lugar, a qualquer momento. A realidade será portátil para você "
+"Usando a nossa web app você tem acesso a todas as suas informações em "
+"qualquer lugar, a qualquer momento. A realidade será portátil para você "
 "sendo transportada para onde quer que você esteja."
 
 #: mymwebsite/templates/index.html:159 mymwebsite/templates/index.html:193
@@ -1158,7 +1158,7 @@ msgid ""
 "Use our web application to gather and view your data, in numerical and "
 "graphical ways."
 msgstr ""
-"Use nossa webapp para coletar e visualizar seus dados, em forma gráfica e "
+"Use nossa web app para coletar e visualizar seus dados, em forma gráfica e "
 "numérica."
 
 #: mymwebsite/templates/index.html:191
@@ -1167,8 +1167,8 @@ msgid ""
 "red alarm ranges. Export your data to a CSV file and use wherever you need "
 "it."
 msgstr ""
-"Usando nossa webapp, você pode estabelecer faixas operacionais e faixas de "
-"alarme amarelo e vermelho. Exportar seus dados para um arquivo CSV e use "
+"Usando nossa web app, você pode estabelecer faixas operacionais e faixas de "
+"alarme amarelo e vermelho. Exporte seus dados para um arquivo CSV e use "
 "sempre que precisar."
 
 #: mymwebsite/templates/index.html:205
@@ -1189,7 +1189,7 @@ msgid ""
 "automatically. (Available only with MyMensorAR and up)"
 msgstr ""
 " Capture as imagens sempre na mesma posição. Imagens são arquivadas "
-"automaticamente. (Disponível somente com MyMensorAR e acima)"
+"automaticamente. (Disponível somente com MyMensorAR e superior)"
 
 #: mymwebsite/templates/index.html:221 mymwebsite/templates/index.html:283
 msgid "Certification"

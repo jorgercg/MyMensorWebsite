@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-19 23:33+0100\n"
-"PO-Revision-Date: 2017-06-19 23:47+0100\n"
+"PO-Revision-Date: 2017-06-20 09:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -99,7 +99,7 @@ msgid ""
 "MyMensor allows better sharing of knowledge from experienced professionals, "
 "who are no longer in the field, with those who are there."
 msgstr ""
-"MyMensor permite o melhor compartilhamento de conhecimento de profissionais "
+"MyMensor permite o melhor partilhamento de conhecimento de profissionais "
 "experientes, que já não estão no campo, com aqueles que estão lá."
 
 #: mymwebsite/templates/docs.html:13
@@ -366,7 +366,7 @@ msgid ""
 "For instance, in a photo of a certain equipment control panel (that would be "
 "a VP) we can have multiple TAGs: the hour-meter, the tachometer etc."
 msgstr ""
-"Por exemplo, em uma foto de um determinado painel de controle de um "
+"Por exemplo, em uma foto de um determinado painel de controlo de um "
 "equipamento (o que seria um VP) teremos várias TAGs: o medidor da horas, o "
 "tacômetro etc."
 
@@ -456,12 +456,12 @@ msgid ""
 "In the mobile app you can share your captures using the normal sharing "
 "capabilities of your smartphone."
 msgstr ""
-"No mobile app você pode compartilhar sua captura usando os recursos de "
-"compartilhamento normais do seu smartphone."
+"No mobile app você pode partilhar sua captura usando os recursos de "
+"partilhamento normais do seu smartphone."
 
 #: mymwebsite/templates/faq.html:45
 msgid "When using our webapp, you can do it manually "
-msgstr "Ao usar nosso webapp, você pode fazê-lo manualmente "
+msgstr "Ao usar nossa web app, você pode fazê-lo manualmente "
 
 #: mymwebsite/templates/faq.html:46
 msgid "(See here.)"
@@ -471,7 +471,7 @@ msgstr "(Veja aqui.)"
 msgid ""
 "Or you can automatically share your captures to Twitter, Facebook or email "
 msgstr ""
-"Ou você pode automaticamente compartilhar suas capturas para o Twitter, "
+"Ou você pode automaticamente partilhar suas capturas para o Twitter, "
 "Facebook ou e-mail "
 
 #: mymwebsite/templates/faq.html:50
@@ -726,8 +726,8 @@ msgid ""
 "Please use the backup portion in the Setup Menu of the MyMensor WebApp. You "
 "should backup your configuration frequently."
 msgstr ""
-"Por favor, use a parte de backup no Menu de configuração de MyMensor WebApp. "
-"Você deve fazer backup de sua configuração frequentemente."
+"Por favor, use a parte de backup no Menu de configuração de MyMensor Web "
+"App. Você deve fazer backup de sua configuração frequentemente."
 
 #: mymwebsite/templates/faq.html:291
 msgid "How do I delete an image or video?"
@@ -932,7 +932,7 @@ msgstr ""
 
 #: mymwebsite/templates/faq.html:461
 msgid "Can I automatically share the captured photos and videos?"
-msgstr "Posso compartilhar automaticamente as fotos e os vídeos capturados?"
+msgstr "Posso partilhar automaticamente as fotos e os vídeos capturados?"
 
 #: mymwebsite/templates/faq.html:467
 msgid ""
@@ -942,7 +942,7 @@ msgid ""
 msgstr ""
 "Sim, uma vez que você inseriu suas credenciais em nossa Web App, clique no "
 "item logado e configure as contas de facebook e twitter que você deseja usar "
-"para compartilhar automaticamente suas mídias."
+"para partilhar automaticamente suas mídias."
 
 #: mymwebsite/templates/faq.html:468
 msgid ""
@@ -950,8 +950,8 @@ msgid ""
 "share box in each of the VP folders that you want to share automatically."
 msgstr ""
 "Em seguida, vá para o item de menu Configurar e selecione o item VPs. Você "
-"deve marcar a caixa de compartilhamento em cada uma das pastas de VPs que "
-"você deseja compartilhar automaticamente."
+"deve marcar a caixa de partilhamento em cada uma das pastas de VPs que você "
+"deseja partilhar automaticamente."
 
 #: mymwebsite/templates/faq.html:469
 msgid ""
@@ -965,7 +965,7 @@ msgstr ""
 
 #: mymwebsite/templates/faq.html:478
 msgid "How do I manually share a specific media?"
-msgstr "Como compartilhar manualmente uma mídia específica?"
+msgstr "Como partilhar manualmente uma mídia específica?"
 
 #: mymwebsite/templates/faq.html:484
 msgid ""
@@ -976,8 +976,8 @@ msgid ""
 msgstr ""
 "No MyMensor Mobile App, clique na pasta VP onde a mídia está localizada, "
 "clique no ícone galeria para ver as mídias capturadas e achar aquela de "
-"interesse. Clique no botão compartilhar e a lista de aplicativos disponíveis "
-"no seu smartphone será exibido para o compartilhamento."
+"interesse. Clique no botão partilhar e a lista de aplicativos disponíveis no "
+"seu smartphone será exibido para o partilhamento."
 
 #: mymwebsite/templates/faq.html:485
 msgid ""
@@ -988,7 +988,7 @@ msgstr ""
 "No MyMensor Web App, entre na guia mídia, selecione o VP onde a mídia está "
 "localizada ou clique diretamente no ícone da localização quando estiver na "
 "guia Portfolio. Basta agora selecionar o aplicativo que deseja usar para "
-"compartilhar."
+"partilhar."
 
 #: mymwebsite/templates/faq.html:494
 msgid ""
@@ -1043,7 +1043,7 @@ msgstr "Registar"
 
 #: mymwebsite/templates/index.html:97
 msgid "Simple and evidenced control."
-msgstr "Controle simples e evidenciado."
+msgstr "Controlo simples e evidenciado."
 
 #: mymwebsite/templates/index.html:98
 msgid ""
@@ -1086,7 +1086,7 @@ msgid ""
 "The captures come to your view immediately after they occur. You can react "
 "immediately, without waiting for someone to send you the information."
 msgstr ""
-"As capturas chegam até você imediatamente depois que eles ocorrem. Você pode "
+"As capturas chegam até você imediatamente depois que elas ocorrem. Você pode "
 "reagir imediatamente, sem esperar que alguém lhe envie as informações."
 
 #: mymwebsite/templates/index.html:130 mymwebsite/templates/index.html:136
@@ -1107,14 +1107,14 @@ msgstr ""
 
 #: mymwebsite/templates/index.html:155
 msgid "Control Made Simple"
-msgstr "Controle simplificado"
+msgstr "Controlo simplificado"
 
 #: mymwebsite/templates/index.html:156
 msgid ""
 "Revolutionize your control practices. Work with portability of information "
 "and reality."
 msgstr ""
-"Revoluciona as práticas de controle. Trabalhe com portabilidade da "
+"Revoluciona as práticas de controlo. Trabalhe com portabilidade da "
 "informação e da realidade."
 
 #: mymwebsite/templates/index.html:157
@@ -1123,8 +1123,8 @@ msgid ""
 "anytime. The reality will be portable for you to be transported to wherever "
 "you are."
 msgstr ""
-"Usando a nossa aplicação webapp você tem acesso a todas as suas informações "
-"em qualquer lugar, a qualquer momento. A realidade será portátil para você "
+"Usando a nossa web app você tem acesso a todas as suas informações em "
+"qualquer lugar, a qualquer momento. A realidade será portátil para você "
 "sendo transportada para onde quer que você esteja."
 
 #: mymwebsite/templates/index.html:159 mymwebsite/templates/index.html:193
@@ -1133,12 +1133,12 @@ msgstr "Leia os nossos docs"
 
 #: mymwebsite/templates/index.html:170
 msgid "Simplified Sharing"
-msgstr "Compartilhamento Simplificado"
+msgstr "Partilhamento Simplificado"
 
 #: mymwebsite/templates/index.html:171
 msgid " Share captures automatically via Facebook, Twitter and Email."
 msgstr ""
-" Compartilhe suas capturas automaticamente via Facebook, Twitter e E-mail."
+" Partilhe suas capturas automaticamente via Facebook, Twitter e E-mail."
 
 #: mymwebsite/templates/index.html:172
 msgid ""
@@ -1159,7 +1159,7 @@ msgid ""
 "Use our web application to gather and view your data, in numerical and "
 "graphical ways."
 msgstr ""
-"Use nossa webapp para coletar e visualizar seus dados, em forma gráfica e "
+"Use nossa web app para coletar e visualizar seus dados, em forma gráfica e "
 "numérica."
 
 #: mymwebsite/templates/index.html:191
@@ -1168,8 +1168,8 @@ msgid ""
 "red alarm ranges. Export your data to a CSV file and use wherever you need "
 "it."
 msgstr ""
-"Usando nossa webapp, você pode estabelecer faixas operacionais e faixas de "
-"alarme amarelo e vermelho. Exportar seus dados para um arquivo CSV e use "
+"Usando nossa web app, você pode estabelecer faixas operacionais e faixas de "
+"alarme amarelo e vermelho. Exporte seus dados para um arquivo CSV e use "
 "sempre que precisar."
 
 #: mymwebsite/templates/index.html:205
@@ -1190,7 +1190,7 @@ msgid ""
 "automatically. (Available only with MyMensorAR and up)"
 msgstr ""
 " Capture as imagens sempre na mesma posição. Imagens são arquivadas "
-"automaticamente. (Disponível somente com MyMensorAR e acima)"
+"automaticamente. (Disponível somente com MyMensorAR e superior)"
 
 #: mymwebsite/templates/index.html:221 mymwebsite/templates/index.html:283
 msgid "Certification"
@@ -1203,11 +1203,11 @@ msgstr ""
 
 #: mymwebsite/templates/index.html:227 mymwebsite/templates/index.html:285
 msgid "Sharing"
-msgstr "Compartilhamento"
+msgstr "Partilhamento"
 
 #: mymwebsite/templates/index.html:227
 msgid " We automatically and immediately share your captures."
-msgstr " Compartilhamento automático e imediato de suas capturas."
+msgstr " Partilhamento automático e imediato de suas capturas."
 
 #: mymwebsite/templates/index.html:237 mymwebsite/templates/index.html:305
 msgid "Database"
@@ -1247,7 +1247,7 @@ msgid ""
 "Even simpler. For those that just need the certification and sharing power."
 msgstr ""
 "Ainda mais simples. Para aqueles que precisam apenas do poder da "
-"certificação e compartilhamento."
+"certificação e partilhamento."
 
 #: mymwebsite/templates/index.html:283
 msgid " time and location"
@@ -1255,7 +1255,7 @@ msgstr " horário e local"
 
 #: mymwebsite/templates/index.html:285
 msgid " automatic sharing to Facebook, Twitter and Email."
-msgstr " compartilhamento automático para Facebook, Twitter e E-mail."
+msgstr " partilhamento automático para Facebook, Twitter e E-mail."
 
 #: mymwebsite/templates/index.html:287
 msgid "Secure"
@@ -1295,7 +1295,7 @@ msgstr " construa seu próprio bigdata"
 
 #: mymwebsite/templates/index.html:309
 msgid "Start MyMensorAR account"
-msgstr "Crie sua conta MyMensorAR"
+msgstr "Crie vossa conta MyMensorAR"
 
 #: mymwebsite/templates/index.html:321
 msgid ""
@@ -1516,7 +1516,7 @@ msgid ""
 "choices you may have regarding this\n"
 "        information."
 msgstr ""
-"Nós compartilharemos suas informações com terceiros somente nas formas "
+"Nós partilharemos suas informações com terceiros somente nas formas "
 "descritas nesta declaração de privacidade. Podemos divulgar informações "
 "coletadas, nos seguintes modos: (a) conforme exigido por lei, de modo a "
 "cumprir uma intimação, ou processo legal similar; (b) quando acreditamos de "
@@ -2114,7 +2114,7 @@ msgstr ""
 "de Internet aceito; ou (iv) transmitir ou transferir (por qualquer meio) "
 "informação ou software derivado do Site ou do Serviço para países "
 "estrangeiros ou certas nações estrangeiras em violação de eventuais leis de "
-"controle de exportação. Além disso, você está proibido de violar ou tentar "
+"controlo de exportação. Além disso, você está proibido de violar ou tentar "
 "violar a segurança do Site, do Serviço ou do sistema do MyMensor ou da "
 "segurança da rede, incluindo, sem limitação, o seguinte: (v) acessar dados "
 "não destinados aos usuários do Site ou do Serviço, ou obter acesso não "
