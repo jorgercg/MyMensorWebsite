@@ -2,6 +2,7 @@
 {% load staticfiles i18n %}
 {% block title %}FAQ - {{ block.super }}{% endblock %}
 {% block content %}
+    {% get_current_language as LANGUAGE_CODE %}
     <p></p>
     <h3>{% trans "Frequently Asked Questions" %}</h3>
     <p></p>
@@ -143,7 +144,9 @@
             </div>
             <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8">
                 <div class="card-block">
-                    {% trans "Click in the register button and follow the instructions! More info can be found in the videos section, specially on the Mymensor Mobile App - First Steps video" %}
+                    {% trans "Click in the register button and follow the instructions!" %}
+                    <br/>
+                    {% trans "More info can be found in the videos section, specially on the Mymensor Mobile App - First Steps " %}<a href="{% url 'videos' %}#video_mobapp_firststeps">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>
@@ -158,7 +161,7 @@
             </div>
             <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9">
                 <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Mobile App - Feature Tour Video" %}
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Mobile App - Feature Tour " %}<a href="{% url 'videos' %}#video_mobapp_featuretour">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>
@@ -173,7 +176,7 @@
             </div>
             <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10">
                 <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Mobile App - Using Augmented Reality Video" %}
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Mobile App - Using Augmented Reality " %}<a href="{% url 'videos' %}#video_mobapp_usingar">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>
@@ -188,7 +191,7 @@
             </div>
             <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11">
                 <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Mobile App - Capture Images and Videos Video" %}
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Mobile App - Capture Images and Videos " %}<a href="{% url 'videos' %}#video_mobapp_capturingmedia">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>
@@ -203,7 +206,7 @@
             </div>
             <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12">
                 <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Feature Tour Video Video" %}
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Feature Tour " %}<a href="{% url 'videos' %}#video_webapp_featuretour">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>
@@ -218,7 +221,7 @@
             </div>
             <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13">
                 <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Configuring VPs and TAGs Video" %}
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Configuring VPs and TAGs " %}<a href="{% url 'videos' %}#video_webapp_cfgvpstags">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>
@@ -233,7 +236,7 @@
             </div>
             <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14">
                 <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Media and Data Video" %}
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Media and Data " %}<a href="{% url 'videos' %}#video_webapp_mediadata">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>
@@ -248,7 +251,7 @@
             </div>
             <div id="collapse15" class="collapse" role="tabpanel" aria-labelledby="heading15">
                 <div class="card-block">
-                    {% trans "Please check our explainer video at the top of our video section." %}
+                    {% trans "Please check our explainer video at the top of our video section." %}<a href="{% url 'videos' %}#video_explainer">{% trans "Video" %}</a>
                 </div>
             </div>
         </div>

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 09:39+0100\n"
-"PO-Revision-Date: 2017-06-20 09:41+0100\n"
+"POT-Creation-Date: 2017-06-20 10:29+0100\n"
+"PO-Revision-Date: 2017-06-20 10:32+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -388,15 +388,15 @@ msgstr ""
 "Para cada TAG, você irá definir uma questão de TAG, que será respondida por "
 "você ou sua equipe ao processar as imagens de VPs."
 
-#: mymwebsite/templates/faq.html:6
+#: mymwebsite/templates/faq.html:7
 msgid "Frequently Asked Questions"
 msgstr "Perguntas Frequentes"
 
-#: mymwebsite/templates/faq.html:15
+#: mymwebsite/templates/faq.html:16
 msgid "Why should I use MyMensor?"
 msgstr "Por que devo usar MyMensor?"
 
-#: mymwebsite/templates/faq.html:22
+#: mymwebsite/templates/faq.html:23
 msgid ""
 "Because there is no substitute for your own eyes and ears! With MyMensor, it "
 "is like being there. Using our technology you will know where and when the "
@@ -408,7 +408,7 @@ msgstr ""
 "quando e onde as fotos e vídeos foram feitos. Você também ficará certo que "
 "fotos e vídeos não foram adulterados."
 
-#: mymwebsite/templates/faq.html:23
+#: mymwebsite/templates/faq.html:24
 msgid ""
 "Do you need to be sure that something was done? Use MyMensor to verify "
 "completion, with precise location and timing."
@@ -416,7 +416,7 @@ msgstr ""
 "Precisa ter certeza que alguma coisa foi feita? Use MyMensor para verificar "
 "a conclusão, com horário e localização precisos."
 
-#: mymwebsite/templates/faq.html:25
+#: mymwebsite/templates/faq.html:26
 msgid ""
 "Most popular apps that are used to distribute media using your smartphone "
 "allow all diferent sources for the media, including outside sources. With "
@@ -429,7 +429,7 @@ msgstr ""
 "software, então você realmente sabe de onde a mídia e que ela não foi "
 "alterada."
 
-#: mymwebsite/templates/faq.html:27
+#: mymwebsite/templates/faq.html:28
 msgid ""
 "Possibilities are endless, even not using Augmented Reality (AR). But if you "
 "use AR, then the true power of MyMensor emerges, with automatic photos and "
@@ -439,7 +439,7 @@ msgstr ""
 "(AR). Mas se você usar a AR, então o verdadeiro poder do MyMensor emerge, "
 "com fotos e arquivamento  automáticos."
 
-#: mymwebsite/templates/faq.html:36
+#: mymwebsite/templates/faq.html:37
 msgid ""
 "Can I share the certified media with someone that DOES NOT have a MyMensor "
 "Account?"
@@ -447,11 +447,11 @@ msgstr ""
 "Posso partilhar a mídia certificada com alguém que NÃO TEM uma conta "
 "MyMensor?"
 
-#: mymwebsite/templates/faq.html:42
+#: mymwebsite/templates/faq.html:43
 msgid "YES, you can! And you can do it manually or automatically!"
 msgstr "Sim, você pode! E você pode fazê-lo manualmente ou automaticamente!"
 
-#: mymwebsite/templates/faq.html:43
+#: mymwebsite/templates/faq.html:44
 msgid ""
 "In the mobile app you can share your captures using the normal sharing "
 "capabilities of your smartphone."
@@ -459,32 +459,32 @@ msgstr ""
 "No mobile app você pode partilhar sua captura usando os recursos de "
 "partilhamento normais do seu smartphone."
 
-#: mymwebsite/templates/faq.html:45
+#: mymwebsite/templates/faq.html:46
 msgid "When using our webapp, you can do it manually "
 msgstr "Ao usar nossa web app, você pode fazê-lo manualmente "
 
-#: mymwebsite/templates/faq.html:46
+#: mymwebsite/templates/faq.html:47
 msgid "(See here.)"
 msgstr "(Veja aqui.)"
 
-#: mymwebsite/templates/faq.html:48
+#: mymwebsite/templates/faq.html:49
 msgid ""
 "Or you can automatically share your captures to Twitter, Facebook or email "
 msgstr ""
 "Ou você pode automaticamente partilhar suas capturas para o Twitter, "
 "Facebook ou e-mail "
 
-#: mymwebsite/templates/faq.html:50
+#: mymwebsite/templates/faq.html:51
 msgid "(Configure here.)"
 msgstr "(Configure aqui.)"
 
-#: mymwebsite/templates/faq.html:59
+#: mymwebsite/templates/faq.html:60
 msgid "My smartphone clock is wrongly configured, so goodbye certified time?"
 msgstr ""
 "Meu relógio do smartphone está indevidamente configurado, então adeus "
 "horário certificado?"
 
-#: mymwebsite/templates/faq.html:65
+#: mymwebsite/templates/faq.html:66
 msgid ""
 "No! The only thing you need to certify your time is an internet connection. "
 "Our software DOES NOT use the internal smartphone clock."
@@ -493,7 +493,7 @@ msgstr ""
 "conexão de internet. Nosso software é NÃO USA o relógio interno do "
 "smartphone."
 
-#: mymwebsite/templates/faq.html:66
+#: mymwebsite/templates/faq.html:67
 msgid ""
 "Every time you run your MyMensor mobile app we check the time using iternet "
 "time servers and after that we use our own clock."
@@ -502,7 +502,7 @@ msgstr ""
 "usando servidores de tempo de internet e, após isto, nós usamos nosso "
 "próprio relógio."
 
-#: mymwebsite/templates/faq.html:67
+#: mymwebsite/templates/faq.html:68
 msgid ""
 "When you see the green clock icon in your smartphone screen then your time "
 "is certified!"
@@ -510,11 +510,11 @@ msgstr ""
 "Quando você vê o ícone de relógio verde na tela de seu smartphone o seu "
 "horário está certificado!"
 
-#: mymwebsite/templates/faq.html:76
+#: mymwebsite/templates/faq.html:77
 msgid "What is the advantage of capturing images using augmented reality?"
 msgstr "Qual é a vantagem de capturar imagens usando realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:82
+#: mymwebsite/templates/faq.html:83
 msgid ""
 "The captured images will be automatically addressed to the storage folders "
 "(VPs), on the other hand the images captured without the augmented reality "
@@ -524,7 +524,7 @@ msgstr ""
 "armazenamento (VPs), por outro lado, as imagens capturadas sem a realidade "
 "aumentada precisarão ser manualmente dirigidas para as pastas."
 
-#: mymwebsite/templates/faq.html:83
+#: mymwebsite/templates/faq.html:84
 msgid ""
 "You also ensure that the desired angle and position for the image captures "
 "are the same as you have set when configured the VP."
@@ -532,11 +532,11 @@ msgstr ""
 "Você também garante que o ângulo desejado e posição para a captura da imagem "
 "são os mesmos que você definiu quando configurou o VP."
 
-#: mymwebsite/templates/faq.html:92
+#: mymwebsite/templates/faq.html:93
 msgid "Can I capture images with my smartphone in any position?"
 msgstr "Eu posso capturar imagens com meu smartphone em qualquer posição?"
 
-#: mymwebsite/templates/faq.html:98
+#: mymwebsite/templates/faq.html:99
 msgid ""
 "Yes you can, but bear in mind that the MyMensor Mobile App is always in "
 "landscape and that is the way your photos and videos are shown in our Web App"
@@ -545,11 +545,11 @@ msgstr ""
 "paisagem e esta é a forma como suas fotos e vídeos são mostrados em nossa "
 "Web App."
 
-#: mymwebsite/templates/faq.html:107
+#: mymwebsite/templates/faq.html:108
 msgid "Can I capture images without using Augmented Reality?"
 msgstr "Eu posso capturar imagens sem o uso de realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:113
+#: mymwebsite/templates/faq.html:114
 msgid ""
 "Yes. Just turn off the AR in the initial capture screen. Let the picture go "
 "automatically to the VP AR-OFF folder or address a destination VP and click "
@@ -561,7 +561,7 @@ msgstr ""
 "clique em um dos botões de obturador, uma para foto ou um para mini-filme "
 "(máximo de 10 segundos)."
 
-#: mymwebsite/templates/faq.html:114
+#: mymwebsite/templates/faq.html:115
 msgid ""
 "The destination folder might even be a folder already configured, but that "
 "you understood that it made more sense to archive it"
@@ -569,11 +569,11 @@ msgstr ""
 "A pasta de destino pode mesmo ser uma pasta já configurada, mas você "
 "compreendeu que fazia mais sentido para arquivá-lo."
 
-#: mymwebsite/templates/faq.html:123
+#: mymwebsite/templates/faq.html:124
 msgid "What are the requirements to use the system?"
 msgstr "Quais são os requisitos para utilizar o sistema?"
 
-#: mymwebsite/templates/faq.html:129
+#: mymwebsite/templates/faq.html:130
 msgid ""
 "To fully use the MyMensor Mobile App you need a smartphone with at least "
 "Android Lollipop installed, you can use it with KitKat but usage will suffer "
@@ -583,7 +583,7 @@ msgstr ""
 "um smartphone com Android Lollipop instalado, você pode usá-lo com KitKat "
 "mas perderá usabilidade e nem todas as funcionalidades estarão presentes."
 
-#: mymwebsite/templates/faq.html:130
+#: mymwebsite/templates/faq.html:131
 msgid ""
 "Also, to use the MyMensor Mobile App your smartphone needs to have a screen "
 "with HD resolution (1280x720) at least."
@@ -591,7 +591,7 @@ msgstr ""
 "Além disso, para usar o MyMensor Mobile App seu smartphone precisa ter uma "
 "tela com resolução HD (1280 x 720) pelo menos."
 
-#: mymwebsite/templates/faq.html:131
+#: mymwebsite/templates/faq.html:132
 msgid ""
 "To use the MyMensor Web App you generally need a modern browser, the newer "
 "the best!"
@@ -599,109 +599,118 @@ msgstr ""
 "Para usar o MyMensor Web App você precisa de um navegador moderno, quanto "
 "mais recente melhor!"
 
-#: mymwebsite/templates/faq.html:140
+#: mymwebsite/templates/faq.html:141
 msgid "How do I register and start using MyMensor?"
 msgstr "Como faço para registar e começar a usar o MyMensor?"
 
-#: mymwebsite/templates/faq.html:146
-msgid ""
-"Click in the register button and follow the instructions! More info can be "
-"found in the videos section, specially on the Mymensor Mobile App - First "
-"Steps video"
+#: mymwebsite/templates/faq.html:147
+msgid "Click in the register button and follow the instructions!"
 msgstr ""
-"Clique no botão registar e siga as instruções! Mais informações podem ser "
-"encontradas na seção de vídeos, especialmente no vídeo MyMensor Mobile App - "
-"Primeiros Passos"
 
-#: mymwebsite/templates/faq.html:155
+#: mymwebsite/templates/faq.html:149
+msgid ""
+"More info can be found in the videos section, specially on the Mymensor "
+"Mobile App - First Steps "
+msgstr ""
+"Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
+"MyMensor Mobile App - Primeiros Passos "
+
+#: mymwebsite/templates/faq.html:149 mymwebsite/templates/faq.html:164
+#: mymwebsite/templates/faq.html:179 mymwebsite/templates/faq.html:194
+#: mymwebsite/templates/faq.html:209 mymwebsite/templates/faq.html:224
+#: mymwebsite/templates/faq.html:239 mymwebsite/templates/faq.html:254
+msgid "Video"
+msgstr "Vídeo"
+
+#: mymwebsite/templates/faq.html:158
 msgid "How do I get more details about MyMensor Mobile App screens?"
 msgstr "Como obtenho mais detalhes sobre telas do MyMensor Mobile App?"
 
-#: mymwebsite/templates/faq.html:161
+#: mymwebsite/templates/faq.html:164
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Mobile "
-"App - Feature Tour Video"
+"App - Feature Tour "
 msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Mobile App - Passeio pelas Funcionalidades."
+"MyMensor Mobile App - Passeio pelas Funcionalidades "
 
-#: mymwebsite/templates/faq.html:170
+#: mymwebsite/templates/faq.html:173
 msgid "How do I setup to capture images using Augmented Reality?"
 msgstr ""
 "Como faço para configurar para capturar imagens usando realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:176
+#: mymwebsite/templates/faq.html:179
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Mobile "
-"App - Using Augmented Reality Video"
+"App - Using Augmented Reality "
 msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Mobile App - Usando a Realidade Aumentada"
+"MyMensor Mobile App - Usando a Realidade Aumentada "
 
-#: mymwebsite/templates/faq.html:185
+#: mymwebsite/templates/faq.html:188
 msgid "How do I capture an image with or without using Augmented Reality?"
 msgstr "Como para capturar uma imagem com ou sem o uso de realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:191
+#: mymwebsite/templates/faq.html:194
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Mobile "
-"App - Capture Images and Videos Video"
+"App - Capture Images and Videos "
 msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Mobile App - Capturando Imagens e Vídeos"
+"MyMensor Mobile App - Capturando Imagens e Vídeos "
 
-#: mymwebsite/templates/faq.html:200
+#: mymwebsite/templates/faq.html:203
 msgid "Where can I find more details about the MyMensor Web App?"
 msgstr "Onde posso encontrar mais detalhes sobre o MyMensor Web App?"
 
-#: mymwebsite/templates/faq.html:206
+#: mymwebsite/templates/faq.html:209
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Web App - "
-"Feature Tour Video Video"
+"Feature Tour "
 msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Web App - Passeio pelas Funcionalidades."
+"MyMensor Web App - Passeio pelas Funcionalidades "
 
-#: mymwebsite/templates/faq.html:215
+#: mymwebsite/templates/faq.html:218
 msgid "How do I transform images into data?"
 msgstr "Como faço para transformar imagens em dados?"
 
-#: mymwebsite/templates/faq.html:221
+#: mymwebsite/templates/faq.html:224
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Web App - "
-"Configuring VPs and TAGs Video"
+"Configuring VPs and TAGs "
 msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Web App - Configurando VPs e TAGs"
+"MyMensor Web App - Configurando VPs e TAGs "
 
-#: mymwebsite/templates/faq.html:230
+#: mymwebsite/templates/faq.html:233
 msgid "How do I manage Media and Data information in MyMensor Web App?"
 msgstr ""
 "Como faço para gerenciar informações de mídia e dados no MyMensor Web App?"
 
-#: mymwebsite/templates/faq.html:236
+#: mymwebsite/templates/faq.html:239
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Web App - "
-"Media and Data Video"
+"Media and Data "
 msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Web App - Mídias e Dados"
+"MyMensor Web App - Mídias e Dados "
 
-#: mymwebsite/templates/faq.html:245
+#: mymwebsite/templates/faq.html:248
 msgid "What are the USES AND BENEFITS of Mymensor?"
 msgstr "Quais são os USOS e BENEFÍCIOS do Mymensor?"
 
-#: mymwebsite/templates/faq.html:251
+#: mymwebsite/templates/faq.html:254
 msgid "Please check our explainer video at the top of our video section."
 msgstr ""
 "Por favor, verifique o nosso vídeo explicativo no topo da nossa seção de "
 "vídeo."
 
-#: mymwebsite/templates/faq.html:260
+#: mymwebsite/templates/faq.html:263
 msgid "Can I use my login credentials on more than one smartphone?"
 msgstr "Posso usar minhas credenciais de login em mais de um smartphone?"
 
-#: mymwebsite/templates/faq.html:266
+#: mymwebsite/templates/faq.html:269
 msgid ""
 "Yes, but the configuration setup will be the same for your user in all "
 "smartphones."
@@ -709,7 +718,7 @@ msgstr ""
 "Sim, mas a configuração da instalação será a mesmo para o seu usuário em "
 "todos os smartphones."
 
-#: mymwebsite/templates/faq.html:267
+#: mymwebsite/templates/faq.html:270
 msgid ""
 "In other words, you can divide your VPs to monitor multiple places, but the "
 "VPs configuration will be the same in all places."
@@ -717,11 +726,11 @@ msgstr ""
 "Em outras palavras, você pode dividir seus VPs para monitorar vários "
 "lugares, mas a configuração dos VPs será a mesma em todos os lugares."
 
-#: mymwebsite/templates/faq.html:276
+#: mymwebsite/templates/faq.html:279
 msgid "How do I make a backup of the MyMensor Mobile App configuration?"
 msgstr "Como posso fazer um backup da configuração do MyMensor Mobile App?"
 
-#: mymwebsite/templates/faq.html:282
+#: mymwebsite/templates/faq.html:285
 msgid ""
 "Please use the backup portion in the Setup Menu of the MyMensor WebApp. You "
 "should backup your configuration frequently."
@@ -729,11 +738,11 @@ msgstr ""
 "Por favor, use a parte de backup no Menu de configuração de MyMensor Web "
 "App. Você deve fazer backup de sua configuração frequentemente."
 
-#: mymwebsite/templates/faq.html:291
+#: mymwebsite/templates/faq.html:294
 msgid "How do I delete an image or video?"
 msgstr "Como faço para excluir uma imagem ou vídeo?"
 
-#: mymwebsite/templates/faq.html:297
+#: mymwebsite/templates/faq.html:300
 msgid ""
 "In the Mobile, while seing the captures, touch the trash bin to erase the "
 "photo only on the smartphone."
@@ -741,7 +750,7 @@ msgstr ""
 "No Mobile, enquanto vendo as capturas, toque a lixeira para apagar a foto só "
 "no smartphone."
 
-#: mymwebsite/templates/faq.html:298
+#: mymwebsite/templates/faq.html:301
 msgid ""
 "To delete the image in the database you need to locate it in the Media page, "
 "there you will find a trash bin where you can make the final deletion from "
@@ -751,11 +760,11 @@ msgstr ""
 "página de mídia, lá você vai encontrar uma lixeira onde você pode fazer a "
 "eliminação final dela do banco de dados."
 
-#: mymwebsite/templates/faq.html:307
+#: mymwebsite/templates/faq.html:310
 msgid "How do I move an image or video between VPs folders?"
 msgstr "Como faço para mover uma imagem ou vídeo entre pastas de VPs?"
 
-#: mymwebsite/templates/faq.html:313
+#: mymwebsite/templates/faq.html:316
 msgid ""
 "Images captured without the use of augmented reality, which will "
 "automatically go to the AR-OFF folder or are manually directed to other "
@@ -766,7 +775,7 @@ msgstr ""
 "para outras pastas antes da captura, são elegíveis a serem movidas para "
 "outras pastas."
 
-#: mymwebsite/templates/faq.html:314
+#: mymwebsite/templates/faq.html:317
 msgid ""
 "In Media there is a button to move the media to another folder. Images "
 "obtained with augmented reality (AR-ON) will automatically go to the "
@@ -776,11 +785,11 @@ msgstr ""
 "com realidade aumentada (AR-ON) irão automaticamente para as pastas pré-"
 "configuradas e você não pode movê-las."
 
-#: mymwebsite/templates/faq.html:323
+#: mymwebsite/templates/faq.html:326
 msgid "Can I install more than one MyMensor account on my smartphone?"
 msgstr "Posso instalar mais de uma conta de MyMensor no meu smartphone?"
 
-#: mymwebsite/templates/faq.html:329
+#: mymwebsite/templates/faq.html:332
 msgid ""
 "No, your smartphone can only have one active MyMensor account. To activate a "
 "new account reinstall MyMensor on your smartphone."
@@ -788,11 +797,11 @@ msgstr ""
 "Não, o seu smartphone só pode ter uma conta MyMensor ativa. Para ativar uma "
 "nova conta, reinstale o MyMensor em seu smartphone."
 
-#: mymwebsite/templates/faq.html:338
+#: mymwebsite/templates/faq.html:341
 msgid "Can I use MyMensor Mobile App without internet?"
 msgstr "Posso usar MyMensor Mobile App sem internet?"
 
-#: mymwebsite/templates/faq.html:344
+#: mymwebsite/templates/faq.html:347
 msgid ""
 "Yes, captures can be made without the internet connection. On the other "
 "hand, the internet signal is fundamental initially for the authentication of "
@@ -802,7 +811,7 @@ msgstr ""
 "sinal de internet é fundamental inicialmente para a autenticação do produto "
 "e, claro, para enviar as imagens para os nossos servidores."
 
-#: mymwebsite/templates/faq.html:345
+#: mymwebsite/templates/faq.html:348
 msgid ""
 "Please note that the Android system may in some cases report that you are "
 "connected but this connection has no internet signal, this failure will not "
@@ -814,11 +823,11 @@ msgstr ""
 "permitirá que você abra o programa até que você desligue esta conexão sem "
 "internet."
 
-#: mymwebsite/templates/faq.html:354
+#: mymwebsite/templates/faq.html:357
 msgid "How do I get certifications when I'm out of the internet?"
 msgstr "Como obtenho certificações quando estou fora da internet?"
 
-#: mymwebsite/templates/faq.html:360
+#: mymwebsite/templates/faq.html:363
 msgid ""
 "When captures occur in places without internet access, the images obtained "
 "are retained in the smartphone and are only sent to the database when the "
@@ -828,7 +837,7 @@ msgstr ""
 "são retidas no smartphone e só são enviadas para o banco de dados, quando o "
 "MyMensor estiver conectado na região da internet."
 
-#: mymwebsite/templates/faq.html:361
+#: mymwebsite/templates/faq.html:364
 msgid ""
 "The MyMensor does not run in the background so you do not discharge the "
 "battery of your smartphone. The dates, time and location will be kept "
@@ -840,11 +849,11 @@ msgstr ""
 "certificadas se foi possível obter os sinais de tempo e localização verdes "
 "indicando que o acesso de certificação foi possível."
 
-#: mymwebsite/templates/faq.html:370
+#: mymwebsite/templates/faq.html:373
 msgid "The MyMensor Mobile App is frozen in the startup forever..."
 msgstr "O MyMensor Mobile App está congelado na inicialização para sempre..."
 
-#: mymwebsite/templates/faq.html:376
+#: mymwebsite/templates/faq.html:379
 msgid ""
 "Make sure the screen rotation function of your smartphone is enabled. Make "
 "sure that you have registered your mymensor account in an internet-connected "
@@ -854,11 +863,11 @@ msgstr ""
 "habilitada. Certifique-se de que você registou sua conta mymensor em um "
 "local conectado à internet para receber os tokens de segurança."
 
-#: mymwebsite/templates/faq.html:385
+#: mymwebsite/templates/faq.html:388
 msgid "Forgot your username or password?"
 msgstr "Esqueceu seu nome de usuário ou palavra-passe?"
 
-#: mymwebsite/templates/faq.html:391
+#: mymwebsite/templates/faq.html:394
 msgid ""
 "Go to the LOGIN page and reset your password. The name of the user that you "
 "registered will come by email, together with a link to register the new "
@@ -868,7 +877,7 @@ msgstr ""
 "você registou virá por e-mail, juntamente com um link para registar a nova "
 "palavra-passe."
 
-#: mymwebsite/templates/faq.html:400
+#: mymwebsite/templates/faq.html:403
 msgid ""
 "I can not see in the data analysis page graph the regions with the alarm "
 "ranges that I set up in configuring tags. Why is this happening?"
@@ -877,7 +886,7 @@ msgstr ""
 "intervalos de alarme que configurei na configuração de TAGs. Por que isso "
 "está acontecendo?"
 
-#: mymwebsite/templates/faq.html:406
+#: mymwebsite/templates/faq.html:409
 msgid ""
 "Ranges will only appear in the graph when there is only one selected tag. "
 "This is to avoid confusions with superimposed ranges."
@@ -885,17 +894,17 @@ msgstr ""
 "Intervalos só aparecerão no gráfico quando houver apenas uma TAG "
 "selecionada. Isso é para evitar confusões com intervalos sobrepostos."
 
-#: mymwebsite/templates/faq.html:415
+#: mymwebsite/templates/faq.html:418
 msgid "How do I find out which TAGs belong to a particular VP?"
 msgstr "Como faço para descobrir quais TAGs pertencem a um determinado VP?"
 
-#: mymwebsite/templates/faq.html:421
+#: mymwebsite/templates/faq.html:424
 msgid "In the TAGs item of the Setup menu item you can find this information."
 msgstr ""
 "No item TAGs do item de menu de configuração você pode encontrar esta "
 "informação."
 
-#: mymwebsite/templates/faq.html:430
+#: mymwebsite/templates/faq.html:433
 msgid ""
 "How to proceed to see in the graph of data analysis only the tags of a "
 "particular VP?"
@@ -903,7 +912,7 @@ msgstr ""
 "Como proceder para ver o gráfico de análise de dados apenas os TAGs de um VP "
 "em particular?"
 
-#: mymwebsite/templates/faq.html:436
+#: mymwebsite/templates/faq.html:439
 msgid ""
 "If you want to see the graph, obviously you have already processed some "
 "image of this VP. So, inside the portfolio item, you should check if the "
@@ -913,7 +922,7 @@ msgstr ""
 "desse VP. Então, dentro do item portfólio, você deve verificar se o período "
 "selecionado contém a imagem processada deste VP."
 
-#: mymwebsite/templates/faq.html:437
+#: mymwebsite/templates/faq.html:440
 msgid ""
 "Just click on the chart icon at the top right of the image that should be in "
 "blue confirming that this image has been processed."
@@ -921,20 +930,20 @@ msgstr ""
 "Basta clicar no ícone do gráfico no canto superior direito da imagem que "
 "deve estar em azul confirmando que essa imagem foi processada."
 
-#: mymwebsite/templates/faq.html:446
+#: mymwebsite/templates/faq.html:449
 msgid "How can I quickly see the graph of just one TAG?"
 msgstr "Como posso ver rapidamente o gráfico de apenas um TAG?"
 
-#: mymwebsite/templates/faq.html:452
+#: mymwebsite/templates/faq.html:455
 msgid "Just enter the Data Status and click on the TAG row you want to see."
 msgstr ""
 "Basta entrar no Status dos Dados e clicar na linha da TAG que deseja ver."
 
-#: mymwebsite/templates/faq.html:461
+#: mymwebsite/templates/faq.html:464
 msgid "Can I automatically share the captured photos and videos?"
 msgstr "Posso partilhar automaticamente as fotos e os vídeos capturados?"
 
-#: mymwebsite/templates/faq.html:467
+#: mymwebsite/templates/faq.html:470
 msgid ""
 "Yes, once you have entered our Web App with your credentials, click on the "
 "logged in item and set up facebook, twitter accounts that you want to use to "
@@ -944,7 +953,7 @@ msgstr ""
 "item logado e configure as contas de facebook e twitter que você deseja usar "
 "para partilhar automaticamente suas mídias."
 
-#: mymwebsite/templates/faq.html:468
+#: mymwebsite/templates/faq.html:471
 msgid ""
 "Then go to the Setup menu item and select the VPs item. You must check the "
 "share box in each of the VP folders that you want to share automatically."
@@ -953,7 +962,7 @@ msgstr ""
 "deve marcar a caixa de partilhamento em cada uma das pastas de VPs que você "
 "deseja partilhar automaticamente."
 
-#: mymwebsite/templates/faq.html:469
+#: mymwebsite/templates/faq.html:472
 msgid ""
 "In this same screen you can also select an email to automatically receive "
 "the captured media. Unlike Facebook and Twitter, emails accounts may be "
@@ -963,11 +972,11 @@ msgstr ""
 "automaticamente a mídia capturada. Ao contrário do Facebook e Twitter, "
 "contas de e-mails podem ser diferentes para cada VP."
 
-#: mymwebsite/templates/faq.html:478
+#: mymwebsite/templates/faq.html:481
 msgid "How do I manually share a specific media?"
 msgstr "Como partilhar manualmente uma mídia específica?"
 
-#: mymwebsite/templates/faq.html:484
+#: mymwebsite/templates/faq.html:487
 msgid ""
 "In the MyMensor Mobile App, click on the VP folder where the media is "
 "located, click on the gallery icon to see the captured media and find the "
@@ -979,7 +988,7 @@ msgstr ""
 "interesse. Clique no botão partilhar e a lista de aplicativos disponíveis no "
 "seu smartphone será exibido para o partilhamento."
 
-#: mymwebsite/templates/faq.html:485
+#: mymwebsite/templates/faq.html:488
 msgid ""
 "In the MyMensor Web App, enter the media tab, select the VP where the media "
 "is located or click directly on the location icon when you are in the "
@@ -990,7 +999,7 @@ msgstr ""
 "guia Portfolio. Basta agora selecionar o aplicativo que deseja usar para "
 "partilhar."
 
-#: mymwebsite/templates/faq.html:494
+#: mymwebsite/templates/faq.html:497
 msgid ""
 "MyMensor Mobile App identifies the target (a vp configured with augmented "
 "reality) but I can not capture an image."
@@ -998,7 +1007,7 @@ msgstr ""
 "MyMensor Mobile App identifica o alvo (um vp configurado com realidade "
 "aumentada), mas não consegue capturar uma imagem."
 
-#: mymwebsite/templates/faq.html:500
+#: mymwebsite/templates/faq.html:503
 msgid ""
 "Keep in mind that the system uses image recognition, if something has "
 "changed significantly compared to the configured base image, such as: "
@@ -1010,7 +1019,7 @@ msgstr ""
 "como: condições de iluminação, brilho, reflexões, inclusão ou exclusão de "
 "objetos, você pode ter dificuldade em fazer uma nova captura."
 
-#: mymwebsite/templates/faq.html:501
+#: mymwebsite/templates/faq.html:504
 msgid ""
 "In this case choose to reconfigure the image if the changes will actually "
 "persist or simply turn off the augmented reality (Selecting AR-OFF) and "
@@ -1020,11 +1029,11 @@ msgstr ""
 "ou simplesmente desligue a realidade aumentada (selecionando AR-OFF) e "
 "selecione a pasta de destino antes de clicar no obturador para capturar."
 
-#: mymwebsite/templates/faq.html:510
+#: mymwebsite/templates/faq.html:513
 msgid "Filed in the wrong folder a capture without augmented reality?"
 msgstr "Arquivou na pasta errada uma captura sem realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:516
+#: mymwebsite/templates/faq.html:519
 msgid ""
 "In the MyMensor Web App, enter the media tab, select the VP and identify the "
 "media you want. Set the new destination folder and click the move button."
@@ -2467,6 +2476,15 @@ msgstr "Confugurando VPS e TAGS"
 #: mymwebsite/templates/videos.html:138
 msgid "Media and Data"
 msgstr "Mídia e Dados"
+
+#~ msgid ""
+#~ "Click in the register button and follow the instructions! More info can "
+#~ "be found in the videos section, specially on the Mymensor Mobile App - "
+#~ "First Steps video"
+#~ msgstr ""
+#~ "Clique no botão registar e siga as instruções! Mais informações podem ser "
+#~ "encontradas na seção de vídeos, especialmente no vídeo MyMensor Mobile "
+#~ "App - Primeiros Passos"
 
 #~ msgid "English"
 #~ msgstr "Inglês"
