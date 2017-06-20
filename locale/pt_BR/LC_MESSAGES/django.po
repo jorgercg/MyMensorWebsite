@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-19 23:33+0100\n"
-"PO-Revision-Date: 2017-06-20 09:27+0100\n"
+"POT-Creation-Date: 2017-06-20 09:39+0100\n"
+"PO-Revision-Date: 2017-06-20 09:40+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -1277,8 +1277,8 @@ msgstr ""
 "para controlar seus projetos pessoais e empresariais"
 
 #: mymwebsite/templates/index.html:301
-msgid "ALL MYMENSOR FEATURES PLUS"
-msgstr "TODAS AS CARACTERÍSTICAS DE MYMENSOR MAIS"
+msgid "ALL MyMensor FEATURES PLUS"
+msgstr "TODAS AS CARACTERÍSTICAS DE MyMensor MAIS"
 
 #: mymwebsite/templates/index.html:303
 msgid "AR"
@@ -1305,8 +1305,8 @@ msgstr ""
 "construir sua configuração personalizada."
 
 #: mymwebsite/templates/index.html:324
-msgid "ALL MYMENSORAR FEATURES PLUS"
-msgstr "TODAS AS CARACTERÍSTICAS DE MYMENSORAR MAIS"
+msgid "ALL MyMensorAR FEATURES PLUS"
+msgstr "TODAS AS CARACTERÍSTICAS DE MyMensorAR MAIS"
 
 #: mymwebsite/templates/index.html:325
 msgid "API access"

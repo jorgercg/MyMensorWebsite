@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-19 23:33+0100\n"
+"POT-Creation-Date: 2017-06-20 09:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1015,7 +1015,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/index.html:301
-msgid "ALL MYMENSOR FEATURES PLUS"
+msgid "ALL MyMensor FEATURES PLUS"
 msgstr ""
 
 #: mymwebsite/templates/index.html:303
@@ -1041,7 +1041,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/index.html:324
-msgid "ALL MYMENSORAR FEATURES PLUS"
+msgid "ALL MyMensorAR FEATURES PLUS"
 msgstr ""
 
 #: mymwebsite/templates/index.html:325
