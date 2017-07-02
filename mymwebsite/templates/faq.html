@@ -120,7 +120,7 @@
         </div>
     </div>
     <p></p>
-    <h4>{% trans "WEB APP RELATED QUESTIONS" %}</h4>
+    <h4>{% trans "MOBILE APP RELATED QUESTIONS" %}</h4>
     <p></p>
     <div id="accordion2" role="tablist" aria-multiselectable="true">
         <div class="card">
@@ -153,6 +153,22 @@
                 <div class="card-block">
                     {% trans "The captured images will be automatically addressed to the storage folders (VPs), on the other hand the images captured without the augmented reality will need to be manually addressed to the folders." %}
                     {% trans "You also ensure that the desired angle and position for the image captures are the same as you have set when configured the VP." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading31">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse31"
+                       aria-expanded="false" aria-controls="collapse31">
+                        {% trans "How do I manually share a specific media?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31">
+                <div class="card-block">
+                    {% trans "In the MyMensor Mobile App, click on the VP folder where the media is located, click on the gallery icon to see the captured media and find the one of interest. Click the share button and the list of apps available on your smartphone will appear for sharing." %}
+                    {% trans "In the MyMensor Web App, enter the media tab, select the VP where the media is located or click directly on the location icon when you are in the Portfolio tab. Just select the app you want to use for sharing now." %}
                 </div>
             </div>
         </div>
@@ -236,54 +252,6 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" role="tab" id="heading12">
-                <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12"
-                       aria-expanded="false" aria-controls="collapse12">
-                        {% trans "Where can I find more details about the MyMensor Web App?" %}
-                    </a>
-                </h5>
-            </div>
-            <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12">
-                <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Feature Tour " %}<a
-                        href="{% url 'videos' %}#video_webapp_featuretour">{% trans "Video" %}</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" role="tab" id="heading13">
-                <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13"
-                       aria-expanded="false" aria-controls="collapse13">
-                        {% trans "How do I transform images into data?" %}
-                    </a>
-                </h5>
-            </div>
-            <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13">
-                <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Configuring VPs and TAGs " %}<a
-                        href="{% url 'videos' %}#video_webapp_cfgvpstags">{% trans "Video" %}</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" role="tab" id="heading14">
-                <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14"
-                       aria-expanded="false" aria-controls="collapse14">
-                        {% trans "How do I manage Media and Data information in MyMensor Web App?" %}
-                    </a>
-                </h5>
-            </div>
-            <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14">
-                <div class="card-block">
-                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Media and Data " %}<a
-                        href="{% url 'videos' %}#video_webapp_mediadata">{% trans "Video" %}</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
             <div class="card-header" role="tab" id="heading16">
                 <h5 class="mb-0">
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse16"
@@ -327,22 +295,6 @@
                 <div class="card-block">
                     {% trans "In the Mobile, while seing the captures, touch the trash bin to erase the photo only on the smartphone." %}
                     {% trans "To delete the image in the database you need to locate it in the Media page, there you will find a trash bin where you can make the final deletion from the database." %}
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" role="tab" id="heading19">
-                <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse19"
-                       aria-expanded="false" aria-controls="collapse19">
-                        {% trans "How do I move an image or video between VPs folders?" %}
-                    </a>
-                </h5>
-            </div>
-            <div id="collapse19" class="collapse" role="tabpanel" aria-labelledby="heading19">
-                <div class="card-block">
-                    {% trans "Images captured without the use of augmented reality, which will automatically go to the AR-OFF folder or are manually directed to other folders before capture, are elegible to be moved to other folders." %}
-                    {% trans "In Media there is a button to move the media to another folder. Images obtained with augmented reality (AR-ON) will automatically go to the preconfigured folders and you cannot move them." %}
                 </div>
             </div>
         </div>
@@ -408,11 +360,107 @@
                 </div>
             </div>
         </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading33">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse33"
+                       aria-expanded="false" aria-controls="collapse33">
+                        {% trans "Filed in the wrong folder a capture without augmented reality?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse33" class="collapse" role="tabpanel" aria-labelledby="heading33">
+                <div class="card-block">
+                    {% trans "In the MyMensor Web App, enter the media tab, select the VP and identify the media you want. Set the new destination folder and click the move button." %}
+                </div>
+            </div>
+        </div>
+
     </div>
     <p></p>
-    <h4>{% trans "MOBILE APP RELATED QUESTIONS" %}</h4>
+    <h4>{% trans "WEB APP RELATED QUESTIONS" %}</h4>
     <p></p>
     <div id="accordion3" role="tablist" aria-multiselectable="true">
+        <div class="card">
+            <div class="card-header" role="tab" id="heading12">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12"
+                       aria-expanded="false" aria-controls="collapse12">
+                        {% trans "Where can I find more details about the MyMensor Web App?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12">
+                <div class="card-block">
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Feature Tour " %}<a
+                        href="{% url 'videos' %}#video_webapp_featuretour">{% trans "Video" %}</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading13">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13"
+                       aria-expanded="false" aria-controls="collapse13">
+                        {% trans "How do I transform images into data?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13">
+                <div class="card-block">
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Configuring VPs and TAGs " %}<a
+                        href="{% url 'videos' %}#video_webapp_cfgvpstags">{% trans "Video" %}</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading14">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14"
+                       aria-expanded="false" aria-controls="collapse14">
+                        {% trans "How do I manage Media and Data information in MyMensor Web App?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14">
+                <div class="card-block">
+                    {% trans "Info can be found in the videos section, specially on the Mymensor Web App - Media and Data " %}<a
+                        href="{% url 'videos' %}#video_webapp_mediadata">{% trans "Video" %}</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading19">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse19"
+                       aria-expanded="false" aria-controls="collapse19">
+                        {% trans "How do I move an image or video between VPs folders?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse19" class="collapse" role="tabpanel" aria-labelledby="heading19">
+                <div class="card-block">
+                    {% trans "Images captured without the use of augmented reality, which will automatically go to the AR-OFF folder or are manually directed to other folders before capture, are elegible to be moved to other folders." %}
+                    {% trans "In Media there is a button to move the media to another folder. Images obtained with augmented reality (AR-ON) will automatically go to the preconfigured folders and you cannot move them." %}
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" role="tab" id="heading18">
+                <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse18"
+                       aria-expanded="false" aria-controls="collapse18">
+                        {% trans "How do I delete an image or video?" %}
+                    </a>
+                </h5>
+            </div>
+            <div id="collapse18" class="collapse" role="tabpanel" aria-labelledby="heading18">
+                <div class="card-block">
+                    {% trans "In the Mobile, while seing the captures, touch the trash bin to erase the photo only on the smartphone." %}
+                    {% trans "To delete the image in the database you need to locate it in the Media page, there you will find a trash bin where you can make the final deletion from the database." %}
+                </div>
+            </div>
+        </div>
         <div class="card">
             <div class="card-header" role="tab" id="heading26">
                 <h5 class="mb-0">
