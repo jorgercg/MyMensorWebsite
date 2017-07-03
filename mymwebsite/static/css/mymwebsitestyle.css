@@ -20,3 +20,23 @@
     background-size: cover;
     -o-background-size: cover;
 }
+
+
+
+.price {
+  font-size: 7rem;
+  letter-spacing: -.5rem;
+}
+.price .currency {
+  font-size: 2.75rem;
+  position: relative;
+  font-weight: 400;
+  top: -45px;
+  letter-spacing: 0px;
+}
+.price .period {
+  font-size: 1rem;
+  color: #b3b3b3;
+  letter-spacing: 0px;
+}
+

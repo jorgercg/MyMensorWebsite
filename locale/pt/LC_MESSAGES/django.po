@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-03 17:19+0100\n"
-"PO-Revision-Date: 2017-07-03 17:22+0100\n"
+"POT-Creation-Date: 2017-07-03 19:37+0100\n"
+"PO-Revision-Date: 2017-07-03 19:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -1298,6 +1298,10 @@ msgstr " tudo HTTPS"
 #: mymwebsite/templates/index.html:297
 msgid "COMING SOON"
 msgstr "EM BREVE"
+
+#: mymwebsite/templates/index.html:303
+msgid "/month"
+msgstr "/mês"
 
 #: mymwebsite/templates/index.html:304
 msgid ""
