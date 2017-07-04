@@ -66,9 +66,11 @@
                     <li class="nav-item"><a class="nav-link" href="{% url 'docs' %}">{% trans "Docs" %}</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'videos' %}">{% trans "Videos" %}</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">Login</a>
+                    <li class="nav-item"><a class="nav-link"
+                                            href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">Login</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
+                    <li class="nav-item"><a class="nav-link"
+                                            href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                     </li>
                 </ul>
@@ -134,6 +136,31 @@
                             </select>
                             <input class="btn btn-primary btn-sm" type="submit" value="{% trans 'Set' %}"/>
                         </form>
+                    </div>
+                    <div class="col-md-3 mb-3"></div>
+                    <div class="col-md-4 mb-3">
+                        <a href="https://www.braintreegateway.com/merchants/2y7nzj4w7xt29z45/verified" target="_blank">
+                            <img src="https://s3.amazonaws.com/braintree-badges/braintree-badge-wide-dark.png"
+                                 width="280px"
+                                 height="44px" border="0"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 mb-3"></div>
+                    <div class="col-md-3 mb-3"></div>
+                    <div class="col-md-4 mb-3">
+                        <img src="{% static 'images/paypal.png' %}">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 mb-3"></div>
+                    <div class="col-md-3 mb-3"></div>
+                    <div class="col-md-4 mb-3">
+                        <img src="{% static 'images/discover.png' %}">
+                        <img src="{% static 'images/maestro.png' %}">
+                        <img src="{% static 'images/mastercard.png' %}">
+                        <img src="{% static 'images/visa.png' %}">
                     </div>
                 </div>
             </div>
