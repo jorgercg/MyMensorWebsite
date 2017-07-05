@@ -300,9 +300,8 @@
                         <div class="col-md-4 px-4 pb-2 mb-5">
                             <div class="px-2">
                                 <h5 class="text-primary mb-4 alert alert-info">MyMensor<strong>AR</strong></h5>
-                                <h3 id="priceeur" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>10,50<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                                <h3 hidden id="pricebrl" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">R$</span>39,90<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                                <h3 hidden id="priceusd" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>11.80<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h3 id="priceeur" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>10,99<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h3 hidden id="priceusd" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>11.99<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
                                 <p class="pb-2">{% trans "The one size fits all solution. Use Augmented Reality and Data Features to control your personal and business projects" %}</p>
                             </div>
 
@@ -373,27 +372,19 @@
             });
             var counter = 0;
             var pric_elem0 = document.getElementById("priceeur");
-            var pric_elem1 = document.getElementById("pricebrl");
             var pric_elem2 = document.getElementById("priceusd");
             setInterval(change, 3000);
             function change() {
                 if (counter == 0) {
                     pric_elem0.hidden=true;
-                    pric_elem1.hidden=false;
-                    pric_elem2.hidden=true;
-                }
-                if (counter == 1) {
-                    pric_elem0.hidden=true;
-                    pric_elem1.hidden=true;
                     pric_elem2.hidden=false;
                 }
-                if (counter == 2) {
+                if (counter == 1) {
                     pric_elem0.hidden=false;
-                    pric_elem1.hidden=true;
-                    pric_elem2.hidden=true;
+                    pric_elem2.hidden=false;
                 }
                 counter++;
-                if(counter >= 3) { counter = 0; }
+                if(counter >= 2) { counter = 0; }
             }
         </script>
     {% endblock %}
