@@ -1,47 +1,23 @@
 {% extends 'innerbase.html' %}
 {% load staticfiles i18n %}
 {% get_current_language as LANGUAGE_CODE %}
-{% block title %}Download - {{ block.super }}{% endblock %}
+{% block title %}{% trans "Download" %} - {{ block.super }}{% endblock %}
 {% block content %}
     <p></p>
-    <h3>Mobile Apps Download</h3>
+    <h3>{% trans "Mobile Apps Download" %}</h3>
     <p></p>
-    <hr>
-    <h4>{% trans "MyMensor Mobile App" %}</h4>
-    <p></p>
-    <div id="mymensormobappdownloads">
-        <div class="d-flex align-content-start flex-wrap">
-            <div class="card card-outline-primary m-2" style="width: 30rem;">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Android App" %}</p>
-                </div>
-                {% if LANGUAGE_CODE == "pt" %}
-                    <a href='https://play.google.com/store/apps/details?id=com.mymensor&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
-                       target="_blank"><img
-                            class="card-img-top img-fluid"
-                            alt='Disponível no Google Play'
-                            src='https://play.google.com/intl/en/badges/images/generic/pt_badge_web_generic.png'/></a>
-                {% elif LANGUAGE_CODE == "pt-br" %}
-                    <a href='https://play.google.com/store/apps/details?id=com.mymensor&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
-                       target="_blank"><img
-                            class="card-img-top img-fluid"
-                            alt='Disponível no Google Play'
-                            src='https://play.google.com/intl/en/badges/images/generic/pt-br_badge_web_generic.png'/></a>
-                {% else %}
-                    <a href='https://play.google.com/store/apps/details?id=com.mymensor&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
-                       target="_blank"><img
-                            class="card-img-top img-fluid"
-                            alt='Get it on Google Play'
-                            src='https://play.google.com/intl/en/badges/images/generic/en_badge_web_generic.png'/></a>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    <p></p>
+    <p class="text-justify">{% blocktrans %}You can use any of the following mobile apps to send media to the MyMensor
+        Server. In fact you can even have BOTH installed at the same time in your mobile using the SAME MyMensor account
+        and use them according to your specific use case.{% endblocktrans %}</p>
     <p></p>
     <hr>
     <h4>{% trans "MyMensorAR Mobile App" %}</h4>
     <p></p>
+    <p class="text-justify">{% blocktrans %}This app uses Augmented Reality (AR) to automatically find and archive your
+        media in the pre-configured folders. But this automation (as you may expect) comes with a price! You will need
+        to configure the folders accordingly and setup files will be loaded always when you start up the app. This means
+        that if you are in an area where internet access is problematic app startup may be tedious, for this there is a
+        different flavor of our app.{% endblocktrans %}</p>
     <div id="mymensorarmobappdownloads">
         <div class="d-flex align-content-start flex-wrap">
             <div class="card card-outline-primary m-2" style="width: 30rem;">
@@ -73,5 +49,42 @@
         </div>
     </div>
     <p></p>
-
+    <p></p>
+    <hr>
+    <h4>{% trans "MyMensor Mobile App" %}</h4>
+    <p></p>
+    <p class="text-justify">{% blocktrans %}This app DOES NOT use Augmented Reality (AR) in media capture thus it cannot
+        automatically capture media nor archive it without user interaction. As there is no AR there is no need for
+        configuration, also! As we said before you can use this version TOGETHER with the AR one, depending on your use
+        case!{% endblocktrans %}</p>
+    <div id="mymensormobappdownloads">
+        <div class="d-flex align-content-start flex-wrap">
+            <div class="card card-outline-primary m-2" style="width: 30rem;">
+                <div class="card-header text-primary">
+                    <p class="card-text">{% trans "Android App" %}</p>
+                </div>
+                {% if LANGUAGE_CODE == "pt" %}
+                    <a href='https://play.google.com/store/apps/details?id=com.mymensor&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                       target="_blank"><img
+                            class="card-img-top img-fluid"
+                            alt='Disponível no Google Play'
+                            src='https://play.google.com/intl/en/badges/images/generic/pt_badge_web_generic.png'/></a>
+                {% elif LANGUAGE_CODE == "pt-br" %}
+                    <a href='https://play.google.com/store/apps/details?id=com.mymensor&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                       target="_blank"><img
+                            class="card-img-top img-fluid"
+                            alt='Disponível no Google Play'
+                            src='https://play.google.com/intl/en/badges/images/generic/pt-br_badge_web_generic.png'/></a>
+                {% else %}
+                    <a href='https://play.google.com/store/apps/details?id=com.mymensor&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                       target="_blank"><img
+                            class="card-img-top img-fluid"
+                            alt='Get it on Google Play'
+                            src='https://play.google.com/intl/en/badges/images/generic/en_badge_web_generic.png'/></a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <p></p>
 {% endblock %}

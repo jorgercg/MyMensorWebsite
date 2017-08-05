@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-05 13:37+0100\n"
-"PO-Revision-Date: 2017-08-05 13:42+0100\n"
+"POT-Creation-Date: 2017-08-05 14:04+0100\n"
+"PO-Revision-Date: 2017-08-05 14:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -392,17 +392,74 @@ msgstr ""
 "Para cada TAG, você irá definir uma questão de TAG, que será respondida por "
 "você ou sua equipe ao processar as imagens de VPs."
 
-#: mymwebsite/templates/download.html:10
-msgid "MyMensor Mobile App"
-msgstr "Aplicativo Móvel MyMensor"
+#: mymwebsite/templates/download.html:4 mymwebsite/templates/index.html:42
+#: mymwebsite/templates/index.html:89 mymwebsite/templates/innerbase.html:70
+msgid "Download"
+msgstr "Download"
 
-#: mymwebsite/templates/download.html:16 mymwebsite/templates/download.html:49
+#: mymwebsite/templates/download.html:7
+msgid "Mobile Apps Download"
+msgstr "Download de Aplicativos Móveis"
+
+#: mymwebsite/templates/download.html:9
+msgid ""
+"You can use any of the following mobile apps to send media to the MyMensor\n"
+"        Server. In fact you can even have BOTH installed at the same time in "
+"your mobile using the SAME MyMensor account\n"
+"        and use them according to your specific use case."
+msgstr ""
+"Você pode usar qualquer um dos seguintes aplicativos móveis para enviar "
+"mídia para o Servidor MyMensor. Na verdade, você pode até mesmo ter os dois "
+"instalados ao mesmo tempo no seu celular usando a mesma conta MyMensor e usá-"
+"los de acordo com seu caso de uso específico."
+
+#: mymwebsite/templates/download.html:14
+msgid "MyMensorAR Mobile App"
+msgstr "Aplicativo Móvel MyMensorAR"
+
+#: mymwebsite/templates/download.html:16
+msgid ""
+"This app uses Augmented Reality (AR) to automatically find and archive your\n"
+"        media in the pre-configured folders. But this automation (as you may "
+"expect) comes with a price! You will need\n"
+"        to configure the folders accordingly and setup files will be loaded "
+"always when you start up the app. This means\n"
+"        that if you are in an area where internet access is problematic app "
+"startup may be tedious, for this there is a\n"
+"        different flavor of our app."
+msgstr ""
+"Este aplicativo usa Realidade Aumentada (AR) para encontrar e arquivar "
+"automaticamente sua mídia nas pastas pré-configuradas. Mas esta automação "
+"(como você já sabia) vem com um preço! Você precisará configurar as pastas e "
+"os arquivos de configuração serão carregados sempre quando você iniciar o "
+"aplicativo. Isso significa que, se você estiver em uma área onde o acesso à "
+"internet é problemático, a inicialização do aplicativo pode ser tediosa, "
+"para isto existe uma variante diferente do nosso aplicativo."
+
+#: mymwebsite/templates/download.html:25 mymwebsite/templates/download.html:64
 msgid "Android App"
 msgstr "Aplicativo Android"
 
-#: mymwebsite/templates/download.html:43
-msgid "MyMensorAR Mobile App"
-msgstr "Aplicativo Móvel MyMensorAR"
+#: mymwebsite/templates/download.html:54
+msgid "MyMensor Mobile App"
+msgstr "Aplicativo Móvel MyMensor"
+
+#: mymwebsite/templates/download.html:56
+msgid ""
+"This app DOES NOT use Augmented Reality (AR) in media capture thus it "
+"cannot\n"
+"        automatically capture media nor archive it without user interaction. "
+"As there is no AR there is no need for\n"
+"        configuration, also! As we said before you can use this version "
+"TOGETHER with the AR one, depending on your use\n"
+"        case!"
+msgstr ""
+"Este aplicativo NÃO usa Realidade Aumentada (AR) na captura de mídia, "
+"portanto, não pode capturar mídia automaticamente nem arquivá-la sem a "
+"interação do usuário. Como não há AR, também não há necessidade de "
+"configuração, significando carregamentos super rápidos! Como dissemos antes, "
+"você pode usar esta versão JUNTAMENTE com a versão com AR, dependendo do seu "
+"caso de uso!"
 
 #: mymwebsite/templates/faq.html:7
 msgid "Frequently Asked Questions"
@@ -1073,11 +1130,6 @@ msgstr ""
 #: mymwebsite/templates/innerbase.html:66
 msgid "Cases"
 msgstr "Casos"
-
-#: mymwebsite/templates/index.html:42 mymwebsite/templates/index.html:89
-#: mymwebsite/templates/innerbase.html:70
-msgid "Download"
-msgstr "Download"
 
 #: mymwebsite/templates/index.html:46 mymwebsite/templates/index.html:93
 msgid "LOGIN"
