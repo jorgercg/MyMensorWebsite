@@ -46,37 +46,41 @@
     </head>
 
     <body>
-
-    <nav class="navbar navbar-toggleable-sm navbar-light" style="background-color: #e3f2fd;" id="myNavbar">
+    <section id="fullwidenavigation" style="background-color: #e3f2fd;">
         <div class="container">
-            <button type="button"
-                    class="navbar-toggler navbar-toggler-right"
-                    data-toggle="collapse"
-                    data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="{% url 'index' %}">
-                <img src="{% static 'images/Logo_MyMensor_NEW3.svg' %}" width="46" height="46" alt="">
-            </a>
-            <div id="navbarNavDropdown" class="collapse navbar-collapse mr-auto">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="{% url 'docs' %}">{% trans "Docs" %}</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'videos' %}">{% trans "Videos" %}</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a></li>
-                    <li class="nav-item"><a class="nav-link"
-                                            href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">Login</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link"
-                                            href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
-                            style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
-                    </li>
-                </ul>
-            </div>
+            <nav class="navbar navbar-toggleable-sm navbar-light" style="background-color: #e3f2fd;" id="myNavbar">
+                <button type="button"
+                        class="navbar-toggler navbar-toggler-right"
+                        data-toggle="collapse"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="{% url 'index' %}">
+                    <img src="{% static 'images/Logo_MyMensor_NEW3.svg' %}" width="46" height="46" alt="">
+                </a>
+                <div id="navbarNavDropdown" class="collapse navbar-collapse ml-auto">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="{% url 'cases' %}">{% trans "Cases" %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'docs' %}">{% trans "Docs" %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'videos' %}">{% trans "Videos" %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'download' %}">{% trans "Download" %}</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link"
+                                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">Login</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link"
+                                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
+                                style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </section>
     <div class="container">
         {% block content %}{% endblock %}
     </div><!-- /.container -->

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-03 19:37+0100\n"
+"POT-Creation-Date: 2017-08-04 16:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,55 +17,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: mymwebsite/templates/base.html:57 mymwebsite/templates/innerbase.html:88
+#: mymwebsite/templates/base.html:57 mymwebsite/templates/innerbase.html:90
 msgid "About"
 msgstr ""
 
-#: mymwebsite/templates/base.html:59 mymwebsite/templates/innerbase.html:90
+#: mymwebsite/templates/base.html:59 mymwebsite/templates/innerbase.html:92
 msgid "The journey was long, but we are just starting! Contact us anytime at "
 msgstr ""
 
-#: mymwebsite/templates/base.html:66 mymwebsite/templates/innerbase.html:97
+#: mymwebsite/templates/base.html:66 mymwebsite/templates/innerbase.html:99
 msgid "Product"
 msgstr ""
 
 #: mymwebsite/templates/base.html:68 mymwebsite/templates/index.html:30
 #: mymwebsite/templates/index.html:71 mymwebsite/templates/innerbase.html:66
-#: mymwebsite/templates/innerbase.html:99
+#: mymwebsite/templates/innerbase.html:101
 msgid "Docs"
 msgstr ""
 
 #: mymwebsite/templates/base.html:70 mymwebsite/templates/index.html:33
 #: mymwebsite/templates/index.html:74 mymwebsite/templates/innerbase.html:67
-#: mymwebsite/templates/innerbase.html:101
+#: mymwebsite/templates/innerbase.html:103
 msgid "Videos"
 msgstr ""
 
 #: mymwebsite/templates/base.html:73 mymwebsite/templates/index.html:36
 #: mymwebsite/templates/index.html:77 mymwebsite/templates/innerbase.html:68
-#: mymwebsite/templates/innerbase.html:104
+#: mymwebsite/templates/innerbase.html:106
 msgid "FAQ"
 msgstr ""
 
-#: mymwebsite/templates/base.html:78 mymwebsite/templates/innerbase.html:109
+#: mymwebsite/templates/base.html:78 mymwebsite/templates/innerbase.html:111
 msgid "Legal"
 msgstr ""
 
-#: mymwebsite/templates/base.html:80 mymwebsite/templates/innerbase.html:111
+#: mymwebsite/templates/base.html:80 mymwebsite/templates/innerbase.html:113
 #: mymwebsite/templates/terms.html:6
 msgid "Terms of Service"
 msgstr ""
 
-#: mymwebsite/templates/base.html:83 mymwebsite/templates/innerbase.html:114
+#: mymwebsite/templates/base.html:83 mymwebsite/templates/innerbase.html:116
 #: mymwebsite/templates/terms.html:211
 msgid "Privacy"
 msgstr ""
 
-#: mymwebsite/templates/base.html:90 mymwebsite/templates/innerbase.html:121
+#: mymwebsite/templates/base.html:90 mymwebsite/templates/innerbase.html:123
 msgid "Language"
 msgstr ""
 
-#: mymwebsite/templates/base.html:104 mymwebsite/templates/innerbase.html:135
+#: mymwebsite/templates/base.html:104 mymwebsite/templates/innerbase.html:137
 msgid "Set"
 msgstr ""
 
@@ -827,7 +827,7 @@ msgid "LOGIN"
 msgstr ""
 
 #: mymwebsite/templates/index.html:44 mymwebsite/templates/index.html:86
-#: mymwebsite/templates/innerbase.html:72
+#: mymwebsite/templates/innerbase.html:74
 msgid "Register"
 msgstr ""
 
@@ -973,7 +973,7 @@ msgstr ""
 msgid " We automatically and immediately share your captures."
 msgstr ""
 
-#: mymwebsite/templates/index.html:237 mymwebsite/templates/index.html:312
+#: mymwebsite/templates/index.html:237 mymwebsite/templates/index.html:314
 msgid "Database"
 msgstr ""
 
@@ -1010,7 +1010,7 @@ msgid "Business Talk"
 msgstr ""
 
 #: mymwebsite/templates/index.html:270
-msgid "Simple plans. Direct to the point."
+msgid "Simple plans. Direct and clear."
 msgstr ""
 
 #: mymwebsite/templates/index.html:285
@@ -1026,82 +1026,86 @@ msgstr ""
 msgid " automatic sharing to Facebook, Twitter and Email."
 msgstr ""
 
-#: mymwebsite/templates/index.html:294
-msgid "Secure"
-msgstr ""
-
-#: mymwebsite/templates/index.html:294
-msgid " all HTTPS"
-msgstr ""
-
-#: mymwebsite/templates/index.html:297
-msgid "COMING SOON"
-msgstr ""
-
-#: mymwebsite/templates/index.html:303
-msgid "/month"
-msgstr ""
-
-#: mymwebsite/templates/index.html:304
-msgid ""
-"The one size fits all solution. Use Augmented Reality and Data Features to "
-"control your personal and business projects"
-msgstr ""
-
-#: mymwebsite/templates/index.html:308
-msgid "ALL MyMensor FEATURES PLUS"
-msgstr ""
-
-#: mymwebsite/templates/index.html:310
+#: mymwebsite/templates/index.html:295
 msgid "AR"
 msgstr ""
 
-#: mymwebsite/templates/index.html:310
+#: mymwebsite/templates/index.html:295
 msgid " automatic and precise captures"
 msgstr ""
 
-#: mymwebsite/templates/index.html:312
-msgid " build your own bigdata"
+#: mymwebsite/templates/index.html:296
+msgid "Secure"
 msgstr ""
 
-#: mymwebsite/templates/index.html:316
-msgid "Start MyMensorAR account"
+#: mymwebsite/templates/index.html:296
+msgid " all HTTPS"
 msgstr ""
 
-#: mymwebsite/templates/index.html:328
-msgid ""
-"A taylor made solution for your corporation. Drop us an email and we will "
-"build your custom setup together."
-msgstr ""
-
-#: mymwebsite/templates/index.html:331
-msgid "ALL MyMensorAR FEATURES PLUS"
-msgstr ""
-
-#: mymwebsite/templates/index.html:332
-msgid "API access"
-msgstr ""
-
-#: mymwebsite/templates/index.html:332
-msgid " upon request"
-msgstr ""
-
-#: mymwebsite/templates/index.html:334
+#: mymwebsite/templates/index.html:297 mymwebsite/templates/index.html:336
 msgid "Mobile App"
 msgstr ""
 
+#: mymwebsite/templates/index.html:297
+msgid " use both MyMensor and MyMensorAR apps, you choose!"
+msgstr ""
+
+#: mymwebsite/templates/index.html:300
+msgid "COMING SOON"
+msgstr ""
+
+#: mymwebsite/templates/index.html:306 mymwebsite/templates/index.html:307
+msgid "/month"
+msgstr ""
+
+#: mymwebsite/templates/index.html:308
+msgid ""
+"The one size fits all solution. Use Media and Data Features to control your "
+"personal and business projects"
+msgstr ""
+
+#: mymwebsite/templates/index.html:312
+msgid "ALL MyMensor Media FEATURES PLUS"
+msgstr ""
+
+#: mymwebsite/templates/index.html:314
+msgid " build your own bigdata"
+msgstr ""
+
+#: mymwebsite/templates/index.html:318
+msgid "Start Now"
+msgstr ""
+
+#: mymwebsite/templates/index.html:330
+msgid ""
+"A taylor made solution for you. Drop us an email and we will build your "
+"custom setup together."
+msgstr ""
+
+#: mymwebsite/templates/index.html:333
+msgid "ALL MyMensor Media and Data FEATURES PLUS"
+msgstr ""
+
 #: mymwebsite/templates/index.html:334
+msgid "API access"
+msgstr ""
+
+#: mymwebsite/templates/index.html:334
+msgid " upon request"
+msgstr ""
+
+#: mymwebsite/templates/index.html:336
 msgid " custom setups"
 msgstr ""
 
-#: mymwebsite/templates/index.html:338
+#: mymwebsite/templates/index.html:340
 msgid ""
 "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please "
 "contact me in order to start discussing a custom MyMensorCorp for my "
 "Organization. Thanks!"
 msgstr ""
 
-#: mymwebsite/templates/index.html:339
+#: mymwebsite/templates/index.html:341
 msgid "Make Your Request"
 msgstr ""
 

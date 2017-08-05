@@ -18,10 +18,13 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from mymwebsite import mymviews
 from django.conf.urls.i18n import i18n_patterns
+from django.views.generic import TemplateView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^i18n/', include('django.conf.urls.i18n')),
+    url(r'^robots.txt$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"), name="robots_file"),
+    url(r'^google2b3414d31be14bcd.html$', mymviews.gglowner, name='gglowner'),
 ]
 
 urlpatterns += i18n_patterns(
@@ -32,4 +35,6 @@ urlpatterns += i18n_patterns(
     url(r'^docs/', mymviews.docs, name='docs'),
     url(r'^videos/', mymviews.videos, name='videos'),
     url(r'^faq/', mymviews.faq, name='faq'),
+    url(r'^download/', mymviews.download, name='download'),
+    url(r'^cases/', mymviews.cases, name='cases'),
 )

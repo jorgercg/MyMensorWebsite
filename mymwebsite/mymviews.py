@@ -23,3 +23,15 @@ def videos(request):
 def faq(request):
     pass
     return render(request, 'faq.html')
+
+def download(request):
+    pass
+    return render(request, 'download.html')
+
+def cases(request):
+    pass
+    return render(request, 'cases.html')
+
+def gglowner(request):
+    pass
+    return render(request, 'google2b3414d31be14bcd.html')
