@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-05 14:04+0100\n"
-"PO-Revision-Date: 2017-08-05 14:11+0100\n"
+"POT-Creation-Date: 2017-08-09 20:09+0100\n"
+"PO-Revision-Date: 2017-08-09 20:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -1307,7 +1307,7 @@ msgstr "Compartilhamento"
 msgid " We automatically and immediately share your captures."
 msgstr " Compartilhamento automático e imediato de suas capturas."
 
-#: mymwebsite/templates/index.html:249 mymwebsite/templates/index.html:326
+#: mymwebsite/templates/index.html:249 mymwebsite/templates/index.html:327
 msgid "Database"
 msgstr "Banco de Dados"
 
@@ -1380,7 +1380,8 @@ msgstr "Seguro"
 msgid " all HTTPS"
 msgstr " tudo HTTPS"
 
-#: mymwebsite/templates/index.html:309 mymwebsite/templates/index.html:348
+#: mymwebsite/templates/index.html:309 mymwebsite/templates/index.html:310
+#: mymwebsite/templates/index.html:349
 msgid "Mobile App"
 msgstr "Mobile App"
 
@@ -1388,15 +1389,21 @@ msgstr "Mobile App"
 msgid " use both MyMensor and MyMensorAR apps, you choose!"
 msgstr " use ambas as apps MyMensor e MyMensorAR, você escolhe!"
 
-#: mymwebsite/templates/index.html:312
+#: mymwebsite/templates/index.html:310
+msgid " up to five installs (Two apps in the same device is one install!)"
+msgstr ""
+" até cinco instalações (Os dois tipos de app no mesmo dispositivo conta como "
+"um instalação!)"
+
+#: mymwebsite/templates/index.html:313
 msgid "COMING SOON"
 msgstr "EM BREVE"
 
-#: mymwebsite/templates/index.html:318 mymwebsite/templates/index.html:319
+#: mymwebsite/templates/index.html:319 mymwebsite/templates/index.html:320
 msgid "/month"
 msgstr "/mês"
 
-#: mymwebsite/templates/index.html:320
+#: mymwebsite/templates/index.html:321
 msgid ""
 "The one size fits all solution. Use Media and Data Features to control your "
 "personal and business projects"
@@ -1404,19 +1411,19 @@ msgstr ""
 "A solução tamanho único. Use os recursos de mídia e de dados para controlar "
 "seus projetos pessoais e empresariais"
 
-#: mymwebsite/templates/index.html:324
+#: mymwebsite/templates/index.html:325
 msgid "ALL MyMensor Media FEATURES PLUS"
 msgstr "TODAS AS CARACTERÍSTICAS DE MyMensor Media MAIS"
 
-#: mymwebsite/templates/index.html:326
+#: mymwebsite/templates/index.html:327
 msgid " build your own bigdata"
 msgstr " construa seu próprio bigdata"
 
-#: mymwebsite/templates/index.html:330
+#: mymwebsite/templates/index.html:331
 msgid "Start Now"
 msgstr "Assine Já!"
 
-#: mymwebsite/templates/index.html:342
+#: mymwebsite/templates/index.html:343
 msgid ""
 "A taylor made solution for you. Drop us an email and we will build your "
 "custom setup together."
@@ -1424,23 +1431,23 @@ msgstr ""
 "Uma solução sob medida para você. Mande um e-mail e juntos vamos construir "
 "sua configuração personalizada."
 
-#: mymwebsite/templates/index.html:345
+#: mymwebsite/templates/index.html:346
 msgid "ALL MyMensor Media and Data FEATURES PLUS"
 msgstr "TODAS AS CARACTERÍSTICAS DE MyMensor Media and Data MAIS"
 
-#: mymwebsite/templates/index.html:346
+#: mymwebsite/templates/index.html:347
 msgid "API access"
 msgstr "Acesso por API"
 
-#: mymwebsite/templates/index.html:346
+#: mymwebsite/templates/index.html:347
 msgid " upon request"
 msgstr " mediante solicitação"
 
-#: mymwebsite/templates/index.html:348
+#: mymwebsite/templates/index.html:349
 msgid " custom setups"
 msgstr " configurações personalizadas"
 
-#: mymwebsite/templates/index.html:352
+#: mymwebsite/templates/index.html:353
 msgid ""
 "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please "
 "contact me in order to start discussing a custom MyMensorCorp for my "
@@ -1450,7 +1457,7 @@ msgstr ""
 "MyMensorCorp&body=Por favor entre em contato comigo para começar a discutir "
 "um MyMensorCorp sob medida para minha Organização. Obrigado!"
 
-#: mymwebsite/templates/index.html:353
+#: mymwebsite/templates/index.html:354
 msgid "Make Your Request"
 msgstr "Faça Seu Pedido"
 
