@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 15:15+0100\n"
-"PO-Revision-Date: 2017-08-16 15:16+0100\n"
+"POT-Creation-Date: 2017-08-17 12:35+0100\n"
+"PO-Revision-Date: 2017-08-17 12:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -1210,10 +1210,10 @@ msgstr "Controlo simplificado"
 
 #: mymwebsite/templates/index.html:168
 msgid ""
-"Revolutionize your control practices. Work with portability of information "
-"and reality."
+"Simplify your control practices. Work with portability of information and "
+"reality."
 msgstr ""
-"Revoluciona as práticas de controlo. Trabalhe com portabilidade da "
+"Simplifique vossas práticas de controlo. Trabalhe com portabilidade da "
 "informação e da realidade."
 
 #: mymwebsite/templates/index.html:169
@@ -1285,10 +1285,10 @@ msgstr "Realidade aumentada"
 #: mymwebsite/templates/index.html:227
 msgid ""
 " Capture the image always in the same position. Images are filled "
-"automatically. (Available only with MyMensorAR and up)"
+"automatically. (Available only with MyMensorAR mobile client)"
 msgstr ""
 " Capture as imagens sempre na mesma posição. Imagens são arquivadas "
-"automaticamente. (Disponível somente com MyMensorAR e superior)"
+"automaticamente. (Disponível somente com cliente mobile MyMensorAR)"
 
 #: mymwebsite/templates/index.html:233 mymwebsite/templates/index.html:302
 msgid "Certification"
@@ -1312,9 +1312,10 @@ msgid "Database"
 msgstr "Banco de Dados"
 
 #: mymwebsite/templates/index.html:249
-msgid " All data safe. (Available only with MyMensorAR an up)"
+msgid " All data safe. (Available only with MyMensor MEDIA AND DATA an up)"
 msgstr ""
-" Todos os dados seguros. (Disponível somente com MyMensorAR e superior)"
+" Todos os dados seguros. (Disponível somente com MyMensor MEDIA AND DATA e "
+"superior)"
 
 #: mymwebsite/templates/index.html:255
 msgid "Mobile Application"

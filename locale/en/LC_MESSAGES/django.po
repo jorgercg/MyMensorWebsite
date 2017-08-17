@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 15:15+0100\n"
+"POT-Creation-Date: 2017-08-17 12:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -953,8 +953,8 @@ msgstr ""
 
 #: mymwebsite/templates/index.html:168
 msgid ""
-"Revolutionize your control practices. Work with portability of information "
-"and reality."
+"Simplify your control practices. Work with portability of information and "
+"reality."
 msgstr ""
 
 #: mymwebsite/templates/index.html:169
@@ -1015,7 +1015,7 @@ msgstr ""
 #: mymwebsite/templates/index.html:227
 msgid ""
 " Capture the image always in the same position. Images are filled "
-"automatically. (Available only with MyMensorAR and up)"
+"automatically. (Available only with MyMensorAR mobile client)"
 msgstr ""
 
 #: mymwebsite/templates/index.html:233 mymwebsite/templates/index.html:302
@@ -1039,7 +1039,7 @@ msgid "Database"
 msgstr ""
 
 #: mymwebsite/templates/index.html:249
-msgid " All data safe. (Available only with MyMensorAR an up)"
+msgid " All data safe. (Available only with MyMensor MEDIA AND DATA an up)"
 msgstr ""
 
 #: mymwebsite/templates/index.html:255
