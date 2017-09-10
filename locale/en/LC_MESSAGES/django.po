@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-17 12:35+0100\n"
+"POT-Creation-Date: 2017-09-10 11:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -902,7 +902,8 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/index.html:113 mymwebsite/templates/index.html:187
-msgid "Try Now"
+#: mymwebsite/templates/index.html:309 mymwebsite/templates/index.html:329
+msgid "Trial free now!"
 msgstr ""
 
 #: mymwebsite/templates/index.html:128
@@ -1018,7 +1019,7 @@ msgid ""
 "automatically. (Available only with MyMensorAR mobile client)"
 msgstr ""
 
-#: mymwebsite/templates/index.html:233 mymwebsite/templates/index.html:302
+#: mymwebsite/templates/index.html:233 mymwebsite/templates/index.html:297
 msgid "Certification"
 msgstr ""
 
@@ -1026,7 +1027,7 @@ msgstr ""
 msgid " We automatically certify time and location of the images."
 msgstr ""
 
-#: mymwebsite/templates/index.html:239 mymwebsite/templates/index.html:304
+#: mymwebsite/templates/index.html:239 mymwebsite/templates/index.html:299
 msgid "Sharing"
 msgstr ""
 
@@ -1034,7 +1035,7 @@ msgstr ""
 msgid " We automatically and immediately share your captures."
 msgstr ""
 
-#: mymwebsite/templates/index.html:249 mymwebsite/templates/index.html:327
+#: mymwebsite/templates/index.html:249 mymwebsite/templates/index.html:323
 msgid "Database"
 msgstr ""
 
@@ -1063,7 +1064,9 @@ msgid "30-day free trial"
 msgstr ""
 
 #: mymwebsite/templates/index.html:272
-msgid "Try Now! No Credit Card required during trial period!"
+msgid ""
+"Start your 30-day free-trial now! No Credit Card required during trial "
+"period!"
 msgstr ""
 
 #: mymwebsite/templates/index.html:281
@@ -1074,104 +1077,106 @@ msgstr ""
 msgid "Simple plans. Direct and clear."
 msgstr ""
 
-#: mymwebsite/templates/index.html:297
+#: mymwebsite/templates/index.html:290 mymwebsite/templates/index.html:291
+#: mymwebsite/templates/index.html:315 mymwebsite/templates/index.html:316
+msgid "/month"
+msgstr ""
+
+#: mymwebsite/templates/index.html:292
 msgid ""
 "Even simpler. For those that just need the certification and sharing power."
 msgstr ""
 
-#: mymwebsite/templates/index.html:302
+#: mymwebsite/templates/index.html:297
 msgid " time and location"
 msgstr ""
 
-#: mymwebsite/templates/index.html:304
-msgid " automatic sharing to Facebook, Twitter and Email."
+#: mymwebsite/templates/index.html:299
+msgid " automatic sharing to Twitter and Email."
 msgstr ""
 
-#: mymwebsite/templates/index.html:307
+#: mymwebsite/templates/index.html:302
 msgid "AR"
 msgstr ""
 
-#: mymwebsite/templates/index.html:307
+#: mymwebsite/templates/index.html:302
 msgid " automatic and precise captures"
 msgstr ""
 
-#: mymwebsite/templates/index.html:308
+#: mymwebsite/templates/index.html:303
 msgid "Secure"
 msgstr ""
 
-#: mymwebsite/templates/index.html:308
+#: mymwebsite/templates/index.html:303
 msgid " all HTTPS"
 msgstr ""
 
-#: mymwebsite/templates/index.html:309 mymwebsite/templates/index.html:310
-#: mymwebsite/templates/index.html:349
+#: mymwebsite/templates/index.html:304 mymwebsite/templates/index.html:305
+#: mymwebsite/templates/index.html:347
 msgid "Mobile App"
 msgstr ""
 
-#: mymwebsite/templates/index.html:309
+#: mymwebsite/templates/index.html:304
 msgid " use both MyMensor and MyMensorAR apps, you choose!"
 msgstr ""
 
-#: mymwebsite/templates/index.html:310
-msgid " up to five installs (Two apps in the same device is one install!)"
+#: mymwebsite/templates/index.html:305
+msgid ""
+" up to five installs per user (Two apps in the same device is one install!)"
 msgstr ""
 
-#: mymwebsite/templates/index.html:313
-msgid "COMING SOON"
-msgstr ""
-
-#: mymwebsite/templates/index.html:319 mymwebsite/templates/index.html:320
-msgid "/month"
-msgstr ""
-
-#: mymwebsite/templates/index.html:321
+#: mymwebsite/templates/index.html:317
 msgid ""
 "The one size fits all solution. Use Media and Data Features to control your "
 "personal and business projects"
 msgstr ""
 
-#: mymwebsite/templates/index.html:325
+#: mymwebsite/templates/index.html:321
 msgid "ALL MyMensor Media FEATURES PLUS"
 msgstr ""
 
-#: mymwebsite/templates/index.html:327
+#: mymwebsite/templates/index.html:323
 msgid " build your own bigdata"
 msgstr ""
 
-#: mymwebsite/templates/index.html:331
-msgid "Start Now"
+#: mymwebsite/templates/index.html:325
+msgid "Data Features"
 msgstr ""
 
-#: mymwebsite/templates/index.html:343
+#: mymwebsite/templates/index.html:325
+msgid " Process, edit, know the status and analyse your data"
+msgstr ""
+
+#: mymwebsite/templates/index.html:341
 msgid ""
 "A taylor made solution for you. Drop us an email and we will build your "
 "custom setup together."
 msgstr ""
 
-#: mymwebsite/templates/index.html:346
+#: mymwebsite/templates/index.html:344
 msgid "ALL MyMensor Media and Data FEATURES PLUS"
 msgstr ""
 
-#: mymwebsite/templates/index.html:347
+#: mymwebsite/templates/index.html:345
 msgid "API access"
 msgstr ""
 
-#: mymwebsite/templates/index.html:347
+#: mymwebsite/templates/index.html:345
 msgid " upon request"
 msgstr ""
 
-#: mymwebsite/templates/index.html:349
+#: mymwebsite/templates/index.html:347
 msgid " custom setups"
 msgstr ""
 
-#: mymwebsite/templates/index.html:353
+#: mymwebsite/templates/index.html:351
 msgid ""
 "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please "
 "contact me in order to start discussing a custom MyMensorCorp for my "
 "Organization. Thanks!"
 msgstr ""
 
-#: mymwebsite/templates/index.html:354
+#: mymwebsite/templates/index.html:352
 msgid "Make Your Request"
 msgstr ""
 
