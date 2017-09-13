@@ -11,10 +11,10 @@ CSRF_COOKIE_SECURE = True
 
 
 # UPDATE BEFORE LAUNCH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#ALLOWED_HOSTS = ['www.mymensor.com','mymensor.com']
+ALLOWED_HOSTS = ['www.mymensor.com','mymensor.com']
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['*']
 #DEBUG = True
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
