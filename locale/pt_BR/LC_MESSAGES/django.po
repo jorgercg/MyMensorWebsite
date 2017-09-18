@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-10 11:37+0100\n"
+"POT-Creation-Date: 2017-09-18 20:38+0100\n"
 "PO-Revision-Date: 2017-09-10 11:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,63 +18,174 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.0.3\n"
 
-#: mymwebsite/templates/base.html:57 mymwebsite/templates/innerbase.html:94
+#: mymwebsite/templates/base.html:58 mymwebsite/templates/innerbase.html:94
 msgid "About"
 msgstr "Sobre"
 
-#: mymwebsite/templates/base.html:59 mymwebsite/templates/innerbase.html:96
+#: mymwebsite/templates/base.html:60 mymwebsite/templates/innerbase.html:96
 msgid "The journey was long, but we are just starting! Contact us anytime at "
 msgstr ""
 "A jornada foi longa, mas estamos apenas começando! Entre em contato a "
 "qualquer momento em "
 
-#: mymwebsite/templates/base.html:66 mymwebsite/templates/innerbase.html:103
+#: mymwebsite/templates/base.html:67 mymwebsite/templates/innerbase.html:103
 msgid "Product"
 msgstr "Produto"
 
-#: mymwebsite/templates/base.html:68 mymwebsite/templates/index.html:33
+#: mymwebsite/templates/base.html:69 mymwebsite/templates/index.html:33
 #: mymwebsite/templates/index.html:80 mymwebsite/templates/innerbase.html:67
 #: mymwebsite/templates/innerbase.html:105
 msgid "Docs"
 msgstr "Docs"
 
-#: mymwebsite/templates/base.html:70 mymwebsite/templates/index.html:36
+#: mymwebsite/templates/base.html:71 mymwebsite/templates/index.html:36
 #: mymwebsite/templates/index.html:83 mymwebsite/templates/innerbase.html:68
 #: mymwebsite/templates/innerbase.html:107
 msgid "Videos"
 msgstr "Vídeos"
 
-#: mymwebsite/templates/base.html:73 mymwebsite/templates/index.html:39
+#: mymwebsite/templates/base.html:74 mymwebsite/templates/index.html:39
 #: mymwebsite/templates/index.html:86 mymwebsite/templates/innerbase.html:69
 #: mymwebsite/templates/innerbase.html:110
 msgid "FAQ"
 msgstr "FAQ"
 
-#: mymwebsite/templates/base.html:78 mymwebsite/templates/innerbase.html:115
+#: mymwebsite/templates/base.html:79 mymwebsite/templates/innerbase.html:115
 msgid "Legal"
 msgstr "Legal"
 
-#: mymwebsite/templates/base.html:80 mymwebsite/templates/innerbase.html:117
+#: mymwebsite/templates/base.html:81 mymwebsite/templates/innerbase.html:117
 #: mymwebsite/templates/terms.html:6
 msgid "Terms of Service"
 msgstr "Termos de Serviço"
 
-#: mymwebsite/templates/base.html:83 mymwebsite/templates/innerbase.html:120
+#: mymwebsite/templates/base.html:84 mymwebsite/templates/innerbase.html:120
 #: mymwebsite/templates/terms.html:211
 msgid "Privacy"
 msgstr "Privacidade"
 
-#: mymwebsite/templates/base.html:90 mymwebsite/templates/innerbase.html:127
+#: mymwebsite/templates/base.html:91 mymwebsite/templates/innerbase.html:127
 msgid "Language"
 msgstr "Idioma"
 
-#: mymwebsite/templates/base.html:104 mymwebsite/templates/innerbase.html:141
+#: mymwebsite/templates/base.html:105 mymwebsite/templates/innerbase.html:141
 msgid "Set"
 msgstr "Definir"
 
 #: mymwebsite/templates/cases.html:10
-msgid "Coming soon..."
-msgstr "Breve…"
+msgid "Generic Use for the MyMensor Media Plan"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:11
+msgid ""
+"Since we have created the first version of SeaMensor (that was the “father” "
+"of MyMensor), our friends ask us: - What can I do with this piece of "
+"software that I cannot do with my phone camera already?"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:12
+msgid ""
+"At that time, it seemed to be a good question, but as time passes it becomes "
+"abundantly clear that forgery in the online world has become epidemic. So, "
+"seeing a photo or video that was sent to you in the usual channels is not "
+"enough anymore, you need proof!"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:13
+msgid ""
+"One simple but defining feature of MyMensor is that you cannot insert any "
+"media into our system that was not produced by one of our mobile apps. So, "
+"what you see in a video or photo coming from MyMensor was actually made by a "
+"smartphone camera, with no tampering, modification, enhancing, you name it."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:14
+msgid ""
+"On top of that, MyMensor will tell you if time and location were certified "
+"and then you can trust that the media is really what it seems to be."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:15
+msgid ""
+"This what I call a generic, simple use to MyMensor Media: media "
+"certification."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:16
+msgid ""
+"But there is a lot more to MyMensor Media: automatic filing, automatic "
+"sharing etc. So, look no further, "
+msgstr ""
+
+#: mymwebsite/templates/cases.html:17
+#, fuzzy
+#| msgid "30-day free trial"
+msgid "start your 30-day free-trial now. "
+msgstr "avaliação gratuita por até 30 dias"
+
+#: mymwebsite/templates/cases.html:17
+msgid ""
+"No Credit Card is required during trial period and, even when you have "
+"subscribed, you can easily cancel at any time, just clicking a button!"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:19
+msgid ""
+"Following Jobs Remotely with the MyMensor Media Plan and Media and Data Plan"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:20
+msgid ""
+"I have a friend that is a very successful accountant in a European country. "
+"Once he told me a tale of a client who invested in the construction of an "
+"apartment building in Africa."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:21
+msgid "Everything went well, so he decided to go for the second one."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:22
+msgid ""
+"In the first one he had relied on photos sent to him via email to check the "
+"progress of the project, only going on site for the commencement and "
+"delivery of the building. So, he followed the same path in the second one."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:23
+msgid ""
+"The trouble is that the second building was delayed, he continued receiving "
+"the photos by email, eventually he decided to take a flight and make a "
+"surprise visit to the construction site. Of course that you already know "
+"what happened."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:24
+msgid ""
+"There was no second building! His money was gone and down there he "
+"discovered that he was targeted with a scam known to the locals. He needed a "
+"tool to protect him from that."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:25
+msgid ""
+"Using just the MyMensor Media Plan one could follow the project headway "
+"remotely using the certified media. Going even deeper you could establish "
+"measuring criteria and using MyMensor Media and Data Plan follow up the "
+"different aspects of the construction using the tables and graphical "
+"MyMensor tools."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:26
+msgid ""
+"Do you have a remote project and it is going astray? We can help mend that! "
+msgstr ""
+
+#: mymwebsite/templates/cases.html:27
+#, fuzzy
+#| msgid "30-day free trial"
+msgid "Start your 30-day free-trial now. "
+msgstr "avaliação gratuita por até 30 dias"
 
 #: mymwebsite/templates/docs.html:6
 msgid "Deeper Info about MyMensor"
@@ -2595,6 +2706,9 @@ msgstr "Confugurando VPS e TAGS"
 #: mymwebsite/templates/videos.html:138
 msgid "Media and Data"
 msgstr "Mídia e Dados"
+
+#~ msgid "Coming soon..."
+#~ msgstr "Breve…"
 
 #~ msgid "COMING SOON"
 #~ msgstr "EM BREVE"
