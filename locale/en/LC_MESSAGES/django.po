@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-18 20:38+0100\n"
+"POT-Creation-Date: 2017-09-18 20:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgid "Set"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:10
-msgid "Generic Use for the MyMensor Media Plan"
+msgid "General Purpose Use for the MyMensor Media Plan"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:11
@@ -82,7 +82,7 @@ msgstr ""
 
 #: mymwebsite/templates/cases.html:12
 msgid ""
-"At that time, it seemed to be a good question, but as time passes it becomes "
+"At that time, it seemed to be a good question, but as time passes it became "
 "abundantly clear that forgery in the online world has become epidemic. So, "
 "seeing a photo or video that was sent to you in the usual channels is not "
 "enough anymore, you need proof!"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: mymwebsite/templates/cases.html:15
 msgid ""
-"This what I call a generic, simple use to MyMensor Media: media "
+"This what I call a general, simple use to MyMensor Media: media "
 "certification."
 msgstr ""
 
