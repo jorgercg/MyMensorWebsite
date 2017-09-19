@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-18 20:57+0100\n"
-"PO-Revision-Date: 2017-09-10 11:38+0100\n"
+"PO-Revision-Date: 2017-09-19 15:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -75,6 +75,7 @@ msgstr "Definir"
 #: mymwebsite/templates/cases.html:10
 msgid "General Purpose Use for the MyMensor Media Plan"
 msgstr ""
+"Uso de propósito geral para o plano MyMensor mídia (MyMensor Media Plan)"
 
 #: mymwebsite/templates/cases.html:11
 msgid ""
@@ -82,6 +83,9 @@ msgid ""
 "of MyMensor), our friends ask us: - What can I do with this piece of "
 "software that I cannot do with my phone camera already?"
 msgstr ""
+"Desde que criamos a primeira versão do SeaMensor (que foi o “pai” do "
+"MyMensor), nossos amigos nos perguntam: - O que posso fazer com este "
+"software que eu já não podia fazer com a câmera do meu telefone?"
 
 #: mymwebsite/templates/cases.html:12
 msgid ""
@@ -90,6 +94,10 @@ msgid ""
 "seeing a photo or video that was sent to you in the usual channels is not "
 "enough anymore, you need proof!"
 msgstr ""
+"Naquela época, esta parecia ser uma boa pergunta, mas com o passar do tempo, "
+"tornou-se bastante claro que a falsificação no mundo on-line se tornou uma "
+"epidemia. Então, ver uma foto ou um vídeo que foi enviado para você nos "
+"canais usuais já não é suficiente, você precisa de uma prova!"
 
 #: mymwebsite/templates/cases.html:13
 msgid ""
@@ -98,41 +106,56 @@ msgid ""
 "what you see in a video or photo coming from MyMensor was actually made by a "
 "smartphone camera, with no tampering, modification, enhancing, you name it."
 msgstr ""
+"Um recurso simples, mas decisivo do MyMensor é que você não pode inserir "
+"qualquer mídia em nosso sistema, que não tenha sido produzida por um dos "
+"nossos aplicativos móveis. Então, o que você vê em um vídeo ou foto vindo do "
+"MyMensor foi realmente produzido por uma câmera de smartphone, com nenhuma "
+"alteração, modificação ou melhoria, você decide."
 
 #: mymwebsite/templates/cases.html:14
 msgid ""
 "On top of that, MyMensor will tell you if time and location were certified "
 "and then you can trust that the media is really what it seems to be."
 msgstr ""
+"Além disso, o MyMensor irá dizer-lhe se o tempo e a localização foram "
+"certificados e, então, você pode confiar que a mídia é realmente o que "
+"parece ser."
 
 #: mymwebsite/templates/cases.html:15
 msgid ""
 "This what I call a general, simple use to MyMensor Media: media "
 "certification."
 msgstr ""
+"Isso é o que eu chamo de um uso geral e simples para o MyMensor Media: "
+"certificação de mídia."
 
 #: mymwebsite/templates/cases.html:16
 msgid ""
 "But there is a lot more to MyMensor Media: automatic filing, automatic "
 "sharing etc. So, look no further, "
 msgstr ""
+"Mas há muito mais no MyMensor Media: arquivamento automático, "
+"compartilhamento automático etc. Portanto, não procure mais, "
 
 #: mymwebsite/templates/cases.html:17
-#, fuzzy
-#| msgid "30-day free trial"
 msgid "start your 30-day free-trial now. "
-msgstr "avaliação gratuita por até 30 dias"
+msgstr "comece sua avaliação gratuita de 30 dias agora. "
 
 #: mymwebsite/templates/cases.html:17
 msgid ""
 "No Credit Card is required during trial period and, even when you have "
 "subscribed, you can easily cancel at any time, just clicking a button!"
 msgstr ""
+"Não é necessário cartão de crédito durante o período de avaliação e, mesmo "
+"depois que você assinou, poderá cancelar facilmente a qualquer momento, "
+"apenas clicando em um botão!"
 
 #: mymwebsite/templates/cases.html:19
 msgid ""
 "Following Jobs Remotely with the MyMensor Media Plan and Media and Data Plan"
 msgstr ""
+"Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
+"Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
 
 #: mymwebsite/templates/cases.html:20
 msgid ""
@@ -140,10 +163,13 @@ msgid ""
 "Once he told me a tale of a client who invested in the construction of an "
 "apartment building in Africa."
 msgstr ""
+"Eu tenho um amigo que é um contador muito bem sucedido em um país europeu. "
+"Uma vez contou-me a história de um cliente que investiu na construção de um "
+"prédio de apartamentos em África."
 
 #: mymwebsite/templates/cases.html:21
 msgid "Everything went well, so he decided to go for the second one."
-msgstr ""
+msgstr "Correu tudo bem, então ele decidiu ir para o segundo."
 
 #: mymwebsite/templates/cases.html:22
 msgid ""
@@ -151,6 +177,9 @@ msgid ""
 "progress of the project, only going on site for the commencement and "
 "delivery of the building. So, he followed the same path in the second one."
 msgstr ""
+"No primeiro ele tinha baseado a sua verificação do andamento do projeto em "
+"fotos enviadas a ele via e-mail, somente indo no local para o início e a "
+"entrega do edifício. Então, ele seguiu o mesmo caminho na segunda construção."
 
 #: mymwebsite/templates/cases.html:23
 msgid ""
@@ -159,6 +188,9 @@ msgid ""
 "surprise visit to the construction site. Of course that you already know "
 "what happened."
 msgstr ""
+"O problema é que o segundo edifício atrasou, ele continuou a receber as "
+"fotos por e-mail, um belo dia ele decidiu pegar um voo e fazer uma visita "
+"surpresa ao local da construção. É claro que você já sabe o que aconteceu."
 
 #: mymwebsite/templates/cases.html:24
 msgid ""
@@ -166,6 +198,9 @@ msgid ""
 "discovered that he was targeted with a scam known to the locals. He needed a "
 "tool to protect him from that."
 msgstr ""
+"Não havia nenhum segundo edifício! Seu dinheiro se foi, e lá ele descobriu "
+"que ele havia sido alvo de um golpe conhecido para os locais. Ele precisava "
+"de uma ferramenta para protegê-lo daquilo."
 
 #: mymwebsite/templates/cases.html:25
 msgid ""
@@ -175,17 +210,22 @@ msgid ""
 "different aspects of the construction using the tables and graphical "
 "MyMensor tools."
 msgstr ""
+"Usando apenas o MyMensor Media alguém pode seguir o progresso do projeto "
+"remotamente usando a mídia certificada. Indo ainda mais fundo você poderia "
+"estabelecer critérios de medição e usando o plano MyMensor mídia e dados "
+"seguir os diferentes aspectos da construção usando as tabelas e ferramentas "
+"gráficas do MyMensor."
 
 #: mymwebsite/templates/cases.html:26
 msgid ""
 "Do you have a remote project and it is going astray? We can help mend that! "
 msgstr ""
+"Você tem um projeto remoto e ele está indo mal? Nós podemos ajudar a "
+"consertar isso! "
 
 #: mymwebsite/templates/cases.html:27
-#, fuzzy
-#| msgid "30-day free trial"
 msgid "Start your 30-day free-trial now. "
-msgstr "avaliação gratuita por até 30 dias"
+msgstr "Comece sua avaliação gratuita de 30 dias agora. "
 
 #: mymwebsite/templates/docs.html:6
 msgid "Deeper Info about MyMensor"
