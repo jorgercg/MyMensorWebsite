@@ -20,6 +20,10 @@ def videos(request):
     pass
     return render(request, 'videos.html')
 
+def howto(request):
+    pass
+    return render(request, 'howto.html')
+
 def faq(request):
     pass
     return render(request, 'faq.html')

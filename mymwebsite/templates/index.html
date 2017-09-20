@@ -26,17 +26,18 @@
         </style>
         <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
             <ul class="nav nav-bordered nav-stacked flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" href="{% url 'cases' %}">{% trans "Cases" %}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'docs' %}">{% trans "Docs" %}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'videos' %}">{% trans "Videos" %}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            {% trans "Learn" %}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{% url 'cases' %}">{% trans "Cases" %}</a>
+                            <a class="dropdown-item" href="{% url 'docs' %}">{% trans "Docs" %}</a>
+                            <a class="dropdown-item" href="{% url 'videos' %}">{% trans "Videos" %}</a>
+                            <a class="dropdown-item" href="{% url 'howto' %}">{% trans "How to" %}</a>
+                            <a class="dropdown-item" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
+                        </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'download' %}">{% trans "Download" %}</a>
