@@ -27,17 +27,17 @@
         <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
             <ul class="nav nav-bordered nav-stacked flex-column">
                 <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">
-                            {% trans "Learn" %}
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{% url 'cases' %}">{% trans "Cases" %}</a>
-                            <a class="dropdown-item" href="{% url 'docs' %}">{% trans "Docs" %}</a>
-                            <a class="dropdown-item" href="{% url 'videos' %}">{% trans "Videos" %}</a>
-                            <a class="dropdown-item" href="{% url 'howto' %}">{% trans "How to" %}</a>
-                            <a class="dropdown-item" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
-                        </div>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        {% trans "Learn" %}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="{% url 'cases' %}">{% trans "Cases" %}</a>
+                        <a class="dropdown-item" href="{% url 'docs' %}">{% trans "Docs" %}</a>
+                        <a class="dropdown-item" href="{% url 'videos' %}">{% trans "Videos" %}</a>
+                        <a class="dropdown-item" href="{% url 'howto' %}">{% trans "How to" %}</a>
+                        <a class="dropdown-item" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'download' %}">{% trans "Download" %}</a>
@@ -74,17 +74,20 @@
 
                         <div class="hidden-sm-down text-uppercase">
                             <ul class="navbar-nav">
-                                <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="{% url 'cases' %}">{% trans "Cases" %}</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                       data-toggle="dropdown"
+                                       aria-haspopup="true" aria-expanded="false">
+                                        {% trans "Learn" %}
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="{% url 'cases' %}">{% trans "Cases" %}</a>
+                                        <a class="dropdown-item" href="{% url 'docs' %}">{% trans "Docs" %}</a>
+                                        <a class="dropdown-item" href="{% url 'videos' %}">{% trans "Videos" %}</a>
+                                        <a class="dropdown-item" href="{% url 'howto' %}">{% trans "How to" %}</a>
+                                        <a class="dropdown-item" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="{% url 'docs' %}">{% trans "Docs" %}</a>
-                                </li>
-                                <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="{% url 'videos' %}">{% trans "Videos" %}</a>
-                                </li>
-                                <li class="nav-item px-1 ">
-                                    <a class="nav-link" href="{% url 'faq' %}">{% trans "FAQ" %}</a>
                                 </li>
                                 <li class="nav-item px-1 ">
                                     <a class="nav-link" href="{% url 'download' %}">{% trans "Download" %}</a>
@@ -288,8 +291,14 @@
                         <div class="col-md-4 px-4 pb-2 mb-5">
                             <div class="px-2 mb-2">
                                 <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>Media</strong></h5>
-                                <h3 id="priceeurmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>5,48<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                                <h3 hidden id="priceusdmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>5.93<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h3 id="priceeurmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span
+                                        id="currency"
+                                        style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>5,48<span
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h3 hidden id="priceusdmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span
+                                        id="currency"
+                                        style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>5.93<span
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
                                 <p class="pb-2">{% trans "Even simpler. For those that just need the certification and sharing power." %}</p>
                             </div>
 
@@ -302,8 +311,12 @@
                                 <li class="py-4">
                                     <strong>{% trans "AR" %}</strong>{% trans " automatic and precise captures" %}</li>
                                 <li class="py-4"><strong>{% trans "Secure" %}</strong>{% trans " all HTTPS" %}</li>
-                                <li class="py-4"><strong>{% trans "Mobile App" %}</strong>{% trans " use both MyMensor and MyMensorAR apps, you choose!" %}</li>
-                                <li class="py-4"><strong>{% trans "Mobile App" %}</strong>{% trans " up to five installs per user (Two apps in the same device is one install!)" %}</li>
+                                <li class="py-4">
+                                    <strong>{% trans "Mobile App" %}</strong>{% trans " use both MyMensor and MyMensorAR apps, you choose!" %}
+                                </li>
+                                <li class="py-4">
+                                    <strong>{% trans "Mobile App" %}</strong>{% trans " up to five installs per user (Two apps in the same device is one install!)" %}
+                                </li>
                             </ul>
                             <a class="btn btn-primary btn-lg btn-block"
                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
@@ -312,9 +325,16 @@
 
                         <div class="col-md-4 px-4 pb-2 mb-5">
                             <div class="px-2">
-                                <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>Media and Data</strong></h5>
-                                <h3 id="priceeurmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>10,97<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                                <h3 hidden id="priceusdmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;"><span id="currency" style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>11.96<span style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>Media and Data</strong>
+                                </h5>
+                                <h3 id="priceeurmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;"><span
+                                        id="currency"
+                                        style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>10,97<span
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h3 hidden id="priceusdmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;">
+                                    <span id="currency"
+                                          style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>11.96<span
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
                                 <p class="pb-2">{% trans "The one size fits all solution. Use Media and Data Features to control your personal and business projects" %}</p>
                             </div>
 
@@ -323,7 +343,8 @@
                                 <li class="py-4">
                                     <strong>{% trans "Database" %}</strong>{% trans " build your own bigdata" %}</li>
                                 <li class="py-4">
-                                    <strong>{% trans "Data Features" %}</strong>{% trans " Process, edit, know the status and analyse your data" %}</li>
+                                    <strong>{% trans "Data Features" %}</strong>{% trans " Process, edit, know the status and analyse your data" %}
+                                </li>
                             </ul>
                             <a class="btn btn-primary btn-lg btn-block"
                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
@@ -342,7 +363,8 @@
                                 <p class="pb-2">{% trans "A taylor made solution for you. Drop us an email and we will build your custom setup together." %}</p>
                             </div>
                             <ul class="list-unstyled list-bordered text-xs-left my-4">
-                                <li class="py-4"><strong>{% trans "ALL MyMensor Media and Data FEATURES PLUS" %}</strong></li>
+                                <li class="py-4">
+                                    <strong>{% trans "ALL MyMensor Media and Data FEATURES PLUS" %}</strong></li>
                                 <li class="py-4"><strong>{% trans "API access" %}</strong>{% trans " upon request" %}
                                 </li>
                                 <li class="py-4"><strong>{% trans "Mobile App" %}</strong>{% trans " custom setups" %}
@@ -389,21 +411,24 @@
             var pric_elem3 = document.getElementById("priceeurmediaanddata");
             var pric_elem4 = document.getElementById("priceusdmediaanddata");
             setInterval(change, 3000);
+
             function change() {
                 if (counter == 0) {
-                    pric_elem1.hidden=true;
-                    pric_elem2.hidden=false;
-                    pric_elem3.hidden=true;
-                    pric_elem4.hidden=false;
+                    pric_elem1.hidden = true;
+                    pric_elem2.hidden = false;
+                    pric_elem3.hidden = true;
+                    pric_elem4.hidden = false;
                 }
                 if (counter == 1) {
-                    pric_elem1.hidden=false;
-                    pric_elem2.hidden=true;
-                    pric_elem3.hidden=false;
-                    pric_elem4.hidden=true;
+                    pric_elem1.hidden = false;
+                    pric_elem2.hidden = true;
+                    pric_elem3.hidden = false;
+                    pric_elem4.hidden = true;
                 }
                 counter++;
-                if(counter >= 2) { counter = 0; }
+                if (counter >= 2) {
+                    counter = 0;
+                }
             }
         </script>
     {% endblock %}
