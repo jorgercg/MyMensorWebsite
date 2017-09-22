@@ -14,8 +14,9 @@
                 MyMensor
             {% endblock %}
         </title>
-        <meta name="MyMensor WebApp" content="">
-        <meta name="SeaMate" content="">
+        <meta name="description" content="MyMensor Website">
+        <meta name="keywords" content="MyMensor">
+        <meta name="author" content="Celtapps">
 
         <!-- Mobile Specific Metas
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -42,6 +43,11 @@
         <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
         <meta name="msapplication-config" content="images/browserconfig.xml">
         <meta name="theme-color" content="#00afef">
+        <!-- Languages
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link rel="alternate" href="https://mymensor.com" hreflang="en"/>
+        <link rel="alternate" href="https://mymensor.com/pt-br" hreflang="pt-BR"/>
+        <link rel="alternate" href="https://mymensor.com/pt" hreflang="pt"/>
         {% block header %}{% endblock %}
     </head>
 
