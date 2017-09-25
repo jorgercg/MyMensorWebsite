@@ -5,6 +5,41 @@
     {% get_current_language as LANGUAGE_CODE %}
     {% block title %}{{ block.super }}{% endblock %}
     {% block content %}
+
+        <!-- Google Code for Add to Cart Conversion Page
+	    In your html page, add the snippet and call goog_report_conversion
+	    when someone clicks on the chosen link or button. -->
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            goog_snippet_vars = function () {
+                var w = window;
+                w.google_conversion_id = 840928180;
+                w.google_conversion_label = "ByZoCIPXu3UQtJf";
+                w.google_conversion_value = 1.00;
+                w.google_conversion_currency = "EUR";
+                w.google_remarketing_only = false;
+            }
+            // DO NOT CHANGE THE CODE BELOW.
+            goog_report_conversion = function (url) {
+                goog_snippet_vars();
+                window.google_conversion_format = "3";
+                var opt = new Object();
+                opt.onload_callback = function () {
+                    if (typeof(url) != 'undefined') {
+                        window.location = url;
+                    }
+                }
+                var conv_handler = window['google_trackConversion'];
+                if (typeof(conv_handler) == 'function') {
+                    conv_handler(opt);
+                }
+            }
+            /* ]]> */
+        </script>
+        <script type="text/javascript"
+                src="//www.googleadservices.com/pagead/conversion_async.js">
+        </script>
+
         <style>
             /* note: this is a hack for ios iframe for bootstrap themes shopify page */
             /* this chunk of css is not part of the toolkit :) */
@@ -47,7 +82,7 @@
                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
+                    <a class="nav-link" onclick="goog_report_conversion ('https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/')" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                 </li>
             </ul>
@@ -97,7 +132,7 @@
                                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a class="nav-link"
+                                    <a class="nav-link" onclick="goog_report_conversion ('https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/')"
                                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
                                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                                 </li>
