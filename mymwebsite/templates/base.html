@@ -163,7 +163,28 @@
     <script src="{% static "js/ie10-viewport-bug-workaround.js" %}"></script>
     <!-- Page Local Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    {% block javascript %}{% endblock %}
+    {% block javascript %}
+        <script>
+            var btns = document.getElementsByClassName('registerbtn');
+            var btnslength = btns.length;
+            for (var i = 0; i < btnslength; i++) {
+                btns[i].addEventListener("click", clickCallback, false);
+            }
+
+            function clickCallback() {
+                if (this.id == "registerbtn") {
+                    console.log("Clicked at: " + this.id);  // sanity check
+                    gtag('event', 'registerbtnpressed', {
+                        'transport_type': 'beacon',
+                        'event_category': 'engagement',
+                        'event_action': 'actionregisterbtnpressed',
+                        'event_label': 'labelregisterbtnpressed',
+                        'value': 8
+                    });
+                }
+            }
+        </script>
+    {% endblock %}
     {% block extra_head %}{% endblock %}
     </body>
     </html>
