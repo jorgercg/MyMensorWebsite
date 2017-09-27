@@ -409,8 +409,8 @@
 
                 var btn = document.getElementsByClassName('registerbtn');
 
-                document.addEventListener("click", function () {
-                    console.log("Button pressed");  // sanity check
+                document.addEventListener("click", function (event) {
+                    console.log("Clicked at: "+event.target);  // sanity check
                 });
 
             });
@@ -418,7 +418,7 @@
 
             $('aaaregisterbtn').click(function (event) {
                 event.preventDefault();
-                console.log("Button pressed");  // sanity check
+                console.log();  // sanity check
                 gtag('event', 'registerbtnpressed', {
                     'transport_type': 'beacon',
                     'event_category': 'engagement',
