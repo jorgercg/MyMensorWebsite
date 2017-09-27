@@ -436,7 +436,7 @@
 
             $('registerbtn').click(function (event) {
                 event.preventDefault();
-                console.log("Button pressed:" + $(this).attr('id'));  // sanity check
+                console.log("Button pressed:" + $(this).attr('type'));  // sanity check
                 gtag('event', 'registerbtnpressed', {
                     'transport_type': 'beacon',
                     'event_category': 'engagement',
