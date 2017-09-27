@@ -48,7 +48,7 @@
                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a type="registerbtn" class="nav-link"
+                    <a class="nav-link registerbtn"
                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"><strong
                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                 </li>
@@ -99,7 +99,7 @@
                                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/login/">{% trans "LOGIN" %}</a>
                                 </li>
                                 <li class="nav-item px-1 ">
-                                    <a type="registerbtn" class="nav-link"
+                                    <a class="nav-link registerbtn"
                                        href="#"><strong
                                             style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">{% trans "Register" %}</strong></a>
                                 </li>
@@ -114,7 +114,7 @@
                             <div class="col-sm-10 col-lg-6">
                                 <h1 class="block-titleData frequency">{% trans "Simple and evidenced control." %}</h1>
                                 <p class="lead mb-4 text-muted">{% trans " Use images to control everything remotely <br> using an Android smartphone." %}</p>
-                                <a type="registerbtn" class="btn btn-primary btn-lg"
+                                <a class="btn btn-primary btn-lg registerbtn"
                                    href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                    role="button">{% trans "Trial free now!" %}</a>
                             </div>
@@ -188,7 +188,7 @@
                             <h6 class="text-muted text-uppercase">{% trans "Simplified Sharing" %}</h6>
                             <h3>{% trans " Share captures automatically via Twitter and Email." %}</h3>
                             <p class="lead mb-4 text-muted">{% trans " Promote your work with the reliability of the MyMensor certification. Your customers and friends can easily check the location and date of the media capture, even without a MyMensor subscription." %}</p>
-                            <a type="registerbtn" class="btn btn-secondary btn-lg btn-borderless"
+                            <a class="btn btn-secondary btn-lg btn-borderless registerbtn"
                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                role="button">{% trans "Trial free now!" %}</a>
                         </div>
@@ -320,7 +320,7 @@
                                     <strong>{% trans "Mobile App" %}</strong>{% trans " up to five installs per user (Two apps in the same device is one install!)" %}
                                 </li>
                             </ul>
-                            <a type="registerbtn" class="btn btn-primary btn-lg btn-block"
+                            <a class="btn btn-primary btn-lg btn-block registerbtn"
                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                role="button">{% trans "Trial free now!" %}</a>
                         </div>
@@ -348,7 +348,7 @@
                                     <strong>{% trans "Data Features" %}</strong>{% trans " Process, edit, know the status and analyse your data" %}
                                 </li>
                             </ul>
-                            <a type="registerbtn" class="btn btn-primary btn-lg btn-block"
+                            <a class="btn btn-primary btn-lg btn-block registerbtn"
                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                role="button">{% trans "Trial free now!" %}</a>
                         </div>
@@ -406,7 +406,28 @@
                         {% endif %}
                     });
                 }
+
+                var btn = document.getElementsByClassName('registerbtn');
+
+                btn.addEventListener("click", function () {
+                    console.log("Button pressed");  // sanity check
+                });
+
             });
+
+
+            $('aaaregisterbtn').click(function (event) {
+                event.preventDefault();
+                console.log("Button pressed");  // sanity check
+                gtag('event', 'registerbtnpressed', {
+                    'transport_type': 'beacon',
+                    'event_category': 'engagement',
+                    'event_action': 'actionregisterbtnpressed',
+                    'event_label': 'labelregisterbtnpressed',
+                    'value': 8
+                });
+            });
+
             var counter = 0;
             var pric_elem1 = document.getElementById("priceeurmedia");
             var pric_elem2 = document.getElementById("priceusdmedia");
@@ -432,19 +453,6 @@
                     counter = 0;
                 }
             }
-
-
-            $('registerbtn').click(function (event) {
-                event.preventDefault();
-                console.log("Button pressed:" + $(this).attr('type'));  // sanity check
-                gtag('event', 'registerbtnpressed', {
-                    'transport_type': 'beacon',
-                    'event_category': 'engagement',
-                    'event_action': 'actionregisterbtnpressed',
-                    'event_label': 'labelregisterbtnpressed',
-                    'value': 8
-                });
-            });
 
 
         </script>
