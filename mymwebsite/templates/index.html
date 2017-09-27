@@ -409,28 +409,27 @@
 
                 var btns = document.getElementsByClassName('registerbtn');
                 var btnslength = btns.length;
-                for (var i=0; i < btnslength; i++){
+                for (var i = 0; i < btnslength; i++) {
                     btns[i].addEventListener("click", clickCallback, false);
-                };
-                function clickCallback(){
-                    console.log("Clicked at: "+ this.id);  // sanity check
+                }
+                ;
+
+                function clickCallback() {
+                    if (this.id == "registerbtn") {
+                        console.log("Clicked at: " + this.id);  // sanity check
+                        gtag('event', 'registerbtnpressed', {
+                            'transport_type': 'beacon',
+                            'event_category': 'engagement',
+                            'event_action': 'actionregisterbtnpressed',
+                            'event_label': 'labelregisterbtnpressed',
+                            'value': 8
+                        });
+                    }
                 }
 
 
             });
 
-
-            $('aaaregisterbtn').click(function (event) {
-                event.preventDefault();
-                console.log();  // sanity check
-                gtag('event', 'registerbtnpressed', {
-                    'transport_type': 'beacon',
-                    'event_category': 'engagement',
-                    'event_action': 'actionregisterbtnpressed',
-                    'event_label': 'labelregisterbtnpressed',
-                    'value': 8
-                });
-            });
 
             var counter = 0;
             var pric_elem1 = document.getElementById("priceeurmedia");
