@@ -206,30 +206,29 @@
     <script src="{% static "js/social-share-kit.js" %}"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{% static "js/ie10-viewport-bug-workaround.js" %}"></script>
+    <script>
+        var btns = document.getElementsByClassName('registerbtn');
+        var btnslength = btns.length;
+        for (var i = 0; i < btnslength; i++) {
+            btns[i].addEventListener("click", clickCallback, false);
+        }
+
+        function clickCallback() {
+            if (this.id == "registerbtn") {
+                console.log("Clicked at: " + this.id);  // sanity check
+                gtag('event', 'registerbtnpressed', {
+                    'transport_type': 'beacon',
+                    'event_category': 'engagement',
+                    'event_action': 'actionregisterbtnpressed',
+                    'event_label': 'labelregisterbtnpressed',
+                    'value': 8
+                });
+            }
+        }
+    </script>
     <!-- Page Local Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    {% block javascript %}
-        <script>
-            var btns = document.getElementsByClassName('registerbtn');
-            var btnslength = btns.length;
-            for (var i = 0; i < btnslength; i++) {
-                btns[i].addEventListener("click", clickCallback, false);
-            }
-
-            function clickCallback() {
-                if (this.id == "registerbtn") {
-                    console.log("Clicked at: " + this.id);  // sanity check
-                    gtag('event', 'registerbtnpressed', {
-                        'transport_type': 'beacon',
-                        'event_category': 'engagement',
-                        'event_action': 'actionregisterbtnpressed',
-                        'event_label': 'labelregisterbtnpressed',
-                        'value': 8
-                    });
-                }
-            }
-        </script>
-    {% endblock %}
+    {% block javascript %}{% endblock %}
     {% block extra_head %}{% endblock %}
     </body>
     </html>
