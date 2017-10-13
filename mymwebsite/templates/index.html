@@ -76,8 +76,7 @@
                         <div class="d-none d-md-block text-uppercase">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         {% trans "Learn" %}
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -105,14 +104,88 @@
                         </div>
                     </nav>
                 </div>
+
+                <div class="block-xs-middle pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-10 col-lg-6">
+                                <h1 class="block-titleData frequency">{% trans "Simple and evidenced control." %}</h1>
+                                <p class="lead mb-4 text-white">{% trans " Use images to survey everything remotely using an Android smartphone." %}</p>
+                                <a id="registerbtn" class="btn btn-primary btn-lg registerbtn"
+                                   href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
+                                   role="button">{% trans "Trial free now!" %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="block-xs-middle pb-5">
+
+            <div class="block block-secondary app-iphone-block">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-lg-6">
-                            <h1 class="block-titleData frequency">{% trans "Simple and evidenced control." %}</h1>
-                            <p class="lead mb-4 text-white">{% trans " Use images to survey everything remotely using an Android smartphone." %}</p>
-                            <a id="registerbtn" class="btn btn-primary btn-lg registerbtn"
+                    <div class="row app-align-center">
+
+                        <div class="col-sm-5 hidden-sm-down">
+                            <a href="https://app.mymensor.com/landing/?type=1&key=cap/jorge/0_p_1499692368989.jpg&signature=93277C3614CA49FDC20E0CE4F0EA958E72AC9FC8B4CA1ACD575DBFF40E32D580"
+                               target="_blank" data-toggle="tooltip" data-placement="top"
+                               title="{% trans 'Click to see an example of what you can distribute to everybody!' %}">
+                                <img class="app-iphone" src="{% static 'images/bragaportanova.jpeg' %}" alt=""
+                                     style="width: 120%;">
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 offset-md-1 col-sm-12 offset-sm-0">
+                            <h6 class="text-muted text-uppercase">{% trans "Certified Information" %}</h6>
+                            <h3>{% trans "Turn captured images into certified information." %}</h3>
+                            <p class="lead mb-4">{% trans "We combine smartphone mobility with database and security technologies to keep your information organized and accessible." %}</p>
+                            <div class="row hidden-md-down">
+                                <div class="col-sm-6 mb-3">
+                                    <h5>{% trans "Real Time" %}</h5>
+                                    <p>{% trans "The captures come to your view immediately after they occur. You can react immediately, without waiting for someone to send you the information." %}<a
+                                            href="{% url 'docs' %}" class="text-primary">{% trans " See here." %}</a>
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>{% trans "Reliability and Safety " %}</h5>
+                                    <p>{% trans " We use world-class servers, maintaining first-class reliability and security." %}<a
+                                            href="{% url 'docs' %}" class="text-primary">{% trans " See here." %}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="block block-foreground block-fill-height"
+                 style="background-image: url({% static 'images/carousel02.jpg' %});">
+                <div class="container">
+                    <div class="row app-align-center">
+                        <div class="col-md-5 push-md-7">
+
+                        </div>
+                        <div class="col-md-6 pull-md-5">
+                            <h6 class="text-gray-dark text-uppercase">{% trans "Control Made Simple" %}</h6>
+                            <h3>{% trans "Simplify your control practices. Work with portability of information and reality." %}</h3>
+                            <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you have access to all your information anywhere, anytime. The reality will be portable for you to be transported to wherever you are." %}</p>
+                            <a class="btn btn-secondary btn-lg btn-borderless" href="{% url 'docs' %}"
+                               role="button">{% trans "Read our docs" %}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block block-inverse block-parallax app-high-praise"
+                 style="background-image: url({% static 'images/autosharing.jpg' %});">
+                <div class="container">
+                    <div class="row app-align-center py-3">
+                        <div class="col-sm-5 push-sm-7 py-5" style="background-color: #1DA1F2">
+                            <h6 class="text-muted text-uppercase">{% trans "Simplified Sharing" %}</h6>
+                            <h3>{% trans " Share captures automatically via Twitter and Email." %}</h3>
+                            <p class="lead mb-4 text-muted">{% trans " Promote your work with the reliability of the MyMensor certification. Your customers and friends can easily check the location and date of the media capture, even without a MyMensor subscription." %}</p>
+                            <a id="registerbtn" class="btn btn-secondary btn-lg btn-borderless registerbtn"
                                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
                                role="button">{% trans "Trial free now!" %}</a>
                         </div>
@@ -120,259 +193,186 @@
                 </div>
             </div>
 
-        </div>
+            <div class="block block-foreground block-fill-height"
+                 style="background-image: url({% static 'images/bigdata.jpg' %});">
+                <div class="container">
+                    <div class="row app-align-center">
+                        <div class="col-md-5 push-md-7">
 
-        <div class="block block-secondary app-iphone-block">
-            <div class="container">
-                <div class="row app-align-center">
+                        </div>
+                        <div class="col-md-6 pull-md-5 py-5" style="background-color: #a5d3ff">
+                            <h6 class="text-gray-dark text-uppercase">{% trans "Build your own bigdata" %}</h6>
+                            <h3>{% trans "Use our web application to gather and view your data, in numerical and graphical ways." %}</h3>
+                            <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you can stablish operational ranges, yellow and red alarm ranges. Export your data to a CSV file and use wherever you need it." %}</p>
+                            <a class="btn btn-secondary btn-lg btn-borderless" href="{% url 'docs' %}"
+                               role="button">{% trans "Read our docs" %}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                    <div class="col-sm-5 hidden-sm-down">
-                        <a href="https://app.mymensor.com/landing/?type=1&key=cap/jorge/0_p_1499692368989.jpg&signature=93277C3614CA49FDC20E0CE4F0EA958E72AC9FC8B4CA1ACD575DBFF40E32D580"
-                           target="_blank" data-toggle="tooltip" data-placement="top"
-                           title="{% trans 'Click to see an example of what you can distribute to everybody!' %}">
-                            <img class="app-iphone" src="{% static 'images/bragaportanova.jpeg' %}" alt=""
-                                 style="width: 120%;">
-                        </a>
+
+            <div class="block block-secondary app-block-marketing-grid">
+                <div class="container text-xs-center">
+
+                    <div class="row mb-5">
+                        <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
+                            <h6 class="text-muted text-uppercase mb-2">{% trans "Inside MyMensor" %}</h6>
+                            <h3 class="mb-4">{% trans "It's easy to see how we make your life more efficient every day." %}</h3>
+                        </div>
                     </div>
 
-                    <div class="col-md-6 offset-md-1 col-sm-12 offset-sm-0">
-                        <h6 class="text-muted text-uppercase">{% trans "Certified Information" %}</h6>
-                        <h3>{% trans "Turn captured images into certified information." %}</h3>
-                        <p class="lead mb-4">{% trans "We combine smartphone mobility with database and security technologies to keep your information organized and accessible." %}</p>
-                        <div class="row hidden-md-down">
-                            <div class="col-sm-6 mb-3">
-                                <h5>{% trans "Real Time" %}</h5>
-                                <p>{% trans "The captures come to your view immediately after they occur. You can react immediately, without waiting for someone to send you the information." %}<a
-                                        href="{% url 'docs' %}" class="text-primary">{% trans " See here." %}</a>
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <h5>{% trans "Reliability and Safety " %}</h5>
-                                <p>{% trans " We use world-class servers, maintaining first-class reliability and security." %}<a
-                                        href="{% url 'docs' %}" class="text-primary">{% trans " See here." %}</a>
-                                </p>
-                            </div>
+
+                    <div class="row app-marketing-grid">
+                        <div class="col-md-4 px-4 mb-5">
+                            <img class="mb-1" src="{% static "images/svgar.svg" %}">
+                            <p>
+                                <strong>{% trans "Augmented Reality" %}</strong>{% trans " Capture the image always in the same position. Images are filled automatically. (Available only with MyMensorAR mobile client)" %}
+                            </p>
+                        </div>
+                        <div class="col-md-4 px-4 mb-5">
+                            <img class="mb-1" src="{% static "images/svgcertificate.svg" %}">
+                            <p>
+                                <strong>{% trans "Certification" %}</strong>{% trans " We automatically certify time and location of the images." %}
+                            </p>
+                        </div>
+                        <div class="col-md-4 px-4 mb-5">
+                            <img class="mb-1" src="{% static "images/svgsharing.svg" %}">
+                            <p>
+                                <strong>{% trans "Sharing" %}</strong>{% trans " We automatically and immediately share your captures." %}
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row app-marketing-grid">
+                        <div class="col-md-4 px-4 mb-5">
+                            <img class="mb-1" src="{% static "images/svgdatabasecloud.svg" %}">
+                            <p>
+                                <strong>{% trans "Database" %}</strong>{% trans " All data safe. (Available only with MyMensor MEDIA AND DATA an up)" %}
+                            </p>
+                        </div>
+                        <div class="col-md-4 px-4 mb-5">
+                            <img class="mb-1" src="{% static "images/svgmobile.svg" %}">
+                            <p>
+                                <strong>{% trans "Mobile Application" %}</strong>{% trans " Android app for capturing images." %}
+                            </p>
+                        </div>
+                        <div class="col-md-4 px-4 mb-5">
+                            <img class="mb-1" src="{% static "images/svgsecure.svg" %}">
+                            <p>
+                                <strong>{% trans " Secure connections " %}</strong>{% trans " Each transmission is always done in HTTPS." %}
+                            </p>
                         </div>
                     </div>
 
                 </div>
-
             </div>
-        </div>
 
-        <div class="block block-foreground block-fill-height"
-             style="background-image: url({% static 'images/carousel02.jpg' %});">
-            <div class="container">
-                <div class="row app-align-center">
-                    <div class="col-md-5 push-md-7">
-
-                    </div>
-                    <div class="col-md-6 pull-md-5">
-                        <h6 class="text-gray-dark text-uppercase">{% trans "Control Made Simple" %}</h6>
-                        <h3>{% trans "Simplify your control practices. Work with portability of information and reality." %}</h3>
-                        <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you have access to all your information anywhere, anytime. The reality will be portable for you to be transported to wherever you are." %}</p>
-                        <a class="btn btn-secondary btn-lg btn-borderless" href="{% url 'docs' %}"
-                           role="button">{% trans "Read our docs" %}</a>
-                    </div>
+            <div class="block app-ribbon py-5">
+                <div class="container text-xs-center" style="padding-bottom: 3rem;">
+                    <h6 class="text-muted text-uppercase mb-2">{% trans "30-day free trial" %}</h6>
+                    <h3>{% trans "Start your 30-day free-trial now! No Credit Card required during trial period!" %}</h3>
                 </div>
             </div>
-        </div>
 
-        <div class="block block-inverse block-parallax app-high-praise"
-             style="background-image: url({% static 'images/autosharing.jpg' %});">
-            <div class="container">
-                <div class="row app-align-center py-3">
-                    <div class="col-sm-5 push-sm-7 py-5" style="background-color: #1DA1F2">
-                        <h6 class="text-muted text-uppercase">{% trans "Simplified Sharing" %}</h6>
-                        <h3>{% trans " Share captures automatically via Twitter and Email." %}</h3>
-                        <p class="lead mb-4 text-muted">{% trans " Promote your work with the reliability of the MyMensor certification. Your customers and friends can easily check the location and date of the media capture, even without a MyMensor subscription." %}</p>
-                        <a id="registerbtn" class="btn btn-secondary btn-lg btn-borderless registerbtn"
-                           href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
-                           role="button">{% trans "Trial free now!" %}</a>
+            <div class="block app-price-plans">
+                <div class="container text-center">
+
+                    <div class="row mb-5">
+                        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                            <h6 class="text-muted text-uppercase mb-2">{% trans "Business Talk" %}</h6>
+                            <h3>{% trans "Simple plans. Direct and clear." %}</h3>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="block block-foreground block-fill-height"
-             style="background-image: url({% static 'images/bigdata.jpg' %});">
-            <div class="container">
-                <div class="row app-align-center">
-                    <div class="col-md-5 push-md-7">
+                    <div class="row">
+                        <div class="col-md-4 px-4 pb-2 mb-5">
+                            <div class="px-2 mb-2">
+                                <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>Media</strong></h5>
+                                <h3 id="priceeurmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span
+                                        id="currency"
+                                        style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>5,48<span
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h3 hidden id="priceusdmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span
+                                        id="currency"
+                                        style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>5.93<span
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <p class="pb-2">{% trans "Even simpler. For those that just need the certification and sharing power." %}</p>
+                            </div>
 
-                    </div>
-                    <div class="col-md-6 pull-md-5 py-5" style="background-color: #a5d3ff">
-                        <h6 class="text-gray-dark text-uppercase">{% trans "Build your own bigdata" %}</h6>
-                        <h3>{% trans "Use our web application to gather and view your data, in numerical and graphical ways." %}</h3>
-                        <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you can stablish operational ranges, yellow and red alarm ranges. Export your data to a CSV file and use wherever you need it." %}</p>
-                        <a class="btn btn-secondary btn-lg btn-borderless" href="{% url 'docs' %}"
-                           role="button">{% trans "Read our docs" %}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="block block-secondary app-block-marketing-grid">
-            <div class="container text-xs-center">
-
-                <div class="row mb-5">
-                    <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
-                        <h6 class="text-muted text-uppercase mb-2">{% trans "Inside MyMensor" %}</h6>
-                        <h3 class="mb-4">{% trans "It's easy to see how we make your life more efficient every day." %}</h3>
-                    </div>
-                </div>
-
-
-                <div class="row app-marketing-grid">
-                    <div class="col-md-4 px-4 mb-5">
-                        <img class="mb-1" src="{% static "images/svgar.svg" %}">
-                        <p>
-                            <strong>{% trans "Augmented Reality" %}</strong>{% trans " Capture the image always in the same position. Images are filled automatically. (Available only with MyMensorAR mobile client)" %}
-                        </p>
-                    </div>
-                    <div class="col-md-4 px-4 mb-5">
-                        <img class="mb-1" src="{% static "images/svgcertificate.svg" %}">
-                        <p>
-                            <strong>{% trans "Certification" %}</strong>{% trans " We automatically certify time and location of the images." %}
-                        </p>
-                    </div>
-                    <div class="col-md-4 px-4 mb-5">
-                        <img class="mb-1" src="{% static "images/svgsharing.svg" %}">
-                        <p>
-                            <strong>{% trans "Sharing" %}</strong>{% trans " We automatically and immediately share your captures." %}
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="row app-marketing-grid">
-                    <div class="col-md-4 px-4 mb-5">
-                        <img class="mb-1" src="{% static "images/svgdatabasecloud.svg" %}">
-                        <p>
-                            <strong>{% trans "Database" %}</strong>{% trans " All data safe. (Available only with MyMensor MEDIA AND DATA an up)" %}
-                        </p>
-                    </div>
-                    <div class="col-md-4 px-4 mb-5">
-                        <img class="mb-1" src="{% static "images/svgmobile.svg" %}">
-                        <p>
-                            <strong>{% trans "Mobile Application" %}</strong>{% trans " Android app for capturing images." %}
-                        </p>
-                    </div>
-                    <div class="col-md-4 px-4 mb-5">
-                        <img class="mb-1" src="{% static "images/svgsecure.svg" %}">
-                        <p>
-                            <strong>{% trans " Secure connections " %}</strong>{% trans " Each transmission is always done in HTTPS." %}
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="block app-ribbon py-5">
-            <div class="container text-xs-center" style="padding-bottom: 3rem;">
-                <h6 class="text-muted text-uppercase mb-2">{% trans "30-day free trial" %}</h6>
-                <h3>{% trans "Start your 30-day free-trial now! No Credit Card required during trial period!" %}</h3>
-            </div>
-        </div>
-
-        <div class="block app-price-plans">
-            <div class="container text-center">
-
-                <div class="row mb-5">
-                    <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-                        <h6 class="text-muted text-uppercase mb-2">{% trans "Business Talk" %}</h6>
-                        <h3>{% trans "Simple plans. Direct and clear." %}</h3>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 px-4 pb-2 mb-5">
-                        <div class="px-2 mb-2">
-                            <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>Media</strong></h5>
-                            <h3 id="priceeurmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span
-                                    id="currency"
-                                    style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>5,48<span
-                                    style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                            <h3 hidden id="priceusdmedia" style="font-size: 5rem; letter-spacing: -.5rem;"><span
-                                    id="currency"
-                                    style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>5.93<span
-                                    style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                            <p class="pb-2">{% trans "Even simpler. For those that just need the certification and sharing power." %}</p>
+                            <ul class="list-unstyled list-bordered text-xs-left my-4">
+                                <li class="py-4">
+                                    <strong>{% trans "Certification" %}</strong>{% trans " time and location" %}</li>
+                                <li class="py-4">
+                                    <strong>{% trans "Sharing" %}</strong>{% trans " automatic sharing to Twitter and Email." %}
+                                </li>
+                                <li class="py-4">
+                                    <strong>{% trans "AR" %}</strong>{% trans " automatic and precise captures" %}</li>
+                                <li class="py-4"><strong>{% trans "Secure" %}</strong>{% trans " all HTTPS" %}</li>
+                                <li class="py-4">
+                                    <strong>{% trans "Mobile App" %}</strong>{% trans " use both MyMensor and MyMensorAR apps, you choose!" %}
+                                </li>
+                                <li class="py-4">
+                                    <strong>{% trans "Mobile App" %}</strong>{% trans " up to five installs per user (Two apps in the same device is one install!)" %}
+                                </li>
+                            </ul>
+                            <a id="registerbtn" class="btn btn-primary btn-lg btn-block registerbtn"
+                               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
+                               role="button">{% trans "Trial free now!" %}</a>
                         </div>
 
-                        <ul class="list-unstyled list-bordered text-xs-left my-4">
-                            <li class="py-4">
-                                <strong>{% trans "Certification" %}</strong>{% trans " time and location" %}</li>
-                            <li class="py-4">
-                                <strong>{% trans "Sharing" %}</strong>{% trans " automatic sharing to Twitter and Email." %}
-                            </li>
-                            <li class="py-4">
-                                <strong>{% trans "AR" %}</strong>{% trans " automatic and precise captures" %}</li>
-                            <li class="py-4"><strong>{% trans "Secure" %}</strong>{% trans " all HTTPS" %}</li>
-                            <li class="py-4">
-                                <strong>{% trans "Mobile App" %}</strong>{% trans " use both MyMensor and MyMensorAR apps, you choose!" %}
-                            </li>
-                            <li class="py-4">
-                                <strong>{% trans "Mobile App" %}</strong>{% trans " up to five installs per user (Two apps in the same device is one install!)" %}
-                            </li>
-                        </ul>
-                        <a id="registerbtn" class="btn btn-primary btn-lg btn-block registerbtn"
-                           href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
-                           role="button">{% trans "Trial free now!" %}</a>
-                    </div>
-
-                    <div class="col-md-4 px-4 pb-2 mb-5">
-                        <div class="px-2">
-                            <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>Media and Data</strong>
-                            </h5>
-                            <h3 id="priceeurmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;"><span
-                                    id="currency"
-                                    style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>10,97<span
-                                    style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                            <h3 hidden id="priceusdmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;">
+                        <div class="col-md-4 px-4 pb-2 mb-5">
+                            <div class="px-2">
+                                <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>Media and Data</strong>
+                                </h5>
+                                <h3 id="priceeurmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;"><span
+                                        id="currency"
+                                        style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">€</span>10,97<span
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <h3 hidden id="priceusdmediaanddata" style="font-size: 5rem; letter-spacing: -.5rem;">
                                     <span id="currency"
                                           style="font-size: 2.75rem; position: relative; font-weight: 400; top: -20px; letter-spacing: 0px;">$</span>11.96<span
-                                    style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
-                            <p class="pb-2">{% trans "The one size fits all solution. Use Media and Data Features to control your personal and business projects" %}</p>
-                        </div>
+                                        style="font-size: 2rem; letter-spacing: 0px;">{% trans "/month" %}</span></h3>
+                                <p class="pb-2">{% trans "The one size fits all solution. Use Media and Data Features to control your personal and business projects" %}</p>
+                            </div>
 
-                        <ul class="list-unstyled list-bordered text-xs-left my-4">
-                            <li class="py-4"><strong>{% trans "ALL MyMensor Media FEATURES PLUS" %}</strong></li>
-                            <li class="py-4">
-                                <strong>{% trans "Database" %}</strong>{% trans " build your own bigdata" %}</li>
-                            <li class="py-4">
-                                <strong>{% trans "Data Features" %}</strong>{% trans " Process, edit, know the status and analyse your data" %}
-                            </li>
-                        </ul>
-                        <a id="registerbtn" class="btn btn-primary btn-lg btn-block registerbtn"
-                           href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
-                           role="button">{% trans "Trial free now!" %}</a>
-                    </div>
-                    <div class="col-md-4 px-4 pb-1 mb-5">
-                        <div class="px-2">
-                            <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>CUSTOM</strong></h5>
-                            {% if LANGUAGE_CODE == "pt" %}
-                                <img class="mb-4" src="{% static "images/uponrequestcomp_pt.svg" %}">
-                            {% elif LANGUAGE_CODE == "pt-br" %}
-                                <img class="mb-4" src="{% static "images/uponrequestcomp_pt_BR.svg" %}">
-                            {% else %}
-                                <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
-                            {% endif %}
-                            <p class="pb-2">{% trans "A taylor made solution for you. Drop us an email and we will build your custom setup together." %}</p>
+                            <ul class="list-unstyled list-bordered text-xs-left my-4">
+                                <li class="py-4"><strong>{% trans "ALL MyMensor Media FEATURES PLUS" %}</strong></li>
+                                <li class="py-4">
+                                    <strong>{% trans "Database" %}</strong>{% trans " build your own bigdata" %}</li>
+                                <li class="py-4">
+                                    <strong>{% trans "Data Features" %}</strong>{% trans " Process, edit, know the status and analyse your data" %}
+                                </li>
+                            </ul>
+                            <a id="registerbtn" class="btn btn-primary btn-lg btn-block registerbtn"
+                               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"
+                               role="button">{% trans "Trial free now!" %}</a>
                         </div>
-                        <ul class="list-unstyled list-bordered text-xs-left my-4">
-                            <li class="py-4">
-                                <strong>{% trans "ALL MyMensor Media and Data FEATURES PLUS" %}</strong></li>
-                            <li class="py-4"><strong>{% trans "API access" %}</strong>{% trans " upon request" %}
-                            </li>
-                            <li class="py-4"><strong>{% trans "Mobile App" %}</strong>{% trans " custom setups" %}
-                            </li>
-                        </ul>
-                        <a class="btn btn-primary btn-lg btn-block"
-                           href="{% trans "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please contact me in order to start discussing a custom MyMensorCorp for my Organization. Thanks!" %}"
-                           role="button">{% trans "Make Your Request" %}</a>
+                        <div class="col-md-4 px-4 pb-1 mb-5">
+                            <div class="px-2">
+                                <h5 class="text-primary mb-4 alert alert-info">MyMensor <strong>CUSTOM</strong></h5>
+                                {% if LANGUAGE_CODE == "pt" %}
+                                    <img class="mb-4" src="{% static "images/uponrequestcomp_pt.svg" %}">
+                                {% elif LANGUAGE_CODE == "pt-br" %}
+                                    <img class="mb-4" src="{% static "images/uponrequestcomp_pt_BR.svg" %}">
+                                {% else %}
+                                    <img class="mb-4" src="{% static "images/uponrequestcomp.svg" %}">
+                                {% endif %}
+                                <p class="pb-2">{% trans "A taylor made solution for you. Drop us an email and we will build your custom setup together." %}</p>
+                            </div>
+                            <ul class="list-unstyled list-bordered text-xs-left my-4">
+                                <li class="py-4">
+                                    <strong>{% trans "ALL MyMensor Media and Data FEATURES PLUS" %}</strong></li>
+                                <li class="py-4"><strong>{% trans "API access" %}</strong>{% trans " upon request" %}
+                                </li>
+                                <li class="py-4"><strong>{% trans "Mobile App" %}</strong>{% trans " custom setups" %}
+                                </li>
+                            </ul>
+                            <a class="btn btn-primary btn-lg btn-block"
+                               href="{% trans "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please contact me in order to start discussing a custom MyMensorCorp for my Organization. Thanks!" %}"
+                               role="button">{% trans "Make Your Request" %}</a>
+                        </div>
                     </div>
                 </div>
             </div>
