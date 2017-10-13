@@ -202,8 +202,13 @@
                         </div>
 
                         <div class="col-sm-7 pb-5">
-                            <img class="app-iphone" src="{% static 'images/locationscreen.jpeg' %}" alt=""
-                                 style="width: 100%;">
+                            <a data-toggle="modal"
+                               data-target="#locationImageModal"
+                               data-whatever="{{ media.mediaStorageURL }}">
+                                <img class="app-iphone"
+                                     src="{% static 'images/locationscreen.jpeg' %}"
+                                     alt="" style="width: 100%;">
+                            </a>
                         </div>
 
 
@@ -390,6 +395,19 @@
                                href="{% trans "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please contact me in order to start discussing a custom MyMensorCorp for my Organization. Thanks!" %}"
                                role="button">{% trans "Make Your Request" %}</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade"
+             id="locationImageModal"
+             tabindex="-1" role="dialog" aria-labelledby="locationImageModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img id="mediaContent" class="img-fluid"
+                             src="{% static 'images/locationscreen.jpeg' %}" alt="">
                     </div>
                 </div>
             </div>
