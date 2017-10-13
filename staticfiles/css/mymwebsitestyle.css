@@ -52,7 +52,7 @@
 }
 
 @media (min-width: 1440px) {
-    .modal-lg {
+    .modal-xl {
         max-width: 1300px;
     }
 }
