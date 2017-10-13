@@ -162,14 +162,11 @@
             <div class="block block-foreground block-fill-height"
                  style="background-image: url({% static 'images/carousel02.jpg' %});">
                 <div class="container">
-                    <div class="row app-align-center">
-                        <div class="col-md-5 push-md-7">
-
-                        </div>
-                        <div class="col-md-6 pull-md-5">
-                            <h6 class="text-gray-dark text-uppercase">{% trans "Control Made Simple" %}</h6>
+                    <div class="row app-align-center justify-content-start">
+                        <div class="col-md-5 py-5" style="background-color: #a5d3ff">
+                            <h6 class="text-uppercase mb-2">{% trans "Control Made Simple" %}</h6>
                             <h3>{% trans "Simplify your control practices. Work with portability of information and reality." %}</h3>
-                            <p class="lead mb-4 text-gray-dark">{% trans "Using our web application you have access to all your information anywhere, anytime. The reality will be portable for you to be transported to wherever you are." %}</p>
+                            <p class="lead mb-4">{% trans "Using our web application you have access to all your information anywhere, anytime. The reality will be portable for you to be transported to wherever you are." %}</p>
                             <a class="btn btn-secondary btn-lg btn-borderless" href="{% url 'docs' %}"
                                role="button">{% trans "Read our docs" %}</a>
                         </div>
