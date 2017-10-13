@@ -40,3 +40,7 @@
   letter-spacing: 0px;
 }
 
+@media (max-width: 800px) {
+  .navbar-brand img {
+    max-width: 60px;
+    max-height: 60px; } }
