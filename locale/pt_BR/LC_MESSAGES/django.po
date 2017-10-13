@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 19:28+0100\n"
-"PO-Revision-Date: 2017-09-20 19:29+0100\n"
+"POT-Creation-Date: 2017-10-13 21:48+0100\n"
+"PO-Revision-Date: 2017-10-13 21:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -16,67 +16,67 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.4\n"
 
-#: mymwebsite/templates/base.html:58 mymwebsite/templates/innerbase.html:104
+#: mymwebsite/templates/base.html:76 mymwebsite/templates/innerbase.html:123
 msgid "About"
 msgstr "Sobre"
 
-#: mymwebsite/templates/base.html:60 mymwebsite/templates/innerbase.html:106
+#: mymwebsite/templates/base.html:78 mymwebsite/templates/innerbase.html:125
 msgid "The journey was long, but we are just starting! Contact us anytime at "
 msgstr ""
 "A jornada foi longa, mas estamos apenas começando! Entre em contato a "
 "qualquer momento em "
 
-#: mymwebsite/templates/base.html:67 mymwebsite/templates/innerbase.html:113
+#: mymwebsite/templates/base.html:85 mymwebsite/templates/innerbase.html:132
 msgid "Product"
 msgstr "Produto"
 
-#: mymwebsite/templates/base.html:69 mymwebsite/templates/index.html:36
-#: mymwebsite/templates/index.html:85 mymwebsite/templates/innerbase.html:74
-#: mymwebsite/templates/innerbase.html:115
+#: mymwebsite/templates/base.html:87 mymwebsite/templates/index.html:37
+#: mymwebsite/templates/index.html:85 mymwebsite/templates/innerbase.html:93
+#: mymwebsite/templates/innerbase.html:134
 msgid "Docs"
 msgstr "Docs"
 
-#: mymwebsite/templates/base.html:71 mymwebsite/templates/index.html:37
-#: mymwebsite/templates/index.html:86 mymwebsite/templates/innerbase.html:75
-#: mymwebsite/templates/innerbase.html:117
+#: mymwebsite/templates/base.html:89 mymwebsite/templates/index.html:38
+#: mymwebsite/templates/index.html:86 mymwebsite/templates/innerbase.html:94
+#: mymwebsite/templates/innerbase.html:136
 msgid "Videos"
 msgstr "Vídeos"
 
-#: mymwebsite/templates/base.html:74 mymwebsite/templates/index.html:39
-#: mymwebsite/templates/index.html:88 mymwebsite/templates/innerbase.html:77
-#: mymwebsite/templates/innerbase.html:120
+#: mymwebsite/templates/base.html:92 mymwebsite/templates/index.html:40
+#: mymwebsite/templates/index.html:88 mymwebsite/templates/innerbase.html:96
+#: mymwebsite/templates/innerbase.html:139
 msgid "FAQ"
 msgstr "FAQ"
 
-#: mymwebsite/templates/base.html:79 mymwebsite/templates/innerbase.html:125
+#: mymwebsite/templates/base.html:97 mymwebsite/templates/innerbase.html:144
 msgid "Legal"
 msgstr "Legal"
 
-#: mymwebsite/templates/base.html:81 mymwebsite/templates/innerbase.html:127
+#: mymwebsite/templates/base.html:99 mymwebsite/templates/innerbase.html:146
 #: mymwebsite/templates/terms.html:6
 msgid "Terms of Service"
 msgstr "Termos de Serviço"
 
-#: mymwebsite/templates/base.html:84 mymwebsite/templates/innerbase.html:130
+#: mymwebsite/templates/base.html:102 mymwebsite/templates/innerbase.html:149
 #: mymwebsite/templates/terms.html:211
 msgid "Privacy"
 msgstr "Privacidade"
 
-#: mymwebsite/templates/base.html:91 mymwebsite/templates/innerbase.html:137
+#: mymwebsite/templates/base.html:109 mymwebsite/templates/innerbase.html:156
 msgid "Language"
 msgstr "Idioma"
 
-#: mymwebsite/templates/base.html:105 mymwebsite/templates/innerbase.html:151
+#: mymwebsite/templates/base.html:123 mymwebsite/templates/innerbase.html:170
 msgid "Set"
 msgstr "Definir"
 
 #: mymwebsite/templates/cases.html:4
 #: mymwebsite/templates/cases/followingremotejobs.html:4
 #: mymwebsite/templates/cases/genusemediaplan.html:4
-#: mymwebsite/templates/index.html:35 mymwebsite/templates/index.html:84
-#: mymwebsite/templates/innerbase.html:73
+#: mymwebsite/templates/index.html:36 mymwebsite/templates/index.html:84
+#: mymwebsite/templates/innerbase.html:92
 msgid "Cases"
 msgstr "Casos"
 
@@ -557,8 +557,8 @@ msgstr ""
 "Para cada TAG, você irá definir uma questão de TAG, que será respondida por "
 "você ou sua equipe ao processar as imagens de VPs."
 
-#: mymwebsite/templates/download.html:4 mymwebsite/templates/index.html:43
-#: mymwebsite/templates/index.html:93 mymwebsite/templates/innerbase.html:80
+#: mymwebsite/templates/download.html:4 mymwebsite/templates/index.html:44
+#: mymwebsite/templates/index.html:93 mymwebsite/templates/innerbase.html:99
 msgid "Download"
 msgstr "Download"
 
@@ -1307,22 +1307,22 @@ msgstr ""
 msgid "How To"
 msgstr "Como fazer"
 
-#: mymwebsite/templates/index.html:32 mymwebsite/templates/index.html:81
-#: mymwebsite/templates/innerbase.html:70
+#: mymwebsite/templates/index.html:33 mymwebsite/templates/index.html:81
+#: mymwebsite/templates/innerbase.html:89
 msgid "Learn"
 msgstr "Aprenda"
 
-#: mymwebsite/templates/index.html:38 mymwebsite/templates/index.html:87
-#: mymwebsite/templates/innerbase.html:76
+#: mymwebsite/templates/index.html:39 mymwebsite/templates/index.html:87
+#: mymwebsite/templates/innerbase.html:95
 msgid "How to"
 msgstr "Como fazer"
 
-#: mymwebsite/templates/index.html:47 mymwebsite/templates/index.html:97
+#: mymwebsite/templates/index.html:48 mymwebsite/templates/index.html:97
 msgid "LOGIN"
 msgstr "ENTRAR"
 
-#: mymwebsite/templates/index.html:51 mymwebsite/templates/index.html:102
-#: mymwebsite/templates/innerbase.html:87
+#: mymwebsite/templates/index.html:53 mymwebsite/templates/index.html:102
+#: mymwebsite/templates/innerbase.html:106
 msgid "Register"
 msgstr "Registrar"
 
@@ -1331,14 +1331,12 @@ msgid "Simple and evidenced control."
 msgstr "Controle simples e evidenciado."
 
 #: mymwebsite/templates/index.html:114
-msgid ""
-" Use images to control everything remotely <br> using an Android smartphone."
+msgid " Use images to survey everything remotely using an Android smartphone."
 msgstr ""
-" Usar imagens para controlar tudo remotamente<br> usando um smartphone "
-"Android."
+" Usar imagens para fiscalizar tudo remotamente usando um smartphone Android."
 
-#: mymwebsite/templates/index.html:117 mymwebsite/templates/index.html:191
-#: mymwebsite/templates/index.html:323 mymwebsite/templates/index.html:351
+#: mymwebsite/templates/index.html:117 mymwebsite/templates/index.html:188
+#: mymwebsite/templates/index.html:344 mymwebsite/templates/index.html:372
 msgid "Trial free now!"
 msgstr "Experimente grátis!"
 
@@ -1390,11 +1388,11 @@ msgstr ""
 " Utilizamos servidores de classe mundial, mantendo segurança e "
 "confiabilidade de primeira classe."
 
-#: mymwebsite/templates/index.html:171
+#: mymwebsite/templates/index.html:168
 msgid "Control Made Simple"
 msgstr "Controle simplificado"
 
-#: mymwebsite/templates/index.html:172
+#: mymwebsite/templates/index.html:169
 msgid ""
 "Simplify your control practices. Work with portability of information and "
 "reality."
@@ -1402,7 +1400,7 @@ msgstr ""
 "Simplifique suas práticas de controle. Trabalhe com portabilidade da "
 "informação e da realidade."
 
-#: mymwebsite/templates/index.html:173
+#: mymwebsite/templates/index.html:170
 msgid ""
 "Using our web application you have access to all your information anywhere, "
 "anytime. The reality will be portable for you to be transported to wherever "
@@ -1412,19 +1410,19 @@ msgstr ""
 "qualquer lugar, a qualquer momento. A realidade será portátil para você "
 "sendo transportada para onde quer que você esteja."
 
-#: mymwebsite/templates/index.html:175 mymwebsite/templates/index.html:209
+#: mymwebsite/templates/index.html:172 mymwebsite/templates/index.html:230
 msgid "Read our docs"
 msgstr "Leia os nossos docs"
 
-#: mymwebsite/templates/index.html:186
+#: mymwebsite/templates/index.html:183
 msgid "Simplified Sharing"
 msgstr "Compartilhamento Simplificado"
 
-#: mymwebsite/templates/index.html:187
+#: mymwebsite/templates/index.html:184
 msgid " Share captures automatically via Twitter and Email."
 msgstr " Compartilhe suas capturas automaticamente via Twitter e E-mail."
 
-#: mymwebsite/templates/index.html:188
+#: mymwebsite/templates/index.html:185
 msgid ""
 " Promote your work with the reliability of the MyMensor certification. Your "
 "customers and friends can easily check the location and date of the media "
@@ -1434,11 +1432,29 @@ msgstr ""
 "clientes e amigos podem facilmente verificar o local e data de captura da "
 "mídia, mesmo sem uma assinatura MyMensor."
 
-#: mymwebsite/templates/index.html:205
+#: mymwebsite/templates/index.html:199
+msgid "Service Users and Certified Location"
+msgstr "Usuários de Serviço e Localização Certificada"
+
+#: mymwebsite/templates/index.html:200
+msgid "Turn captured images into a certified path."
+msgstr "Transforme imagens capturadas em uma rota certificada."
+
+#: mymwebsite/templates/index.html:201
+msgid ""
+"You will get when, where your media was captured. All without complicated "
+"setups! Just create a service user, pass the info to whoever you want to "
+"capture media into your account and it is working!"
+msgstr ""
+"Você receberá quando e onde sua mídia foi capturada. Tudo sem configurações "
+"complicadas! Basta criar um usuário de serviço, passar a informação para "
+"quem você quiser que capture mídia para a sua conta e está funcionando!"
+
+#: mymwebsite/templates/index.html:226
 msgid "Build your own bigdata"
 msgstr "Construa seu próprio bigdata"
 
-#: mymwebsite/templates/index.html:206
+#: mymwebsite/templates/index.html:227
 msgid ""
 "Use our web application to gather and view your data, in numerical and "
 "graphical ways."
@@ -1446,7 +1462,7 @@ msgstr ""
 "Use nossa web app para coletar e visualizar seus dados, em forma gráfica e "
 "numérica."
 
-#: mymwebsite/templates/index.html:207
+#: mymwebsite/templates/index.html:228
 msgid ""
 "Using our web application you can stablish operational ranges, yellow and "
 "red alarm ranges. Export your data to a CSV file and use wherever you need "
@@ -1456,19 +1472,19 @@ msgstr ""
 "alarme amarelo e vermelho. Exporte seus dados para um arquivo CSV e use "
 "sempre que precisar."
 
-#: mymwebsite/templates/index.html:221
+#: mymwebsite/templates/index.html:242
 msgid "Inside MyMensor"
 msgstr "Dentro do MyMensor"
 
-#: mymwebsite/templates/index.html:222
+#: mymwebsite/templates/index.html:243
 msgid "It's easy to see how we make your life more efficient every day."
 msgstr "É fácil ver como podemos tornar sua vida mais eficiente todos os dias."
 
-#: mymwebsite/templates/index.html:231
+#: mymwebsite/templates/index.html:252
 msgid "Augmented Reality"
 msgstr "Realidade aumentada"
 
-#: mymwebsite/templates/index.html:231
+#: mymwebsite/templates/index.html:252
 msgid ""
 " Capture the image always in the same position. Images are filled "
 "automatically. (Available only with MyMensorAR mobile client)"
@@ -1476,54 +1492,54 @@ msgstr ""
 " Capture as imagens sempre na mesma posição. Imagens são arquivadas "
 "automaticamente. (Disponível somente com cliente mobile MyMensorAR)"
 
-#: mymwebsite/templates/index.html:237 mymwebsite/templates/index.html:307
+#: mymwebsite/templates/index.html:258 mymwebsite/templates/index.html:328
 msgid "Certification"
 msgstr "Certificação"
 
-#: mymwebsite/templates/index.html:237
+#: mymwebsite/templates/index.html:258
 msgid " We automatically certify time and location of the images."
 msgstr ""
 " Nós automaticamente certificamos o horário e a localização das imagens."
 
-#: mymwebsite/templates/index.html:243 mymwebsite/templates/index.html:309
+#: mymwebsite/templates/index.html:264 mymwebsite/templates/index.html:330
 msgid "Sharing"
 msgstr "Compartilhamento"
 
-#: mymwebsite/templates/index.html:243
+#: mymwebsite/templates/index.html:264
 msgid " We automatically and immediately share your captures."
 msgstr " Compartilhamento automático e imediato de suas capturas."
 
-#: mymwebsite/templates/index.html:253 mymwebsite/templates/index.html:344
+#: mymwebsite/templates/index.html:274 mymwebsite/templates/index.html:365
 msgid "Database"
 msgstr "Banco de Dados"
 
-#: mymwebsite/templates/index.html:253
+#: mymwebsite/templates/index.html:274
 msgid " All data safe. (Available only with MyMensor MEDIA AND DATA an up)"
 msgstr ""
 " Todos os dados seguros. (Disponível somente com MyMensor MEDIA AND DATA e "
 "superior)"
 
-#: mymwebsite/templates/index.html:259
+#: mymwebsite/templates/index.html:280
 msgid "Mobile Application"
 msgstr "Mobile App"
 
-#: mymwebsite/templates/index.html:259
+#: mymwebsite/templates/index.html:280
 msgid " Android app for capturing images."
 msgstr " App Android para captura de imagens."
 
-#: mymwebsite/templates/index.html:265
+#: mymwebsite/templates/index.html:286
 msgid " Secure connections "
 msgstr " Conexões seguras "
 
-#: mymwebsite/templates/index.html:265
+#: mymwebsite/templates/index.html:286
 msgid " Each transmission is always done in HTTPS."
 msgstr " Cada transmissão é sempre feita em HTTPS."
 
-#: mymwebsite/templates/index.html:275
+#: mymwebsite/templates/index.html:296
 msgid "30-day free trial"
 msgstr "avaliação gratuita por até 30 dias"
 
-#: mymwebsite/templates/index.html:276
+#: mymwebsite/templates/index.html:297
 msgid ""
 "Start your 30-day free-trial now! No Credit Card required during trial "
 "period!"
@@ -1531,67 +1547,64 @@ msgstr ""
 "Comece sua avaliação gratuita de 30 dias agora! Sem cartão de crédito "
 "durante o período de teste!"
 
-#: mymwebsite/templates/index.html:285
+#: mymwebsite/templates/index.html:306
 msgid "Business Talk"
 msgstr "Vamos aos Negócios"
 
-#: mymwebsite/templates/index.html:286
+#: mymwebsite/templates/index.html:307
 msgid "Simple plans. Direct and clear."
 msgstr "Planos simples. Direto e claro."
 
-#: mymwebsite/templates/index.html:297 mymwebsite/templates/index.html:301
-#: mymwebsite/templates/index.html:333 mymwebsite/templates/index.html:337
+#: mymwebsite/templates/index.html:318 mymwebsite/templates/index.html:322
+#: mymwebsite/templates/index.html:354 mymwebsite/templates/index.html:358
 msgid "/month"
 msgstr "/mês"
 
-#: mymwebsite/templates/index.html:302
+#: mymwebsite/templates/index.html:323
 msgid ""
 "Even simpler. For those that just need the certification and sharing power."
 msgstr ""
 "Ainda mais simples. Para aqueles que precisam apenas do poder da "
 "certificação e compartilhamento."
 
-#: mymwebsite/templates/index.html:307
+#: mymwebsite/templates/index.html:328
 msgid " time and location"
 msgstr " horário e local"
 
-#: mymwebsite/templates/index.html:309
-msgid " automatic sharing to Twitter and Email."
-msgstr " compartilhamento automático para Twitter e E-mail."
+#: mymwebsite/templates/index.html:330
+msgid " automatic sharing to Twitter and Email"
+msgstr " compartilhamento automático para Twitter e E-mail"
 
-#: mymwebsite/templates/index.html:312
+#: mymwebsite/templates/index.html:333
 msgid "AR"
 msgstr "AR"
 
-#: mymwebsite/templates/index.html:312
+#: mymwebsite/templates/index.html:333
 msgid " automatic and precise captures"
 msgstr " capturas automáticas e precisas"
 
-#: mymwebsite/templates/index.html:313
+#: mymwebsite/templates/index.html:334
 msgid "Secure"
 msgstr "Seguro"
 
-#: mymwebsite/templates/index.html:313
+#: mymwebsite/templates/index.html:334
 msgid " all HTTPS"
 msgstr " tudo HTTPS"
 
-#: mymwebsite/templates/index.html:315 mymwebsite/templates/index.html:318
-#: mymwebsite/templates/index.html:370
+#: mymwebsite/templates/index.html:336 mymwebsite/templates/index.html:339
+#: mymwebsite/templates/index.html:391
 msgid "Mobile App"
 msgstr "Mobile App"
 
-#: mymwebsite/templates/index.html:315
-msgid " use both MyMensor and MyMensorAR apps, you choose!"
-msgstr " use ambas as apps MyMensor e MyMensorAR, você escolhe!"
+#: mymwebsite/templates/index.html:336
+msgid " download the MyMensorAR app an use it!"
+msgstr " baixe a aplicação MyMensorAR e use!"
 
-#: mymwebsite/templates/index.html:318
-msgid ""
-" up to five installs per user (Two apps in the same device is one install!)"
-msgstr ""
-" até cinco instalações por usuário (Os dois tipos de app no mesmo "
-"dispositivo conta como um instalação!)"
+#: mymwebsite/templates/index.html:339
+msgid " up to five installs per user"
+msgstr " até cinco instalações por conta"
 
-#: mymwebsite/templates/index.html:338
+#: mymwebsite/templates/index.html:359
 msgid ""
 "The one size fits all solution. Use Media and Data Features to control your "
 "personal and business projects"
@@ -1599,23 +1612,23 @@ msgstr ""
 "A solução tamanho único. Use os recursos de mídia e de dados para controlar "
 "seus projetos pessoais e empresariais"
 
-#: mymwebsite/templates/index.html:342
+#: mymwebsite/templates/index.html:363
 msgid "ALL MyMensor Media FEATURES PLUS"
 msgstr "TODAS AS CARACTERÍSTICAS DE MyMensor Media MAIS"
 
-#: mymwebsite/templates/index.html:344
+#: mymwebsite/templates/index.html:365
 msgid " build your own bigdata"
 msgstr " construa seu próprio bigdata"
 
-#: mymwebsite/templates/index.html:346
+#: mymwebsite/templates/index.html:367
 msgid "Data Features"
 msgstr "Funções de Dados"
 
-#: mymwebsite/templates/index.html:346
+#: mymwebsite/templates/index.html:367
 msgid " Process, edit, know the status and analyse your data"
 msgstr " Processe, edite, conheça o status e analise seus dados"
 
-#: mymwebsite/templates/index.html:363
+#: mymwebsite/templates/index.html:384
 msgid ""
 "A taylor made solution for you. Drop us an email and we will build your "
 "custom setup together."
@@ -1623,23 +1636,23 @@ msgstr ""
 "Uma solução sob medida para você. Mande um e-mail e juntos vamos construir "
 "sua configuração personalizada."
 
-#: mymwebsite/templates/index.html:367
+#: mymwebsite/templates/index.html:388
 msgid "ALL MyMensor Media and Data FEATURES PLUS"
 msgstr "TODAS AS CARACTERÍSTICAS DE MyMensor Media and Data MAIS"
 
-#: mymwebsite/templates/index.html:368
+#: mymwebsite/templates/index.html:389
 msgid "API access"
 msgstr "Acesso por API"
 
-#: mymwebsite/templates/index.html:368
+#: mymwebsite/templates/index.html:389
 msgid " upon request"
 msgstr " mediante solicitação"
 
-#: mymwebsite/templates/index.html:370
+#: mymwebsite/templates/index.html:391
 msgid " custom setups"
 msgstr " configurações personalizadas"
 
-#: mymwebsite/templates/index.html:374
+#: mymwebsite/templates/index.html:395
 msgid ""
 "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please "
 "contact me in order to start discussing a custom MyMensorCorp for my "
@@ -1649,7 +1662,7 @@ msgstr ""
 "MyMensorCorp&body=Por favor entre em contato comigo para começar a discutir "
 "um MyMensorCorp sob medida para minha Organização. Obrigado!"
 
-#: mymwebsite/templates/index.html:375
+#: mymwebsite/templates/index.html:396
 msgid "Make Your Request"
 msgstr "Faça Seu Pedido"
 
@@ -1666,9 +1679,21 @@ msgid "Last revision on June 2nd 2017."
 msgstr "Última revisão em 2 de junho de 2017."
 
 #: mymwebsite/templates/privacy.html:10
+#, fuzzy
+#| msgid ""
+#| "This Privacy Policy sets forth MyMensor's policy with respect to "
+#| "information including\n"
+#| "        personally identifiable data and other information that is "
+#| "collected from visitors to the Site and Services.\n"
+#| "        This privacy policy governs your use of a software application "
+#| "(“Service”), including both a Mobile app running\n"
+#| "        on mobile devices, and a Website application that runs on both "
+#| "mobile and desktop/laptop devices, that was\n"
+#| "        created by Celtapps Software. "
 msgid ""
-"This Privacy Policy sets forth MyMensor's policy with respect to information "
-"including\n"
+"This Privacy Policy sets forth MyMensor's policy with respect to "
+"information\n"
+"        including\n"
 "        personally identifiable data and other information that is collected "
 "from visitors to the Site and Services.\n"
 "        This privacy policy governs your use of a software application "
@@ -1683,16 +1708,30 @@ msgstr ""
 "governa o uso de um aplicativo de software (“Serviço”), incluindo um "
 "aplicativo para dispositivos móveis em dispositivos móveis e um aplicativo "
 "de site que é executado em dispositivos móveis e desktop / laptop, que foi "
-"criado pelo Celtapps Software."
+"criado pelo Celtapps Software. "
 
-#: mymwebsite/templates/privacy.html:15
+#: mymwebsite/templates/privacy.html:16
 msgid "Information collected and its use"
 msgstr "Informações coletadas e seu uso"
 
-#: mymwebsite/templates/privacy.html:16
+#: mymwebsite/templates/privacy.html:17
+#, fuzzy
+#| msgid ""
+#| "The Service obtains the information you provide when you download and "
+#| "register the Service\n"
+#| "        (“User Provided Data”). Registration is required to use our "
+#| "Service. When you register with us and use the\n"
+#| "        Service, you provide: (a) an email address, an username and a "
+#| "password; (b) information you provide us when you\n"
+#| "        contact us for help, and; (c) information you enter into our "
+#| "system when using the Service, such as images,\n"
+#| "        videos, remarks and numerical data. We may also use the "
+#| "information you provided us to contact you from time to\n"
+#| "        time to provide you with important information, required notices "
+#| "and marketing promotions."
 msgid ""
-"The Service obtains the information you provide when you download and "
-"register the Service\n"
+"The Service obtains the information you provide when you download and\n"
+"        register the Service\n"
 "        (“User Provided Data”). Registration is required to use our Service. "
 "When you register with us and use the\n"
 "        Service, you provide: (a) an email address, an username and a "
@@ -1702,7 +1741,8 @@ msgid ""
 "        videos, remarks and numerical data. We may also use the information "
 "you provided us to contact you from time to\n"
 "        time to provide you with important information, required notices and "
-"marketing promotions."
+"marketing\n"
+"        promotions."
 msgstr ""
 "O Serviço obtém as informações fornecidas quando você baixa e registra o "
 "Serviço (“Dados fornecidos pelo usuário”). O registro é necessário para usar "
@@ -1714,10 +1754,21 @@ msgstr ""
 "que você nos forneceu para contatá-lo de tempos em tempos para fornecer "
 "informações importantes, avisos exigidos e promoções de marketing."
 
-#: mymwebsite/templates/privacy.html:22
+#: mymwebsite/templates/privacy.html:25
+#, fuzzy
+#| msgid ""
+#| "In addition, the Service may collect certain information automatically "
+#| "(“Collected\n"
+#| "        Information”), such as the type of mobile device you use, your "
+#| "mobile devices unique device ID, the IP address\n"
+#| "        of your device, the geographic location of your device, your "
+#| "operating system, the type of Internet browsers you\n"
+#| "        use, and information about the way you use the Service. Sometimes "
+#| "we aggregate user data anonymously to\n"
+#| "        understand our customer base better."
 msgid ""
-"In addition, the Service may collect certain information automatically "
-"(“Collected\n"
+"In addition, the Service may collect certain information automatically\n"
+"        (“Collected\n"
 "        Information”), such as the type of mobile device you use, your "
 "mobile devices unique device ID, the IP address\n"
 "        of your device, the geographic location of your device, your "
@@ -1735,10 +1786,19 @@ msgstr ""
 "agregamos dados do usuário anonimamente para entender melhor a nossa base de "
 "clientes."
 
-#: mymwebsite/templates/privacy.html:27
+#: mymwebsite/templates/privacy.html:31
+#, fuzzy
+#| msgid ""
+#| "This Service collects information about the location of your device. We "
+#| "use your location\n"
+#| "        information to provide location certification services. You may "
+#| "at any time stop us from further allowing us to\n"
+#| "        have access to your location data by disabling location services "
+#| "entirely, or specifically for the app, inside\n"
+#| "        our app or on your mobile device."
 msgid ""
-"This Service collects information about the location of your device. We use "
-"your location\n"
+"This Service collects information about the location of your device. We use\n"
+"        your location\n"
 "        information to provide location certification services. You may at "
 "any time stop us from further allowing us to\n"
 "        have access to your location data by disabling location services "
@@ -1752,14 +1812,29 @@ msgstr ""
 "localização inteiramente, ou especificamente para o aplicativo, dentro do "
 "nosso aplicativo ou em seu dispositivo móvel."
 
-#: mymwebsite/templates/privacy.html:31
+#: mymwebsite/templates/privacy.html:36
 msgid "Data Retention Policy; Managing Your Information"
 msgstr "Política de Retenção de Dados; Gerenciamento de Suas Informações"
 
-#: mymwebsite/templates/privacy.html:32
+#: mymwebsite/templates/privacy.html:37
+#, fuzzy
+#| msgid ""
+#| "We will retain User Provided data for as long as you use the Service and "
+#| "for a reasonable\n"
+#| "        time thereafter. If you’d like to delete User Provided Data that "
+#| "you have provided via the Service, you can do\n"
+#| "        so inside our mobile app and inside our web app, for the relevant "
+#| "portions of information, furthermore, if you\n"
+#| "        want to completely wipe all information from our servers please "
+#| "contact us at support@mymensor.com and we will\n"
+#| "        respond in a reasonable time. Please note that some or all of the "
+#| "User Provided Data may be required in order\n"
+#| "        for the Service to function properly, and we may be required to "
+#| "retain certain information by law."
 msgid ""
-"We will retain User Provided data for as long as you use the Service and for "
-"a reasonable\n"
+"We will retain User Provided data for as long as you use the Service and "
+"for\n"
+"        a reasonable\n"
 "        time thereafter. If you’d like to delete User Provided Data that you "
 "have provided via the Service, you can do\n"
 "        so inside our mobile app and inside our web app, for the relevant "
@@ -1769,7 +1844,8 @@ msgid ""
 "        respond in a reasonable time. Please note that some or all of the "
 "User Provided Data may be required in order\n"
 "        for the Service to function properly, and we may be required to "
-"retain certain information by law."
+"retain certain information by\n"
+"        law."
 msgstr ""
 "Manteremos os dados fornecidos pelo usuário durante o uso do Serviço e por "
 "um tempo razoável a partir de então. Se você deseja excluir os Dados "
@@ -1782,20 +1858,32 @@ msgstr ""
 "necessários para que o Serviço funcione corretamente, e talvez iremos reter "
 "certas informações por força de lei."
 
-#: mymwebsite/templates/privacy.html:38
+#: mymwebsite/templates/privacy.html:45
 msgid "Third-Party Payment Processor"
 msgstr "Processador Externo de Pagamentos"
 
-#: mymwebsite/templates/privacy.html:39
+#: mymwebsite/templates/privacy.html:46
+#, fuzzy
+#| msgid ""
+#| "We use a third party payment processor to process payments made to us. In "
+#| "connection with\n"
+#| "        the processing of such payments, we do not retain any personally "
+#| "identifiable information or any financial\n"
+#| "        information such as credit card numbers. All such information is "
+#| "provided directly to our third party processor,\n"
+#| "        whose use of your personal information is governed by their "
+#| "privacy policy (https://www.paypal.com/pt/webapps/mpp/ua/privacy-full?"
+#| "locale.x=en_PT)."
 msgid ""
-"We use a third party payment processor to process payments made to us. In "
-"connection with\n"
+"We use a third party payment processor to process payments made to us. In\n"
+"        connection with\n"
 "        the processing of such payments, we do not retain any personally "
 "identifiable information or any financial\n"
 "        information such as credit card numbers. All such information is "
 "provided directly to our third party processor,\n"
 "        whose use of your personal information is governed by their privacy "
-"policy (https://www.paypal.com/pt/webapps/mpp/ua/privacy-full?locale."
+"policy\n"
+"        (https://www.paypal.com/pt/webapps/mpp/ua/privacy-full?locale."
 "x=en_PT)."
 msgstr ""
 "Usamos um processador de pagamento externo para processar os pagamentos "
@@ -1806,14 +1894,33 @@ msgstr ""
 "uso de suas informações pessoais é regido por sua política de privacidade "
 "(https://www.paypal.com/pt/webapps/mpp/ua/privacy-full?locale.x=en_PT)."
 
-#: mymwebsite/templates/privacy.html:43
+#: mymwebsite/templates/privacy.html:52
 msgid "Third parties access to information obtained by the Service"
 msgstr "Acesso de Terceiros às Informações Obtidas pelo Serviço"
 
-#: mymwebsite/templates/privacy.html:44
+#: mymwebsite/templates/privacy.html:53
+#, fuzzy
+#| msgid ""
+#| "We will share your information with third parties only in the ways that "
+#| "are described in\n"
+#| "        this privacy statement. We may disclose collected Information, in "
+#| "the following manners: (a) as required by law,\n"
+#| "        such as to comply with a subpoena, or similar legal process; (b) "
+#| "when we believe in good faith that disclosure\n"
+#| "        is necessary to protect our rights, protect your safety or the "
+#| "safety of others, investigate fraud, respond to a\n"
+#| "        government request, act in urgent circumstances to protect the "
+#| "personal safety of our users or the public, or\n"
+#| "        protect against legal liability; (c) if Celtapps Software is "
+#| "involved in a merger, acquisition, or sale of all\n"
+#| "        or a portion of its assets, you will be notified via email and/or "
+#| "a prominent notice on our Web site of any\n"
+#| "        change in ownership or uses of this information, as well as any "
+#| "choices you may have regarding this\n"
+#| "        information."
 msgid ""
-"We will share your information with third parties only in the ways that are "
-"described in\n"
+"We will share your information with third parties only in the ways that are\n"
+"        described in\n"
 "        this privacy statement. We may disclose collected Information, in "
 "the following manners: (a) as required by law,\n"
 "        such as to comply with a subpoena, or similar legal process; (b) "
@@ -1844,77 +1951,62 @@ msgstr ""
 "qualquer alteração na propriedade ou uso deste Informações, bem como "
 "quaisquer escolhas que você possa ter sobre essa informação."
 
-#: mymwebsite/templates/privacy.html:53
+#: mymwebsite/templates/privacy.html:63
 msgid "Cookies"
 msgstr "Cookies"
 
-#: mymwebsite/templates/privacy.html:54
+#: mymwebsite/templates/privacy.html:64
 msgid ""
-"Cookies are small pieces of text used to store information on web browsers."
+"Cookies are small pieces of text used to store information on web browsers.\n"
+"        They are used by many websites to store and receive identifiers and "
+"other information on devices, such as a\n"
+"        handheld phone or computer. Our site and services use cookies and "
+"other similar technologies, in order to\n"
+"        provide a better service to you and to generally improve our sites "
+"and services. Some portions of our websites\n"
+"        are functional without cookies, and you may generally choose whether "
+"to accept cookies. Most web browsers are\n"
+"        set to accept cookies by default, however, you may be able to delete "
+"cookiesyourself through your browser\\'s\n"
+"        cookie manager. To do so, please follow the instructions provided by "
+"your web browser. Please note that\n"
+"        disabling cookies will reset your session, disable auto-login, and "
+"may adversely affect the availability and\n"
+"        functionality of our websites and the services we can provide to you."
 msgstr ""
-"Cookies são pequenos pedaços de texto usado para armazenar informações nos "
-"navegadores da web."
+"Os cookies são pequenos pedaços de texto usados para armazenar informações "
+"em navegadores da web. Eles são usados por muitos sites para armazenar e "
+"receber identificadores e outras informações em dispositivos, como um "
+"telefone ou computador de mão. Nosso site e serviços usam cookies e outras "
+"tecnologias similares, a fim de oferecer um melhor atendimento e, em geral, "
+"melhorar nossos sites e serviços. Algumas partes dos nossos sites são "
+"funcionais sem cookies e você geralmente pode escolher se deseja aceitar "
+"cookies. A maioria dos navegadores da Web está configurada para aceitar os "
+"cookies por padrão, no entanto, você poderá excluir cookies por meio do "
+"gerenciador de cookies do navegador. Para fazer isso, siga as instruções "
+"fornecidas pelo seu navegador. Observe que a desativação de cookies "
+"redefinirá sua sessão, desativará o login automático e poderá afetar "
+"negativamente a disponibilidade e a funcionalidade de nossos sites e os "
+"serviços que podemos fornecer."
 
-#: mymwebsite/templates/privacy.html:55
-msgid ""
-"They\\’re used by many websites to store and receive identifiers and other "
-"information on devices, such as a handheld phone or computer. "
-msgstr ""
-"Eles são usados por muitos sites para armazenar e receber identificadores e "
-"outras informações sobre dispositivos, como um telefone portátil ou "
-"computador. "
-
-#: mymwebsite/templates/privacy.html:56
-msgid ""
-"Our site and services use cookies and other similar technologies, in order "
-"to provide a better service to you and to generally improve our sites and "
-"services."
-msgstr ""
-"Nosso site e serviços usam cookies e outras tecnologias semelhantes, a fim "
-"de proporcionar um melhor serviço para você e melhorar nossos sites e "
-"serviços de uma maneira geral."
-
-#: mymwebsite/templates/privacy.html:57
-msgid ""
-"Some portions of our websites are functional without cookies, and you may "
-"generally choose whether to accept cookies. "
-msgstr ""
-"Algumas partes de nossos sites são funcionais sem cookies, e você pode optar "
-"por aceitar ou não cookies. "
-
-#: mymwebsite/templates/privacy.html:58
-msgid ""
-"Most web browsers are set to accept cookies by default, however, you may be "
-"able to delete cookiesyourself through your browser\\'s cookie manager."
-msgstr ""
-"A maioria dos navegadores da web são definidos para aceitar cookies, por "
-"padrão, no entanto, você pode ser capaz de apagar cookies através do "
-"Gerenciador de cookie do seu browser."
-
-#: mymwebsite/templates/privacy.html:59
-msgid "To do so, please follow the instructions provided by your web browser. "
-msgstr ""
-"Para fazer isso, por favor siga as instruções fornecidas pelo seu navegador "
-"web. "
-
-#: mymwebsite/templates/privacy.html:60
-msgid ""
-"Please note that disabling cookies will reset your session, disable auto-"
-"login, and may adversely affect the availability and functionality of our "
-"websites and the services we can provide to you."
-msgstr ""
-"Por favor, note que desabilitar cookies irá redefinir sua sessão, desativar "
-"login automático e pode afetar negativamente a disponibilidade e "
-"funcionalidade de nossos websites e os serviços que fornecemos a você."
-
-#: mymwebsite/templates/privacy.html:61
+#: mymwebsite/templates/privacy.html:73
 msgid "Children"
 msgstr "Crianças"
 
-#: mymwebsite/templates/privacy.html:62
+#: mymwebsite/templates/privacy.html:74
+#, fuzzy
+#| msgid ""
+#| "One must be 13 years old to use MyMensor. We do not use the Service to "
+#| "knowingly solicit\n"
+#| "        data from or market to children under the age of 13. If a parent "
+#| "or guardian becomes aware that his or her child\n"
+#| "        has provided us with information without their consent, he or she "
+#| "should contact us at support@mymensor.com. We\n"
+#| "        will delete such information from our files within a reasonable "
+#| "time."
 msgid ""
-"One must be 13 years old to use MyMensor. We do not use the Service to "
-"knowingly solicit\n"
+"One must be 13 years old to use MyMensor. We do not use the Service to\n"
+"        knowingly solicit\n"
 "        data from or market to children under the age of 13. If a parent or "
 "guardian becomes aware that his or her child\n"
 "        has provided us with information without their consent, he or she "
@@ -1928,14 +2020,25 @@ msgstr ""
 "contatar-nos no support@mymensor.com. Vamos excluir essas informações dos "
 "nossos arquivos dentro de um prazo razoável."
 
-#: mymwebsite/templates/privacy.html:66
+#: mymwebsite/templates/privacy.html:79
 msgid "Security"
 msgstr "Segurança"
 
-#: mymwebsite/templates/privacy.html:67
+#: mymwebsite/templates/privacy.html:80
+#, fuzzy
+#| msgid ""
+#| "MyMensor takes reasonable steps to protect your information from loss, "
+#| "misuse, and\n"
+#| "        unauthorized access, disclosure, alteration, or destruction. "
+#| "However, no Internet or email transmission is ever\n"
+#| "        fully secure or error free. In particular, email sent to or from "
+#| "us may not be secure. Therefore, you should\n"
+#| "        take special care in deciding what information you send to us via "
+#| "email. Please keep this in mind when\n"
+#| "        disclosing any information to MyMensor."
 msgid ""
-"MyMensor takes reasonable steps to protect your information from loss, "
-"misuse, and\n"
+"MyMensor takes reasonable steps to protect your information from loss,\n"
+"        misuse, and\n"
 "        unauthorized access, disclosure, alteration, or destruction. "
 "However, no Internet or email transmission is ever\n"
 "        fully secure or error free. In particular, email sent to or from us "
@@ -1952,14 +2055,21 @@ msgstr ""
 "informações que você nos envia por e-mail. Tenha isso em mente ao divulgar "
 "qualquer informação ao MyMensor."
 
-#: mymwebsite/templates/privacy.html:72
+#: mymwebsite/templates/privacy.html:86
 msgid "Contact"
 msgstr "Contato"
 
-#: mymwebsite/templates/privacy.html:73
+#: mymwebsite/templates/privacy.html:87
+#, fuzzy
+#| msgid ""
+#| "If you have any questions regarding privacy while using the Service, or "
+#| "have questions about\n"
+#| "        our practices, please contact us via email at support@mymensor."
+#| "com."
 msgid ""
-"If you have any questions regarding privacy while using the Service, or have "
-"questions about\n"
+"If you have any questions regarding privacy while using the Service, or "
+"have\n"
+"        questions about\n"
 "        our practices, please contact us via email at support@mymensor.com."
 msgstr ""
 "Se você tiver alguma dúvida sobre privacidade ao usar o Serviço, ou tiver "
@@ -2356,7 +2466,9 @@ msgid ""
 "User Account before the end of your current\n"
 "        paid up month, your cancellation will take effect immediately, and "
 "you will not be charged again. But there will\n"
-"        not be any prorating of unused time in the last billing cycle."
+"        not be any prorating of unused time in the last billing cycle. "
+"Nevertheless, you will be able to continue using the services up until the "
+"end of the last billing cycle."
 msgstr ""
 "(D) Cancelamento e rescisão: você é o único responsável por cancelar "
 "corretamente sua conta de usuário. Uma solicitação de email ou telefone para "
@@ -2365,7 +2477,8 @@ msgstr ""
 "cancelar sua Conta de Usuário antes do final do seu mês de pagamento atual, "
 "seu cancelamento entrará em vigor imediatamente e você não será cobrado "
 "novamente. Mas não haverá prorrateamento do tempo não utilizado no último "
-"ciclo de cobrança."
+"ciclo de cobrança. No entanto, você poderá continuar usando os serviços até "
+"o final do último ciclo de cobrança."
 
 #: mymwebsite/templates/terms.html:113
 msgid ""
@@ -2781,6 +2894,70 @@ msgstr "Confugurando VPS e TAGS"
 #: mymwebsite/templates/videos.html:138
 msgid "Media and Data"
 msgstr "Mídia e Dados"
+
+#~ msgid ""
+#~ "Cookies are small pieces of text used to store information on web "
+#~ "browsers."
+#~ msgstr ""
+#~ "Cookies são pequenos pedaços de texto usado para armazenar informações "
+#~ "nos navegadores da web."
+
+#~ msgid ""
+#~ "They\\’re used by many websites to store and receive identifiers and "
+#~ "other information on devices, such as a handheld phone or computer. "
+#~ msgstr ""
+#~ "Eles são usados por muitos sites para armazenar e receber identificadores "
+#~ "e outras informações sobre dispositivos, como um telefone portátil ou "
+#~ "computador. "
+
+#~ msgid ""
+#~ "Our site and services use cookies and other similar technologies, in "
+#~ "order to provide a better service to you and to generally improve our "
+#~ "sites and services."
+#~ msgstr ""
+#~ "Nosso site e serviços usam cookies e outras tecnologias semelhantes, a "
+#~ "fim de proporcionar um melhor serviço para você e melhorar nossos sites e "
+#~ "serviços de uma maneira geral."
+
+#~ msgid ""
+#~ "Some portions of our websites are functional without cookies, and you may "
+#~ "generally choose whether to accept cookies. "
+#~ msgstr ""
+#~ "Algumas partes de nossos sites são funcionais sem cookies, e você pode "
+#~ "optar por aceitar ou não cookies. "
+
+#~ msgid ""
+#~ "Most web browsers are set to accept cookies by default, however, you may "
+#~ "be able to delete cookiesyourself through your browser\\'s cookie manager."
+#~ msgstr ""
+#~ "A maioria dos navegadores da web são definidos para aceitar cookies, por "
+#~ "padrão, no entanto, você pode ser capaz de apagar cookies através do "
+#~ "Gerenciador de cookie do seu browser."
+
+#~ msgid ""
+#~ "To do so, please follow the instructions provided by your web browser. "
+#~ msgstr ""
+#~ "Para fazer isso, por favor siga as instruções fornecidas pelo seu "
+#~ "navegador web. "
+
+#~ msgid ""
+#~ "Please note that disabling cookies will reset your session, disable auto-"
+#~ "login, and may adversely affect the availability and functionality of our "
+#~ "websites and the services we can provide to you."
+#~ msgstr ""
+#~ "Por favor, note que desabilitar cookies irá redefinir sua sessão, "
+#~ "desativar login automático e pode afetar negativamente a disponibilidade "
+#~ "e funcionalidade de nossos websites e os serviços que fornecemos a você."
+
+#~ msgid " use both MyMensor and MyMensorAR apps, you choose!"
+#~ msgstr " use ambas as apps MyMensor e MyMensorAR, você escolhe!"
+
+#~ msgid ""
+#~ " up to five installs per user (Two apps in the same device is one "
+#~ "install!)"
+#~ msgstr ""
+#~ " até cinco instalações por usuário (Os dois tipos de app no mesmo "
+#~ "dispositivo conta como um instalação!)"
 
 #~ msgid "Coming soon..."
 #~ msgstr "Breve…"

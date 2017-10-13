@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 19:28+0100\n"
+"POT-Creation-Date: 2017-10-13 21:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,63 +17,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: mymwebsite/templates/base.html:58 mymwebsite/templates/innerbase.html:104
+#: mymwebsite/templates/base.html:76 mymwebsite/templates/innerbase.html:123
 msgid "About"
 msgstr ""
 
-#: mymwebsite/templates/base.html:60 mymwebsite/templates/innerbase.html:106
+#: mymwebsite/templates/base.html:78 mymwebsite/templates/innerbase.html:125
 msgid "The journey was long, but we are just starting! Contact us anytime at "
 msgstr ""
 
-#: mymwebsite/templates/base.html:67 mymwebsite/templates/innerbase.html:113
+#: mymwebsite/templates/base.html:85 mymwebsite/templates/innerbase.html:132
 msgid "Product"
 msgstr ""
 
-#: mymwebsite/templates/base.html:69 mymwebsite/templates/index.html:36
-#: mymwebsite/templates/index.html:85 mymwebsite/templates/innerbase.html:74
-#: mymwebsite/templates/innerbase.html:115
+#: mymwebsite/templates/base.html:87 mymwebsite/templates/index.html:37
+#: mymwebsite/templates/index.html:85 mymwebsite/templates/innerbase.html:93
+#: mymwebsite/templates/innerbase.html:134
 msgid "Docs"
 msgstr ""
 
-#: mymwebsite/templates/base.html:71 mymwebsite/templates/index.html:37
-#: mymwebsite/templates/index.html:86 mymwebsite/templates/innerbase.html:75
-#: mymwebsite/templates/innerbase.html:117
+#: mymwebsite/templates/base.html:89 mymwebsite/templates/index.html:38
+#: mymwebsite/templates/index.html:86 mymwebsite/templates/innerbase.html:94
+#: mymwebsite/templates/innerbase.html:136
 msgid "Videos"
 msgstr ""
 
-#: mymwebsite/templates/base.html:74 mymwebsite/templates/index.html:39
-#: mymwebsite/templates/index.html:88 mymwebsite/templates/innerbase.html:77
-#: mymwebsite/templates/innerbase.html:120
+#: mymwebsite/templates/base.html:92 mymwebsite/templates/index.html:40
+#: mymwebsite/templates/index.html:88 mymwebsite/templates/innerbase.html:96
+#: mymwebsite/templates/innerbase.html:139
 msgid "FAQ"
 msgstr ""
 
-#: mymwebsite/templates/base.html:79 mymwebsite/templates/innerbase.html:125
+#: mymwebsite/templates/base.html:97 mymwebsite/templates/innerbase.html:144
 msgid "Legal"
 msgstr ""
 
-#: mymwebsite/templates/base.html:81 mymwebsite/templates/innerbase.html:127
+#: mymwebsite/templates/base.html:99 mymwebsite/templates/innerbase.html:146
 #: mymwebsite/templates/terms.html:6
 msgid "Terms of Service"
 msgstr ""
 
-#: mymwebsite/templates/base.html:84 mymwebsite/templates/innerbase.html:130
+#: mymwebsite/templates/base.html:102 mymwebsite/templates/innerbase.html:149
 #: mymwebsite/templates/terms.html:211
 msgid "Privacy"
 msgstr ""
 
-#: mymwebsite/templates/base.html:91 mymwebsite/templates/innerbase.html:137
+#: mymwebsite/templates/base.html:109 mymwebsite/templates/innerbase.html:156
 msgid "Language"
 msgstr ""
 
-#: mymwebsite/templates/base.html:105 mymwebsite/templates/innerbase.html:151
+#: mymwebsite/templates/base.html:123 mymwebsite/templates/innerbase.html:170
 msgid "Set"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:4
 #: mymwebsite/templates/cases/followingremotejobs.html:4
 #: mymwebsite/templates/cases/genusemediaplan.html:4
-#: mymwebsite/templates/index.html:35 mymwebsite/templates/index.html:84
-#: mymwebsite/templates/innerbase.html:73
+#: mymwebsite/templates/index.html:36 mymwebsite/templates/index.html:84
+#: mymwebsite/templates/innerbase.html:92
 msgid "Cases"
 msgstr ""
 
@@ -434,8 +434,8 @@ msgid ""
 "by you or your team when processing the VPs images."
 msgstr ""
 
-#: mymwebsite/templates/download.html:4 mymwebsite/templates/index.html:43
-#: mymwebsite/templates/index.html:93 mymwebsite/templates/innerbase.html:80
+#: mymwebsite/templates/download.html:4 mymwebsite/templates/index.html:44
+#: mymwebsite/templates/index.html:93 mymwebsite/templates/innerbase.html:99
 msgid "Download"
 msgstr ""
 
@@ -1015,22 +1015,22 @@ msgstr ""
 msgid "How To"
 msgstr ""
 
-#: mymwebsite/templates/index.html:32 mymwebsite/templates/index.html:81
-#: mymwebsite/templates/innerbase.html:70
+#: mymwebsite/templates/index.html:33 mymwebsite/templates/index.html:81
+#: mymwebsite/templates/innerbase.html:89
 msgid "Learn"
 msgstr ""
 
-#: mymwebsite/templates/index.html:38 mymwebsite/templates/index.html:87
-#: mymwebsite/templates/innerbase.html:76
+#: mymwebsite/templates/index.html:39 mymwebsite/templates/index.html:87
+#: mymwebsite/templates/innerbase.html:95
 msgid "How to"
 msgstr ""
 
-#: mymwebsite/templates/index.html:47 mymwebsite/templates/index.html:97
+#: mymwebsite/templates/index.html:48 mymwebsite/templates/index.html:97
 msgid "LOGIN"
 msgstr ""
 
-#: mymwebsite/templates/index.html:51 mymwebsite/templates/index.html:102
-#: mymwebsite/templates/innerbase.html:87
+#: mymwebsite/templates/index.html:53 mymwebsite/templates/index.html:102
+#: mymwebsite/templates/innerbase.html:106
 msgid "Register"
 msgstr ""
 
@@ -1039,12 +1039,11 @@ msgid "Simple and evidenced control."
 msgstr ""
 
 #: mymwebsite/templates/index.html:114
-msgid ""
-" Use images to control everything remotely <br> using an Android smartphone."
+msgid " Use images to survey everything remotely using an Android smartphone."
 msgstr ""
 
-#: mymwebsite/templates/index.html:117 mymwebsite/templates/index.html:191
-#: mymwebsite/templates/index.html:323 mymwebsite/templates/index.html:351
+#: mymwebsite/templates/index.html:117 mymwebsite/templates/index.html:188
+#: mymwebsite/templates/index.html:344 mymwebsite/templates/index.html:372
 msgid "Trial free now!"
 msgstr ""
 
@@ -1090,235 +1089,249 @@ msgid ""
 "security."
 msgstr ""
 
-#: mymwebsite/templates/index.html:171
+#: mymwebsite/templates/index.html:168
 msgid "Control Made Simple"
 msgstr ""
 
-#: mymwebsite/templates/index.html:172
+#: mymwebsite/templates/index.html:169
 msgid ""
 "Simplify your control practices. Work with portability of information and "
 "reality."
 msgstr ""
 
-#: mymwebsite/templates/index.html:173
+#: mymwebsite/templates/index.html:170
 msgid ""
 "Using our web application you have access to all your information anywhere, "
 "anytime. The reality will be portable for you to be transported to wherever "
 "you are."
 msgstr ""
 
-#: mymwebsite/templates/index.html:175 mymwebsite/templates/index.html:209
+#: mymwebsite/templates/index.html:172 mymwebsite/templates/index.html:230
 msgid "Read our docs"
 msgstr ""
 
-#: mymwebsite/templates/index.html:186
+#: mymwebsite/templates/index.html:183
 msgid "Simplified Sharing"
 msgstr ""
 
-#: mymwebsite/templates/index.html:187
+#: mymwebsite/templates/index.html:184
 msgid " Share captures automatically via Twitter and Email."
 msgstr ""
 
-#: mymwebsite/templates/index.html:188
+#: mymwebsite/templates/index.html:185
 msgid ""
 " Promote your work with the reliability of the MyMensor certification. Your "
 "customers and friends can easily check the location and date of the media "
 "capture, even without a MyMensor subscription."
 msgstr ""
 
-#: mymwebsite/templates/index.html:205
+#: mymwebsite/templates/index.html:199
+msgid "Service Users and Certified Location"
+msgstr ""
+
+#: mymwebsite/templates/index.html:200
+msgid "Turn captured images into a certified path."
+msgstr ""
+
+#: mymwebsite/templates/index.html:201
+msgid ""
+"You will get when, where your media was captured. All without complicated "
+"setups! Just create a service user, pass the info to whoever you want to "
+"capture media into your account and it is working!"
+msgstr ""
+
+#: mymwebsite/templates/index.html:226
 msgid "Build your own bigdata"
 msgstr ""
 
-#: mymwebsite/templates/index.html:206
+#: mymwebsite/templates/index.html:227
 msgid ""
 "Use our web application to gather and view your data, in numerical and "
 "graphical ways."
 msgstr ""
 
-#: mymwebsite/templates/index.html:207
+#: mymwebsite/templates/index.html:228
 msgid ""
 "Using our web application you can stablish operational ranges, yellow and "
 "red alarm ranges. Export your data to a CSV file and use wherever you need "
 "it."
 msgstr ""
 
-#: mymwebsite/templates/index.html:221
+#: mymwebsite/templates/index.html:242
 msgid "Inside MyMensor"
 msgstr ""
 
-#: mymwebsite/templates/index.html:222
+#: mymwebsite/templates/index.html:243
 msgid "It's easy to see how we make your life more efficient every day."
 msgstr ""
 
-#: mymwebsite/templates/index.html:231
+#: mymwebsite/templates/index.html:252
 msgid "Augmented Reality"
 msgstr ""
 
-#: mymwebsite/templates/index.html:231
+#: mymwebsite/templates/index.html:252
 msgid ""
 " Capture the image always in the same position. Images are filled "
 "automatically. (Available only with MyMensorAR mobile client)"
 msgstr ""
 
-#: mymwebsite/templates/index.html:237 mymwebsite/templates/index.html:307
+#: mymwebsite/templates/index.html:258 mymwebsite/templates/index.html:328
 msgid "Certification"
 msgstr ""
 
-#: mymwebsite/templates/index.html:237
+#: mymwebsite/templates/index.html:258
 msgid " We automatically certify time and location of the images."
 msgstr ""
 
-#: mymwebsite/templates/index.html:243 mymwebsite/templates/index.html:309
+#: mymwebsite/templates/index.html:264 mymwebsite/templates/index.html:330
 msgid "Sharing"
 msgstr ""
 
-#: mymwebsite/templates/index.html:243
+#: mymwebsite/templates/index.html:264
 msgid " We automatically and immediately share your captures."
 msgstr ""
 
-#: mymwebsite/templates/index.html:253 mymwebsite/templates/index.html:344
+#: mymwebsite/templates/index.html:274 mymwebsite/templates/index.html:365
 msgid "Database"
 msgstr ""
 
-#: mymwebsite/templates/index.html:253
+#: mymwebsite/templates/index.html:274
 msgid " All data safe. (Available only with MyMensor MEDIA AND DATA an up)"
 msgstr ""
 
-#: mymwebsite/templates/index.html:259
+#: mymwebsite/templates/index.html:280
 msgid "Mobile Application"
 msgstr ""
 
-#: mymwebsite/templates/index.html:259
+#: mymwebsite/templates/index.html:280
 msgid " Android app for capturing images."
 msgstr ""
 
-#: mymwebsite/templates/index.html:265
+#: mymwebsite/templates/index.html:286
 msgid " Secure connections "
 msgstr ""
 
-#: mymwebsite/templates/index.html:265
+#: mymwebsite/templates/index.html:286
 msgid " Each transmission is always done in HTTPS."
 msgstr ""
 
-#: mymwebsite/templates/index.html:275
+#: mymwebsite/templates/index.html:296
 msgid "30-day free trial"
 msgstr ""
 
-#: mymwebsite/templates/index.html:276
+#: mymwebsite/templates/index.html:297
 msgid ""
 "Start your 30-day free-trial now! No Credit Card required during trial "
 "period!"
 msgstr ""
 
-#: mymwebsite/templates/index.html:285
+#: mymwebsite/templates/index.html:306
 msgid "Business Talk"
 msgstr ""
 
-#: mymwebsite/templates/index.html:286
+#: mymwebsite/templates/index.html:307
 msgid "Simple plans. Direct and clear."
 msgstr ""
 
-#: mymwebsite/templates/index.html:297 mymwebsite/templates/index.html:301
-#: mymwebsite/templates/index.html:333 mymwebsite/templates/index.html:337
+#: mymwebsite/templates/index.html:318 mymwebsite/templates/index.html:322
+#: mymwebsite/templates/index.html:354 mymwebsite/templates/index.html:358
 msgid "/month"
 msgstr ""
 
-#: mymwebsite/templates/index.html:302
+#: mymwebsite/templates/index.html:323
 msgid ""
 "Even simpler. For those that just need the certification and sharing power."
 msgstr ""
 
-#: mymwebsite/templates/index.html:307
+#: mymwebsite/templates/index.html:328
 msgid " time and location"
 msgstr ""
 
-#: mymwebsite/templates/index.html:309
-msgid " automatic sharing to Twitter and Email."
+#: mymwebsite/templates/index.html:330
+msgid " automatic sharing to Twitter and Email"
 msgstr ""
 
-#: mymwebsite/templates/index.html:312
+#: mymwebsite/templates/index.html:333
 msgid "AR"
 msgstr ""
 
-#: mymwebsite/templates/index.html:312
+#: mymwebsite/templates/index.html:333
 msgid " automatic and precise captures"
 msgstr ""
 
-#: mymwebsite/templates/index.html:313
+#: mymwebsite/templates/index.html:334
 msgid "Secure"
 msgstr ""
 
-#: mymwebsite/templates/index.html:313
+#: mymwebsite/templates/index.html:334
 msgid " all HTTPS"
 msgstr ""
 
-#: mymwebsite/templates/index.html:315 mymwebsite/templates/index.html:318
-#: mymwebsite/templates/index.html:370
+#: mymwebsite/templates/index.html:336 mymwebsite/templates/index.html:339
+#: mymwebsite/templates/index.html:391
 msgid "Mobile App"
 msgstr ""
 
-#: mymwebsite/templates/index.html:315
-msgid " use both MyMensor and MyMensorAR apps, you choose!"
+#: mymwebsite/templates/index.html:336
+msgid " download the MyMensorAR app an use it!"
 msgstr ""
 
-#: mymwebsite/templates/index.html:318
-msgid ""
-" up to five installs per user (Two apps in the same device is one install!)"
+#: mymwebsite/templates/index.html:339
+msgid " up to five installs per user"
 msgstr ""
 
-#: mymwebsite/templates/index.html:338
+#: mymwebsite/templates/index.html:359
 msgid ""
 "The one size fits all solution. Use Media and Data Features to control your "
 "personal and business projects"
 msgstr ""
 
-#: mymwebsite/templates/index.html:342
+#: mymwebsite/templates/index.html:363
 msgid "ALL MyMensor Media FEATURES PLUS"
 msgstr ""
 
-#: mymwebsite/templates/index.html:344
+#: mymwebsite/templates/index.html:365
 msgid " build your own bigdata"
 msgstr ""
 
-#: mymwebsite/templates/index.html:346
+#: mymwebsite/templates/index.html:367
 msgid "Data Features"
 msgstr ""
 
-#: mymwebsite/templates/index.html:346
+#: mymwebsite/templates/index.html:367
 msgid " Process, edit, know the status and analyse your data"
 msgstr ""
 
-#: mymwebsite/templates/index.html:363
+#: mymwebsite/templates/index.html:384
 msgid ""
 "A taylor made solution for you. Drop us an email and we will build your "
 "custom setup together."
 msgstr ""
 
-#: mymwebsite/templates/index.html:367
+#: mymwebsite/templates/index.html:388
 msgid "ALL MyMensor Media and Data FEATURES PLUS"
 msgstr ""
 
-#: mymwebsite/templates/index.html:368
+#: mymwebsite/templates/index.html:389
 msgid "API access"
 msgstr ""
 
-#: mymwebsite/templates/index.html:368
+#: mymwebsite/templates/index.html:389
 msgid " upon request"
 msgstr ""
 
-#: mymwebsite/templates/index.html:370
+#: mymwebsite/templates/index.html:391
 msgid " custom setups"
 msgstr ""
 
-#: mymwebsite/templates/index.html:374
+#: mymwebsite/templates/index.html:395
 msgid ""
 "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please "
 "contact me in order to start discussing a custom MyMensorCorp for my "
 "Organization. Thanks!"
 msgstr ""
 
-#: mymwebsite/templates/index.html:375
+#: mymwebsite/templates/index.html:396
 msgid "Make Your Request"
 msgstr ""
 
@@ -1336,8 +1349,9 @@ msgstr ""
 
 #: mymwebsite/templates/privacy.html:10
 msgid ""
-"This Privacy Policy sets forth MyMensor's policy with respect to information "
-"including\n"
+"This Privacy Policy sets forth MyMensor's policy with respect to "
+"information\n"
+"        including\n"
 "        personally identifiable data and other information that is collected "
 "from visitors to the Site and Services.\n"
 "        This privacy policy governs your use of a software application "
@@ -1347,14 +1361,14 @@ msgid ""
 "        created by Celtapps Software. "
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:15
+#: mymwebsite/templates/privacy.html:16
 msgid "Information collected and its use"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:16
+#: mymwebsite/templates/privacy.html:17
 msgid ""
-"The Service obtains the information you provide when you download and "
-"register the Service\n"
+"The Service obtains the information you provide when you download and\n"
+"        register the Service\n"
 "        (“User Provided Data”). Registration is required to use our Service. "
 "When you register with us and use the\n"
 "        Service, you provide: (a) an email address, an username and a "
@@ -1364,13 +1378,14 @@ msgid ""
 "        videos, remarks and numerical data. We may also use the information "
 "you provided us to contact you from time to\n"
 "        time to provide you with important information, required notices and "
-"marketing promotions."
+"marketing\n"
+"        promotions."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:22
+#: mymwebsite/templates/privacy.html:25
 msgid ""
-"In addition, the Service may collect certain information automatically "
-"(“Collected\n"
+"In addition, the Service may collect certain information automatically\n"
+"        (“Collected\n"
 "        Information”), such as the type of mobile device you use, your "
 "mobile devices unique device ID, the IP address\n"
 "        of your device, the geographic location of your device, your "
@@ -1380,10 +1395,10 @@ msgid ""
 "        understand our customer base better."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:27
+#: mymwebsite/templates/privacy.html:31
 msgid ""
-"This Service collects information about the location of your device. We use "
-"your location\n"
+"This Service collects information about the location of your device. We use\n"
+"        your location\n"
 "        information to provide location certification services. You may at "
 "any time stop us from further allowing us to\n"
 "        have access to your location data by disabling location services "
@@ -1391,14 +1406,15 @@ msgid ""
 "        our app or on your mobile device."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:31
+#: mymwebsite/templates/privacy.html:36
 msgid "Data Retention Policy; Managing Your Information"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:32
+#: mymwebsite/templates/privacy.html:37
 msgid ""
-"We will retain User Provided data for as long as you use the Service and for "
-"a reasonable\n"
+"We will retain User Provided data for as long as you use the Service and "
+"for\n"
+"        a reasonable\n"
 "        time thereafter. If you’d like to delete User Provided Data that you "
 "have provided via the Service, you can do\n"
 "        so inside our mobile app and inside our web app, for the relevant "
@@ -1408,34 +1424,36 @@ msgid ""
 "        respond in a reasonable time. Please note that some or all of the "
 "User Provided Data may be required in order\n"
 "        for the Service to function properly, and we may be required to "
-"retain certain information by law."
+"retain certain information by\n"
+"        law."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:38
+#: mymwebsite/templates/privacy.html:45
 msgid "Third-Party Payment Processor"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:39
+#: mymwebsite/templates/privacy.html:46
 msgid ""
-"We use a third party payment processor to process payments made to us. In "
-"connection with\n"
+"We use a third party payment processor to process payments made to us. In\n"
+"        connection with\n"
 "        the processing of such payments, we do not retain any personally "
 "identifiable information or any financial\n"
 "        information such as credit card numbers. All such information is "
 "provided directly to our third party processor,\n"
 "        whose use of your personal information is governed by their privacy "
-"policy (https://www.paypal.com/pt/webapps/mpp/ua/privacy-full?locale."
+"policy\n"
+"        (https://www.paypal.com/pt/webapps/mpp/ua/privacy-full?locale."
 "x=en_PT)."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:43
+#: mymwebsite/templates/privacy.html:52
 msgid "Third parties access to information obtained by the Service"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:44
+#: mymwebsite/templates/privacy.html:53
 msgid ""
-"We will share your information with third parties only in the ways that are "
-"described in\n"
+"We will share your information with third parties only in the ways that are\n"
+"        described in\n"
 "        this privacy statement. We may disclose collected Information, in "
 "the following manners: (a) as required by law,\n"
 "        such as to comply with a subpoena, or similar legal process; (b) "
@@ -1453,59 +1471,38 @@ msgid ""
 "        information."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:53
+#: mymwebsite/templates/privacy.html:63
 msgid "Cookies"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:54
+#: mymwebsite/templates/privacy.html:64
 msgid ""
-"Cookies are small pieces of text used to store information on web browsers."
+"Cookies are small pieces of text used to store information on web browsers.\n"
+"        They are used by many websites to store and receive identifiers and "
+"other information on devices, such as a\n"
+"        handheld phone or computer. Our site and services use cookies and "
+"other similar technologies, in order to\n"
+"        provide a better service to you and to generally improve our sites "
+"and services. Some portions of our websites\n"
+"        are functional without cookies, and you may generally choose whether "
+"to accept cookies. Most web browsers are\n"
+"        set to accept cookies by default, however, you may be able to delete "
+"cookiesyourself through your browser\\'s\n"
+"        cookie manager. To do so, please follow the instructions provided by "
+"your web browser. Please note that\n"
+"        disabling cookies will reset your session, disable auto-login, and "
+"may adversely affect the availability and\n"
+"        functionality of our websites and the services we can provide to you."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:55
-msgid ""
-"They\\’re used by many websites to store and receive identifiers and other "
-"information on devices, such as a handheld phone or computer. "
-msgstr ""
-
-#: mymwebsite/templates/privacy.html:56
-msgid ""
-"Our site and services use cookies and other similar technologies, in order "
-"to provide a better service to you and to generally improve our sites and "
-"services."
-msgstr ""
-
-#: mymwebsite/templates/privacy.html:57
-msgid ""
-"Some portions of our websites are functional without cookies, and you may "
-"generally choose whether to accept cookies. "
-msgstr ""
-
-#: mymwebsite/templates/privacy.html:58
-msgid ""
-"Most web browsers are set to accept cookies by default, however, you may be "
-"able to delete cookiesyourself through your browser\\'s cookie manager."
-msgstr ""
-
-#: mymwebsite/templates/privacy.html:59
-msgid "To do so, please follow the instructions provided by your web browser. "
-msgstr ""
-
-#: mymwebsite/templates/privacy.html:60
-msgid ""
-"Please note that disabling cookies will reset your session, disable auto-"
-"login, and may adversely affect the availability and functionality of our "
-"websites and the services we can provide to you."
-msgstr ""
-
-#: mymwebsite/templates/privacy.html:61
+#: mymwebsite/templates/privacy.html:73
 msgid "Children"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:62
+#: mymwebsite/templates/privacy.html:74
 msgid ""
-"One must be 13 years old to use MyMensor. We do not use the Service to "
-"knowingly solicit\n"
+"One must be 13 years old to use MyMensor. We do not use the Service to\n"
+"        knowingly solicit\n"
 "        data from or market to children under the age of 13. If a parent or "
 "guardian becomes aware that his or her child\n"
 "        has provided us with information without their consent, he or she "
@@ -1513,14 +1510,14 @@ msgid ""
 "        will delete such information from our files within a reasonable time."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:66
+#: mymwebsite/templates/privacy.html:79
 msgid "Security"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:67
+#: mymwebsite/templates/privacy.html:80
 msgid ""
-"MyMensor takes reasonable steps to protect your information from loss, "
-"misuse, and\n"
+"MyMensor takes reasonable steps to protect your information from loss,\n"
+"        misuse, and\n"
 "        unauthorized access, disclosure, alteration, or destruction. "
 "However, no Internet or email transmission is ever\n"
 "        fully secure or error free. In particular, email sent to or from us "
@@ -1530,14 +1527,15 @@ msgid ""
 "        disclosing any information to MyMensor."
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:72
+#: mymwebsite/templates/privacy.html:86
 msgid "Contact"
 msgstr ""
 
-#: mymwebsite/templates/privacy.html:73
+#: mymwebsite/templates/privacy.html:87
 msgid ""
-"If you have any questions regarding privacy while using the Service, or have "
-"questions about\n"
+"If you have any questions regarding privacy while using the Service, or "
+"have\n"
+"        questions about\n"
 "        our practices, please contact us via email at support@mymensor.com."
 msgstr ""
 
@@ -1800,7 +1798,9 @@ msgid ""
 "User Account before the end of your current\n"
 "        paid up month, your cancellation will take effect immediately, and "
 "you will not be charged again. But there will\n"
-"        not be any prorating of unused time in the last billing cycle."
+"        not be any prorating of unused time in the last billing cycle. "
+"Nevertheless, you will be able to continue using the services up until the "
+"end of the last billing cycle."
 msgstr ""
 
 #: mymwebsite/templates/terms.html:113
