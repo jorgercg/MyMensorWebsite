@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-17 14:48+0000\n"
-"PO-Revision-Date: 2017-10-17 15:27+0100\n"
+"POT-Creation-Date: 2017-10-17 15:57+0100\n"
+"PO-Revision-Date: 2017-10-17 15:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -86,8 +86,8 @@ msgid "Pinocchio sitting over a mobile phone."
 msgstr "Pinóquio, sentado sobre um telefone móvel."
 
 #: mymwebsite/templates/cases.html:11
-msgid "General Use for MyMensor"
-msgstr "Uso de Propósito Geral para o MyMensor"
+msgid "General Use for MyMensor "
+msgstr "Uso de Propósito Geral para o MyMensor "
 
 #: mymwebsite/templates/cases.html:12
 msgid "General purpose use for the MyMensor Media Plan"
@@ -100,8 +100,8 @@ msgid "Staging for producing a fake photo."
 msgstr "Preparo para produzir uma foto falsa."
 
 #: mymwebsite/templates/cases.html:19
-msgid "Following Jobs Remotely"
-msgstr "Acompanhando Trabalhos remotamente"
+msgid "Following Jobs Remotely "
+msgstr "Acompanhando Trabalhos remotamente "
 
 #: mymwebsite/templates/cases.html:20
 msgid ""
@@ -121,11 +121,11 @@ msgstr ""
 msgid ""
 "I have a friend that is a very successful accountant in an European country. "
 "Once he told me a tale of a client who invested in the construction of an "
-"apartment building in Africa."
+"apartment building in Africa. "
 msgstr ""
 "Eu tenho um amigo que é um contador muito bem sucedido em um país europeu. "
 "Uma vez contou-me a história de um cliente que investiu na construção de um "
-"prédio de apartamentos em África."
+"prédio de apartamentos em África. "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:11
 msgid "Everything went well, so he decided to go for the second one."

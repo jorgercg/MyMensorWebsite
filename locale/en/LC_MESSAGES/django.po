@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-17 14:48+0000\n"
+"POT-Creation-Date: 2017-10-17 15:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgid "Pinocchio sitting over a mobile phone."
 msgstr ""
 
 #: mymwebsite/templates/cases.html:11
-msgid "General Use for MyMensor"
+msgid "General Use for MyMensor "
 msgstr ""
 
 #: mymwebsite/templates/cases.html:12
@@ -96,7 +96,7 @@ msgid "Staging for producing a fake photo."
 msgstr ""
 
 #: mymwebsite/templates/cases.html:19
-msgid "Following Jobs Remotely"
+msgid "Following Jobs Remotely "
 msgstr ""
 
 #: mymwebsite/templates/cases.html:20
@@ -113,7 +113,7 @@ msgstr ""
 msgid ""
 "I have a friend that is a very successful accountant in an European country. "
 "Once he told me a tale of a client who invested in the construction of an "
-"apartment building in Africa."
+"apartment building in Africa. "
 msgstr ""
 
 #: mymwebsite/templates/cases/followingremotejobs.html:11
