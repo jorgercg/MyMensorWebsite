@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-13 21:48+0100\n"
-"PO-Revision-Date: 2017-10-13 21:58+0100\n"
+"POT-Creation-Date: 2017-10-17 14:24+0000\n"
+"PO-Revision-Date: 2017-10-17 15:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -80,17 +80,36 @@ msgstr "Definir"
 msgid "Cases"
 msgstr "Casos"
 
-#: mymwebsite/templates/cases.html:7
-msgid "Use Cases"
-msgstr "Casos de Uso"
+#: mymwebsite/templates/cases.html:9
+#: mymwebsite/templates/cases/genusemediaplan.html:9
+msgid "Pinocchio sitting over a mobile phone."
+msgstr "Pinóquio, sentado sobre um telefone móvel."
 
-#: mymwebsite/templates/cases.html:10
-#: mymwebsite/templates/cases/genusemediaplan.html:7
-msgid "General Purpose Use for the MyMensor Media Plan"
+#: mymwebsite/templates/cases.html:11
+msgid "General Use for MyMensor"
+msgstr "Uso de Propósito Geral para o MyMensor"
+
+#: mymwebsite/templates/cases.html:12
+msgid "General purpose use for the MyMensor Media Plan"
 msgstr ""
 "Uso de propósito geral para o plano MyMensor mídia (MyMensor Media Plan)"
 
-#: mymwebsite/templates/cases.html:12
+#: mymwebsite/templates/cases.html:17
+#: mymwebsite/templates/cases/followingremotejobs.html:9
+msgid "Staging for producing a fake photo."
+msgstr "Preparo para produzir uma foto falsa."
+
+#: mymwebsite/templates/cases.html:19
+msgid "Following Jobs Remotely"
+msgstr "Acompanhando Trabalhos remotamente"
+
+#: mymwebsite/templates/cases.html:20
+msgid ""
+"Following jobs remotely with the MyMensor Media Plan, Media and Data Plan"
+msgstr ""
+"Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
+"Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
+
 #: mymwebsite/templates/cases/followingremotejobs.html:7
 msgid ""
 "Following Jobs Remotely with the MyMensor Media Plan and Media and Data Plan"
@@ -98,9 +117,9 @@ msgstr ""
 "Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
 "Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
 
-#: mymwebsite/templates/cases/followingremotejobs.html:9
+#: mymwebsite/templates/cases/followingremotejobs.html:10
 msgid ""
-"I have a friend that is a very successful accountant in a European country. "
+"I have a friend that is a very successful accountant in an European country. "
 "Once he told me a tale of a client who invested in the construction of an "
 "apartment building in Africa."
 msgstr ""
@@ -108,11 +127,11 @@ msgstr ""
 "Uma vez contou-me a história de um cliente que investiu na construção de um "
 "prédio de apartamentos em África."
 
-#: mymwebsite/templates/cases/followingremotejobs.html:10
+#: mymwebsite/templates/cases/followingremotejobs.html:11
 msgid "Everything went well, so he decided to go for the second one."
 msgstr "Correu tudo bem, então ele decidiu ir para o segundo."
 
-#: mymwebsite/templates/cases/followingremotejobs.html:11
+#: mymwebsite/templates/cases/followingremotejobs.html:12
 msgid ""
 "In the first one he had relied on photos sent to him via email to check the "
 "progress of the project, only going on site for the commencement and "
@@ -122,7 +141,7 @@ msgstr ""
 "fotos enviadas a ele via e-mail, somente indo no local para o início e a "
 "entrega do edifício. Então, ele seguiu o mesmo caminho na segunda construção."
 
-#: mymwebsite/templates/cases/followingremotejobs.html:12
+#: mymwebsite/templates/cases/followingremotejobs.html:13
 msgid ""
 "The trouble is that the second building was delayed, he continued receiving "
 "the photos by email, eventually he decided to take a flight and make a "
@@ -133,7 +152,7 @@ msgstr ""
 "fotos por e-mail, um belo dia ele decidiu pegar um voo e fazer uma visita "
 "surpresa ao local da construção. É claro que você já sabe o que aconteceu."
 
-#: mymwebsite/templates/cases/followingremotejobs.html:13
+#: mymwebsite/templates/cases/followingremotejobs.html:14
 msgid ""
 "There was no second building! His money was gone and down there he "
 "discovered that he was targeted with a scam known to the locals. He needed a "
@@ -143,7 +162,7 @@ msgstr ""
 "que ele havia sido alvo de um golpe conhecido para os locais. Ele precisava "
 "de uma ferramenta para protegê-lo daquilo."
 
-#: mymwebsite/templates/cases/followingremotejobs.html:14
+#: mymwebsite/templates/cases/followingremotejobs.html:15
 msgid ""
 "Using just the MyMensor Media Plan one could follow the project headway "
 "remotely using the certified media. Going even deeper you could establish "
@@ -157,18 +176,23 @@ msgstr ""
 "seguir os diferentes aspectos da construção usando as tabelas e ferramentas "
 "gráficas do MyMensor."
 
-#: mymwebsite/templates/cases/followingremotejobs.html:15
+#: mymwebsite/templates/cases/followingremotejobs.html:16
 msgid ""
 "Do you have a remote project and it is going astray? We can help mend that! "
 msgstr ""
 "Você tem um projeto remoto e ele está indo mal? Nós podemos ajudar a "
 "consertar isso! "
 
-#: mymwebsite/templates/cases/followingremotejobs.html:16
+#: mymwebsite/templates/cases/followingremotejobs.html:18
 msgid "Start your 30-day free-trial now. "
 msgstr "Comece sua avaliação gratuita de 30 dias agora. "
 
-#: mymwebsite/templates/cases/genusemediaplan.html:9
+#: mymwebsite/templates/cases/genusemediaplan.html:7
+msgid "General Purpose Use for the MyMensor Media Plan"
+msgstr ""
+"Uso de propósito geral para o plano MyMensor mídia (MyMensor Media Plan)"
+
+#: mymwebsite/templates/cases/genusemediaplan.html:10
 msgid ""
 "Since we have created the first version of SeaMensor (that was the “father” "
 "of MyMensor), our friends ask us: - What can I do with this piece of "
@@ -178,7 +202,7 @@ msgstr ""
 "MyMensor), nossos amigos nos perguntam: - O que posso fazer com este "
 "software que eu já não podia fazer com a câmera do meu telefone?"
 
-#: mymwebsite/templates/cases/genusemediaplan.html:10
+#: mymwebsite/templates/cases/genusemediaplan.html:11
 msgid ""
 "At that time, it seemed to be a good question, but as time passes it became "
 "abundantly clear that forgery in the online world has become epidemic. So, "
@@ -190,7 +214,7 @@ msgstr ""
 "epidemia. Então, ver uma foto ou um vídeo que foi enviado para você nos "
 "canais usuais já não é suficiente, você precisa de uma prova!"
 
-#: mymwebsite/templates/cases/genusemediaplan.html:11
+#: mymwebsite/templates/cases/genusemediaplan.html:12
 msgid ""
 "One simple but defining feature of MyMensor is that you cannot insert any "
 "media into our system that was not produced by one of our mobile apps. So, "
@@ -203,7 +227,7 @@ msgstr ""
 "MyMensor foi realmente produzido por uma câmera de smartphone, com nenhuma "
 "alteração, modificação ou melhoria, você decide."
 
-#: mymwebsite/templates/cases/genusemediaplan.html:12
+#: mymwebsite/templates/cases/genusemediaplan.html:13
 msgid ""
 "On top of that, MyMensor will tell you if time and location were certified "
 "and then you can trust that the media is really what it seems to be."
@@ -212,7 +236,7 @@ msgstr ""
 "certificados e, então, você pode confiar que a mídia é realmente o que "
 "parece ser."
 
-#: mymwebsite/templates/cases/genusemediaplan.html:13
+#: mymwebsite/templates/cases/genusemediaplan.html:14
 msgid ""
 "This what I call a general, simple use to MyMensor Media: media "
 "certification."
@@ -220,7 +244,7 @@ msgstr ""
 "Isso é o que eu chamo de um uso geral e simples para o MyMensor Media: "
 "certificação de mídia."
 
-#: mymwebsite/templates/cases/genusemediaplan.html:14
+#: mymwebsite/templates/cases/genusemediaplan.html:15
 msgid ""
 "But there is a lot more to MyMensor Media: automatic filing, automatic "
 "sharing etc. So, look no further, "
@@ -228,11 +252,11 @@ msgstr ""
 "Mas há muito mais no MyMensor Media: arquivamento automático, "
 "compartilhamento automático etc. Portanto, não procure mais, "
 
-#: mymwebsite/templates/cases/genusemediaplan.html:15
+#: mymwebsite/templates/cases/genusemediaplan.html:17
 msgid "start your 30-day free-trial now. "
 msgstr "comece sua avaliação gratuita de 30 dias agora. "
 
-#: mymwebsite/templates/cases/genusemediaplan.html:15
+#: mymwebsite/templates/cases/genusemediaplan.html:17
 msgid ""
 "No Credit Card is required during trial period and, even when you have "
 "subscribed, you can easily cancel at any time, just clicking a button!"
@@ -2778,6 +2802,9 @@ msgstr "Confugurando VPS e TAGS"
 #: mymwebsite/templates/videos.html:138
 msgid "Media and Data"
 msgstr "Mídia e Dados"
+
+#~ msgid "Use Cases"
+#~ msgstr "Casos de Uso"
 
 #~ msgid ""
 #~ "Cookies are small pieces of text used to store information on web "

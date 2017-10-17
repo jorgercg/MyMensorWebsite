@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-13 21:48+0100\n"
+"POT-Creation-Date: 2017-10-17 14:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,40 +77,57 @@ msgstr ""
 msgid "Cases"
 msgstr ""
 
-#: mymwebsite/templates/cases.html:7
-msgid "Use Cases"
+#: mymwebsite/templates/cases.html:9
+#: mymwebsite/templates/cases/genusemediaplan.html:9
+msgid "Pinocchio sitting over a mobile phone."
 msgstr ""
 
-#: mymwebsite/templates/cases.html:10
-#: mymwebsite/templates/cases/genusemediaplan.html:7
-msgid "General Purpose Use for the MyMensor Media Plan"
+#: mymwebsite/templates/cases.html:11
+msgid "General Use for MyMensor"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:12
+msgid "General purpose use for the MyMensor Media Plan"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:17
+#: mymwebsite/templates/cases/followingremotejobs.html:9
+msgid "Staging for producing a fake photo."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:19
+msgid "Following Jobs Remotely"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:20
+msgid ""
+"Following jobs remotely with the MyMensor Media Plan, Media and Data Plan"
+msgstr ""
+
 #: mymwebsite/templates/cases/followingremotejobs.html:7
 msgid ""
 "Following Jobs Remotely with the MyMensor Media Plan and Media and Data Plan"
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:9
+#: mymwebsite/templates/cases/followingremotejobs.html:10
 msgid ""
-"I have a friend that is a very successful accountant in a European country. "
+"I have a friend that is a very successful accountant in an European country. "
 "Once he told me a tale of a client who invested in the construction of an "
 "apartment building in Africa."
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:10
+#: mymwebsite/templates/cases/followingremotejobs.html:11
 msgid "Everything went well, so he decided to go for the second one."
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:11
+#: mymwebsite/templates/cases/followingremotejobs.html:12
 msgid ""
 "In the first one he had relied on photos sent to him via email to check the "
 "progress of the project, only going on site for the commencement and "
 "delivery of the building. So, he followed the same path in the second one."
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:12
+#: mymwebsite/templates/cases/followingremotejobs.html:13
 msgid ""
 "The trouble is that the second building was delayed, he continued receiving "
 "the photos by email, eventually he decided to take a flight and make a "
@@ -118,14 +135,14 @@ msgid ""
 "what happened."
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:13
+#: mymwebsite/templates/cases/followingremotejobs.html:14
 msgid ""
 "There was no second building! His money was gone and down there he "
 "discovered that he was targeted with a scam known to the locals. He needed a "
 "tool to protect him from that."
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:14
+#: mymwebsite/templates/cases/followingremotejobs.html:15
 msgid ""
 "Using just the MyMensor Media Plan one could follow the project headway "
 "remotely using the certified media. Going even deeper you could establish "
@@ -134,23 +151,27 @@ msgid ""
 "MyMensor tools."
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:15
+#: mymwebsite/templates/cases/followingremotejobs.html:16
 msgid ""
 "Do you have a remote project and it is going astray? We can help mend that! "
 msgstr ""
 
-#: mymwebsite/templates/cases/followingremotejobs.html:16
+#: mymwebsite/templates/cases/followingremotejobs.html:18
 msgid "Start your 30-day free-trial now. "
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:9
+#: mymwebsite/templates/cases/genusemediaplan.html:7
+msgid "General Purpose Use for the MyMensor Media Plan"
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:10
 msgid ""
 "Since we have created the first version of SeaMensor (that was the “father” "
 "of MyMensor), our friends ask us: - What can I do with this piece of "
 "software that I cannot do with my phone camera already?"
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:10
+#: mymwebsite/templates/cases/genusemediaplan.html:11
 msgid ""
 "At that time, it seemed to be a good question, but as time passes it became "
 "abundantly clear that forgery in the online world has become epidemic. So, "
@@ -158,7 +179,7 @@ msgid ""
 "enough anymore, you need proof!"
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:11
+#: mymwebsite/templates/cases/genusemediaplan.html:12
 msgid ""
 "One simple but defining feature of MyMensor is that you cannot insert any "
 "media into our system that was not produced by one of our mobile apps. So, "
@@ -166,29 +187,29 @@ msgid ""
 "smartphone camera, with no tampering, modification, enhancing, you name it."
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:12
+#: mymwebsite/templates/cases/genusemediaplan.html:13
 msgid ""
 "On top of that, MyMensor will tell you if time and location were certified "
 "and then you can trust that the media is really what it seems to be."
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:13
+#: mymwebsite/templates/cases/genusemediaplan.html:14
 msgid ""
 "This what I call a general, simple use to MyMensor Media: media "
 "certification."
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:14
+#: mymwebsite/templates/cases/genusemediaplan.html:15
 msgid ""
 "But there is a lot more to MyMensor Media: automatic filing, automatic "
 "sharing etc. So, look no further, "
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:15
+#: mymwebsite/templates/cases/genusemediaplan.html:17
 msgid "start your 30-day free-trial now. "
 msgstr ""
 
-#: mymwebsite/templates/cases/genusemediaplan.html:15
+#: mymwebsite/templates/cases/genusemediaplan.html:17
 msgid ""
 "No Credit Card is required during trial period and, even when you have "
 "subscribed, you can easily cancel at any time, just clicking a button!"
