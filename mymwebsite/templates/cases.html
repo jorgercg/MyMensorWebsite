@@ -3,8 +3,10 @@
 {% get_current_language as LANGUAGE_CODE %}
 {% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
 {% block content %}
+    <h1 class="mt-5 mb-5 ml-4">{% trans "MyMensor Use Cases" %}</h1>
+    <hr>
     <div id="casestext" class="d-flex justify-content-start flex-wrap">
-        <div id="genusemediaplan" class="card m-3 card-outline-secondary w-25">
+        <div id="genusemediaplan" class="card m-3 card-outline-secondary" style="width: 22rem;">
             <img class="card-img-top img-fluid" src="{% static 'images/genusemediaplan.jpg' %}"
                  alt={% trans "Pinocchio sitting over a mobile phone." %}>
             <div class="card-body p-3">
@@ -12,7 +14,7 @@
                 <p class="card-text">{% trans "General purpose use for the MyMensor Media Plan" %}</p>
             </div>
         </div>
-        <div id="followingremotejobs" class="card m-3 card-outline-secondary w-25">
+        <div id="followingremotejobs" class="card m-3 card-outline-secondary" style="width: 22rem;">
             <img class="card-img-top img-fluid" src="{% static 'images/followingremotejobs.jpg' %}"
                  alt={% trans "Staging for producing a fake photo." %}>
             <div class="card-body p-3">
@@ -20,7 +22,22 @@
                 <p class="card-text">{% trans "Following jobs remotely with the MyMensor Media Plan, Media and Data Plan" %}</p>
             </div>
         </div>
-
+        <div id="genusemediaplan" class="card m-3 card-outline-secondary" style="width: 22rem;">
+            <img class="card-img-top img-fluid" src="{% static 'images/genusemediaplan.jpg' %}"
+                 alt={% trans "Pinocchio sitting over a mobile phone." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "General Use for MyMensor " %}</h4>
+                <p class="card-text">{% trans "General purpose use for the MyMensor Media Plan" %}</p>
+            </div>
+        </div>
+        <div id="followingremotejobs" class="card m-3 card-outline-secondary" style="width: 22rem;">
+            <img class="card-img-top img-fluid" src="{% static 'images/followingremotejobs.jpg' %}"
+                 alt={% trans "Staging for producing a fake photo." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "Following Jobs Remotely " %}</h4>
+                <p class="card-text">{% trans "Following jobs remotely with the MyMensor Media Plan, Media and Data Plan" %}</p>
+            </div>
+        </div>
 
 
     </div>
