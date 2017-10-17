@@ -3,12 +3,41 @@
 {% get_current_language as LANGUAGE_CODE %}
 {% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
 {% block content %}
-    <p></p>
-    <h3>{% trans "Use Cases" %}</h3>
-    <p></p>
-    <hr>
-    <h4><a href="{% url 'genusemediaplan' %}" target="_blank">{% trans "General Purpose Use for the MyMensor Media Plan" %}</a></h4>
+    <div id="casestext" class="d-flex justify-content-start flex-wrap">
+        <div id="genusemediaplan" class="card m-3 card-outline-secondary w-25">
+            <img class="card-img-top img-fluid" src="{% static 'images/genusemediaplan.jpg' %}"
+                 alt={% trans "Pinocchio sitting over a mobile phone." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "General Use for MyMensor" %}</h4>
+                <p class="card-text">{% trans "General Purpose Use for the MyMensor Media Plan" %}</p>
+            </div>
+        </div>
+        <div id="followingremotejobs" class="card m-3 card-outline-secondary w-25">
+            <img class="card-img-top img-fluid" src="{% static 'images/followingremotejobs.jpg' %}"
+                 alt={% trans "Staging for producing a fake photo." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "Following Jobs Remotely" %}</h4>
+                <p class="card-text">{% trans "Following Jobs Remotely with the MyMensor Media Plan and Media and Data Plan" %}</p>
+            </div>
+        </div>
 
-    <h4><a href="{% url 'followingremotejobs' %}" target="_blank">{% trans "Following Jobs Remotely with the MyMensor Media Plan and Media and Data Plan" %}</a></h4>
+
+
+    </div>
+
+{% endblock %}
+{% block javascript %}
+
+    <script type="text/javascript">
+        {% get_current_language as LANGUAGE_CODE %}
+        $('.card').click(function (event) {
+            event.preventDefault();
+            var idclicked = $(this).attr('id');
+            console.log("Clicked on: id=" + idclicked);
+            window.location = '/{{ LANGUAGE_CODE }}/cases/'+idclicked;
+        });
+
+
+    </script>
 
 {% endblock %}
