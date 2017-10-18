@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-18 13:57+0100\n"
-"PO-Revision-Date: 2017-10-18 14:01+0100\n"
+"POT-Creation-Date: 2017-10-18 14:09+0100\n"
+"PO-Revision-Date: 2017-10-18 14:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -91,8 +91,9 @@ msgid "Pinocchio sitting over a mobile phone."
 msgstr "Pinóquio, sentado sobre um telefone móvel."
 
 #: mymwebsite/templates/cases.html:13
-msgid "Making Sure that a Photo os NOT a Fake"
-msgstr "Certificando-se de que uma Foto NÃO é FALSA"
+#: mymwebsite/templates/cases/genusemediaplan.html:7
+msgid "Making Sure that a Photo is NOT a Fake"
+msgstr "Certificando-se que uma Foto NÃO é FALSA"
 
 #: mymwebsite/templates/cases.html:14
 msgid ""
@@ -224,11 +225,6 @@ msgstr ""
 "<mark>Não é necessário cartão de crédito durante o período de avaliação</"
 "mark> e, mesmo depois que você assinou, poderá cancelar facilmente a "
 "qualquer momento, apenas clicando em um botão!"
-
-#: mymwebsite/templates/cases/genusemediaplan.html:7
-msgid "General Purpose Use for the MyMensor Media&nbsp;Plan"
-msgstr ""
-"Uso de propósito geral para o plano MyMensor&nbsp;Mídia (MyMensor Media Plan)"
 
 #: mymwebsite/templates/cases/genusemediaplan.html:10
 msgid ""
@@ -3004,6 +3000,11 @@ msgstr "Confugurando VPS e TAGS"
 #: mymwebsite/templates/videos.html:136
 msgid "Media and Data"
 msgstr "Mídia e Dados"
+
+#~ msgid "General Purpose Use for the MyMensor Media&nbsp;Plan"
+#~ msgstr ""
+#~ "Uso de propósito geral para o plano MyMensor&nbsp;Mídia (MyMensor Media "
+#~ "Plan)"
 
 #~ msgid "General Use for MyMensor "
 #~ msgstr "Uso de Propósito Geral para o MyMensor "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-18 13:57+0100\n"
+"POT-Creation-Date: 2017-10-18 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,7 +88,8 @@ msgid "Pinocchio sitting over a mobile phone."
 msgstr ""
 
 #: mymwebsite/templates/cases.html:13
-msgid "Making Sure that a Photo os NOT a Fake"
+#: mymwebsite/templates/cases/genusemediaplan.html:7
+msgid "Making Sure that a Photo is NOT a Fake"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:14
@@ -187,10 +188,6 @@ msgid ""
 "<mark>No Credit Card is required during trial period</mark> and, even when "
 "you have subscribed, you can easily cancel at any time, just clicking a "
 "button!"
-msgstr ""
-
-#: mymwebsite/templates/cases/genusemediaplan.html:7
-msgid "General Purpose Use for the MyMensor Media&nbsp;Plan"
 msgstr ""
 
 #: mymwebsite/templates/cases/genusemediaplan.html:10
