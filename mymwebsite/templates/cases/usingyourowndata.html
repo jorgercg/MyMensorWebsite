@@ -1,0 +1,29 @@
+{% extends 'innerbase.html' %}
+{% load staticfiles i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
+{% block content %}
+    <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
+        <h1 class="pb-3">{% trans "Using Your Own Data for Your Own Benefit" %}</h1>
+        <img class="card-img-top img-fluid pb-3" src="{% static 'images/usingyourowndata.jpg' %}"
+                 alt={% trans "Man surfing the bigdata wave, in form of a dollar sign." %}>
+        <p>{% trans "We all know that the big corporations are gathering all the data they possibly can about ourselves and our businesses in order to drive their profits up, resulting in highly targeted marketing and insane optimization." %}</p>
+        <p>{% trans "With today\'s technology we can do that ourselves, can\'t we? So, why we do not build our own big data? Is it worth the effort?" %}</p>
+        <p>{% trans "How to turn the big data revolution into something that increases the profitability of your own business? Today we see several simple ideas transformed into profitability generators in various activities. How to build your own Big Data to your benefit?" %}</p>
+        <p>{% trans "But what is Big Data? By definition of BARC (Business Application Research Center), from Germany, the term Big Data refers to the methods and technologies used to record, storage and analyse structured data in a highly scalable way." %}</p>
+        <p>{% trans "The big data certainly is one of the best drives of profitability generation that can be used by any business." %}</p>
+        <p>{% trans "To Prove this statement, we have the study released in July 2015 by BARC, called \'Big Data Use Cases\'), with over <strong>540 participants worldwide </strong>, which can be found (in the German original) "%}<a href="http://barc.de/docs/big-data-use-cases" target="_blank">{% trans "here."%}</a></p>
+        <p>{% trans "Companies have used various data sources to form their Big Data. From the same BARC study, we know that today 64% of them use their transactional systems as a data source but we can see, also, that in the future <strong>46%</strong> of firms will be using <strong>images as source data to form their Big Data</strong>." %}</p>
+        <p>{% trans "Big Data is not any longer in the realm of research and arrived to the real businesses. Of the 546 companies surveyed by BARC, <strong>41%</strong> have initiatives in relation to big data. They reported a <strong>10% reduction in costs</strong> and an <strong>increase of 8% in revenues</strong> due to the use of this technology." %}</p>
+        <p>{% trans "Among the benefits found, <strong>69% report better strategic decisions</strong> and <strong>54% report that they were able to better control its operating processes</strong>." %}</p>
+        <p>{% trans "<strong>So let’s get to work!</strong> The technology is available and the results are proven! Let's use the big data wave to drive your profits up!" %}</p>
+        <p>{% trans "<mark>You must be thinking: how can I do that in my own business?</mark>" %}</p>
+        <p>{% trans "MyMensor can help you accomplish that. With the use of the <mark>MyMensor Media and Data Plan</mark> you will be able to gather the data you need to form your big data. And with that you will set optimal regions of operation for your business." %}</p>
+        <p>{% trans "But OK, we are getting a little bit ahead of ourselves here! Firstly, you need to " %}
+            <a id="registerbtn" class="registerbtn"
+               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even after you have subscribed, you can easily cancel at any time, just clicking a button!" %}
+        </p>
+        <p>{% trans "Use your trial period to learn in our website how to setup a simple an efficient way to drive your business profits up! And, of course, drop us an email in case you need more info!" %}</p>
+    </div>
+
+{% endblock %}

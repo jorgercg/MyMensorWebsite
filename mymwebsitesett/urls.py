@@ -40,4 +40,5 @@ urlpatterns += i18n_patterns(
     url(r'^cases/$', mymviews.cases, name='cases'),
     url(r'^cases/genusemediaplan/$', TemplateView.as_view(template_name="cases/genusemediaplan.html"), name='genusemediaplan'),
     url(r'^cases/followingremotejobs/$', TemplateView.as_view(template_name="cases/followingremotejobs.html"), name='followingremotejobs'),
+    url(r'^cases/usingyourowndata/$', TemplateView.as_view(template_name="cases/usingyourowndata.html"), name='usingyourowndata'),
 )

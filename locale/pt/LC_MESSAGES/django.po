@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-17 16:36+0100\n"
+"POT-Creation-Date: 2017-10-18 11:46+0100\n"
 "PO-Revision-Date: 2017-10-17 16:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -75,6 +75,7 @@ msgstr "Definir"
 #: mymwebsite/templates/cases.html:4
 #: mymwebsite/templates/cases/followingremotejobs.html:4
 #: mymwebsite/templates/cases/genusemediaplan.html:4
+#: mymwebsite/templates/cases/usingyourowndata.html:4
 #: mymwebsite/templates/index.html:36 mymwebsite/templates/index.html:84
 #: mymwebsite/templates/innerbase.html:92
 msgid "Cases"
@@ -84,35 +85,46 @@ msgstr "Casos"
 msgid "MyMensor Use Cases"
 msgstr "Casos de Uso do MyMensor"
 
-#: mymwebsite/templates/cases.html:11 mymwebsite/templates/cases.html:27
+#: mymwebsite/templates/cases.html:11
 #: mymwebsite/templates/cases/genusemediaplan.html:9
 msgid "Pinocchio sitting over a mobile phone."
 msgstr "Pinóquio, sentado sobre um telefone móvel."
 
-#: mymwebsite/templates/cases.html:13 mymwebsite/templates/cases.html:29
+#: mymwebsite/templates/cases.html:13
 msgid "General Use for MyMensor "
 msgstr "Uso de Propósito Geral para o MyMensor "
 
-#: mymwebsite/templates/cases.html:14 mymwebsite/templates/cases.html:30
+#: mymwebsite/templates/cases.html:14
 msgid "General purpose use for the MyMensor Media Plan"
 msgstr ""
 "Uso de propósito geral para o plano MyMensor mídia (MyMensor Media Plan)"
 
-#: mymwebsite/templates/cases.html:19 mymwebsite/templates/cases.html:35
+#: mymwebsite/templates/cases.html:19 mymwebsite/templates/cases.html:27
 #: mymwebsite/templates/cases/followingremotejobs.html:9
 msgid "Staging for producing a fake photo."
 msgstr "Preparo para produzir uma foto falsa."
 
-#: mymwebsite/templates/cases.html:21 mymwebsite/templates/cases.html:37
+#: mymwebsite/templates/cases.html:21
 msgid "Following Jobs Remotely "
 msgstr "Acompanhando Trabalhos Remotamente "
 
-#: mymwebsite/templates/cases.html:22 mymwebsite/templates/cases.html:38
+#: mymwebsite/templates/cases.html:22
 msgid ""
 "Following jobs remotely with the MyMensor Media Plan, Media and Data Plan"
 msgstr ""
 "Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
 "Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
+
+#: mymwebsite/templates/cases.html:29
+msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
+msgstr ""
+
+#: mymwebsite/templates/cases.html:30
+msgid ""
+"Do like all big tech corporations are doing. They are using <u>your</u> data "
+"for <u>their</u> benefit, and most of the time we cannot prevent that. "
+"<mark>But we can use our own data for our own benefit, can\\'t we?</mark>. "
+msgstr ""
 
 #: mymwebsite/templates/cases/followingremotejobs.html:7
 msgid ""
@@ -272,8 +284,140 @@ msgstr ""
 "procure mais, "
 
 #: mymwebsite/templates/cases/genusemediaplan.html:17
+#: mymwebsite/templates/cases/usingyourowndata.html:24
 msgid "start your 30-day free-trial now! "
 msgstr "comece sua avaliação gratuita de 30 dias agora! "
+
+#: mymwebsite/templates/cases/usingyourowndata.html:7
+msgid "Using Your Own Data for Your Own Benefit"
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:9
+msgid "Man surfing the bigdata wave, in form of a dollar sign."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:10
+msgid ""
+"We all know that the big corporations are gathering all the data they "
+"possibly can about ourselves and our businesses in order to drive their "
+"profits up, resulting in highly targeted marketing and insane optimization."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:11
+msgid ""
+"With today\\'s technology we can do that ourselves, can\\'t we? So, why we "
+"do not build our own big data? Is it worth the effort?"
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:12
+msgid ""
+"How to turn the big data revolution into something that increases the "
+"profitability of your own business? Today we see several simple ideas "
+"transformed into profitability generators in various activities. How to "
+"build your own Big Data to your benefit?"
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:13
+msgid ""
+"But what is Big Data? By definition of BARC (Business Application Research "
+"Center), from Germany, the term Big Data refers to the methods and "
+"technologies used to record, storage and analyse structured data in a highly "
+"scalable way."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:14
+msgid ""
+"The big data certainly is one of the best drives of profitability generation "
+"that can be used by any business."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:15
+msgid ""
+"To Prove this statement, we have the study released in July 2015 by BARC, "
+"called \\'Big Data Use Cases\\'), with over <strong>540 participants "
+"worldwide </strong>, which can be found (in the German original) "
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:15
+#, fuzzy
+#| msgid " See here."
+msgid "here."
+msgstr " Veja aqui."
+
+#: mymwebsite/templates/cases/usingyourowndata.html:16
+#, python-format
+msgid ""
+"Companies have used various data sources to form their Big Data. From the "
+"same BARC study, we know that today 64%% of them use their transactional "
+"systems as a data source but we can see, also, that in the future "
+"<strong>46%%</strong> of firms will be using <strong>images as source data "
+"to form their Big Data</strong>."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:17
+#, python-format
+msgid ""
+"Big Data is not any longer in the realm of research and arrived to the real "
+"businesses. Of the 546 companies surveyed by BARC, <strong>41%%</strong> "
+"have initiatives in relation to big data. They reported a <strong>10%% "
+"reduction in costs</strong> and an <strong>increase of 8%% in revenues</"
+"strong> due to the use of this technology."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:18
+#, python-format
+msgid ""
+"Among the benefits found, <strong>69%% report better strategic decisions</"
+"strong> and <strong>54%% report that they were able to better control its "
+"operating processes</strong>."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:19
+msgid ""
+"<strong>So let’s get to work!</strong> The technology is available and the "
+"results are proven! Let's use the big data wave to drive your profits up!"
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:20
+msgid ""
+"<mark>You must be thinking: how can I do that in my own business?</mark>"
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:21
+msgid ""
+"MyMensor can help you accomplish that. With the use of the <mark>MyMensor "
+"Media and Data Plan</mark> you will be able to gather the data you need to "
+"form your big data. And with that you will set optimal regions of operation "
+"for your business."
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:22
+msgid ""
+"But OK, we are getting a little bit ahead of ourselves here! Firstly, you "
+"need to "
+msgstr ""
+
+#: mymwebsite/templates/cases/usingyourowndata.html:24
+#, fuzzy
+#| msgid ""
+#| "<mark>No Credit Card is required during trial period</mark> and, even "
+#| "when you have subscribed, you can easily cancel at any time, just "
+#| "clicking a button!"
+msgid ""
+"<mark>No Credit Card is required during trial period</mark> and, even after "
+"you have subscribed, you can easily cancel at any time, just clicking a "
+"button!"
+msgstr ""
+"<mark>Não é necessário cartão de crédito durante o período de avaliação</"
+"mark> e, mesmo depois que você assinou, poderá cancelar facilmente a "
+"qualquer momento, apenas clicando em um botão!"
+
+#: mymwebsite/templates/cases/usingyourowndata.html:26
+msgid ""
+"Use your trial period to learn in our website how to setup a simple an "
+"efficient way to drive your business profits up! And, of course, drop us an "
+"email in case you need more info!"
+msgstr ""
 
 #: mymwebsite/templates/docs.html:6
 msgid "Deeper Info about MyMensor"
