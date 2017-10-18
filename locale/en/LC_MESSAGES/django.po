@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-18 12:17+0100\n"
+"POT-Creation-Date: 2017-10-18 13:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,11 +88,15 @@ msgid "Pinocchio sitting over a mobile phone."
 msgstr ""
 
 #: mymwebsite/templates/cases.html:13
-msgid "General Use for MyMensor "
+msgid "Making Sure that a Photo os NOT a Fake"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:14
-msgid "General purpose use for the MyMensor Media Plan"
+msgid ""
+"On this day and age, how can one be sure that a photo is not a fake? Of "
+"course there are a number of very sofisticated methods to assure that, with "
+"a high confidence percentage. But if we knew, for sure, how the photo was "
+"taken? Is it not an easier solution?"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:19 mymwebsite/templates/cases.html:27
@@ -106,7 +110,8 @@ msgstr ""
 
 #: mymwebsite/templates/cases.html:22
 msgid ""
-"Following jobs remotely with the MyMensor Media Plan, Media and Data Plan"
+"One cannot be in more than one place at the same time, sure? Not quite, if "
+"we use the technology that is available right now!"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:29
@@ -121,8 +126,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/cases/followingremotejobs.html:7
-msgid ""
-"Following Jobs Remotely with the MyMensor Media Plan, Media and Data Plan"
+msgid "Following Jobs Remotely"
 msgstr ""
 
 #: mymwebsite/templates/cases/followingremotejobs.html:10

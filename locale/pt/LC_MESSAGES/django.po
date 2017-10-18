@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-18 12:17+0100\n"
-"PO-Revision-Date: 2017-10-18 12:27+0100\n"
+"POT-Creation-Date: 2017-10-18 13:57+0100\n"
+"PO-Revision-Date: 2017-10-18 14:02+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -91,13 +91,20 @@ msgid "Pinocchio sitting over a mobile phone."
 msgstr "Pinóquio, sentado sobre um telefone móvel."
 
 #: mymwebsite/templates/cases.html:13
-msgid "General Use for MyMensor "
-msgstr "Uso de Propósito Geral para o MyMensor "
+msgid "Making Sure that a Photo os NOT a Fake"
+msgstr "Certificando-se de que uma Foto NÃO é FALSA"
 
 #: mymwebsite/templates/cases.html:14
-msgid "General purpose use for the MyMensor Media Plan"
+msgid ""
+"On this day and age, how can one be sure that a photo is not a fake? Of "
+"course there are a number of very sofisticated methods to assure that, with "
+"a high confidence percentage. But if we knew, for sure, how the photo was "
+"taken? Is it not an easier solution?"
 msgstr ""
-"Uso de propósito geral para o plano MyMensor mídia (MyMensor Media Plan)"
+"Nos dias de hoje, como podemos ter certeza que uma foto não é uma "
+"falsificação? Claro, há uma série de métodos muito sofisticados para "
+"assegurar isso, com uma alta porcentagem de confiança. Mas se soubéssemos, "
+"com certeza, como a foto foi tirada? Não seria uma solução mais fácil?"
 
 #: mymwebsite/templates/cases.html:19 mymwebsite/templates/cases.html:27
 #: mymwebsite/templates/cases/followingremotejobs.html:9
@@ -110,10 +117,11 @@ msgstr "Acompanhando Trabalhos Remotamente "
 
 #: mymwebsite/templates/cases.html:22
 msgid ""
-"Following jobs remotely with the MyMensor Media Plan, Media and Data Plan"
+"One cannot be in more than one place at the same time, sure? Not quite, if "
+"we use the technology that is available right now!"
 msgstr ""
-"Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
-"Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
+"Não podemos estar em mais de um lugar ao mesmo tempo, certo? Não exatamente, "
+"se usarmos a tecnologia que está disponível agora mesmo!"
 
 #: mymwebsite/templates/cases.html:29
 msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
@@ -131,11 +139,8 @@ msgstr ""
 "para nosso próprio benefício, não podemos?</mark>."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:7
-msgid ""
-"Following Jobs Remotely with the MyMensor Media Plan, Media and Data Plan"
-msgstr ""
-"Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
-"Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
+msgid "Following Jobs Remotely"
+msgstr "Acompanhando Trabalhos Remotamente"
 
 #: mymwebsite/templates/cases/followingremotejobs.html:10
 msgid ""
@@ -3000,6 +3005,25 @@ msgstr "Confugurando VPS e TAGS"
 #: mymwebsite/templates/videos.html:136
 msgid "Media and Data"
 msgstr "Mídia e Dados"
+
+#~ msgid "General Use for MyMensor "
+#~ msgstr "Uso de Propósito Geral para o MyMensor "
+
+#~ msgid "General purpose use for the MyMensor Media Plan"
+#~ msgstr ""
+#~ "Uso de propósito geral para o plano MyMensor mídia (MyMensor Media Plan)"
+
+#~ msgid ""
+#~ "Following jobs remotely with the MyMensor Media Plan, Media and Data Plan"
+#~ msgstr ""
+#~ "Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
+#~ "Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
+
+#~ msgid ""
+#~ "Following Jobs Remotely with the MyMensor Media Plan, Media and Data Plan"
+#~ msgstr ""
+#~ "Acompanhando trabalhos remotamente com o Plano MyMensor Mídia (MyMensor "
+#~ "Media Plan) e Plano de Mídia e Dados (MyMensor Media and Data Plan)"
 
 #~ msgid ""
 #~ "Following Jobs Remotely with the MyMensor Media Plan and Media and Data "
