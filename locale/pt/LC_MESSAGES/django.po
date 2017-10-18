@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-18 12:17+0100\n"
-"PO-Revision-Date: 2017-10-17 16:46+0100\n"
+"PO-Revision-Date: 2017-10-18 12:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -117,7 +117,7 @@ msgstr ""
 
 #: mymwebsite/templates/cases.html:29
 msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
-msgstr ""
+msgstr "Usando Seus Dados Em Benefício Próprio"
 
 #: mymwebsite/templates/cases.html:30
 msgid ""
@@ -125,6 +125,10 @@ msgid ""
 "for <u>their</u> benefit, and most of the time we cannot prevent that. "
 "<mark>But we can use our own data for our own benefit, can\\'t we?</mark>. "
 msgstr ""
+"Faça o que estão fazendo todas as corporações de alta tecnologia. Elas estão "
+"usando os <u>seus</u> dados em benefício <u>delas</u>, e na maioria das "
+"vezes não podemos evitar isso. <mark>Mas podemos usar nossos próprios dados "
+"para nosso próprio benefício, não podemos?</mark>."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:7
 msgid ""
@@ -290,11 +294,11 @@ msgstr "comece sua avaliação gratuita de 30 dias agora! "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:7
 msgid "Using Your Own Data for Your Own Benefit"
-msgstr ""
+msgstr "Usando Seus Dados Em Benefício Próprio"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:9
 msgid "Man surfing the bigdata wave, in form of a dollar sign."
-msgstr ""
+msgstr "Homem surfando a onda bigdata, sob forma de um sinal de cifrão."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:10
 msgid ""
@@ -302,12 +306,17 @@ msgid ""
 "possibly can about ourselves and our businesses in order to drive their "
 "profits up, resulting in highly targeted marketing and insane optimization."
 msgstr ""
+"Todos sabemos que as grandes corporações estão juntando todos os dados que "
+"podem sobre nós mesmos e nossas empresas a fim de aumentar seus lucros, "
+"resultando em um marketing altamente direcionados e uma otimização insana."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:11
 msgid ""
 "With today's technology we can do that ourselves, can't we? So, why we do "
 "not build our own big data? Is it worth the effort?"
 msgstr ""
+"Com a tecnologia de hoje podemos fazer isso sozinhos, não podemos? Então, "
+"por que não construímos nosso próprio big data? Vale o esforço? "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:12
 msgid ""
@@ -316,6 +325,10 @@ msgid ""
 "transformed into profitability generators in various activities. How to "
 "build your own Big Data to your benefit?"
 msgstr ""
+"Como transformar a revolução do big data em algo que aumente a rentabilidade "
+"do seu próprio negócio? Hoje vemos várias ideias simples transformadas em "
+"geradores de rentabilidade em várias atividades. Como construir seu próprio "
+"big data para seu benefício?"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:13
 msgid ""
@@ -324,12 +337,18 @@ msgid ""
 "technologies used to record, storage and analyse structured data in a highly "
 "scalable way."
 msgstr ""
+"Mas o que é Big Data? Por definição do BARC (Business Application Research "
+"Center), da Alemanha, o termo Big Data refere-se aos métodos e tecnologias "
+"utilizados para gravar, armazenar e analisar dados estruturados de forma "
+"altamente escalável."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:14
 msgid ""
 "The big data certainly is one of the best drives of profitability generation "
 "that can be used by any business."
 msgstr ""
+"O big data é uma das melhores estratégias de geração de lucratividade que "
+"podem ser usadas por qualquer empresa."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:15
 msgid ""
@@ -337,12 +356,13 @@ msgid ""
 "called 'Big Data Use Cases', with over <strong>540 participants worldwide </"
 "strong>, which can be found (in the German original) "
 msgstr ""
+"Para provar esta afirmação, temos o estudo publicado em julho de 2015 pela "
+"BARC, chamado ‘Big Data Use Cases’, com mais de <strong> 540 participantes "
+"em todo o mundo </strong>, que pode ser encontrado (no original alemão) "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:15
-#, fuzzy
-#| msgid " See here."
 msgid "here."
-msgstr " Veja aqui."
+msgstr "aqui."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:16
 #, python-format
@@ -353,6 +373,11 @@ msgid ""
 "<strong>46%%</strong> of firms will be using <strong>images as source data "
 "to form their Big Data</strong>."
 msgstr ""
+"As empresas utilizam várias fontes de dados para formar seu big data. Do "
+"mesmo estudo da BARC, sabemos que hoje 64% usam seus sistemas transacionais "
+"como fonte de dados, mas também podemos ver que, no futuro, <strong> 46% </"
+"strong> das empresas estarão usando <strong> imagens como dados de origem "
+"para formar seu big data</strong>."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:17
 #, python-format
@@ -363,6 +388,11 @@ msgid ""
 "reduction in costs</strong> and an <strong>increase of 8%% in revenues</"
 "strong> due to the use of this technology."
 msgstr ""
+"O Big data já pertence somente ao campo da pesquisa e chegou para as "
+"empresas reais. Das 546 empresas pesquisadas pelo BARC, <strong>41% </"
+"strong> tem iniciativas em relação ao big data. Elas relataram uma "
+"<strong>redução de 10% nos custos de </strong> e um <strong>aumento de 8% na "
+"receita </strong> devido ao uso desta tecnologia."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:18
 #, python-format
@@ -371,17 +401,25 @@ msgid ""
 "strong> and <strong>54%% report that they were able to better control its "
 "operating processes</strong>."
 msgstr ""
+"Entre os benefícios encontrados, <strong>69% relatam melhores decisões "
+"estratégicas </strong> e <strong>54% relatam que eles foram capazes de "
+"controlar melhor seus processos operacionais</strong>."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:19
 msgid ""
 "<strong>So let’s get to work!</strong> The technology is available and the "
 "results are proven! Let's use the big data wave to drive your profits up!"
 msgstr ""
+"<strong>Então vamos ao trabalho!</strong> A tecnologia está disponível e os "
+"resultados são comprovados! Vamos usar a onda do big data para aumentar seus "
+"lucros!"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:20
 msgid ""
 "<mark>You must be thinking: how can I do that in my own business?</mark>"
 msgstr ""
+"<mark>Você deve estar pensando: como posso fazer isso no meu próprio negócio?"
+"</mark>"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:21
 msgid ""
@@ -390,19 +428,20 @@ msgid ""
 "form your big data. And with that you will set optimal regions of operation "
 "for your business."
 msgstr ""
+"O MyMensor pode ajudá-lo a conseguir isso. Com o uso do <mark>MyMensor Media "
+"and Data Plan</mark>, você poderá coletar os dados que você precisa para "
+"formar seu big data. E com isso você estabelecerá regiões ótimas de operação "
+"para o seu negócio."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:22
 msgid ""
 "But OK, we are getting a little bit ahead of ourselves here! Firstly, you "
 "need to "
 msgstr ""
+"Mas tudo bem, nós estamos colocando a carroça na frente dos bois! Em "
+"primeiro lugar, por favor "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:24
-#, fuzzy
-#| msgid ""
-#| "<mark>No Credit Card is required during trial period</mark> and, even "
-#| "when you have subscribed, you can easily cancel at any time, just "
-#| "clicking a button!"
 msgid ""
 "<mark>No Credit Card is required during trial period</mark> and, even after "
 "you have subscribed, you can easily cancel at any time, just clicking a "
@@ -418,6 +457,10 @@ msgid ""
 "efficient way to drive your business profits up! And, of course, drop us an "
 "email in case you need more info!"
 msgstr ""
+"Use seu período de avaliação para aprender em nosso site como fazer "
+"configuração e ter uma maneira simples e eficiente de aumentar os lucros da "
+"sua empresa! E, claro, envie-nos um e-mail, caso você precise de mais "
+"informações!"
 
 #: mymwebsite/templates/docs.html:6
 msgid "Deeper Info about MyMensor"
