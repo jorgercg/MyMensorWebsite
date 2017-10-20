@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-20 11:49+0100\n"
+"POT-Creation-Date: 2017-10-20 12:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -715,9 +715,8 @@ msgstr ""
 msgid "(See here.)"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:48 mymwebsite/templates/howto.html:48
-msgid ""
-"Or you can automatically share your captures to Twitter, Facebook or email "
+#: mymwebsite/templates/faq.html:48
+msgid "Or you can automatically share your captures to Twitter or email "
 msgstr ""
 
 #: mymwebsite/templates/faq.html:50 mymwebsite/templates/howto.html:50
@@ -1039,30 +1038,19 @@ msgstr ""
 msgid "Where can I find more details about the MyMensor Web App?"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:398 mymwebsite/templates/howto.html:398
+#: mymwebsite/templates/faq.html:398 mymwebsite/templates/faq.html:414
+#: mymwebsite/templates/faq.html:430
 msgid ""
-"Info can be found in the videos section, specially on the Mymensor Web App - "
-"Feature Tour "
+"Info can be found in the videos section, specially on the Mymensor Web App "
+"videos"
 msgstr ""
 
 #: mymwebsite/templates/faq.html:408 mymwebsite/templates/howto.html:408
 msgid "How do I transform images into data?"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:414 mymwebsite/templates/howto.html:414
-msgid ""
-"Info can be found in the videos section, specially on the Mymensor Web App - "
-"Configuring VPs and TAGs "
-msgstr ""
-
 #: mymwebsite/templates/faq.html:424 mymwebsite/templates/howto.html:424
 msgid "How do I manage Media and Data information in MyMensor Web App?"
-msgstr ""
-
-#: mymwebsite/templates/faq.html:430 mymwebsite/templates/howto.html:430
-msgid ""
-"Info can be found in the videos section, specially on the Mymensor Web App - "
-"Media and Data "
 msgstr ""
 
 #: mymwebsite/templates/faq.html:440 mymwebsite/templates/howto.html:440
@@ -1134,10 +1122,10 @@ msgstr ""
 msgid "Can I automatically share the captured photos and videos?"
 msgstr ""
 
-#: mymwebsite/templates/faq.html:539 mymwebsite/templates/howto.html:539
+#: mymwebsite/templates/faq.html:539
 msgid ""
 "Yes, once you have entered our Web App with your credentials, click on the "
-"logged in item and set up facebook, twitter accounts that you want to use to "
+"logged in item and set up the Twitter account that you want to use to "
 "automatically share your media."
 msgstr ""
 
@@ -1147,11 +1135,11 @@ msgid ""
 "share box in each of the VP folders that you want to share automatically."
 msgstr ""
 
-#: mymwebsite/templates/faq.html:541 mymwebsite/templates/howto.html:541
+#: mymwebsite/templates/faq.html:541
 msgid ""
 "In this same screen you can also select an email to automatically receive "
-"the captured media. Unlike Facebook and Twitter, emails accounts may be "
-"different for each VP."
+"the captured media. Unlike Twitter account, emails accounts may be different "
+"for each VP."
 msgstr ""
 
 #: mymwebsite/templates/faq.html:566 mymwebsite/templates/howto.html:566
@@ -1177,6 +1165,43 @@ msgstr ""
 
 #: mymwebsite/templates/howto.html:7
 msgid "How To"
+msgstr ""
+
+#: mymwebsite/templates/howto.html:48
+msgid ""
+"Or you can automatically share your captures to Twitter, Facebook or email "
+msgstr ""
+
+#: mymwebsite/templates/howto.html:398
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Web App - "
+"Feature Tour "
+msgstr ""
+
+#: mymwebsite/templates/howto.html:414
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Web App - "
+"Configuring VPs and TAGs "
+msgstr ""
+
+#: mymwebsite/templates/howto.html:430
+msgid ""
+"Info can be found in the videos section, specially on the Mymensor Web App - "
+"Media and Data "
+msgstr ""
+
+#: mymwebsite/templates/howto.html:539
+msgid ""
+"Yes, once you have entered our Web App with your credentials, click on the "
+"logged in item and set up facebook, twitter accounts that you want to use to "
+"automatically share your media."
+msgstr ""
+
+#: mymwebsite/templates/howto.html:541
+msgid ""
+"In this same screen you can also select an email to automatically receive "
+"the captured media. Unlike Facebook and Twitter, emails accounts may be "
+"different for each VP."
 msgstr ""
 
 #: mymwebsite/templates/index.html:33 mymwebsite/templates/index.html:81
