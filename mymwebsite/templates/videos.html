@@ -8,21 +8,28 @@
     <h4>{% trans "Explainer Video" %}</h4>
     <p></p>
     <div id="videosviewexplainer">
-        <div class="d-flex align-content-start flex-wrap" style="width: 40rem">
-            <div id="video_explainer" class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Explainer Video" %}</p>
-                </div>
+        <div class="d-flex align-content-start flex-wrap">
+            <div id="video_explainer" class="card card-outline-secondary m-3" style="width: 22rem;">
                 {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/dW-6nKf9eQY" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XjfkmtLSKAc"
+                                allowfullscreen></iframe>
+                    </div>
                 {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/dW-6nKf9eQY" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XjfkmtLSKAc"
+                                allowfullscreen></iframe>
+                    </div>
                 {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/3QlVKnZ9UJo" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SBXPb1sLWdA"
+                                allowfullscreen></iframe>
+                    </div>
                 {% endif %}
+                <div class="card-body p-3">
+                    <h4 class="card-title">{% trans "Presentation Video" %}</h4>
+                    <p class="card-text">{% trans "Video explaining the basics of MyMensor, including the complete solution, in its mobile and web portions." %}</p>
+                </div>
             </div>
         </div>
     </div>
@@ -32,65 +39,93 @@
     <p></p>
     <div id="videosviewmobapp">
         <div class="d-flex align-content-start flex-wrap">
-            <div id="video_mobapp_firststeps" class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "First Steps" %}</p>
-                </div>
+            <div id="video_mobapp_firststeps" class="card card-outline-secondary m-3" style="width: 22rem;">
                 {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/OqWbD2wHhxc" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FFC_L8Xggp8"
+                                allowfullscreen></iframe>
+                    </div>
                 {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/OqWbD2wHhxc" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FFC_L8Xggp8"
+                                allowfullscreen></iframe>
+                    </div>
                 {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/BjGWgjKuUKk" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wedYx-PftbA"
+                                allowfullscreen></iframe>
+                    </div>
                 {% endif %}
+                <div class="card-body p-3">
+                    <h4 class="card-title">{% trans "First Steps" %}</h4>
+                    <p class="card-text">{% trans "Learn here how to start using MyMensor mobile app." %}</p>
+                </div>
             </div>
-            <div id="video_mobapp_featuretour" class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Feature Tour" %}</p>
-                </div>
+            <div id="video_mobapp_featuretour" class="card card-outline-secondary m-3" style="width: 22rem;">
                 {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/1wHvWiS-R4g" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qc_xjTlsOVs"
+                                allowfullscreen></iframe>
+                    </div>
                 {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/1wHvWiS-R4g" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qc_xjTlsOVs"
+                                allowfullscreen></iframe>
+                    </div>
                 {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/BIphIFV5oao" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/je1mCwM6IP4"
+                                allowfullscreen></iframe>
+                    </div>
                 {% endif %}
+                <div class="card-body p-3">
+                    <h4 class="card-title">{% trans "Feature Tour" %}</h4>
+                    <p class="card-text">{% trans "Learn more about the features of the MyMensor mobile app." %}</p>
+                </div>
             </div>
-            <div id="video_mobapp_usingar" class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Using Augmented Reality" %}</p>
-                </div>
+            <div id="video_mobapp_usingar" class="card card-outline-secondary m-3" style="width: 22rem;">
                 {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/vXABg5wBgeM" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yX_H38bUgss"
+                                allowfullscreen></iframe>
+                    </div>
                 {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/vXABg5wBgeM" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yX_H38bUgss"
+                                allowfullscreen></iframe>
+                    </div>
                 {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/8C9TYIeucyY" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vYbIPbeZkrE"
+                                allowfullscreen></iframe>
+                    </div>
                 {% endif %}
+                <div class="card-body p-3">
+                    <h4 class="card-title">{% trans "Using Augmented Reality" %}</h4>
+                    <p class="card-text">{% trans "Learn how to configure MyMensor to capture images using Augmented Reality (AR)." %}</p>
+                </div>
             </div>
-            <div id="video_mobapp_capturingmedia" class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Capturing Images and Videos" %}</p>
-                </div>
+            <div id="video_mobapp_capturingmedia" class="card card-outline-secondary m-3" style="width: 22rem;">
                 {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/Td8D6i8888U" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iMOYL_gSTaw"
+                                allowfullscreen></iframe>
+                    </div>
                 {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/Td8D6i8888U" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iMOYL_gSTaw"
+                                allowfullscreen></iframe>
+                    </div>
                 {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/ntnEyVDH4Bk" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LjC9VSmymcA"
+                                allowfullscreen></iframe>
+                    </div>
                 {% endif %}
+                <div class="card-body p-3">
+                    <h4 class="card-title">{% trans "Capturing Images and Videos" %}</h4>
+                    <p class="card-text">{% trans "Learn how to capture media with MyMensor, using or not using Augmented Reality." %}</p>
+                </div>
             </div>
         </div>
     </div>
@@ -101,50 +136,49 @@
     <p></p>
     <div id="videosviewwebapp">
         <div class="d-flex align-content-start flex-wrap">
-            <div class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Feature Tour" %}</p>
-                </div>
+            <div id="video_webapp_media" class="card card-outline-secondary m-3" style="width: 22rem;">
                 {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/YkxVwbMczs4" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aSwTjp9w40Y"
+                                allowfullscreen></iframe>
+                    </div>
                 {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/YkxVwbMczs4" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aSwTjp9w40Y"
+                                allowfullscreen></iframe>
+                    </div>
                 {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/bcHc_IITbeE" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s7tF6NcTmSg"
+                                allowfullscreen></iframe>
+                    </div>
                 {% endif %}
+                <div class="card-body p-3">
+                    <h4 class="card-title">{% trans "Feature Tour - Media Plan" %}</h4>
+                    <p class="card-text">{% trans "Learn about some of the features of the MyMensor web application when using the Media Plan." %}</p>
+                </div>
             </div>
-            <div id="video_webapp_cfgvpstags" class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Configuring VPs and TAGs" %}</p>
-                </div>
+            <div id="video_webapp_mediaanddata" class="card card-outline-secondary m-3" style="width: 22rem;">
                 {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/vNLKC-YMSj4" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/81Lre57kk8w"
+                                allowfullscreen></iframe>
+                    </div>
                 {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/vNLKC-YMSj4" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/81Lre57kk8w"
+                                allowfullscreen></iframe>
+                    </div>
                 {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/QQucCX0lXkI" frameborder="0"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AFWZLODTnbU"
+                                allowfullscreen></iframe>
+                    </div>
                 {% endif %}
-            </div>
-            <div id="video_webapp_mediadata" class="card card-outline-primary m-2">
-                <div class="card-header text-primary">
-                    <p class="card-text">{% trans "Media and Data" %}</p>
+                <div class="card-body p-3">
+                    <h4 class="card-title">{% trans "Feature Tour - Media and Data Plan" %}</h4>
+                    <p class="card-text">{% trans "Learn about some of the features of the MyMensor web application when using the Media and Data Plan." %}</p>
                 </div>
-                {% if LANGUAGE_CODE == "pt" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/MA4R3-khniI" frameborder="0"
-                        allowfullscreen></iframe>
-                {% elif LANGUAGE_CODE == "pt-br" %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/MA4R3-khniI" frameborder="0"
-                        allowfullscreen></iframe>
-                {% else %}
-                    <iframe width="480" height="270" src="https://www.youtube.com/embed/cLk3ufFanzQ" frameborder="0"
-                        allowfullscreen></iframe>
-                {% endif %}
             </div>
         </div>
     </div>

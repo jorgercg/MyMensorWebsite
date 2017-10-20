@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-18 16:21+0100\n"
-"PO-Revision-Date: 2017-10-18 16:21+0100\n"
+"POT-Creation-Date: 2017-10-20 11:49+0100\n"
+"PO-Revision-Date: 2017-10-20 11:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -126,7 +126,7 @@ msgstr ""
 
 #: mymwebsite/templates/cases.html:29
 msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
-msgstr "Usando Seus Dados Em Benefício Próprio"
+msgstr "Usando Seus Dados Em Benefício Próprio "
 
 #: mymwebsite/templates/cases.html:30
 msgid ""
@@ -317,7 +317,7 @@ msgid ""
 "not build our own big data? Is it worth the effort?"
 msgstr ""
 "Com a tecnologia de hoje podemos fazer isso sozinhos, não podemos? Então, "
-"por que não construímos nosso próprio big data? Vale o esforço? "
+"por que não construímos nosso próprio big data? Vale o esforço?"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:12
 msgid ""
@@ -2965,41 +2965,104 @@ msgstr "Por favor visite "
 msgid " to understand how MyMensor collects and uses personal information."
 msgstr " para entender como MyMensor coleta e usa informações pessoais."
 
-#: mymwebsite/templates/videos.html:8 mymwebsite/templates/videos.html:14
+#: mymwebsite/templates/videos.html:8
 msgid "Explainer Video"
 msgstr "Vídeo Explicativo"
 
+#: mymwebsite/templates/videos.html:30
+msgid "Presentation Video"
+msgstr "Vídeo de Apresentação"
+
 #: mymwebsite/templates/videos.html:31
+msgid ""
+"Video explaining the basics of MyMensor, including the complete solution, in "
+"its mobile and web portions."
+msgstr ""
+"Vídeo explicando os conceitos básicos de MyMensor, incluindo a solução "
+"completa, nas suas parcelas móvel e web."
+
+#: mymwebsite/templates/videos.html:38
 msgid "Mobile App Videos"
 msgstr "Mobile App Vídeos"
 
-#: mymwebsite/templates/videos.html:37
+#: mymwebsite/templates/videos.html:60
 msgid "First Steps"
 msgstr "Primeiros Passos"
 
-#: mymwebsite/templates/videos.html:52 mymwebsite/templates/videos.html:106
+#: mymwebsite/templates/videos.html:61
+msgid "Learn here how to start using MyMensor mobile app."
+msgstr "Saiba aqui como começar a usar o app móvel do MyMensor."
+
+#: mymwebsite/templates/videos.html:82
 msgid "Feature Tour"
 msgstr "Passeio pelas Funcionalidades"
 
-#: mymwebsite/templates/videos.html:67
+#: mymwebsite/templates/videos.html:83
+msgid "Learn more about the features of the MyMensor mobile app."
+msgstr "Saiba mais sobre as características do app móvel do MyMensor."
+
+#: mymwebsite/templates/videos.html:104
 msgid "Using Augmented Reality"
 msgstr "Usando a Realidade aumentada"
 
-#: mymwebsite/templates/videos.html:82
+#: mymwebsite/templates/videos.html:105
+msgid ""
+"Learn how to configure MyMensor to capture images using Augmented Reality "
+"(AR)."
+msgstr ""
+"Aprenda a configurar o MyMensor para capturar imagens usando realidade "
+"aumentada (AR)."
+
+#: mymwebsite/templates/videos.html:126
 msgid "Capturing Images and Videos"
 msgstr "Capturando Imagens e Vídeos"
 
-#: mymwebsite/templates/videos.html:100
+#: mymwebsite/templates/videos.html:127
+msgid ""
+"Learn how to capture media with MyMensor, using or not using Augmented "
+"Reality."
+msgstr ""
+"Aprenda a capturar a mídia com MyMensor, usando ou não usando a realidade "
+"aumentada."
+
+#: mymwebsite/templates/videos.html:135
 msgid "Web App Videos"
 msgstr "Web App Vídeos"
 
-#: mymwebsite/templates/videos.html:121
-msgid "Configuring VPs and TAGs"
-msgstr "Confugurando VPS e TAGS"
+#: mymwebsite/templates/videos.html:157
+msgid "Feature Tour - Media Plan"
+msgstr "Passeio pelas Funcionalidades - Plano Media"
 
-#: mymwebsite/templates/videos.html:136
-msgid "Media and Data"
-msgstr "Mídia e Dados"
+#: mymwebsite/templates/videos.html:158
+msgid ""
+"Learn about some of the features of the MyMensor web application when using "
+"the Media Plan."
+msgstr ""
+"Saiba mais sobre algumas das características do aplicativo da web do "
+"MyMensor quando utilizar o Plano Media."
+
+#: mymwebsite/templates/videos.html:179
+msgid "Feature Tour - Media and Data Plan"
+msgstr "Passeio pelas Funcionalidades - Plano Media and Data"
+
+#: mymwebsite/templates/videos.html:180
+msgid ""
+"Learn about some of the features of the MyMensor web application when using "
+"the Media and Data Plan."
+msgstr ""
+"Saiba mais sobre algumas das características do aplicativo da web do "
+"MyMensor quando utilizar o Plano Media and Data."
+
+#~ msgid "Explainer Video to MyMensor"
+#~ msgstr ""
+#~ "Vídeo explicando os conceitos básicos de MyMensor, incluindo a solução "
+#~ "completa, na sua parcela móvel e na web."
+
+#~ msgid "Configuring VPs and TAGs"
+#~ msgstr "Confugurando VPS e TAGS"
+
+#~ msgid "Media and Data"
+#~ msgstr "Mídia e Dados"
 
 #~ msgid "General Purpose Use for the MyMensor Media&nbsp;Plan"
 #~ msgstr ""

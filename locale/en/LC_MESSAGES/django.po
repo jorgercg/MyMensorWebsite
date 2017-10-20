@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-18 16:21+0100\n"
+"POT-Creation-Date: 2017-10-20 11:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2209,38 +2209,80 @@ msgstr ""
 msgid " to understand how MyMensor collects and uses personal information."
 msgstr ""
 
-#: mymwebsite/templates/videos.html:8 mymwebsite/templates/videos.html:14
+#: mymwebsite/templates/videos.html:8
 msgid "Explainer Video"
 msgstr ""
 
+#: mymwebsite/templates/videos.html:30
+msgid "Presentation Video"
+msgstr ""
+
 #: mymwebsite/templates/videos.html:31
+msgid ""
+"Video explaining the basics of MyMensor, including the complete solution, in "
+"its mobile and web portions."
+msgstr ""
+
+#: mymwebsite/templates/videos.html:38
 msgid "Mobile App Videos"
 msgstr ""
 
-#: mymwebsite/templates/videos.html:37
+#: mymwebsite/templates/videos.html:60
 msgid "First Steps"
 msgstr ""
 
-#: mymwebsite/templates/videos.html:52 mymwebsite/templates/videos.html:106
-msgid "Feature Tour"
-msgstr ""
-
-#: mymwebsite/templates/videos.html:67
-msgid "Using Augmented Reality"
+#: mymwebsite/templates/videos.html:61
+msgid "Learn here how to start using MyMensor mobile app."
 msgstr ""
 
 #: mymwebsite/templates/videos.html:82
+msgid "Feature Tour"
+msgstr ""
+
+#: mymwebsite/templates/videos.html:83
+msgid "Learn more about the features of the MyMensor mobile app."
+msgstr ""
+
+#: mymwebsite/templates/videos.html:104
+msgid "Using Augmented Reality"
+msgstr ""
+
+#: mymwebsite/templates/videos.html:105
+msgid ""
+"Learn how to configure MyMensor to capture images using Augmented Reality "
+"(AR)."
+msgstr ""
+
+#: mymwebsite/templates/videos.html:126
 msgid "Capturing Images and Videos"
 msgstr ""
 
-#: mymwebsite/templates/videos.html:100
+#: mymwebsite/templates/videos.html:127
+msgid ""
+"Learn how to capture media with MyMensor, using or not using Augmented "
+"Reality."
+msgstr ""
+
+#: mymwebsite/templates/videos.html:135
 msgid "Web App Videos"
 msgstr ""
 
-#: mymwebsite/templates/videos.html:121
-msgid "Configuring VPs and TAGs"
+#: mymwebsite/templates/videos.html:157
+msgid "Feature Tour - Media Plan"
 msgstr ""
 
-#: mymwebsite/templates/videos.html:136
-msgid "Media and Data"
+#: mymwebsite/templates/videos.html:158
+msgid ""
+"Learn about some of the features of the MyMensor web application when using "
+"the Media Plan."
+msgstr ""
+
+#: mymwebsite/templates/videos.html:179
+msgid "Feature Tour - Media and Data Plan"
+msgstr ""
+
+#: mymwebsite/templates/videos.html:180
+msgid ""
+"Learn about some of the features of the MyMensor web application when using "
+"the Media and Data Plan."
 msgstr ""
