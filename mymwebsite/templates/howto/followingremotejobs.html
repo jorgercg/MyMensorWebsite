@@ -1,0 +1,21 @@
+{% extends 'innerbase.html' %}
+{% load staticfiles i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block title %}{% trans "How To" %} - {{ block.super }}{% endblock %}
+{% block content %}
+    <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
+        <h1 class="pb-3">{% trans "Following Jobs Remotely" %}</h1>
+        <img class="card-img-top img-fluid pb-3" src="{% static 'images/followingremotejobs.jpg' %}"
+             alt={% trans "Staging for producing a fake photo." %}>
+        <p>{% trans "I have a friend that is a very successful accountant in an European country. Once he told me a tale of a client who <mark>invested in the construction of an apartment building in Africa.</mark> " %}</p>
+        <p>{% trans "Everything went well, so he decided to go for the second one." %}</p>
+        <p>{% trans "In the first one <mark>he had relied on photos sent to him via email to check the progress of the project</mark>, only going on site for the commencement and delivery of the building. So, he followed the same path in the second one." %}</p>
+        <p>{% trans "The trouble is that the second building was delayed, he continued receiving the photos by email, eventually he decided to take a flight and make a surprise visit to the construction site. Of course that you already know what happened." %}</p>
+        <p>{% trans "<mark>There was no second building!</mark> His money was gone and down there he discovered that he was targeted with a scam known to the locals. He needed a tool to protect him from that." %}</p>
+        <p>{% trans "<mark>Using just the MyMensor Media Plan one could follow the project headway remotely using the certified media.</mark> Going even deeper you could establish measuring criteria and using MyMensor Media and Data Plan follow up the different aspects of the construction using the tables and graphical MyMensor tools." %}</p>
+        <p>{% trans "Do you have a remote project and it is going astray? We can help mend that! " %}<a id="registerbtn"
+                                                                                                        class="registerbtn"
+                                                                                                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "Start your 30-day free-trial now. " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
+        </p>
+    </div>
+{% endblock %}
