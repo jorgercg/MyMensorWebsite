@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-20 16:41+0100\n"
+"POT-Creation-Date: 2017-10-20 17:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -642,51 +642,18 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: mymwebsite/templates/download.html:7
-msgid "Mobile Apps Download"
+#: mymwebsite/templates/download.html:6
+msgid "Download MyMensorAR Mobile App"
 msgstr ""
 
-#: mymwebsite/templates/download.html:9
+#: mymwebsite/templates/download.html:8
 msgid ""
-"You can use any of the following mobile apps to send media to the MyMensor\n"
-"        Server. In fact you can even have BOTH installed at the same time in "
-"your mobile using the SAME MyMensor account\n"
-"        and use them according to your specific use case."
+"This app uses Augmented Reality (AR) to automatically find and archive your\n"
+"        media in the pre-configured folders."
 msgstr ""
 
 #: mymwebsite/templates/download.html:14
-msgid "MyMensorAR Mobile App"
-msgstr ""
-
-#: mymwebsite/templates/download.html:16
-msgid ""
-"This app uses Augmented Reality (AR) to automatically find and archive your\n"
-"        media in the pre-configured folders. But this automation (as you may "
-"expect) comes with a price! You will need\n"
-"        to configure the folders accordingly and setup files will be loaded "
-"always when you start up the app. This means\n"
-"        that if you are in an area where internet access is problematic app "
-"startup may be tedious, for this there is a\n"
-"        different flavor of our app."
-msgstr ""
-
-#: mymwebsite/templates/download.html:25 mymwebsite/templates/download.html:64
 msgid "Android App"
-msgstr ""
-
-#: mymwebsite/templates/download.html:54
-msgid "MyMensor Mobile App"
-msgstr ""
-
-#: mymwebsite/templates/download.html:56
-msgid ""
-"This app DOES NOT use Augmented Reality (AR) in media capture thus it "
-"cannot\n"
-"        automatically capture media nor archive it without user interaction. "
-"As there is no AR there is no need for\n"
-"        configuration, also! As we said before you can use this version "
-"TOGETHER with the AR one, depending on your use\n"
-"        case!"
 msgstr ""
 
 #: mymwebsite/templates/faq.html:7
