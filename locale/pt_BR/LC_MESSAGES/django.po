@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-20 12:17+0100\n"
-"PO-Revision-Date: 2017-10-20 12:19+0100\n"
+"POT-Creation-Date: 2017-10-20 16:41+0100\n"
+"PO-Revision-Date: 2017-10-20 17:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -32,8 +32,8 @@ msgstr ""
 msgid "Product"
 msgstr "Produto"
 
-#: mymwebsite/templates/base.html:87 mymwebsite/templates/index.html:37
-#: mymwebsite/templates/index.html:85 mymwebsite/templates/innerbase.html:93
+#: mymwebsite/templates/base.html:87 mymwebsite/templates/index.html:39
+#: mymwebsite/templates/index.html:87 mymwebsite/templates/innerbase.html:95
 #: mymwebsite/templates/innerbase.html:134
 msgid "Docs"
 msgstr "Docs"
@@ -87,15 +87,19 @@ msgstr "Casos de Uso do MyMensor"
 
 #: mymwebsite/templates/cases.html:11
 #: mymwebsite/templates/cases/genusemediaplan.html:9
+#: mymwebsite/templates/howto.html:11
+#: mymwebsite/templates/howto/genusemediaplan.html:9
 msgid "Pinocchio sitting over a mobile phone."
 msgstr "Pinóquio, sentado sobre um telefone móvel."
 
 #: mymwebsite/templates/cases.html:13
 #: mymwebsite/templates/cases/genusemediaplan.html:7
+#: mymwebsite/templates/howto.html:13
+#: mymwebsite/templates/howto/genusemediaplan.html:7
 msgid "Making Sure that a Photo is NOT a Fake"
 msgstr "Certificando-se que uma Foto NÃO é FALSA"
 
-#: mymwebsite/templates/cases.html:14
+#: mymwebsite/templates/cases.html:14 mymwebsite/templates/howto.html:14
 msgid ""
 "On this day and age, how can one be sure that a photo is not a fake? Of "
 "course there are a number of very sofisticated methods to assure that, with "
@@ -109,14 +113,16 @@ msgstr ""
 
 #: mymwebsite/templates/cases.html:19 mymwebsite/templates/cases.html:27
 #: mymwebsite/templates/cases/followingremotejobs.html:9
+#: mymwebsite/templates/howto.html:19 mymwebsite/templates/howto.html:27
+#: mymwebsite/templates/howto/followingremotejobs.html:9
 msgid "Staging for producing a fake photo."
 msgstr "Preparo para produzir uma foto falsa."
 
-#: mymwebsite/templates/cases.html:21
+#: mymwebsite/templates/cases.html:21 mymwebsite/templates/howto.html:21
 msgid "Following Jobs Remotely "
 msgstr "Acompanhando Trabalhos Remotamente "
 
-#: mymwebsite/templates/cases.html:22
+#: mymwebsite/templates/cases.html:22 mymwebsite/templates/howto.html:22
 msgid ""
 "One cannot be in more than one place at the same time, sure? Not quite, if "
 "we use the technology that is available right now!"
@@ -124,11 +130,11 @@ msgstr ""
 "Não podemos estar em mais de um lugar ao mesmo tempo, certo? Não exatamente, "
 "se usarmos a tecnologia que está disponível agora mesmo!"
 
-#: mymwebsite/templates/cases.html:29
+#: mymwebsite/templates/cases.html:29 mymwebsite/templates/howto.html:29
 msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
 msgstr "Usando Seus Dados Em Benefício Próprio "
 
-#: mymwebsite/templates/cases.html:30
+#: mymwebsite/templates/cases.html:30 mymwebsite/templates/howto.html:30
 msgid ""
 "Do like all big tech corporations are doing. They are using <u>your</u> data "
 "for <u>their</u> benefit, and most of the time we cannot prevent that. "
@@ -140,10 +146,12 @@ msgstr ""
 "para nosso próprio benefício, não podemos?</mark>. "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:7
+#: mymwebsite/templates/howto/followingremotejobs.html:7
 msgid "Following Jobs Remotely"
 msgstr "Acompanhando Trabalhos Remotamente"
 
 #: mymwebsite/templates/cases/followingremotejobs.html:10
+#: mymwebsite/templates/howto/followingremotejobs.html:10
 msgid ""
 "I have a friend that is a very successful accountant in an European country. "
 "Once he told me a tale of a client who <mark>invested in the construction of "
@@ -154,10 +162,12 @@ msgstr ""
 "de um prédio de apartamentos em África.</mark> "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:11
+#: mymwebsite/templates/howto/followingremotejobs.html:11
 msgid "Everything went well, so he decided to go for the second one."
 msgstr "Correu tudo bem, então ele decidiu ir para o segundo."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:12
+#: mymwebsite/templates/howto/followingremotejobs.html:12
 msgid ""
 "In the first one <mark>he had relied on photos sent to him via email to "
 "check the progress of the project</mark>, only going on site for the "
@@ -170,6 +180,7 @@ msgstr ""
 "segunda construção."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:13
+#: mymwebsite/templates/howto/followingremotejobs.html:13
 msgid ""
 "The trouble is that the second building was delayed, he continued receiving "
 "the photos by email, eventually he decided to take a flight and make a "
@@ -181,6 +192,7 @@ msgstr ""
 "surpresa ao local da construção. É claro que você já sabe o que aconteceu."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:14
+#: mymwebsite/templates/howto/followingremotejobs.html:14
 msgid ""
 "<mark>There was no second building!</mark> His money was gone and down there "
 "he discovered that he was targeted with a scam known to the locals. He "
@@ -191,6 +203,7 @@ msgstr ""
 "Ele precisava de uma ferramenta para protegê-lo daquilo."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:15
+#: mymwebsite/templates/howto/followingremotejobs.html:15
 msgid ""
 "<mark>Using just the MyMensor Media Plan one could follow the project "
 "headway remotely using the certified media.</mark> Going even deeper you "
@@ -205,6 +218,7 @@ msgstr ""
 "e ferramentas gráficas do MyMensor."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:16
+#: mymwebsite/templates/howto/followingremotejobs.html:16
 msgid ""
 "Do you have a remote project and it is going astray? We can help mend that! "
 msgstr ""
@@ -212,11 +226,14 @@ msgstr ""
 "consertar isso! "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:18
+#: mymwebsite/templates/howto/followingremotejobs.html:18
 msgid "Start your 30-day free-trial now. "
 msgstr "Comece sua avaliação gratuita de 30 dias agora. "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:18
 #: mymwebsite/templates/cases/genusemediaplan.html:17
+#: mymwebsite/templates/howto/followingremotejobs.html:18
+#: mymwebsite/templates/howto/genusemediaplan.html:47
 msgid ""
 "<mark>No Credit Card is required during trial period</mark> and, even when "
 "you have subscribed, you can easily cancel at any time, just clicking a "
@@ -280,6 +297,7 @@ msgstr ""
 "certificação de mídia."
 
 #: mymwebsite/templates/cases/genusemediaplan.html:15
+#: mymwebsite/templates/howto/genusemediaplan.html:45
 msgid ""
 "But that is just the tip of he iceberg! There is a lot more to MyMensor "
 "Media: automatic filing, automatic sharing etc. So, look no further, "
@@ -290,18 +308,23 @@ msgstr ""
 
 #: mymwebsite/templates/cases/genusemediaplan.html:17
 #: mymwebsite/templates/cases/usingyourowndata.html:24
+#: mymwebsite/templates/howto/genusemediaplan.html:47
+#: mymwebsite/templates/howto/usingyourowndata.html:24
 msgid "start your 30-day free-trial now! "
 msgstr "comece sua avaliação gratuita de 30 dias agora! "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:7
+#: mymwebsite/templates/howto/usingyourowndata.html:7
 msgid "Using Your Own Data for Your Own Benefit"
 msgstr "Usando Seus Dados Em Benefício Próprio"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:9
+#: mymwebsite/templates/howto/usingyourowndata.html:9
 msgid "Man surfing the bigdata wave, in form of a dollar sign."
 msgstr "Homem surfando a onda bigdata, sob forma de um sinal de cifrão."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:10
+#: mymwebsite/templates/howto/usingyourowndata.html:10
 msgid ""
 "We all know that the big corporations are gathering all the data they "
 "possibly can about ourselves and our businesses in order to drive their "
@@ -312,6 +335,7 @@ msgstr ""
 "resultando em um marketing altamente direcionados e uma otimização insana."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:11
+#: mymwebsite/templates/howto/usingyourowndata.html:11
 msgid ""
 "With today's technology we can do that ourselves, can't we? So, why we do "
 "not build our own big data? Is it worth the effort?"
@@ -320,6 +344,7 @@ msgstr ""
 "por que não construímos nosso próprio big data? Vale o esforço?"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:12
+#: mymwebsite/templates/howto/usingyourowndata.html:12
 msgid ""
 "How to turn the big data revolution into something that increases the "
 "profitability of your own business? Today we see several simple ideas "
@@ -332,6 +357,7 @@ msgstr ""
 "big data para seu benefício?"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:13
+#: mymwebsite/templates/howto/usingyourowndata.html:13
 msgid ""
 "But what is Big Data? By definition of BARC (Business Application Research "
 "Center), from Germany, the term Big Data refers to the methods and "
@@ -344,6 +370,7 @@ msgstr ""
 "altamente escalável."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:14
+#: mymwebsite/templates/howto/usingyourowndata.html:14
 msgid ""
 "The big data certainly is one of the best drives of profitability generation "
 "that can be used by any business."
@@ -352,6 +379,7 @@ msgstr ""
 "podem ser usadas por qualquer empresa."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:15
+#: mymwebsite/templates/howto/usingyourowndata.html:15
 msgid ""
 "To Prove this statement, we have the study released in July 2015 by BARC, "
 "called 'Big Data Use Cases', with over <strong>540 participants worldwide </"
@@ -362,10 +390,13 @@ msgstr ""
 "em todo o mundo </strong>, que pode ser encontrado (no original alemão) "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:15
+#: mymwebsite/templates/howto/genusemediaplan.html:14
+#: mymwebsite/templates/howto/usingyourowndata.html:15
 msgid "here."
 msgstr "aqui."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:16
+#: mymwebsite/templates/howto/usingyourowndata.html:16
 #, python-format
 msgid ""
 "Companies have used various data sources to form their Big Data. From the "
@@ -381,6 +412,7 @@ msgstr ""
 "para formar seu big data</strong>."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:17
+#: mymwebsite/templates/howto/usingyourowndata.html:17
 #, python-format
 msgid ""
 "Big Data is not any longer in the realm of research and arrived to the real "
@@ -396,6 +428,7 @@ msgstr ""
 "receita </strong> devido ao uso desta tecnologia."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:18
+#: mymwebsite/templates/howto/usingyourowndata.html:18
 #, python-format
 msgid ""
 "Among the benefits found, <strong>69%% report better strategic decisions</"
@@ -407,6 +440,7 @@ msgstr ""
 "controlar melhor seus processos operacionais</strong>."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:19
+#: mymwebsite/templates/howto/usingyourowndata.html:19
 msgid ""
 "<strong>So let’s get to work!</strong> The technology is available and the "
 "results are proven! Let's use the big data wave to drive your profits up!"
@@ -416,6 +450,7 @@ msgstr ""
 "lucros!"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:20
+#: mymwebsite/templates/howto/usingyourowndata.html:20
 msgid ""
 "<mark>You must be thinking: how can I do that in my own business?</mark>"
 msgstr ""
@@ -423,6 +458,7 @@ msgstr ""
 "</mark>"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:21
+#: mymwebsite/templates/howto/usingyourowndata.html:21
 msgid ""
 "MyMensor can help you accomplish that. With the use of the <mark>MyMensor "
 "Media and Data Plan</mark> you will be able to gather the data you need to "
@@ -435,6 +471,7 @@ msgstr ""
 "para o seu negócio."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:22
+#: mymwebsite/templates/howto/usingyourowndata.html:22
 msgid ""
 "But OK, we are getting a little bit ahead of ourselves here! Firstly, you "
 "need to "
@@ -443,6 +480,7 @@ msgstr ""
 "primeiro lugar, por favor "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:24
+#: mymwebsite/templates/howto/usingyourowndata.html:24
 msgid ""
 "<mark>No Credit Card is required during trial period</mark> and, even after "
 "you have subscribed, you can easily cancel at any time, just clicking a "
@@ -453,6 +491,7 @@ msgstr ""
 "qualquer momento, apenas clicando em um botão!"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:26
+#: mymwebsite/templates/howto/usingyourowndata.html:26
 msgid ""
 "Use your trial period to learn in our website how to setup a simple an "
 "efficient way to drive your business profits up! And, of course, drop us an "
@@ -852,15 +891,15 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Perguntas Frequentes"
 
-#: mymwebsite/templates/faq.html:9 mymwebsite/templates/howto.html:9
+#: mymwebsite/templates/faq.html:9
 msgid "GENERAL QUESTIONS"
 msgstr "QUESTÕES GERAIS"
 
-#: mymwebsite/templates/faq.html:16 mymwebsite/templates/howto.html:16
+#: mymwebsite/templates/faq.html:16
 msgid "Why should I use MyMensor?"
 msgstr "Por que devo usar MyMensor?"
 
-#: mymwebsite/templates/faq.html:22 mymwebsite/templates/howto.html:22
+#: mymwebsite/templates/faq.html:22
 msgid ""
 "Because there is no substitute for your own eyes and ears! With MyMensor, it "
 "is like being there. Using our technology you will know where and when the "
@@ -872,7 +911,7 @@ msgstr ""
 "quando e onde as fotos e vídeos foram feitos. Você também ficará certo que "
 "fotos e vídeos não foram adulterados."
 
-#: mymwebsite/templates/faq.html:23 mymwebsite/templates/howto.html:23
+#: mymwebsite/templates/faq.html:23
 msgid ""
 "Do you need to be sure that something was done? Use MyMensor to verify "
 "completion, with precise location and timing."
@@ -880,7 +919,7 @@ msgstr ""
 "Precisa ter certeza que alguma coisa foi feita? Use MyMensor para verificar "
 "a conclusão, com horário e localização precisos."
 
-#: mymwebsite/templates/faq.html:25 mymwebsite/templates/howto.html:25
+#: mymwebsite/templates/faq.html:25
 msgid ""
 "Most popular apps that are used to distribute media using your smartphone "
 "allow all diferent sources for the media, including outside sources. With "
@@ -893,7 +932,7 @@ msgstr ""
 "software, então você realmente sabe de onde a mídia e que ela não foi "
 "alterada."
 
-#: mymwebsite/templates/faq.html:27 mymwebsite/templates/howto.html:27
+#: mymwebsite/templates/faq.html:27
 msgid ""
 "Possibilities are endless, even not using Augmented Reality (AR). But if you "
 "use AR, then the true power of MyMensor emerges, with automatic photos and "
@@ -903,7 +942,7 @@ msgstr ""
 "(AR). Mas se você usar a AR, então o verdadeiro poder do MyMensor emerge, "
 "com fotos e arquivamento  automáticos."
 
-#: mymwebsite/templates/faq.html:36 mymwebsite/templates/howto.html:36
+#: mymwebsite/templates/faq.html:36
 msgid ""
 "Can I share the certified media with someone that DOES NOT have a MyMensor "
 "Account?"
@@ -911,11 +950,11 @@ msgstr ""
 "Posso partilhar a mídia certificada com alguém que NÃO TEM uma conta "
 "MyMensor?"
 
-#: mymwebsite/templates/faq.html:42 mymwebsite/templates/howto.html:42
+#: mymwebsite/templates/faq.html:42
 msgid "YES, you can! And you can do it manually or automatically!"
 msgstr "Sim, você pode! E você pode fazê-lo manualmente ou automaticamente!"
 
-#: mymwebsite/templates/faq.html:43 mymwebsite/templates/howto.html:43
+#: mymwebsite/templates/faq.html:43
 msgid ""
 "In the mobile app you can share your captures using the normal sharing "
 "capabilities of your smartphone."
@@ -923,11 +962,11 @@ msgstr ""
 "No mobile app você pode compartilhar sua captura usando os recursos de "
 "compartilhamento normais do seu smartphone."
 
-#: mymwebsite/templates/faq.html:45 mymwebsite/templates/howto.html:45
+#: mymwebsite/templates/faq.html:45
 msgid "When using our webapp, you can do it manually "
 msgstr "Ao usar nossa web app, você pode fazê-lo manualmente "
 
-#: mymwebsite/templates/faq.html:46 mymwebsite/templates/howto.html:46
+#: mymwebsite/templates/faq.html:46
 msgid "(See here.)"
 msgstr "(Veja aqui.)"
 
@@ -937,15 +976,15 @@ msgstr ""
 "Ou você pode automaticamente compartilhar suas capturas para o Twitter ou e-"
 "mail "
 
-#: mymwebsite/templates/faq.html:50 mymwebsite/templates/howto.html:50
+#: mymwebsite/templates/faq.html:50
 msgid "(Configure here.)"
 msgstr "(Configure aqui.)"
 
-#: mymwebsite/templates/faq.html:59 mymwebsite/templates/howto.html:59
+#: mymwebsite/templates/faq.html:59
 msgid "What are the requirements to use the system?"
 msgstr "Quais são os requisitos para utilizar o sistema?"
 
-#: mymwebsite/templates/faq.html:65 mymwebsite/templates/howto.html:65
+#: mymwebsite/templates/faq.html:65
 msgid ""
 "To fully use the MyMensor Mobile App you need a smartphone with at least "
 "Android Lollipop installed, you can use it with KitKat but usage will suffer "
@@ -955,7 +994,7 @@ msgstr ""
 "um smartphone com Android Lollipop instalado, você pode usá-lo com KitKat "
 "mas perderá usabilidade e nem todas as funcionalidades estarão presentes."
 
-#: mymwebsite/templates/faq.html:66 mymwebsite/templates/howto.html:66
+#: mymwebsite/templates/faq.html:66
 msgid ""
 "Also, to use the MyMensor Mobile App your smartphone needs to have a screen "
 "with HD resolution (1280x720) at least."
@@ -963,7 +1002,7 @@ msgstr ""
 "Além disso, para usar o MyMensor Mobile App seu smartphone precisa ter uma "
 "tela com resolução HD (1280 x 720) pelo menos."
 
-#: mymwebsite/templates/faq.html:67 mymwebsite/templates/howto.html:67
+#: mymwebsite/templates/faq.html:67
 msgid ""
 "To use the MyMensor Web App you generally need a modern browser, the newer "
 "the best!"
@@ -971,15 +1010,15 @@ msgstr ""
 "Para usar o MyMensor Web App você precisa de um navegador moderno, quanto "
 "mais recente melhor!"
 
-#: mymwebsite/templates/faq.html:76 mymwebsite/templates/howto.html:76
+#: mymwebsite/templates/faq.html:76
 msgid "How do I register and start using MyMensor?"
 msgstr "Como faço para registrar e começar a usar o MyMensor?"
 
-#: mymwebsite/templates/faq.html:82 mymwebsite/templates/howto.html:82
+#: mymwebsite/templates/faq.html:82
 msgid "Click in the register button and follow the instructions!"
 msgstr "Clique no botão de registro e siga as instruções!"
 
-#: mymwebsite/templates/faq.html:84 mymwebsite/templates/howto.html:84
+#: mymwebsite/templates/faq.html:84
 msgid ""
 "More info can be found in the videos section, specially on the Mymensor "
 "Mobile App - First Steps "
@@ -991,28 +1030,24 @@ msgstr ""
 #: mymwebsite/templates/faq.html:219 mymwebsite/templates/faq.html:235
 #: mymwebsite/templates/faq.html:251 mymwebsite/templates/faq.html:399
 #: mymwebsite/templates/faq.html:415 mymwebsite/templates/faq.html:431
-#: mymwebsite/templates/howto.html:85 mymwebsite/templates/howto.html:101
-#: mymwebsite/templates/howto.html:219 mymwebsite/templates/howto.html:235
-#: mymwebsite/templates/howto.html:251 mymwebsite/templates/howto.html:399
-#: mymwebsite/templates/howto.html:415 mymwebsite/templates/howto.html:431
 msgid "Video"
 msgstr "Vídeo"
 
-#: mymwebsite/templates/faq.html:94 mymwebsite/templates/howto.html:94
+#: mymwebsite/templates/faq.html:94
 msgid "What are the USES AND BENEFITS of Mymensor?"
 msgstr "Quais são os USOS e BENEFÍCIOS do Mymensor?"
 
-#: mymwebsite/templates/faq.html:100 mymwebsite/templates/howto.html:100
+#: mymwebsite/templates/faq.html:100
 msgid "Please check our explainer video at the top of our video section."
 msgstr ""
 "Por favor, verifique o nosso vídeo explicativo no topo da nossa seção de "
 "vídeo."
 
-#: mymwebsite/templates/faq.html:110 mymwebsite/templates/howto.html:110
+#: mymwebsite/templates/faq.html:110
 msgid "Forgot your username or password?"
 msgstr "Esqueceu seu nome de usuário ou senha?"
 
-#: mymwebsite/templates/faq.html:116 mymwebsite/templates/howto.html:116
+#: mymwebsite/templates/faq.html:116
 msgid ""
 "Go to the LOGIN page and reset your password. The name of the user that you "
 "registered will come by email, together with a link to register the new "
@@ -1022,17 +1057,17 @@ msgstr ""
 "registrou virá por e-mail, juntamente com um link para registrar a nova "
 "senha."
 
-#: mymwebsite/templates/faq.html:123 mymwebsite/templates/howto.html:123
+#: mymwebsite/templates/faq.html:123
 msgid "MOBILE APP RELATED QUESTIONS"
 msgstr "QUESTÕES RELACIONADAS COM A MOBILE APP"
 
-#: mymwebsite/templates/faq.html:132 mymwebsite/templates/howto.html:132
+#: mymwebsite/templates/faq.html:132
 msgid "My smartphone clock is wrongly configured, so goodbye certified time?"
 msgstr ""
 "Meu relógio do smartphone está indevidamente configurado, então adeus "
 "horário certificado?"
 
-#: mymwebsite/templates/faq.html:138 mymwebsite/templates/howto.html:138
+#: mymwebsite/templates/faq.html:138
 msgid ""
 "No! The only thing you need to certify your time is an internet connection. "
 "Our software DOES NOT use the internal smartphone clock."
@@ -1041,7 +1076,7 @@ msgstr ""
 "conexão de internet. Nosso software é NÃO USA o relógio interno do "
 "smartphone."
 
-#: mymwebsite/templates/faq.html:139 mymwebsite/templates/howto.html:139
+#: mymwebsite/templates/faq.html:139
 msgid ""
 "Every time you run your MyMensor mobile app we check the time using iternet "
 "time servers and after that we use our own clock."
@@ -1050,7 +1085,7 @@ msgstr ""
 "usando servidores de tempo de internet e, após isto, nós usamos nosso "
 "próprio relógio."
 
-#: mymwebsite/templates/faq.html:140 mymwebsite/templates/howto.html:140
+#: mymwebsite/templates/faq.html:140
 msgid ""
 "When you see the green clock icon in your smartphone screen then your time "
 "is certified!"
@@ -1058,11 +1093,11 @@ msgstr ""
 "Quando você vê o ícone de relógio verde na tela de seu smartphone o seu "
 "horário está certificado!"
 
-#: mymwebsite/templates/faq.html:149 mymwebsite/templates/howto.html:149
+#: mymwebsite/templates/faq.html:149
 msgid "What is the advantage of capturing images using augmented reality?"
 msgstr "Qual é a vantagem de capturar imagens usando realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:155 mymwebsite/templates/howto.html:155
+#: mymwebsite/templates/faq.html:155
 msgid ""
 "The captured images will be automatically addressed to the storage folders "
 "(VPs), on the other hand the images captured without the augmented reality "
@@ -1072,7 +1107,7 @@ msgstr ""
 "armazenamento (VPs), por outro lado, as imagens capturadas sem a realidade "
 "aumentada precisarão ser manualmente dirigidas para as pastas."
 
-#: mymwebsite/templates/faq.html:156 mymwebsite/templates/howto.html:156
+#: mymwebsite/templates/faq.html:156
 msgid ""
 "You also ensure that the desired angle and position for the image captures "
 "are the same as you have set when configured the VP."
@@ -1081,12 +1116,10 @@ msgstr ""
 "são os mesmos que você definiu quando configurou o VP."
 
 #: mymwebsite/templates/faq.html:165 mymwebsite/templates/faq.html:550
-#: mymwebsite/templates/howto.html:165 mymwebsite/templates/howto.html:550
 msgid "How do I manually share a specific media?"
 msgstr "Como compartilhar manualmente uma mídia específica?"
 
 #: mymwebsite/templates/faq.html:171 mymwebsite/templates/faq.html:556
-#: mymwebsite/templates/howto.html:171 mymwebsite/templates/howto.html:556
 msgid ""
 "In the MyMensor Mobile App, click on the VP folder where the media is "
 "located, click on the gallery icon to see the captured media and find the "
@@ -1099,7 +1132,6 @@ msgstr ""
 "no seu smartphone será exibido para o compartilhamento."
 
 #: mymwebsite/templates/faq.html:172 mymwebsite/templates/faq.html:557
-#: mymwebsite/templates/howto.html:172 mymwebsite/templates/howto.html:557
 msgid ""
 "In the MyMensor Web App, enter the media tab, select the VP where the media "
 "is located or click directly on the location icon when you are in the "
@@ -1110,11 +1142,11 @@ msgstr ""
 "guia Portfolio. Basta agora selecionar o aplicativo que deseja usar para "
 "compartilhar."
 
-#: mymwebsite/templates/faq.html:181 mymwebsite/templates/howto.html:181
+#: mymwebsite/templates/faq.html:181
 msgid "Can I capture images with my smartphone in any position?"
 msgstr "Eu posso capturar imagens com meu smartphone em qualquer posição?"
 
-#: mymwebsite/templates/faq.html:187 mymwebsite/templates/howto.html:187
+#: mymwebsite/templates/faq.html:187
 msgid ""
 "Yes you can, but bear in mind that the MyMensor Mobile App is always in "
 "landscape and that is the way your photos and videos are shown in our Web App"
@@ -1123,11 +1155,11 @@ msgstr ""
 "paisagem e esta é a forma como suas fotos e vídeos são mostrados em nossa "
 "Web App."
 
-#: mymwebsite/templates/faq.html:196 mymwebsite/templates/howto.html:196
+#: mymwebsite/templates/faq.html:196
 msgid "Can I capture images without using Augmented Reality?"
 msgstr "Eu posso capturar imagens sem o uso de realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:202 mymwebsite/templates/howto.html:202
+#: mymwebsite/templates/faq.html:202
 msgid ""
 "Yes. Just turn off the AR in the initial capture screen. Let the picture go "
 "automatically to the VP AR-OFF folder or address a destination VP and click "
@@ -1139,7 +1171,7 @@ msgstr ""
 "clique em um dos botões de obturador, uma para foto ou um para mini-filme "
 "(máximo de 10 segundos)."
 
-#: mymwebsite/templates/faq.html:203 mymwebsite/templates/howto.html:203
+#: mymwebsite/templates/faq.html:203
 msgid ""
 "The destination folder might even be a folder already configured, but that "
 "you understood that it made more sense to archive it"
@@ -1147,11 +1179,11 @@ msgstr ""
 "A pasta de destino pode mesmo ser uma pasta já configurada, mas você "
 "compreendeu que fazia mais sentido para arquivá-lo."
 
-#: mymwebsite/templates/faq.html:212 mymwebsite/templates/howto.html:212
+#: mymwebsite/templates/faq.html:212
 msgid "How do I get more details about MyMensor Mobile App screens?"
 msgstr "Como obtenho mais detalhes sobre telas do MyMensor Mobile App?"
 
-#: mymwebsite/templates/faq.html:218 mymwebsite/templates/howto.html:218
+#: mymwebsite/templates/faq.html:218
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Mobile "
 "App - Feature Tour "
@@ -1159,12 +1191,12 @@ msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
 "MyMensor Mobile App - Passeio pelas Funcionalidades "
 
-#: mymwebsite/templates/faq.html:228 mymwebsite/templates/howto.html:228
+#: mymwebsite/templates/faq.html:228
 msgid "How do I setup to capture images using Augmented Reality?"
 msgstr ""
 "Como faço para configurar para capturar imagens usando realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:234 mymwebsite/templates/howto.html:234
+#: mymwebsite/templates/faq.html:234
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Mobile "
 "App - Using Augmented Reality "
@@ -1172,11 +1204,11 @@ msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
 "MyMensor Mobile App - Usando a Realidade Aumentada "
 
-#: mymwebsite/templates/faq.html:244 mymwebsite/templates/howto.html:244
+#: mymwebsite/templates/faq.html:244
 msgid "How do I capture an image with or without using Augmented Reality?"
 msgstr "Como para capturar uma imagem com ou sem o uso de realidade aumentada?"
 
-#: mymwebsite/templates/faq.html:250 mymwebsite/templates/howto.html:250
+#: mymwebsite/templates/faq.html:250
 msgid ""
 "Info can be found in the videos section, specially on the Mymensor Mobile "
 "App - Capture Images and Videos "
@@ -1184,11 +1216,11 @@ msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
 "MyMensor Mobile App - Capturando Imagens e Vídeos "
 
-#: mymwebsite/templates/faq.html:260 mymwebsite/templates/howto.html:260
+#: mymwebsite/templates/faq.html:260
 msgid "Can I use my login credentials on more than one smartphone?"
 msgstr "Posso usar minhas credenciais de login em mais de um smartphone?"
 
-#: mymwebsite/templates/faq.html:266 mymwebsite/templates/howto.html:266
+#: mymwebsite/templates/faq.html:266
 msgid ""
 "Yes, but the configuration setup will be the same for your user in all "
 "smartphones."
@@ -1196,7 +1228,7 @@ msgstr ""
 "Sim, mas a configuração da instalação será a mesmo para o seu usuário em "
 "todos os smartphones."
 
-#: mymwebsite/templates/faq.html:267 mymwebsite/templates/howto.html:267
+#: mymwebsite/templates/faq.html:267
 msgid ""
 "In other words, you can divide your VPs to monitor multiple places, but the "
 "VPs configuration will be the same in all places."
@@ -1204,11 +1236,11 @@ msgstr ""
 "Em outras palavras, você pode dividir seus VPs para monitorar vários "
 "lugares, mas a configuração dos VPs será a mesma em todos os lugares."
 
-#: mymwebsite/templates/faq.html:276 mymwebsite/templates/howto.html:276
+#: mymwebsite/templates/faq.html:276
 msgid "How do I make a backup of the MyMensor Mobile App configuration?"
 msgstr "Como posso fazer um backup da configuração do MyMensor Mobile App?"
 
-#: mymwebsite/templates/faq.html:282 mymwebsite/templates/howto.html:282
+#: mymwebsite/templates/faq.html:282
 msgid ""
 "Please use the backup portion in the Setup Menu of the MyMensor WebApp. You "
 "should backup your configuration frequently."
@@ -1217,12 +1249,10 @@ msgstr ""
 "App. Você deve fazer backup de sua configuração frequentemente."
 
 #: mymwebsite/templates/faq.html:291 mymwebsite/templates/faq.html:456
-#: mymwebsite/templates/howto.html:291 mymwebsite/templates/howto.html:456
 msgid "How do I delete an image or video?"
 msgstr "Como faço para excluir uma imagem ou vídeo?"
 
 #: mymwebsite/templates/faq.html:297 mymwebsite/templates/faq.html:462
-#: mymwebsite/templates/howto.html:297 mymwebsite/templates/howto.html:462
 msgid ""
 "In the Mobile, while seing the captures, touch the trash bin to erase the "
 "photo only on the smartphone."
@@ -1231,7 +1261,6 @@ msgstr ""
 "no smartphone."
 
 #: mymwebsite/templates/faq.html:298 mymwebsite/templates/faq.html:463
-#: mymwebsite/templates/howto.html:298 mymwebsite/templates/howto.html:463
 msgid ""
 "To delete the image in the database you need to locate it in the Media page, "
 "there you will find a trash bin where you can make the final deletion from "
@@ -1241,11 +1270,11 @@ msgstr ""
 "página de mídia, lá você vai encontrar uma lixeira onde você pode fazer a "
 "eliminação final dela do banco de dados."
 
-#: mymwebsite/templates/faq.html:307 mymwebsite/templates/howto.html:307
+#: mymwebsite/templates/faq.html:307
 msgid "Can I install more than one MyMensor account on my smartphone?"
 msgstr "Posso instalar mais de uma conta de MyMensor no meu smartphone?"
 
-#: mymwebsite/templates/faq.html:313 mymwebsite/templates/howto.html:313
+#: mymwebsite/templates/faq.html:313
 msgid ""
 "No, your smartphone can only have one active MyMensor account. To activate a "
 "new account reinstall MyMensor on your smartphone."
@@ -1253,11 +1282,11 @@ msgstr ""
 "Não, o seu smartphone só pode ter uma conta MyMensor ativa. Para ativar uma "
 "nova conta, reinstale o MyMensor em seu smartphone."
 
-#: mymwebsite/templates/faq.html:322 mymwebsite/templates/howto.html:322
+#: mymwebsite/templates/faq.html:322
 msgid "Can I use MyMensor Mobile App without internet?"
 msgstr "Posso usar MyMensor Mobile App sem internet?"
 
-#: mymwebsite/templates/faq.html:328 mymwebsite/templates/howto.html:328
+#: mymwebsite/templates/faq.html:328
 msgid ""
 "Yes, captures can be made without the internet connection. On the other "
 "hand, the internet signal is fundamental initially for the authentication of "
@@ -1267,7 +1296,7 @@ msgstr ""
 "sinal de internet é fundamental inicialmente para a autenticação do produto "
 "e, claro, para enviar as imagens para os nossos servidores."
 
-#: mymwebsite/templates/faq.html:329 mymwebsite/templates/howto.html:329
+#: mymwebsite/templates/faq.html:329
 msgid ""
 "Please note that the Android system may in some cases report that you are "
 "connected but this connection has no internet signal, this failure will not "
@@ -1279,11 +1308,11 @@ msgstr ""
 "permitirá que você abra o programa até que você desligue esta conexão sem "
 "internet."
 
-#: mymwebsite/templates/faq.html:338 mymwebsite/templates/howto.html:338
+#: mymwebsite/templates/faq.html:338
 msgid "How do I get certifications when I'm out of the internet?"
 msgstr "Como obtenho certificações quando estou fora da internet?"
 
-#: mymwebsite/templates/faq.html:344 mymwebsite/templates/howto.html:344
+#: mymwebsite/templates/faq.html:344
 msgid ""
 "When captures occur in places without internet access, the images obtained "
 "are retained in the smartphone and are only sent to the database when the "
@@ -1293,7 +1322,7 @@ msgstr ""
 "são retidas no smartphone e só são enviadas para o banco de dados, quando o "
 "MyMensor estiver conectado na região da internet."
 
-#: mymwebsite/templates/faq.html:345 mymwebsite/templates/howto.html:345
+#: mymwebsite/templates/faq.html:345
 msgid ""
 "The MyMensor does not run in the background so you do not discharge the "
 "battery of your smartphone. The dates, time and location will be kept "
@@ -1305,11 +1334,11 @@ msgstr ""
 "certificadas se foi possível obter os sinais de tempo e localização verdes "
 "indicando que o acesso de certificação foi possível."
 
-#: mymwebsite/templates/faq.html:354 mymwebsite/templates/howto.html:354
+#: mymwebsite/templates/faq.html:354
 msgid "The MyMensor Mobile App is frozen in the startup forever..."
 msgstr "O MyMensor Mobile App está congelado na inicialização para sempre..."
 
-#: mymwebsite/templates/faq.html:360 mymwebsite/templates/howto.html:360
+#: mymwebsite/templates/faq.html:360
 msgid ""
 "Make sure the screen rotation function of your smartphone is enabled. Make "
 "sure that you have registered your mymensor account in an internet-connected "
@@ -1320,12 +1349,10 @@ msgstr ""
 "local conectado à internet para receber os tokens de segurança."
 
 #: mymwebsite/templates/faq.html:369 mymwebsite/templates/faq.html:582
-#: mymwebsite/templates/howto.html:369 mymwebsite/templates/howto.html:582
 msgid "Filed in the wrong folder a capture without augmented reality?"
 msgstr "Arquivou na pasta errada uma captura sem realidade aumentada?"
 
 #: mymwebsite/templates/faq.html:375 mymwebsite/templates/faq.html:588
-#: mymwebsite/templates/howto.html:375 mymwebsite/templates/howto.html:588
 msgid ""
 "In the MyMensor Web App, enter the media tab, select the VP and identify the "
 "media you want. Set the new destination folder and click the move button."
@@ -1333,11 +1360,11 @@ msgstr ""
 "No MyMensor Web App, entre na guia de mídia, selecione o VP e identifique a "
 "mídia que quer. Definir a nova pasta de destino e clicar no botão mover."
 
-#: mymwebsite/templates/faq.html:383 mymwebsite/templates/howto.html:383
+#: mymwebsite/templates/faq.html:383
 msgid "WEB APP RELATED QUESTIONS"
 msgstr "QUESTÕES RELACIONADAS COM A WEB APP"
 
-#: mymwebsite/templates/faq.html:392 mymwebsite/templates/howto.html:392
+#: mymwebsite/templates/faq.html:392
 msgid "Where can I find more details about the MyMensor Web App?"
 msgstr "Onde posso encontrar mais detalhes sobre o MyMensor Web App?"
 
@@ -1350,20 +1377,20 @@ msgstr ""
 "Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
 "MyMensor Web App"
 
-#: mymwebsite/templates/faq.html:408 mymwebsite/templates/howto.html:408
+#: mymwebsite/templates/faq.html:408
 msgid "How do I transform images into data?"
 msgstr "Como faço para transformar imagens em dados?"
 
-#: mymwebsite/templates/faq.html:424 mymwebsite/templates/howto.html:424
+#: mymwebsite/templates/faq.html:424
 msgid "How do I manage Media and Data information in MyMensor Web App?"
 msgstr ""
 "Como faço para gerenciar informações de mídia e dados no MyMensor Web App?"
 
-#: mymwebsite/templates/faq.html:440 mymwebsite/templates/howto.html:440
+#: mymwebsite/templates/faq.html:440
 msgid "How do I move an image or video between VPs folders?"
 msgstr "Como faço para mover uma imagem ou vídeo entre pastas de VPs?"
 
-#: mymwebsite/templates/faq.html:446 mymwebsite/templates/howto.html:446
+#: mymwebsite/templates/faq.html:446
 msgid ""
 "Images captured without the use of augmented reality, which will "
 "automatically go to the AR-OFF folder or are manually directed to other "
@@ -1374,7 +1401,7 @@ msgstr ""
 "para outras pastas antes da captura, são elegíveis a serem movidas para "
 "outras pastas."
 
-#: mymwebsite/templates/faq.html:447 mymwebsite/templates/howto.html:447
+#: mymwebsite/templates/faq.html:447
 msgid ""
 "In Media there is a button to move the media to another folder. Images "
 "obtained with augmented reality (AR-ON) will automatically go to the "
@@ -1384,7 +1411,7 @@ msgstr ""
 "com realidade aumentada (AR-ON) irão automaticamente para as pastas pré-"
 "configuradas e você não pode movê-las."
 
-#: mymwebsite/templates/faq.html:472 mymwebsite/templates/howto.html:472
+#: mymwebsite/templates/faq.html:472
 msgid ""
 "I can not see in the data analysis page graph the regions with the alarm "
 "ranges that I set up in configuring tags. Why is this happening?"
@@ -1393,7 +1420,7 @@ msgstr ""
 "intervalos de alarme que configurei na configuração de TAGs. Por que isso "
 "está acontecendo?"
 
-#: mymwebsite/templates/faq.html:478 mymwebsite/templates/howto.html:478
+#: mymwebsite/templates/faq.html:478
 msgid ""
 "Ranges will only appear in the graph when there is only one selected tag. "
 "This is to avoid confusions with superimposed ranges."
@@ -1401,17 +1428,17 @@ msgstr ""
 "Intervalos só aparecerão no gráfico quando houver apenas uma TAG "
 "selecionada. Isso é para evitar confusões com intervalos sobrepostos."
 
-#: mymwebsite/templates/faq.html:487 mymwebsite/templates/howto.html:487
+#: mymwebsite/templates/faq.html:487
 msgid "How do I find out which TAGs belong to a particular VP?"
 msgstr "Como faço para descobrir quais TAGs pertencem a um determinado VP?"
 
-#: mymwebsite/templates/faq.html:493 mymwebsite/templates/howto.html:493
+#: mymwebsite/templates/faq.html:493
 msgid "In the TAGs item of the Setup menu item you can find this information."
 msgstr ""
 "No item TAGs do item de menu de configuração você pode encontrar esta "
 "informação."
 
-#: mymwebsite/templates/faq.html:502 mymwebsite/templates/howto.html:502
+#: mymwebsite/templates/faq.html:502
 msgid ""
 "How to proceed to see in the graph of data analysis only the tags of a "
 "particular VP?"
@@ -1419,7 +1446,7 @@ msgstr ""
 "Como proceder para ver o gráfico de análise de dados apenas os TAGs de um VP "
 "em particular?"
 
-#: mymwebsite/templates/faq.html:508 mymwebsite/templates/howto.html:508
+#: mymwebsite/templates/faq.html:508
 msgid ""
 "If you want to see the graph, obviously you have already processed some "
 "image of this VP. So, inside the portfolio item, you should check if the "
@@ -1429,7 +1456,7 @@ msgstr ""
 "desse VP. Então, dentro do item portfólio, você deve verificar se o período "
 "selecionado contém a imagem processada deste VP."
 
-#: mymwebsite/templates/faq.html:509 mymwebsite/templates/howto.html:509
+#: mymwebsite/templates/faq.html:509
 msgid ""
 "Just click on the chart icon at the top right of the image that should be in "
 "blue confirming that this image has been processed."
@@ -1437,16 +1464,16 @@ msgstr ""
 "Basta clicar no ícone do gráfico no canto superior direito da imagem que "
 "deve estar em azul confirmando que essa imagem foi processada."
 
-#: mymwebsite/templates/faq.html:518 mymwebsite/templates/howto.html:518
+#: mymwebsite/templates/faq.html:518
 msgid "How can I quickly see the graph of just one TAG?"
 msgstr "Como posso ver rapidamente o gráfico de apenas um TAG?"
 
-#: mymwebsite/templates/faq.html:524 mymwebsite/templates/howto.html:524
+#: mymwebsite/templates/faq.html:524
 msgid "Just enter the Data Status and click on the TAG row you want to see."
 msgstr ""
 "Basta entrar no Status dos Dados e clicar na linha da TAG que deseja ver."
 
-#: mymwebsite/templates/faq.html:533 mymwebsite/templates/howto.html:533
+#: mymwebsite/templates/faq.html:533
 msgid "Can I automatically share the captured photos and videos?"
 msgstr "Posso compartilhar automaticamente as fotos e os vídeos capturados?"
 
@@ -1460,7 +1487,7 @@ msgstr ""
 "item logado e configure a conta de Twitter que você deseja usar para "
 "compartilhar automaticamente suas mídias."
 
-#: mymwebsite/templates/faq.html:540 mymwebsite/templates/howto.html:540
+#: mymwebsite/templates/faq.html:540
 msgid ""
 "Then go to the Setup menu item and select the VPs item. You must check the "
 "share box in each of the VP folders that you want to share automatically."
@@ -1479,7 +1506,7 @@ msgstr ""
 "automaticamente a mídia capturada. Ao contrário do Twitter, as contas de e-"
 "mails podem ser diferentes para cada VP."
 
-#: mymwebsite/templates/faq.html:566 mymwebsite/templates/howto.html:566
+#: mymwebsite/templates/faq.html:566
 msgid ""
 "MyMensor Mobile App identifies the target (a vp configured with augmented "
 "reality) but I can not capture an image."
@@ -1487,7 +1514,7 @@ msgstr ""
 "MyMensor Mobile App identifica o alvo (um vp configurado com realidade "
 "aumentada), mas não consegue capturar uma imagem."
 
-#: mymwebsite/templates/faq.html:572 mymwebsite/templates/howto.html:572
+#: mymwebsite/templates/faq.html:572
 msgid ""
 "Keep in mind that the system uses image recognition, if something has "
 "changed significantly compared to the configured base image, such as: "
@@ -1499,7 +1526,7 @@ msgstr ""
 "como: condições de iluminação, brilho, reflexões, inclusão ou exclusão de "
 "objetos, você pode ter dificuldade em fazer uma nova captura."
 
-#: mymwebsite/templates/faq.html:573 mymwebsite/templates/howto.html:573
+#: mymwebsite/templates/faq.html:573
 msgid ""
 "In this case choose to reconfigure the image if the changes will actually "
 "persist or simply turn off the augmented reality (Selecting AR-OFF) and "
@@ -1509,68 +1536,114 @@ msgstr ""
 "ou simplesmente desligue a realidade aumentada (selecionando AR-OFF) e "
 "selecione a pasta de destino antes de clicar no obturador para capturar."
 
-#: mymwebsite/templates/howto.html:7
+#: mymwebsite/templates/howto.html:4
+msgid "How To?"
+msgstr "Como fazer?"
+
+#: mymwebsite/templates/howto.html:6
+msgid "How to?"
+msgstr "Como fazer?"
+
+#: mymwebsite/templates/howto/followingremotejobs.html:4
+#: mymwebsite/templates/howto/genusemediaplan.html:4
+#: mymwebsite/templates/howto/usingyourowndata.html:4
 msgid "How To"
 msgstr "Como fazer"
 
-#: mymwebsite/templates/howto.html:48
+#: mymwebsite/templates/howto/genusemediaplan.html:10
 msgid ""
-"Or you can automatically share your captures to Twitter, Facebook or email "
+"To prove to somebody that your media is real is very simple: use MyMensor to "
+"produce and share your media!"
 msgstr ""
-"Ou você pode automaticamente compartilhar suas capturas para o Twitter, "
-"Facebook ou e-mail "
+"Provar a alguém que sua mídia é real é muito simples: use o MyMensor para "
+"produzir e compartilhar sua mídia!"
 
-#: mymwebsite/templates/howto.html:398
-msgid ""
-"Info can be found in the videos section, specially on the Mymensor Web App - "
-"Feature Tour "
-msgstr ""
-"Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Web App - Passeio pelas Funcionalidades "
+#: mymwebsite/templates/howto/genusemediaplan.html:11
+msgid "Ok, let's got step by step on how you do it."
+msgstr "Ok, vamos passo a passo mostrar como você faz isso."
 
-#: mymwebsite/templates/howto.html:414
-msgid ""
-"Info can be found in the videos section, specially on the Mymensor Web App - "
-"Configuring VPs and TAGs "
-msgstr ""
-"Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Web App -Configurando VPs e TAGs "
+#: mymwebsite/templates/howto/genusemediaplan.html:12
+msgid "<strong>1.</strong> Install MyMensor Mobile app from "
+msgstr "<strong>1.</strong> Instale o aplicativo móvel MyMensor a partir de "
 
-#: mymwebsite/templates/howto.html:430
-msgid ""
-"Info can be found in the videos section, specially on the Mymensor Web App - "
-"Media and Data "
-msgstr ""
-"Informações podem ser encontradas na seção de vídeos, especialmente no vídeo "
-"MyMensor Web App - Mídias e Dados "
+#: mymwebsite/templates/howto/genusemediaplan.html:15
+msgid "<strong>2.</strong> Run app and create your user"
+msgstr "<strong>2.</strong> Execute o aplicativo e crie seu usuário"
 
-#: mymwebsite/templates/howto.html:539
+#: mymwebsite/templates/howto/genusemediaplan.html:16
 msgid ""
-"Yes, once you have entered our Web App with your credentials, click on the "
-"logged in item and set up facebook, twitter accounts that you want to use to "
-"automatically share your media."
+"<strong>3.</strong> Point your smartphone camera to what you need to "
+"photograph and press the camera button"
 msgstr ""
-"Sim, uma vez que você inseriu suas credenciais em nossa Web App, clique no "
-"item logado e configure as contas de facebook e twitter que você deseja usar "
-"para compartilhar automaticamente suas mídias."
+"<strong>3.</strong> Aponte a câmera do smartphone para o que precisa "
+"fotografar e pressione o botão de câmera"
 
-#: mymwebsite/templates/howto.html:541
+#: mymwebsite/templates/howto/genusemediaplan.html:17
 msgid ""
-"In this same screen you can also select an email to automatically receive "
-"the captured media. Unlike Facebook and Twitter, emails accounts may be "
-"different for each VP."
+"<strong>4.</strong> If you did not change the VP folder before taking your "
+"photo, the picture you just made is stored in VP#0. So, just tap on the "
+"bottom left blue button in the screen to show the captures present so far in "
+"this VP."
 msgstr ""
-"Nesta mesma tela você também pode selecionar um e-mail para receber "
-"automaticamente a mídia capturada. Ao contrário do Facebook e Twitter, "
-"contas de e-mails podem ser diferentes para cada VP."
+"<strong>4.</strong> Se você não alterou a pasta VP antes de tirar sua foto, "
+"a imagem que você acabou de fazer é armazenada no VP#0. Então, toque no "
+"botão azul esquerdo inferior na tela para mostrar as capturas presentes até "
+"agora neste VP."
+
+#: mymwebsite/templates/howto/genusemediaplan.html:18
+msgid ""
+"<strong>5.</strong> Now, the best way of proving you mean business, is to "
+"send the link to the media check page to whoever you want. Do this by "
+"pressing the blue sharing button and follow the sharing instructions of your "
+"specific android operating system."
+msgstr ""
+"<strong>5.</strong> Agora, a melhor maneira de provar que o assunto é sério, "
+"é enviar o link para a página de verificação de mídia para quem você quiser. "
+"Faça isso pressionando o botão azul de compartilhamento e siga as instruções "
+"de compartilhamento do seu sistema operacional Android específico."
+
+#: mymwebsite/templates/howto/genusemediaplan.html:19
+msgid ""
+"<strong>6.</strong> If you want, follow the link and download the PDF "
+"certificate that is produced by the MyMensor Web App media check page. "
+"<mark>You can print it and later on use the embeded QR-code to take you back "
+"to the same media check page.</mark>"
+msgstr ""
+"<strong>6.</strong> Se você quiser, siga o link e baixe o certificado PDF "
+"produzido pela página de verificação de mídia do MyMensor Web App. "
+"<mark>Você pode imprimi-lo e depois usar o QR-code incorporado para levá-lo "
+"de volta à mesma página de verificação de mídia. </mark>"
+
+#: mymwebsite/templates/howto/genusemediaplan.html:20
+msgid "Check the video below for a visual guide!"
+msgstr "Verifique o vídeo abaixo para obter um guia visual!"
+
+#: mymwebsite/templates/howto/genusemediaplan.html:37
+msgid ""
+"Click on the picture below to see an example of a media check page, as you "
+"will produce following this instructions. Once there you can download an "
+"example of a PDF that will be generated."
+msgstr ""
+"Clique na imagem abaixo para ver um exemplo de uma página de verificação de "
+"mídia, como a que você irá produzir seguindo estas instruções. Uma vez lá, "
+"você pode baixar um exemplo de PDF que será gerado."
+
+#: mymwebsite/templates/howto/genusemediaplan.html:40
+#: mymwebsite/templates/index.html:132
+msgid "Click to see an example of what you can distribute to everybody!"
+msgstr "Clique para ver um exemplo do que você pode distribuir para todos!"
+
+#: mymwebsite/templates/howto/genusemediaplan.html:44
+msgid "We hope this will make your life easier!"
+msgstr "Esperamos que isso facilite sua vida!"
 
 #: mymwebsite/templates/index.html:33 mymwebsite/templates/index.html:81
 #: mymwebsite/templates/innerbase.html:89
 msgid "Learn"
 msgstr "Aprenda"
 
-#: mymwebsite/templates/index.html:39 mymwebsite/templates/index.html:87
-#: mymwebsite/templates/innerbase.html:95
+#: mymwebsite/templates/index.html:37 mymwebsite/templates/index.html:85
+#: mymwebsite/templates/innerbase.html:93
 msgid "How to"
 msgstr "Como fazer"
 
@@ -1596,10 +1669,6 @@ msgstr ""
 #: mymwebsite/templates/index.html:344 mymwebsite/templates/index.html:372
 msgid "Trial free now!"
 msgstr "Experimente grátis!"
-
-#: mymwebsite/templates/index.html:132
-msgid "Click to see an example of what you can distribute to everybody!"
-msgstr "Clique para ver um exemplo do que você pode distribuir para todos!"
 
 #: mymwebsite/templates/index.html:139
 msgid "Certified Information"
@@ -3087,6 +3156,52 @@ msgid ""
 msgstr ""
 "Saiba mais sobre algumas das características do aplicativo da web do "
 "MyMensor quando utilizar o Plano Media and Data."
+
+#~ msgid ""
+#~ "Or you can automatically share your captures to Twitter, Facebook or "
+#~ "email "
+#~ msgstr ""
+#~ "Ou você pode automaticamente compartilhar suas capturas para o Twitter, "
+#~ "Facebook ou e-mail "
+
+#~ msgid ""
+#~ "Info can be found in the videos section, specially on the Mymensor Web "
+#~ "App - Feature Tour "
+#~ msgstr ""
+#~ "Informações podem ser encontradas na seção de vídeos, especialmente no "
+#~ "vídeo MyMensor Web App - Passeio pelas Funcionalidades "
+
+#~ msgid ""
+#~ "Info can be found in the videos section, specially on the Mymensor Web "
+#~ "App - Configuring VPs and TAGs "
+#~ msgstr ""
+#~ "Informações podem ser encontradas na seção de vídeos, especialmente no "
+#~ "vídeo MyMensor Web App -Configurando VPs e TAGs "
+
+#~ msgid ""
+#~ "Info can be found in the videos section, specially on the Mymensor Web "
+#~ "App - Media and Data "
+#~ msgstr ""
+#~ "Informações podem ser encontradas na seção de vídeos, especialmente no "
+#~ "vídeo MyMensor Web App - Mídias e Dados "
+
+#~ msgid ""
+#~ "Yes, once you have entered our Web App with your credentials, click on "
+#~ "the logged in item and set up facebook, twitter accounts that you want to "
+#~ "use to automatically share your media."
+#~ msgstr ""
+#~ "Sim, uma vez que você inseriu suas credenciais em nossa Web App, clique "
+#~ "no item logado e configure as contas de facebook e twitter que você "
+#~ "deseja usar para compartilhar automaticamente suas mídias."
+
+#~ msgid ""
+#~ "In this same screen you can also select an email to automatically receive "
+#~ "the captured media. Unlike Facebook and Twitter, emails accounts may be "
+#~ "different for each VP."
+#~ msgstr ""
+#~ "Nesta mesma tela você também pode selecionar um e-mail para receber "
+#~ "automaticamente a mídia capturada. Ao contrário do Facebook e Twitter, "
+#~ "contas de e-mails podem ser diferentes para cada VP."
 
 #~ msgid "Explainer Video to MyMensor"
 #~ msgstr ""
