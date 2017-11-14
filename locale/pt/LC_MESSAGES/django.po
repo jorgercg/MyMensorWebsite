@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-20 17:38+0100\n"
-"PO-Revision-Date: 2017-10-20 17:41+0100\n"
+"POT-Creation-Date: 2017-11-14 14:12+0000\n"
+"PO-Revision-Date: 2017-11-14 14:31+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -99,7 +99,7 @@ msgstr "Pinóquio, sentado sobre um telefone móvel."
 msgid "Making Sure that a Photo is NOT a Fake"
 msgstr "Certificando-se que uma Foto NÃO é FALSA"
 
-#: mymwebsite/templates/cases.html:14 mymwebsite/templates/howto.html:14
+#: mymwebsite/templates/cases.html:14
 msgid ""
 "On this day and age, how can one be sure that a photo is not a fake? Of "
 "course there are a number of very sofisticated methods to assure that, with "
@@ -122,7 +122,7 @@ msgstr "Preparo para produzir uma foto falsa."
 msgid "Following Jobs Remotely "
 msgstr "Acompanhando Trabalhos Remotamente "
 
-#: mymwebsite/templates/cases.html:22 mymwebsite/templates/howto.html:22
+#: mymwebsite/templates/cases.html:22
 msgid ""
 "One cannot be in more than one place at the same time, sure? Not quite, if "
 "we use the technology that is available right now!"
@@ -134,7 +134,7 @@ msgstr ""
 msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
 msgstr "Usando Seus Dados Em Benefício Próprio "
 
-#: mymwebsite/templates/cases.html:30 mymwebsite/templates/howto.html:30
+#: mymwebsite/templates/cases.html:30
 msgid ""
 "Do like all big tech corporations are doing. They are using <u>your</u> data "
 "for <u>their</u> benefit, and most of the time we cannot prevent that. "
@@ -151,7 +151,6 @@ msgid "Following Jobs Remotely"
 msgstr "Acompanhando Trabalhos Remotamente"
 
 #: mymwebsite/templates/cases/followingremotejobs.html:10
-#: mymwebsite/templates/howto/followingremotejobs.html:10
 msgid ""
 "I have a friend that is a very successful accountant in an European country. "
 "Once he told me a tale of a client who <mark>invested in the construction of "
@@ -162,12 +161,10 @@ msgstr ""
 "de um prédio de apartamentos em África.</mark> "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:11
-#: mymwebsite/templates/howto/followingremotejobs.html:11
 msgid "Everything went well, so he decided to go for the second one."
 msgstr "Correu tudo bem, então ele decidiu ir para o segundo."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:12
-#: mymwebsite/templates/howto/followingremotejobs.html:12
 msgid ""
 "In the first one <mark>he had relied on photos sent to him via email to "
 "check the progress of the project</mark>, only going on site for the "
@@ -180,7 +177,6 @@ msgstr ""
 "segunda construção."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:13
-#: mymwebsite/templates/howto/followingremotejobs.html:13
 msgid ""
 "The trouble is that the second building was delayed, he continued receiving "
 "the photos by email, eventually he decided to take a flight and make a "
@@ -192,7 +188,6 @@ msgstr ""
 "surpresa ao local da construção. É claro que você já sabe o que aconteceu."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:14
-#: mymwebsite/templates/howto/followingremotejobs.html:14
 msgid ""
 "<mark>There was no second building!</mark> His money was gone and down there "
 "he discovered that he was targeted with a scam known to the locals. He "
@@ -203,7 +198,6 @@ msgstr ""
 "Ele precisava de uma ferramenta para protegê-lo daquilo."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:15
-#: mymwebsite/templates/howto/followingremotejobs.html:15
 msgid ""
 "<mark>Using just the MyMensor Media Plan one could follow the project "
 "headway remotely using the certified media.</mark> Going even deeper you "
@@ -218,7 +212,7 @@ msgstr ""
 "e ferramentas gráficas do MyMensor."
 
 #: mymwebsite/templates/cases/followingremotejobs.html:16
-#: mymwebsite/templates/howto/followingremotejobs.html:16
+#: mymwebsite/templates/howto/followingremotejobs.html:24
 msgid ""
 "Do you have a remote project and it is going astray? We can help mend that! "
 msgstr ""
@@ -226,13 +220,13 @@ msgstr ""
 "consertar isso! "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:18
-#: mymwebsite/templates/howto/followingremotejobs.html:18
+#: mymwebsite/templates/howto/followingremotejobs.html:26
 msgid "Start your 30-day free-trial now. "
 msgstr "Comece sua avaliação gratuita de 30 dias agora. "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:18
 #: mymwebsite/templates/cases/genusemediaplan.html:17
-#: mymwebsite/templates/howto/followingremotejobs.html:18
+#: mymwebsite/templates/howto/followingremotejobs.html:26
 #: mymwebsite/templates/howto/genusemediaplan.html:47
 msgid ""
 "<mark>No Credit Card is required during trial period</mark> and, even when "
@@ -309,7 +303,7 @@ msgstr ""
 #: mymwebsite/templates/cases/genusemediaplan.html:17
 #: mymwebsite/templates/cases/usingyourowndata.html:24
 #: mymwebsite/templates/howto/genusemediaplan.html:47
-#: mymwebsite/templates/howto/usingyourowndata.html:24
+#: mymwebsite/templates/howto/usingyourowndata.html:16
 msgid "start your 30-day free-trial now! "
 msgstr "comece sua avaliação gratuita de 30 dias agora! "
 
@@ -324,7 +318,6 @@ msgid "Man surfing the bigdata wave, in form of a dollar sign."
 msgstr "Homem surfando a onda bigdata, sob forma de um sinal de cifrão."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:10
-#: mymwebsite/templates/howto/usingyourowndata.html:10
 msgid ""
 "We all know that the big corporations are gathering all the data they "
 "possibly can about ourselves and our businesses in order to drive their "
@@ -335,7 +328,6 @@ msgstr ""
 "resultando em um marketing altamente direcionados e uma otimização insana."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:11
-#: mymwebsite/templates/howto/usingyourowndata.html:11
 msgid ""
 "With today's technology we can do that ourselves, can't we? So, why we do "
 "not build our own big data? Is it worth the effort?"
@@ -344,7 +336,6 @@ msgstr ""
 "por que não construímos nosso próprio big data? Vale o esforço?"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:12
-#: mymwebsite/templates/howto/usingyourowndata.html:12
 msgid ""
 "How to turn the big data revolution into something that increases the "
 "profitability of your own business? Today we see several simple ideas "
@@ -357,7 +348,6 @@ msgstr ""
 "big data para seu benefício?"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:13
-#: mymwebsite/templates/howto/usingyourowndata.html:13
 msgid ""
 "But what is Big Data? By definition of BARC (Business Application Research "
 "Center), from Germany, the term Big Data refers to the methods and "
@@ -370,7 +360,6 @@ msgstr ""
 "altamente escalável."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:14
-#: mymwebsite/templates/howto/usingyourowndata.html:14
 msgid ""
 "The big data certainly is one of the best drives of profitability generation "
 "that can be used by any business."
@@ -379,7 +368,6 @@ msgstr ""
 "podem ser usadas por qualquer empresa."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:15
-#: mymwebsite/templates/howto/usingyourowndata.html:15
 msgid ""
 "To Prove this statement, we have the study released in July 2015 by BARC, "
 "called 'Big Data Use Cases', with over <strong>540 participants worldwide </"
@@ -391,12 +379,10 @@ msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:15
 #: mymwebsite/templates/howto/genusemediaplan.html:14
-#: mymwebsite/templates/howto/usingyourowndata.html:15
 msgid "here."
 msgstr "aqui."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:16
-#: mymwebsite/templates/howto/usingyourowndata.html:16
 #, python-format
 msgid ""
 "Companies have used various data sources to form their Big Data. From the "
@@ -412,7 +398,6 @@ msgstr ""
 "para formar seu big data</strong>."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:17
-#: mymwebsite/templates/howto/usingyourowndata.html:17
 #, python-format
 msgid ""
 "Big Data is not any longer in the realm of research and arrived to the real "
@@ -428,7 +413,6 @@ msgstr ""
 "receita </strong> devido ao uso desta tecnologia."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:18
-#: mymwebsite/templates/howto/usingyourowndata.html:18
 #, python-format
 msgid ""
 "Among the benefits found, <strong>69%% report better strategic decisions</"
@@ -440,7 +424,6 @@ msgstr ""
 "controlar melhor seus processos operacionais</strong>."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:19
-#: mymwebsite/templates/howto/usingyourowndata.html:19
 msgid ""
 "<strong>So let’s get to work!</strong> The technology is available and the "
 "results are proven! Let's use the big data wave to drive your profits up!"
@@ -450,7 +433,6 @@ msgstr ""
 "lucros!"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:20
-#: mymwebsite/templates/howto/usingyourowndata.html:20
 msgid ""
 "<mark>You must be thinking: how can I do that in my own business?</mark>"
 msgstr ""
@@ -458,7 +440,7 @@ msgstr ""
 "</mark>"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:21
-#: mymwebsite/templates/howto/usingyourowndata.html:21
+#: mymwebsite/templates/howto/usingyourowndata.html:13
 msgid ""
 "MyMensor can help you accomplish that. With the use of the <mark>MyMensor "
 "Media and Data Plan</mark> you will be able to gather the data you need to "
@@ -471,7 +453,7 @@ msgstr ""
 "para o seu negócio."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:22
-#: mymwebsite/templates/howto/usingyourowndata.html:22
+#: mymwebsite/templates/howto/usingyourowndata.html:14
 msgid ""
 "But OK, we are getting a little bit ahead of ourselves here! Firstly, you "
 "need to "
@@ -480,7 +462,7 @@ msgstr ""
 "primeiro lugar, por favor "
 
 #: mymwebsite/templates/cases/usingyourowndata.html:24
-#: mymwebsite/templates/howto/usingyourowndata.html:24
+#: mymwebsite/templates/howto/usingyourowndata.html:16
 msgid ""
 "<mark>No Credit Card is required during trial period</mark> and, even after "
 "you have subscribed, you can easily cancel at any time, just clicking a "
@@ -491,7 +473,7 @@ msgstr ""
 "qualquer momento, apenas clicando em um botão!"
 
 #: mymwebsite/templates/cases/usingyourowndata.html:26
-#: mymwebsite/templates/howto/usingyourowndata.html:26
+#: mymwebsite/templates/howto/usingyourowndata.html:18
 msgid ""
 "Use your trial period to learn in our website how to setup a simple an "
 "efficient way to drive your business profits up! And, of course, drop us an "
@@ -1496,11 +1478,173 @@ msgstr "Como fazer?"
 msgid "How to?"
 msgstr "Como fazer?"
 
+#: mymwebsite/templates/howto.html:14
+msgid "How to do that using MyMensor???? Click and learn!!!"
+msgstr "Como faço isto usando o MyMensor???? Clique a aprenda!!!"
+
+#: mymwebsite/templates/howto.html:22
+msgid ""
+"MyMensor will empower you to accomplish that! Follow our step by step how-to "
+"guide."
+msgstr ""
+"MyMensor irá capacitá-lo a realizar isso! Siga o nosso guia passo a passo."
+
+#: mymwebsite/templates/howto.html:30
+msgid ""
+"How can <u>I do that?</u> Find here a detailed guide on how MyMensor will "
+"build that for <u>YOU</u>. "
+msgstr ""
+"Como <u>eu posso fazer isso?</u> Encontre aqui um guia detalhado sobre como "
+"o MyMensor construirá isso para <u>você</u>. "
+
 #: mymwebsite/templates/howto/followingremotejobs.html:4
 #: mymwebsite/templates/howto/genusemediaplan.html:4
 #: mymwebsite/templates/howto/usingyourowndata.html:4
 msgid "How To"
 msgstr "Como fazer"
+
+#: mymwebsite/templates/howto/followingremotejobs.html:10
+msgid ""
+"How to<mark> follow remote jobs using MyMensor? </mark>Do I have to tell the "
+"remote party to contract MyMensor?"
+msgstr ""
+"Como <mark>seguir trabalhos remotos usando o MyMensor?</mark> Preciso dizer "
+"à parte remota que contrate o MyMensor?"
+
+#: mymwebsite/templates/howto/followingremotejobs.html:11
+msgid "No! It is<mark> MUCH SIMPLER THAN THAT! </mark>"
+msgstr "Não! É <mark>MUITO MAIS SIMPLES QUE ISSO!</mark>"
+
+#: mymwebsite/templates/howto/followingremotejobs.html:12
+msgid ""
+"You could start with your own MyMensor account, but for this example let's "
+"say that you will start by creating a brand new MyMensor account. Then after "
+"creating the new account you will create a <mark> SERVICE USER. </mark> This "
+"is a special type of user that is tied to your primary account and can "
+"<mark>ONLY CAPTURE MEDIA TO YOU</mark>, with this set of credentials this "
+"person <mark>CANNOT ACCESS</mark> your MyMensor account on the Web. Please "
+"refer to the points below for a detailed walkthrough on how to do it."
+msgstr ""
+"Você poderia começar com sua própria conta MyMensor, mas, para este exemplo, "
+"digamos que você começará criando uma nova conta MyMensor. Depois de criar a "
+"nova conta, você criará um <mark> USUÁRIO DE SERVIÇO. </mark> Este é um tipo "
+"especial de usuário que está vinculado à sua conta principal e que <mark> "
+"SOMENTE CAPTURA MÍDIAS PARA VOCÊ </mark>, com este conjunto de credenciais "
+"esta pessoa <mark> NÃO PODE ACESSAR </mark> a sua Conta do MyMensor na Web. "
+"Consulte os pontos abaixo para uma explicação detalhada sobre como fazê-lo."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:13
+msgid "<strong>1.</strong> Create a MyMensor account "
+msgstr "<strong>1.</strong> Crie uma conta MyMensor "
+
+#: mymwebsite/templates/howto/followingremotejobs.html:15
+msgid "here. "
+msgstr "aqui. "
+
+#: mymwebsite/templates/howto/followingremotejobs.html:15
+msgid ""
+"If you are already logged in to MyMensor in this computer, please logoff "
+"first, as otherwise your account will be opened automatically."
+msgstr ""
+"Se você já iniciou sessão no MyMensor neste computador, faça logoff "
+"primeiro, caso contrário sua conta será aberta automaticamente."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:16
+msgid ""
+"<strong>2.</strong> Then you follow the usual drill here, confirm the email "
+"you used for the account and go on."
+msgstr ""
+"<strong> 2.</strong>Então siga o procedimento usual aqui, confirme o e-mail "
+"que você usou para a conta e continue."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:17
+msgid ""
+"<strong>3.</strong> Log in to the new account, at it is a new account and "
+"your Portfolio is empty."
+msgstr ""
+"<strong> 3. </strong> Faça login na nova conta, sendo uma nova conta o seu "
+"portfólio estará vazio."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:18
+msgid ""
+"<strong>4.</strong> In the top right of your screen you will see the "
+"username in bold letters, click on it to open a dropdown menu. In this menu "
+"click on <strong>Service User</strong>"
+msgstr ""
+"<strong> 4. </strong> No canto superior direito da tela você verá o nome de "
+"usuário em negrito, clique nele para abrir um menu suspenso. Neste menu, "
+"clique em <strong> Usuário de serviço </ strong>"
+
+#: mymwebsite/templates/howto/followingremotejobs.html:19
+msgid ""
+"<strong>5.</strong> Now create a password for your service user. Take note "
+"of the password you have created. Remember that MyMensor cannot access any "
+"of the passwords you create! After that MyMensor will automatically create a "
+"username for your service user, based on your own username."
+msgstr ""
+"<strong> 5. </strong> Agora, crie uma senha para o seu usuário de serviço. "
+"Tome nota da senha que você criou. Lembre-se de que o MyMensor não pode "
+"acessar nenhuma das senhas que você criou! Depois disso, o MyMensor criará "
+"automaticamente um nome de usuário para o seu usuário de serviço, com base "
+"em seu próprio nome de usuário."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:20
+msgid ""
+"<strong>6.</strong> So your service user is created. You can always come "
+"back at this same screen to change the current service user password or to "
+"delete the service user."
+msgstr ""
+"<strong> 6. </strong> Então seu usuário de serviço está criado. Você sempre "
+"pode voltar nesta mesma tela para alterar a senha atual do usuário de "
+"serviço ou para excluir o usuário de serviço."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:21
+msgid ""
+"<strong>7.</strong> Now send a link to our download page (https://mymensor."
+"com/download/) together with the username and the password to the person "
+"that you want to make captures to you. Remember that with this set of "
+"credentials this person <mark>CANNOT ACCESS</mark> your MyMensor account on "
+"the Web, the only thing that he or she can do is to capture media that will "
+"be sent directly to your account."
+msgstr ""
+"<strong> 7. </strong> Agora envie um link para nossa página de download "
+"(https://mymensor.com/download/) juntamente com o nome de usuário e a senha "
+"para a pessoa que você deseja que faça as capturas para você. Lembre-se que, "
+"com este conjunto de credenciais, esta pessoa <mark> NÃO PODE ACESSAR </"
+"mark> sua conta MyMensor na Web, a única coisa que ele ou ela pode fazer é "
+"capturar mídia que será enviada diretamente para sua conta."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:22
+msgid ""
+"<strong>8.</strong> You will see the captures from your service user as they "
+"come. The captures of each service user you ever create can be seen on the "
+"MyMensor WebApp, <mark>even after you delete a service user.</mark> After "
+"its deletion, the service user will not be able to send any media to your "
+"account anymore, but you will keep in the MyMensor Server all the media you "
+"have received."
+msgstr ""
+"<strong> 8. </strong> Você verá as capturas do seu usuário de serviço à "
+"medida que elas vierem. As capturas de cada usuário de serviço que você já "
+"criou podem ser vistas no MyMensor WebApp, <mark> mesmo depois de excluir um "
+"usuário de serviço. </mark> Após a sua exclusão, o usuário do serviço não "
+"poderá enviar mais qualquer mídia para sua conta, mas você manterá no "
+"MyMensor Server toda a mídia que você recebeu."
+
+#: mymwebsite/templates/howto/followingremotejobs.html:23
+msgid ""
+"By using MyMensor, even with the Media only plan, you will be able to follow "
+"jobs remotely trusting that the media you receive is genuine and was not "
+"modified. The location and time certification coupled with the ability to "
+"<mark>extend your capturing powers to remote users</mark> gives you a "
+"tremendous power to survey jobs in different locations with <mark>great "
+"confidence.</mark>"
+msgstr ""
+"Ao usar o MyMensor, mesmo com o plano somente para mídia, você poderá seguir "
+"tarefas remotamente confiando que a mídia que você recebe é genuína e não "
+"foi modificada. A certificação de localização e tempo combinada com a "
+"capacidade de <mark> estender seus poderes de captura para usuários remotos "
+"</mark> dá-lhe um tremendo poder para fiscalizar trabalhos em diferentes "
+"locais com <mark> grande confiança. </mark>"
 
 #: mymwebsite/templates/howto/genusemediaplan.html:10
 msgid ""
@@ -1589,6 +1733,34 @@ msgstr ""
 #: mymwebsite/templates/howto/genusemediaplan.html:44
 msgid "We hope this will make your life easier!"
 msgstr "Esperamos que isso facilite sua vida!"
+
+#: mymwebsite/templates/howto/usingyourowndata.html:10
+msgid ""
+"With MyMensor you can be sure that the media you receive is genuine, you can "
+"use service users to capture media from remote locations and deliver that to "
+"you automatically, always with confidence. But there is more to MyMensor "
+"than all that."
+msgstr ""
+"Com o MyMensor, você pode ter certeza de que a mídia que você recebe é "
+"genuína, você pode usar usuários de serviço para capturar mídia de locais "
+"remotos e entregá-las automaticamente, sempre com confiança. Mas há mais "
+"para o MyMensor do que tudo isso."
+
+#: mymwebsite/templates/howto/usingyourowndata.html:11
+msgid ""
+"MyMensor provides you with some simple, but very efffective tools, to gather "
+"data on the field. You use the aforementioned features and with the media "
+"received you can process the data. With time you will amass a huge amount of "
+"information."
+msgstr ""
+"O MyMensor fornece algumas ferramentas simples, mas muito eficientes, para "
+"coletar dados no campo. Você usa os recursos acima mencionados e, com a "
+"mídia recebida, você pode processar os dados. Com o tempo, você acumulará "
+"uma grande quantidade de informações."
+
+#: mymwebsite/templates/howto/usingyourowndata.html:12
+msgid "Let me show you this "
+msgstr "Deixe-me mostrar isso."
 
 #: mymwebsite/templates/index.html:33 mymwebsite/templates/index.html:81
 #: mymwebsite/templates/innerbase.html:89
