@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-15 14:07+0000\n"
+"POT-Creation-Date: 2017-11-15 15:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -247,7 +247,7 @@ msgstr ""
 #: mymwebsite/templates/cases/genusemediaplan.html:17
 #: mymwebsite/templates/cases/usingyourowndata.html:24
 #: mymwebsite/templates/howto/genusemediaplan.html:47
-#: mymwebsite/templates/howto/usingyourowndata.html:17
+#: mymwebsite/templates/howto/usingyourowndata.html:36
 msgid "start your 30-day free-trial now! "
 msgstr ""
 
@@ -306,6 +306,7 @@ msgstr ""
 #: mymwebsite/templates/cases/usingyourowndata.html:15
 #: mymwebsite/templates/howto/followingremotejobs.html:15
 #: mymwebsite/templates/howto/genusemediaplan.html:14
+#: mymwebsite/templates/howto/usingyourowndata.html:16
 msgid "here."
 msgstr ""
 
@@ -349,7 +350,6 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:21
-#: mymwebsite/templates/howto/usingyourowndata.html:14
 msgid ""
 "MyMensor can help you accomplish that. With the use of the <mark>MyMensor "
 "Media and Data Plan</mark> you will be able to gather the data you need to "
@@ -358,14 +358,14 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:22
-#: mymwebsite/templates/howto/usingyourowndata.html:15
+#: mymwebsite/templates/howto/usingyourowndata.html:34
 msgid ""
 "But OK, we are getting a little bit ahead of ourselves here! Firstly, you "
 "need to "
 msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:24
-#: mymwebsite/templates/howto/usingyourowndata.html:17
+#: mymwebsite/templates/howto/usingyourowndata.html:36
 msgid ""
 "<mark>No Credit Card is required during trial period</mark> and, even after "
 "you have subscribed, you can easily cancel at any time, just clicking a "
@@ -373,7 +373,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:26
-#: mymwebsite/templates/howto/usingyourowndata.html:19
+#: mymwebsite/templates/howto/usingyourowndata.html:37
 msgid ""
 "Use your trial period to learn in our website how to setup a simple an "
 "efficient way to drive your business profits up! And, of course, drop us an "
@@ -1193,18 +1193,22 @@ msgstr ""
 
 #: mymwebsite/templates/howto/followingremotejobs.html:13
 #: mymwebsite/templates/howto/genusemediaplan.html:12
+#: mymwebsite/templates/howto/usingyourowndata.html:14
 msgid "<strong>1.</strong> Install MyMensor Mobile app from "
 msgstr ""
 
 #: mymwebsite/templates/howto/followingremotejobs.html:16
+#: mymwebsite/templates/howto/usingyourowndata.html:17
 msgid "<strong>2.</strong> Run app and create your user. Now click "
 msgstr ""
 
 #: mymwebsite/templates/howto/followingremotejobs.html:18
+#: mymwebsite/templates/howto/usingyourowndata.html:19
 msgid "here "
 msgstr ""
 
 #: mymwebsite/templates/howto/followingremotejobs.html:18
+#: mymwebsite/templates/howto/usingyourowndata.html:19
 msgid ""
 "and log into your account in the MyMensor WebApp. If you are already logged "
 "in to MyMensor in this computer, please logoff first, as otherwise your "
@@ -1212,6 +1216,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/howto/followingremotejobs.html:19
+#: mymwebsite/templates/howto/usingyourowndata.html:20
 msgid ""
 "<strong>3.</strong> Your Portfolio is empty, as it is a new account and you "
 "did not snap any photos or videos."
@@ -1350,8 +1355,112 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/howto/usingyourowndata.html:12
-#: mymwebsite/templates/howto/usingyourowndata.html:13
 msgid "Let me show how you can do this!"
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:13
+msgid ""
+"To be able to use the features we will discuss you need to be using the plan "
+"<mark>MyMensor Media and data</mark>, to be able to acces the data functions."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:21
+msgid ""
+"<strong>4.</strong> Click on <mark><strong>Setup</strong></mark> on the main "
+"menu to open a dropdown menu. In this menu click on <strong>TAGs</strong> to "
+"open the Tags configuration screen."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:22
+msgid ""
+"<strong>5.</strong> You can see that there is no VP standard photo defined "
+"(To learn more about that go to the "
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:23
+msgid "DOCS section "
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:23
+msgid ""
+"of this website). So, use the mobile app and define a VP standard photo."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:24
+msgid ""
+"<strong>6.</strong> Now you can define a TAG or TAGs to be created in this "
+"VP. Click on the button <strong>Add a TAG in VP#1</strong> and a new TAG "
+"will be created."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:25
+msgid ""
+"<strong>7.</strong> Fill up the TAG definition, press <mark>SUBMIT</mark> "
+"and move on! Remember that TAGs values are <mark>ALWAYS</mark> numerical. "
+"So, if you want to know if a machine is On or OFF, just create a simple code "
+"like ON equals 1 and OFF equal 0. It will be nice to have it like that so "
+"you can have it at the same graph together with purelly numerical values."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:26
+msgid ""
+"<strong>8.</strong> You can also mark the position of the TAG on the VP "
+"standard photo. Go and try!"
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:27
+msgid ""
+"<strong>9.</strong> After this is done, every capture of this VP can be "
+"processed, and a value can be attributed to the TAg you have just created. "
+"Now make some captures, just for the sake of practicing."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:28
+msgid ""
+"<strong>10.</strong> Click on <mark><strong>Data</strong></mark> on the main "
+"menu to open a dropdown menu. In this menu click on <strong>Processing</"
+"strong> to open the Tags processing screen."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:29
+msgid ""
+"<strong>11.</strong> Now answer the <mark>TAG QUESTION</mark> you have "
+"created in step 7 and press the <mark>SAVE</mark> button. Remember that you "
+"can always check the TAG definition for each of your captures by clicking in "
+"the small orange icon just below the captured picture."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:30
+msgid ""
+"<strong>12.</strong> If you need to edit any of the values you have entered, "
+"click on <mark><strong>Data</strong></mark> on the main menu and then on "
+"<strong>Edit</strong> to open the Tags editing screen. "
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:31
+msgid ""
+"<strong>13.</strong> Now click on <mark><strong>Data</strong></mark> on the "
+"main menu and then on <strong>Status</strong> to open the Tags Status "
+"screen. There you will be able to see a lot of useful information regarding "
+"your TAGs as well as you will be able to download your data in CSV format by "
+"pressin the spreadsheet icon on the top right of the page."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:32
+msgid ""
+"<strong>14.</strong> Now click on <mark><strong>Data</strong></mark> on the "
+"main menu and then on <strong>Analysis</strong> to open the Tags Analysis "
+"screen. There you will be able to see a chart regarding your TAGs as well as "
+"you will be able to download this chart by right-clicking it and selecting "
+"the download option."
+msgstr ""
+
+#: mymwebsite/templates/howto/usingyourowndata.html:33
+msgid ""
+"I know, we have covered a lot of ground here! With the use of the "
+"<mark>MyMensor Media and Data Plan</mark> you will be able to gather the "
+"data you need to form your big data. And with that you will set optimal "
+"regions of operation for your business."
 msgstr ""
 
 #: mymwebsite/templates/index.html:33 mymwebsite/templates/index.html:81
