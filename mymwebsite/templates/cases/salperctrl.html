@@ -3,9 +3,8 @@
 {% get_current_language as LANGUAGE_CODE %}
 {% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
 {% block content %}
-    <h3 class="mt-5 mb-5 ml-4">{% trans "MyMensor Use Cases" %}</h3>
-    <hr>
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
+        <h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6>
         <h1 class="pb-3">{% trans "Making Sure that a Photo is NOT a Fake" %}</h1>
         <img class="card-img-top img-fluid pb-3" src="{% static 'images/genusemediaplan.jpg' %}"
                  alt={% trans "Pinocchio sitting over a mobile phone." %}>
