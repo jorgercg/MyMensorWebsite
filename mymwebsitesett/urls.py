@@ -40,9 +40,11 @@ urlpatterns += i18n_patterns(
     url(r'^cases/genusemediaplan/$', TemplateView.as_view(template_name="cases/genusemediaplan.html"), name='genusemediaplan'),
     url(r'^cases/followingjobs/$', TemplateView.as_view(template_name="cases/followingremotejobs.html"), name='followingremotejobs'),
     url(r'^cases/usingyourowndata/$', TemplateView.as_view(template_name="cases/usingyourowndata.html"), name='usingyourowndata'),
+    url(r'^cases/salperctrl/$', TemplateView.as_view(template_name="cases/salperctrl.html"), name='salpercrtl'),
     url(r'^howto/$', mymviews.howto, name='howto'),
     url(r'^howto/genusemediaplan/$', TemplateView.as_view(template_name="howto/genusemediaplan.html"),name='genusemediaplanhowto'),
     url(r'^howto/followingjobs/$', TemplateView.as_view(template_name="howto/followingremotejobs.html"),name='followingremotejobshowto'),
     url(r'^howto/usingyourowndata/$', TemplateView.as_view(template_name="howto/usingyourowndata.html"),name='usingyourowndatahowto'),
+    url(r'^howto/salperctrl/$', TemplateView.as_view(template_name="howto/salperctrl.html"), name='salpercrtlhowto'),
 
 )
