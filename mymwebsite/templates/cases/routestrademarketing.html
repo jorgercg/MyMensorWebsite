@@ -11,8 +11,12 @@
             <img class="card-img-top img-fluid pb-3" src="{% static 'images/trademarketing.jpg' %}"
                  alt={% trans "Shopping cart in supermarket." %}>
             <p>Controlar eficientemente a forma que o seu promotor de trade marketing se move pela cidade, sem ter que
-                preencher uma montanha de cadastros e sem mudar a sua forma de trabalhar. E, além disso, <mark>sem custos de implantação!</mark> Parece tentador, não?</p>
-            <p>Com o <strong>MyMensor</strong> você receberá as fotos que o seu promotor fará durante o trabalho de trade marketing de maneira automática, certificada e segura.</p>
+                preencher uma montanha de cadastros e sem mudar a sua forma de trabalhar. E, além disso,
+                <mark>sem custos de implantação!</mark>
+                Parece tentador, não?
+            </p>
+            <p>Com o <strong>MyMensor</strong> você receberá as fotos que o seu promotor fará durante o trabalho de
+                trade marketing de maneira automática, certificada e segura.</p>
             <p>Usando a nossa <a href="https://app.mymensor.com">WebApp</a> você verá as rotas que o seu promotor fez,
                 como, por exemplo, uma imagem da gondola de um supermercado, assim que ela tenha sido feita e saberá a
                 localização exata!</p>
@@ -22,12 +26,12 @@
                 localização.</p>
             <p>Mas isto é só o começo! Há muito mais no Mymensor: arquivamento automático,
                 partilhamento automático etc. Então, não espere, <a id="registerbtn" class="registerbtn"
-                                                               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">
+                                                                    href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">
                     comece seu teste gratuito de 30 dias agora! </a>
                 <mark>Sem cartão de crédito durante o período de testes</mark>
                 e, mesmo depois que você assinar, você poderá cancelar a qualquer momento, com um único clique de botão!
             </p>
-            <p><a href="{% url 'genusemediaplanhowto' %}"
+            <p><a href="{% url 'routestrademarketinghowto' %}"
                   class="text-primary">Gostou do Caso? Clique aqui para ver como fazer isto usando o MyMensor!</a>
             </p>
         {% elif LANGUAGE_CODE == "pt-br" %}
@@ -36,8 +40,12 @@
             <img class="card-img-top img-fluid pb-3" src="{% static 'images/trademarketing.jpg' %}"
                  alt={% trans "Shopping cart in supermarket." %}>
             <p>Controlar eficientemente a forma que o seu promotor de trade marketing se move pela cidade, sem ter que
-                preencher uma montanha de cadastros e sem mudar a sua forma de trabalhar. E, além disso, <mark>sem custos de implantação!</mark> Parece tentador, não?</p>
-            <p>Com o <strong>MyMensor</strong> você receberá as fotos que o seu promotor fará durante o trabalho de trade marketing de maneira automática, certificada e segura.</p>
+                preencher uma montanha de cadastros e sem mudar a sua forma de trabalhar. E, além disso,
+                <mark>sem custos de implantação!</mark>
+                Parece tentador, não?
+            </p>
+            <p>Com o <strong>MyMensor</strong> você receberá as fotos que o seu promotor fará durante o trabalho de
+                trade marketing de maneira automática, certificada e segura.</p>
             <p>Usando a nossa <a href="https://app.mymensor.com">WebApp</a> você verá as rotas que o seu promotor fez,
                 como, por exemplo, uma imagem da gondola de um supermercado, assim que ela tenha sido feita e saberá a
                 localização exata!</p>
@@ -47,41 +55,28 @@
                 localização.</p>
             <p>Mas isto é só o começo! Há muito mais no Mymensor: arquivamento automático,
                 compartilhamento automático etc. Então, não espere, <a id="registerbtn" class="registerbtn"
-                                                               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">
+                                                                       href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">
                     comece seu teste gratuito de 30 dias agora! </a>
                 <mark>Sem cartão de crédito durante o período de testes</mark>
                 e, mesmo depois que você assinar, você poderá cancelar a qualquer momento, com um único clique de botão!
             </p>
-            <p><a href="{% url 'genusemediaplanhowto' %}"
+            <p><a href="{% url 'routestrademarketinghowto' %}"
                   class="text-primary">Gostou do Caso? Clique aqui para ver como fazer isto usando o MyMensor!</a>
             </p>
         {% else %}
             <h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6>
-            <h1 class="pb-3">Controle Simples de Trade Marketing com Rotas Certificadas</h1>
+            <h1 class="pb-3">Simple Trade Marketing Control with Certified Routes</h1>
             <img class="card-img-top img-fluid pb-3" src="{% static 'images/trademarketing.jpg' %}"
                  alt={% trans "Shopping cart in supermarket." %}>
-            <p>Controlar eficientemente a forma que o seu promotor de trade marketing se move pela cidade, sem ter que
-                preencher uma montanha de cadastros e sem mudar a sua forma de trabalhar. E, além disso, <mark>sem custos de implantação!</mark> Parece tentador, não?</p>
-            <p>Com o <strong>MyMensor</strong> você receberá as fotos que o seu promotor fará durante o trabalho de trade marketing de maneira automática, certificada e segura.</p>
-            <p>Usando a nossa <a href="https://app.mymensor.com">WebApp</a> você verá as rotas que o seu promotor fez,
-                como, por exemplo, uma imagem da gondola de um supermercado, assim que ela tenha sido feita e saberá a
-                localização exata!</p>
-            <p>Além disso as fotos ficam guardadas em nossos servidores na nuvem, sem risco de serem perdidas.</p>
-            <p>Verificar ações de merchandising no ponto de venda torna-se tarefa simples com a utilização do MyMensor.
-                O seu promotor poderá fazer fotos e mini vídeos da ação, sempre com certificação de horário e
-                localização.</p>
-            <p>Mas isto é só o começo! Há muito mais no Mymensor: arquivamento automático,
-                compartilhamento automático etc. Então, não espere, <a id="registerbtn" class="registerbtn"
-                                                               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">
-                    comece seu teste gratuito de 30 dias agora! </a>
-                <mark>Sem cartão de crédito durante o período de testes</mark>
-                e, mesmo depois que você assinar, você poderá cancelar a qualquer momento, com um único clique de botão!
-            </p>
-            <p><a href="{% url 'genusemediaplanhowto' %}"
-                  class="text-primary">Gostou do Caso? Clique aqui para ver como fazer isto usando o MyMensor!</a>
+            <p>Control efficiently the way your trade marketing promoter moves around the city without having to fill a mountain of entries and without changing the way you work. Does it look tempting?</p>
+            <p>With <strong> MyMensor </strong> you will receive the photos that your promoter will make during the trade marketing work in an automatic, certified and safe way.</p>
+            <p>Using our <a href="https://app.mymensor.com"> WebApp </a> you will see the routes that your promoter made, such as a supermarket gondola image, as soon as it was snapped and will know the exact location!</p>
+            <p>In addition, the photos are stored in our servers in the cloud, without risk of being lost.</p>
+            <p>Checking merchandising actions at the point of sale becomes a simple task with the use of MyMensor. Your promoter can take photos and mini videos of the action, always with time and location certification.</p>
+            <p>But this is just the beginning! There is much more at Mymensor: automatic filing, automatic sharing, etc. So, do not wait, <a id="registerbtn" class="registerbtn" href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/"> start your 30-day free trial now! </a> <mark> No credit card during the trial period </mark>, and even after you subscribe, you can cancel at any time with a single click of a button!</p>
+            <p><a href="{% url 'routestrademarketinghowto' %}"
+                  class="text-primary">Liked the case? Click here to see how to do it using MyMensor!</a>
             </p>
         {% endif %}
-
-
     </div>
 {% endblock %}

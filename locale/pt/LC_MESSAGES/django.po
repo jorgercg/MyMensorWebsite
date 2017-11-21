@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-21 20:41+0000\n"
-"PO-Revision-Date: 2017-11-21 20:50+0000\n"
+"POT-Creation-Date: 2017-11-21 21:15+0000\n"
+"PO-Revision-Date: 2017-11-21 21:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -105,8 +105,8 @@ msgstr "Casos"
 #: mymwebsite/templates/cases/routessecurity.html:7
 #: mymwebsite/templates/cases/routesservices.html:7
 #: mymwebsite/templates/cases/routestrademarketing.html:9
-#: mymwebsite/templates/cases/routestrademarketing.html:34
-#: mymwebsite/templates/cases/routestrademarketing.html:59
+#: mymwebsite/templates/cases/routestrademarketing.html:38
+#: mymwebsite/templates/cases/routestrademarketing.html:67
 #: mymwebsite/templates/cases/shipmaintenance.html:7
 #: mymwebsite/templates/cases/transparencygeneral.html:7
 #: mymwebsite/templates/cases/transparencyhousmng.html:7
@@ -199,6 +199,28 @@ msgstr ""
 "usando os <u>seus</u> dados em benefício <u>delas</u>, e na maioria das "
 "vezes não podemos evitar isso. <mark>Mas podemos usar nossos próprios dados "
 "para nosso próprio benefício, não podemos?</mark>. "
+
+#: mymwebsite/templates/cases.html:35
+#: mymwebsite/templates/cases/routestrademarketing.html:12
+#: mymwebsite/templates/cases/routestrademarketing.html:41
+#: mymwebsite/templates/cases/routestrademarketing.html:70
+#: mymwebsite/templates/howto/routestrademarketing.html:10
+msgid "Shopping cart in supermarket."
+msgstr "Carrinho de compras no supermercado."
+
+#: mymwebsite/templates/cases.html:37
+msgid "Simple Trade Marketing Control with Certified Routes"
+msgstr "Controle Simples de Trade Marketing com Rotas Certificadas"
+
+#: mymwebsite/templates/cases.html:38
+msgid ""
+"Control efficiently the way your trade marketing promoter moves around the "
+"city, make remotely checking merchandising actions at the point of sale a "
+"simple task."
+msgstr ""
+"Controle de forma eficiente a como o seu promotor de trade marketing se "
+"movimenta pela cidade, faça uma verificação remota das ações de "
+"merchandising no ponto de venda uma tarefa simples."
 
 #: mymwebsite/templates/cases/assetmanagement.html:8
 #: mymwebsite/templates/cases/businessideas.html:8
@@ -544,13 +566,6 @@ msgstr ""
 #: mymwebsite/templates/howto/routestrademarketing.html:35
 msgid "Start your 30-day free-trial now. "
 msgstr "Comece sua avaliação gratuita de 30 dias agora. "
-
-#: mymwebsite/templates/cases/routestrademarketing.html:12
-#: mymwebsite/templates/cases/routestrademarketing.html:37
-#: mymwebsite/templates/cases/routestrademarketing.html:62
-#: mymwebsite/templates/howto/routestrademarketing.html:10
-msgid "Shopping cart in supermarket."
-msgstr "Carrinho de compras no supermercado."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:8
 #: mymwebsite/templates/howto/usingyourowndata.html:8
