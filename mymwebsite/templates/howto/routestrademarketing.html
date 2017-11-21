@@ -5,47 +5,34 @@
 {% block content %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
         <h6 class="text-uppercase text-dark">{% trans "How To?" %}</h6>
-        <h1 class="pb-3">{% trans "Making Sure that a Photo is NOT a Fake" %}</h1>
-        <img class="card-img-top img-fluid pb-3" src="{% static 'images/genusemediaplan.jpg' %}"
-             alt={% trans "Pinocchio sitting over a mobile phone." %}>
-        <p>{% trans "To prove to somebody that your media is real is very simple: use MyMensor to produce and share your media!" %}</p>
-        <p>{% trans "Ok, let's got step by step on how you do it." %}</p>
+        <h1 class="pb-3">Controle Simples de Trade Marketing com Rotas Certificadas</h1>
+        <img class="card-img-top img-fluid pb-3" src="{% static 'images/trademarketing.jpg' %}"
+             alt={% trans "Shopping cart in supermarket." %}>
+        <p>{% trans "How to<mark> simply control Trade Marketing using MyMensor? </mark> Do I have to get one license for each trade marketing promoter?" %}</p>
+        <p>{% trans "No! It is<mark> MUCH SIMPLER THAN THAT! </mark>" %}</p>
+        <p>{% trans "You could start with your own MyMensor account, but for this example let's say that you will start by creating a brand new MyMensor account. Then after creating the new account you will create a <mark> SERVICE USER. </mark> This is a special type of user that is tied to your primary account and can <mark>ONLY CAPTURE MEDIA TO YOU</mark>, with this set of credentials this person <mark>CANNOT ACCESS</mark> your MyMensor account on the Web. Please refer to the points below for a detailed walkthrough on how to do it." %}</p>
         <p>{% trans "<strong>1.</strong> Install MyMensor Mobile app from " %}<a
                 href='https://play.google.com/store/apps/details?id=com.mymensorar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
                 target="_blank">{% trans "here." %}</a></p>
-        <p>{% trans "<strong>2.</strong> Run app and create your user" %}</p>
-        <p>{% trans "<strong>3.</strong> Point your smartphone camera to what you need to photograph and press the camera button" %}</p>
-        <p>{% trans "<strong>4.</strong> If you did not change the VP folder before taking your photo, the picture you just made is stored in VP#0. So, just tap on the bottom left blue button in the screen to show the captures present so far in this VP." %}</p>
-        <p>{% trans "<strong>5.</strong> Now, the best way of proving you mean business, is to send the link to the media check page to whoever you want. Do this by pressing the blue sharing button and follow the sharing instructions of your specific android operating system." %}</p>
-        <p>{% trans "<strong>6.</strong> If you want, follow the link and download the PDF certificate that is produced by the MyMensor Web App media check page. <mark>You can print it and later on use the embeded QR-code to take you back to the same media check page.</mark>" %}</p>
-        <p class="mt-5">{% trans "Check the video below for a visual guide!" %}</p>
-        {% if LANGUAGE_CODE == "pt" %}
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iMOYL_gSTaw"
-                        allowfullscreen></iframe>
-            </div>
-        {% elif LANGUAGE_CODE == "pt-br" %}
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iMOYL_gSTaw"
-                        allowfullscreen></iframe>
-            </div>
-        {% else %}
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LjC9VSmymcA"
-                        allowfullscreen></iframe>
-            </div>
-        {% endif %}
-        <p class="mt-5">{% trans "Click on the picture below to see an example of a media check page, as you will produce following this instructions. Once there you can download an example of a PDF that will be generated." %}</p>
-        <a href="https://app.mymensor.com/landing/?type=1&key=cap/jorge/0_p_1499692368989.jpg&signature=93277C3614CA49FDC20E0CE4F0EA958E72AC9FC8B4CA1ACD575DBFF40E32D580"
-           target="_blank" data-toggle="tooltip" data-placement="top"
-           title="{% trans 'Click to see an example of what you can distribute to everybody!' %}">
-            <img class="img-fluid" src="{% static 'images/bragaportanova.jpeg' %}" alt=""
-                 style="width: 100%;">
-        </a>
-        <p class="mt-5">{% trans "We hope this will make your life easier!" %}</p>
-        <p>{% trans "But that is just the tip of he iceberg! There is a lot more to MyMensor Media: automatic filing, automatic sharing etc. So, look no further, " %}
-            <a id="registerbtn" class="registerbtn"
-               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
+        <p>{% trans "<strong>2.</strong> Run app and create your user. Now click " %}<a
+                href='https://app.mymensor.com/accounts/login'
+                target="_blank">{% trans "here " %}</a>{% trans "and log into your account in the MyMensor WebApp. If you are already logged in to MyMensor in this computer, please logoff first, as otherwise your account will be opened automatically." %}
+        </p>
+        <p>{% trans "<strong>3.</strong> Your Portfolio is empty, as it is a new account and you did not snap any photos or videos." %}</p>
+        <p>{% trans "<strong>4.</strong> In the top right of your screen you will see the username in bold letters, click on it to open a dropdown menu. In this menu click on <strong>Service User</strong>" %}</p>
+        <p>{% trans "<strong>5.</strong> Now create a password for your service user. Take note of the password you have created. Remember that MyMensor cannot access any of the passwords you create! After that MyMensor will automatically create a username for your service user, based on your own username." %}</p>
+        <p>{% trans "<strong>6.</strong> So your service user is created. You can always come back at this same screen to change the current service user password or to delete the service user." %}</p>
+        <p>{% trans "<strong>7.</strong> Now send a link to our download page (https://mymensor.com/download/) together with the username and the password to the person that you want to make captures to you. Remember that with this set of credentials this person <mark>CANNOT ACCESS</mark> your MyMensor account on the Web, the only thing that he or she can do is to capture media that will be sent directly to your account." %}</p>
+        <p>{% trans "<strong>8.</strong> You will see the captures from your service user as they come. The captures of each service user you ever create can be seen on the MyMensor WebApp, <mark>even after you delete a service user.</mark> After its deletion, the service user will not be able to send any media to your account anymore, but you will keep in the MyMensor Server all the media you have received." %}</p>
+        <p>{% trans "By using MyMensor, even with the Media only plan, you will be able to control your Trade Marketing promoters trusting that the media you receive is genuine and was not modified. The location and time certification coupled with the ability to <mark>extend your capturing powers to remote users</mark> gives you a tremendous power to survey activities in different locations with <mark>great confidence.</mark>" %}</p>
+        <p>{% trans "Please keep in mind that it is the <mark>simplest possible way of doing this with MyMensor.</mark>" %}</p>
+        <p>{% trans "You could click " %}<a
+                href="{% trans "mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please contact me in order to start discussing a custom MyMensorCorp for my Organization. Thanks!" %}"
+                role="button">{% trans "here to send us an email asking for a MyMensor CUSTOM." %}</a>{% trans " and we will build one taylor made to your organization!" %}
+        </p>
+        <p>{% trans "In anyway, " %}<a id="registerbtn"
+                                        class="registerbtn"
+                                        href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "Start your 30-day free-trial now. " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
         </p>
     </div>
 
