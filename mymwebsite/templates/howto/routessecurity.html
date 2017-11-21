@@ -1,0 +1,52 @@
+{% extends 'innerbase.html' %}
+{% load staticfiles i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block title %}{% trans "How To" %} - {{ block.super }}{% endblock %}
+{% block content %}
+    <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
+        <h6 class="text-uppercase text-dark">{% trans "How To?" %}</h6>
+        <h1 class="pb-3">{% trans "Making Sure that a Photo is NOT a Fake" %}</h1>
+        <img class="card-img-top img-fluid pb-3" src="{% static 'images/genusemediaplan.jpg' %}"
+             alt={% trans "Pinocchio sitting over a mobile phone." %}>
+        <p>{% trans "To prove to somebody that your media is real is very simple: use MyMensor to produce and share your media!" %}</p>
+        <p>{% trans "Ok, let's got step by step on how you do it." %}</p>
+        <p>{% trans "<strong>1.</strong> Install MyMensor Mobile app from " %}<a
+                href='https://play.google.com/store/apps/details?id=com.mymensorar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                target="_blank">{% trans "here." %}</a></p>
+        <p>{% trans "<strong>2.</strong> Run app and create your user" %}</p>
+        <p>{% trans "<strong>3.</strong> Point your smartphone camera to what you need to photograph and press the camera button" %}</p>
+        <p>{% trans "<strong>4.</strong> If you did not change the VP folder before taking your photo, the picture you just made is stored in VP#0. So, just tap on the bottom left blue button in the screen to show the captures present so far in this VP." %}</p>
+        <p>{% trans "<strong>5.</strong> Now, the best way of proving you mean business, is to send the link to the media check page to whoever you want. Do this by pressing the blue sharing button and follow the sharing instructions of your specific android operating system." %}</p>
+        <p>{% trans "<strong>6.</strong> If you want, follow the link and download the PDF certificate that is produced by the MyMensor Web App media check page. <mark>You can print it and later on use the embeded QR-code to take you back to the same media check page.</mark>" %}</p>
+        <p class="mt-5">{% trans "Check the video below for a visual guide!" %}</p>
+        {% if LANGUAGE_CODE == "pt" %}
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iMOYL_gSTaw"
+                        allowfullscreen></iframe>
+            </div>
+        {% elif LANGUAGE_CODE == "pt-br" %}
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iMOYL_gSTaw"
+                        allowfullscreen></iframe>
+            </div>
+        {% else %}
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LjC9VSmymcA"
+                        allowfullscreen></iframe>
+            </div>
+        {% endif %}
+        <p class="mt-5">{% trans "Click on the picture below to see an example of a media check page, as you will produce following this instructions. Once there you can download an example of a PDF that will be generated." %}</p>
+        <a href="https://app.mymensor.com/landing/?type=1&key=cap/jorge/0_p_1499692368989.jpg&signature=93277C3614CA49FDC20E0CE4F0EA958E72AC9FC8B4CA1ACD575DBFF40E32D580"
+           target="_blank" data-toggle="tooltip" data-placement="top"
+           title="{% trans 'Click to see an example of what you can distribute to everybody!' %}">
+            <img class="img-fluid" src="{% static 'images/bragaportanova.jpeg' %}" alt=""
+                 style="width: 100%;">
+        </a>
+        <p class="mt-5">{% trans "We hope this will make your life easier!" %}</p>
+        <p>{% trans "But that is just the tip of he iceberg! There is a lot more to MyMensor Media: automatic filing, automatic sharing etc. So, look no further, " %}
+            <a id="registerbtn" class="registerbtn"
+               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
+        </p>
+    </div>
+
+{% endblock %}
