@@ -2,6 +2,24 @@
 {% load staticfiles i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 {% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
+{% block header %}
+    <meta name="description" content="MyMensor">
+    <meta name="keywords" content="MyMensor">
+    <meta name="author" content="Celtapps">
+    <meta property="og:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
+    <meta property="og:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
+    <meta property="og:image" content="{% static 'images/trademarketing.jpg' %}">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:url" content="{% url 'routestrademarketing' %}">
+    <meta property="og:site_name" content="MyMensor Website">
+    <meta property="fb:app_id" content="286196915140475"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
+    <meta name="twitter:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
+    <meta name="twitter:image" content="{% static 'images/trademarketing.jpg' %}">
+{% endblock %}
 {% block content %}
     {% get_current_language as LANGUAGE_CODE %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
