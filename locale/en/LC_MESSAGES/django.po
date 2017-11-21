@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-21 21:15+0000\n"
+"POT-Creation-Date: 2017-11-21 21:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1819,10 +1819,11 @@ msgid "You could click "
 msgstr ""
 
 #: mymwebsite/templates/howto/routestrademarketing.html:30
+#: mymwebsite/templates/index.html:395
 msgid ""
-"mailto:contact@mymensor.com?subject=MyMensorCorp Quote Request&body=Please "
-"contact me in order to start discussing a custom MyMensorCorp for my "
-"Organization. Thanks!"
+"mailto:contact@mymensor.com?subject=MyMensor CUSTOM Quote "
+"Request&body=Please contact me in order to start discussing a custom "
+"MyMensor for my Organization. Thanks!"
 msgstr ""
 
 #: mymwebsite/templates/howto/routestrademarketing.html:31
@@ -2265,13 +2266,6 @@ msgstr ""
 
 #: mymwebsite/templates/index.html:391
 msgid " custom setups"
-msgstr ""
-
-#: mymwebsite/templates/index.html:395
-msgid ""
-"mailto:contact@mymensor.com?subject=MyMensor CUSTOM Quote "
-"Request&body=Please contact me in order to start discussing a custom "
-"MyMensor for my Organization. Thanks!"
 msgstr ""
 
 #: mymwebsite/templates/index.html:396
