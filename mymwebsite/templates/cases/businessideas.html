@@ -2,12 +2,30 @@
 {% load staticfiles i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 {% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
+{% block header %}
+    <meta name="description" content="MyMensor">
+    <meta name="keywords" content="MyMensor">
+    <meta name="author" content="Celtapps">
+    <meta property="og:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
+    <meta property="og:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
+    <meta property="og:image" content="{% static 'images/trademarketing.jpg' %}">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:url" content="{% url 'routestrademarketing' %}">
+    <meta property="og:site_name" content="MyMensor Website">
+    <meta property="fb:app_id" content="286196915140475"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
+    <meta name="twitter:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
+    <meta name="twitter:image" content="{% static 'images/trademarketing.jpg' %}">
+{% endblock %}
 {% block content %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
         <h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6>
         <h1 class="pb-3">{% trans "Simple control of Sales Force using Certified Routes" %}</h1>
-        <img class="card-img-top img-fluid pb-3" src="{% static 'images/salperctrl.jpg' %}"
-                 alt={% trans "Many different routes in a city." %}>
+        <img class="card-img-top img-fluid pb-3" src="{% static 'images/businessidea.jpg' %}"
+                 alt={% trans "New out of the box idea." %}>
         <p>{% trans "Since we have created the first version of SeaMensor (that was the “father” of MyMensor), our friends ask us: - What can I do with this piece of software that I cannot do with my phone camera already?" %}</p>
         <p>{% trans "At that time, it seemed to be a good question, but as time passes it became abundantly clear that <mark>forgery in the online world has become epidemic.</mark> So, seeing a photo or video that was sent to you in the usual channels is not enough anymore, you need proof!" %}</p>
         <p>{% trans "One simple but defining feature of MyMensor is that <mark>you cannot insert any media into our system that was not produced by our mobile app.</mark> So, what you see in a video or photo coming from MyMensor was actually made by a smartphone camera, with no tampering, modification, enhancing, whatever, you name it." %}</p>

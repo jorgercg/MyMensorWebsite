@@ -2,6 +2,26 @@
 {% load staticfiles i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 {% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
+{% block header %}
+    <meta name="description" content="MyMensor">
+    <meta name="keywords" content="MyMensor">
+    <meta name="author" content="Celtapps">
+    <meta property="og:title" content="{% trans "Following Jobs Remotely" %}">
+    <meta property="og:description"
+          content="{% trans "One cannot be in more than one place at the same time, sure? Not quite, if we use the technology that is available right now!" %}">
+    <meta property="og:image" content="{% static 'images/followingremotejobs.jpg' %}">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:url" content="{% url 'followingremotejobs' %}">
+    <meta property="og:site_name" content="MyMensor Website">
+    <meta property="fb:app_id" content="286196915140475"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% trans "Following Jobs Remotely" %}">
+    <meta name="twitter:description"
+          content="{% trans "One cannot be in more than one place at the same time, sure? Not quite, if we use the technology that is available right now!" %}">
+    <meta name="twitter:image" content="{% static 'images/followingremotejobs.jpg' %}">
+{% endblock %}
 {% block content %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
         <h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6>
@@ -18,6 +38,25 @@
                                                                                                         class="registerbtn"
                                                                                                         href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "Start your 30-day free-trial now. " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
         </p>
-        <p><a href="{% url 'followingremotejobshowto' %}" class="text-primary">{% trans "Liked the case? Click here to see how to do it using MyMensor! " %}</a></p>
+        <p><a href="{% url 'followingremotejobshowto' %}"
+              class="text-primary">{% trans "Liked the case? Click here to see how to do it using MyMensor! " %}</a></p>
+
+        <div id="sharebtns" class="ssk-xs ssk-group">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="whatsapp://send?text=https%3A%2F%2Fmymensor.com%2F{{ LANGUAGE_CODE }}%2Fcases%2Ffollowingjobs"
+               class="ssk ssk-whatsapp"></a>
+            <a href="" class="ssk ssk-email"></a>
+        </div>
+
     </div>
+{% endblock %}
+{% block javascript %}
+    <script type="text/javascript">
+        SocialShareKit.init({
+            selector: '.ssk',
+            url: 'https://mymensor.com/{{ LANGUAGE_CODE }}/cases/followingjobs/'
+        });
+    </script>
 {% endblock %}
