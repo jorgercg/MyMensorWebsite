@@ -2,9 +2,29 @@
 {% load staticfiles i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 {% block title %}{% trans "Cases" %} - {{ block.super }}{% endblock %}
+{% block header %}
+    <meta name="description" content="MyMensor">
+    <meta name="keywords" content="MyMensor">
+    <meta name="author" content="Celtapps">
+    <meta property="og:title" content="{% trans "Making Sure that a Photo is NOT a Fake" %}">
+    <meta property="og:description"
+          content="{% trans "On this day and age, how can one be sure that a photo is not a fake? Of course there are a number of very sofisticated methods to assure that, with a high confidence percentage. But if we knew, for sure, how the photo was taken? Is it not an easier solution?" %}">
+    <meta property="og:image" content="{% static 'images/genusemediaplan.jpg' %}">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:url" content="{% url 'genusemediaplan' %}">
+    <meta property="og:site_name" content="MyMensor Website">
+    <meta property="fb:app_id" content="286196915140475"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% trans "Making Sure that a Photo is NOT a Fake" %}">
+    <meta name="twitter:description"
+          content="{% trans "On this day and age, how can one be sure that a photo is not a fake? Of course there are a number of very sofisticated methods to assure that, with a high confidence percentage. But if we knew, for sure, how the photo was taken? Is it not an easier solution?" %}">
+    <meta name="twitter:image" content="{% static 'images/genusemediaplan.jpg' %}">
+{% endblock %}
 {% block content %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
-        <h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6>
+        <a href="{% url 'cases' %}"><h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6></a>
         <h1 class="pb-3">{% trans "Making Sure that a Photo is NOT a Fake" %}</h1>
         <img class="card-img-top img-fluid pb-3" src="{% static 'images/genusemediaplan.jpg' %}"
                  alt={% trans "Pinocchio sitting over a mobile phone." %}>
@@ -19,5 +39,12 @@
         </p>
         <p><a href="{% url 'genusemediaplanhowto' %}" class="text-primary">{% trans "Liked the case? Click here to see how to do it using MyMensor! " %}</a></p>
     </div>
-
+{% endblock %}
+{% block javascript %}
+    <script type="text/javascript">
+        SocialShareKit.init({
+            selector: '.ssk',
+            url: 'https://mymensor.com/{{ LANGUAGE_CODE }}/cases/followingjobs/'
+        });
+    </script>
 {% endblock %}
