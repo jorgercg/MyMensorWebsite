@@ -96,5 +96,22 @@
                   class="text-primary">Liked the case? Click here to see how to do it using MyMensor!</a>
             </p>
         {% endif %}
+    <div id="sharebtns" class="ssk-xs ssk-group">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="whatsapp://send?text=https%3A%2F%2Fmymensor.com%2F{{ LANGUAGE_CODE }}%2Fcases%2Ffollowingjobs"
+               class="ssk ssk-whatsapp"></a>
+            <a href="" class="ssk ssk-email"></a>
+        </div>
+
     </div>
+{% endblock %}
+{% block javascript %}
+    <script type="text/javascript">
+        SocialShareKit.init({
+            selector: '.ssk',
+            url: 'https://mymensor.com/{{ LANGUAGE_CODE }}/cases/followingjobs/'
+        });
+    </script>
 {% endblock %}
