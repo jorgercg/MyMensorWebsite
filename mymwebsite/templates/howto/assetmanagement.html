@@ -8,15 +8,15 @@
         <h1 class="pb-3">{% trans "Facility Management, Managing Assets in a Simple Way" %}</h1>
         <img class="card-img-top img-fluid pb-3" src="{% static 'images/assetmanagement.jpg' %}"
              alt={% trans "Symbols of different facilities types." %}>
-        <p>{% trans "To keep track of all the assets your company personnel uses in their day to day work and make sure that everything is ready to work." %}</p>
-        <p>{% trans "Ok, let's got step by step on how you do it." %}</p>
+        <p>{% trans "Use MyMensor to keep track of all the assets your company personnel uses in their day to day work and make sure that everything is ready to work." %}</p>
+        <p>{% trans "There are some different ways to do it using MyMensor. But let' start with the simpler one, that is just to have your photos organized. Ok, let's got step by step on how you do it." %}</p>
         <p>{% trans "<strong>1.</strong> Install MyMensor Mobile app from " %}<a
                 href='https://play.google.com/store/apps/details?id=com.mymensorar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
                 target="_blank">{% trans "here." %}</a></p>
         <p>{% trans "<strong>2.</strong> Run app and create your user" %}</p>
         <p>{% trans "<strong>3.</strong> Point your smartphone camera to what you need to photograph and press the camera button" %}</p>
         <p>{% trans "<strong>4.</strong> If you did not change the VP folder before taking your photo, the picture you just made is stored in VP#0. So, just tap on the bottom left blue button in the screen to show the captures present so far in this VP." %}</p>
-        <p>{% trans "<strong>5.</strong> Now, the best way of proving you mean business, is to send the link to the media check page to whoever you want. Do this by pressing the blue sharing button and follow the sharing instructions of your specific android operating system." %}</p>
+        <p>{% trans "<strong>5.</strong> You can always rearrange your photos across differnt VPs in the WebApp." %}</p>
         <p>{% trans "<strong>6.</strong> If you want, follow the link and download the PDF certificate that is produced by the MyMensor Web App media check page. <mark>You can print it and later on use the embeded QR-code to take you back to the same media check page.</mark>" %}</p>
         <p class="mt-5">{% trans "Check the video below for a visual guide!" %}</p>
         {% if LANGUAGE_CODE == "pt" %}
@@ -42,8 +42,9 @@
             <img class="img-fluid" src="{% static 'images/bragaportanova.jpeg' %}" alt=""
                  style="width: 100%;">
         </a>
-        <p class="mt-5">{% trans "We hope this will make your life easier!" %}</p>
-        <p>{% trans "But that is just the tip of he iceberg! There is a lot more to MyMensor Media: automatic filing, automatic sharing etc. So, look no further, " %}
+        <p class="mt-5">{% trans "You can, for instance organize your assets per groups in the differnt VPs. The phots will be always organized and available in our cloud storage." %}</p>
+        <p>{% trans "We hope this will make your life easier! But, as we said before, this is just the simpler way of doing this with MyMensor. Please refer to our case " %}</p><a href="{% url 'usingyourowndata' %}">{% trans "Using your own data" %}</a><p>{% trans " to learn how to gather the data related to your equipemnt and tools." %}</p>
+        <p>{% trans "But that is just the tip of he iceberg! There is a lot more to MyMensor: automatic filing, automatic sharing etc. So, look no further, " %}
             <a id="registerbtn" class="registerbtn"
                href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
         </p>
