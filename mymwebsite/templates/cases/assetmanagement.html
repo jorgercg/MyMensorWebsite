@@ -6,36 +6,55 @@
     <meta name="description" content="MyMensor">
     <meta name="keywords" content="MyMensor">
     <meta name="author" content="Celtapps">
-    <meta property="og:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
-    <meta property="og:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
-    <meta property="og:image" content="{% static 'images/trademarketing.jpg' %}">
+    <meta property="og:title" content="{% trans "Facility Management, Managing Assets in a Simple Way" %}">
+    <meta property="og:description"
+          content="{% trans "Taking care of our facilities and work tools is an everyday task to every manager, it does not mater the size of the business. Keeping track of asset data, location and condition can be a time consuming task. Or, maybe not?" %}">
+    <meta property="og:image" content="{% static 'images/assetmanagement.jpg' %}">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="720">
-    <meta property="og:url" content="{% url 'routestrademarketing' %}">
+    <meta property="og:url" content="{% url 'assetmanagement' %}">
     <meta property="og:site_name" content="MyMensor Website">
     <meta property="fb:app_id" content="286196915140475"/>
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
-    <meta name="twitter:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
-    <meta name="twitter:image" content="{% static 'images/trademarketing.jpg' %}">
+    <meta name="twitter:title" content="{% trans "Facility Management, Managing Assets in a Simple Way" %}">
+    <meta name="twitter:description"
+          content="{% trans "Taking care of our facilities and work tools is an everyday task to every manager, it does not mater the size of the business. Keeping track of asset data, location and condition can be a time consuming task. Or, maybe not?" %}">
+    <meta name="twitter:image" content="{% static 'images/assetmanagement.jpg' %}">
 {% endblock %}
 {% block content %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
-        <h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6>
-        <h1 class="pb-3">{% trans "Simple control of Sales Force using Certified Routes" %}</h1>
-        <img class="card-img-top img-fluid pb-3" src="{% static 'images/salperctrl.jpg' %}"
-                 alt={% trans "Many different routes in a city." %}>
-        <p>{% trans "Since we have created the first version of SeaMensor (that was the “father” of MyMensor), our friends ask us: - What can I do with this piece of software that I cannot do with my phone camera already?" %}</p>
-        <p>{% trans "At that time, it seemed to be a good question, but as time passes it became abundantly clear that <mark>forgery in the online world has become epidemic.</mark> So, seeing a photo or video that was sent to you in the usual channels is not enough anymore, you need proof!" %}</p>
-        <p>{% trans "One simple but defining feature of MyMensor is that <mark>you cannot insert any media into our system that was not produced by our mobile app.</mark> So, what you see in a video or photo coming from MyMensor was actually made by a smartphone camera, with no tampering, modification, enhancing, whatever, you name it." %}</p>
-        <p>{% trans "On top of that, MyMensor will tell you if time and location were certified and then you can trust that the media is really what it seems to be." %}</p>
-        <p>{% trans "This what I call a general, simple use to MyMensor Media: media certification." %}</p>
-        <p>{% trans "But that is just the tip of he iceberg! There is a lot more to MyMensor Media: automatic filing, automatic sharing etc. So, look no further, " %}
+        <a href="{% url 'cases' %}"><h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6></a>
+        <h1 class="pb-3">{% trans "Facility Management, Managing Assets in a Simple Way" %}</h1>
+        <img class="card-img-top img-fluid pb-3" src="{% static 'images/assetmanagement.jpg' %}"
+             alt={% trans "Symbols of different facilities types." %}>
+        <p>{% trans "Taking care of our facilities and work tools is an everyday task to every manager, it does not mater the size of the business. Keeping track of asset data, location and condition can be a time consuming task. Or, maybe not?" %}</p>
+        <p>{% trans "At a minimum we have to keep track of all the assets our company personnel uses in their day to day work and make sure that everything is ready to work. As a result, this will mean that we need to keep an organized photography and numerical data file of every and all equipment and tools." %}</p>
+        <p>{% trans "In small companies, where we have to fight everyday to keep our business running, we normally do that using simple spreadsheets and photo files coming from various different places. The more structured solutions are just to expensive and time consuming to setup to be of any value to us." %}</p>
+        <p>{% trans "Using the MyMensor Media and Data Plan one could follow all of his/her company facilities and tools using the certified media and data. This could be done even for remote deployment of equipment, as when we rent something to somebody, as an example." %}</p>
+        <p>{% trans "You will never loose an equipment photo again, and you will know exactly when and where that photo was taken. Do you need more reliable readings from your equipment hour meters to have a better planning for your maintenance, you can do that as well!" %}</p>
+        <p>{% trans "Do you think that this can make your life easier? We agree with that! " %}
             <a id="registerbtn" class="registerbtn"
-               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
+               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "Start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even after you have subscribed, you can easily cancel at any time, just clicking a button!" %}
         </p>
-        <p><a href="{% url 'genusemediaplanhowto' %}" class="text-primary">{% trans "Liked the case? Click here to see how to do it using MyMensor! " %}</a></p>
+        <p>{% trans "Use your trial period to learn in our website how to setup a simple an efficient way to drive your business profits up! And, of course, drop us an email in case you need more info!" %}</p>
+        <p><a href="{% url 'assetmanagementhowto' %}"
+              class="text-primary">{% trans "Liked the case? Click here to see how to do it using MyMensor! " %}</a></p>
+        <div id="sharebtns" class="ssk-xs ssk-group">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="whatsapp://send?text=https%3A%2F%2Fmymensor.com%2F{{ LANGUAGE_CODE }}%2Fcases%2Fassetmanagement"
+               class="ssk ssk-whatsapp"></a>
+            <a href="" class="ssk ssk-email"></a>
+        </div>
     </div>
-
+{% endblock %}
+{% block javascript %}
+    <script type="text/javascript">
+        SocialShareKit.init({
+            selector: '.ssk',
+            url: 'https://mymensor.com/{{ LANGUAGE_CODE }}/cases/assetmanagement/'
+        });
+    </script>
 {% endblock %}
