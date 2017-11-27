@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-27 13:27+0000\n"
+"POT-Creation-Date: 2017-11-27 13:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -303,7 +303,7 @@ msgstr ""
 #: mymwebsite/templates/cases/assetmanagement.html:35
 msgid ""
 "You will never loose an equipment photo again, and you will know exactly "
-"when and where that photo was taken. Do you need more reliable readings from "
+"when and where that photo was taken. If you need more reliable readings from "
 "your equipment hour meters to have a better planning for your maintenance, "
 "you can do that as well!"
 msgstr ""
@@ -1736,7 +1736,7 @@ msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:45
 msgid ""
-"You can, for instance organize your assets per groups in the differnt VPs. "
+"You can, for instance organize your assets per groups in the different VPs. "
 "The photos will always be organized and available in our cloud storage."
 msgstr ""
 
@@ -1751,7 +1751,7 @@ msgid "Using your own data"
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:46
-msgid " to learn how to gather the data related to your equipemnt and tools."
+msgid " to learn how to gather the data related to your equipment and tools."
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:47

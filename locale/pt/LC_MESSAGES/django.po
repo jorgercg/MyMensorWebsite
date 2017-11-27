@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-27 13:27+0000\n"
-"PO-Revision-Date: 2017-11-21 21:28+0000\n"
+"POT-Creation-Date: 2017-11-27 13:46+0000\n"
+"PO-Revision-Date: 2017-11-27 13:49+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -271,7 +271,7 @@ msgstr ""
 #: mymwebsite/templates/howto.html:43
 #: mymwebsite/templates/howto/assetmanagement.html:10
 msgid "Symbols of different facilities types."
-msgstr ""
+msgstr "Símbolos de diferentes tipos de instalações."
 
 #: mymwebsite/templates/cases.html:45
 #: mymwebsite/templates/cases/assetmanagement.html:9
@@ -280,7 +280,7 @@ msgstr ""
 #: mymwebsite/templates/howto.html:45
 #: mymwebsite/templates/howto/assetmanagement.html:8
 msgid "Facility Management, Managing Assets in a Simple Way"
-msgstr ""
+msgstr "Gestão de Instalações e Gestão de Ativos de Forma Simples"
 
 #: mymwebsite/templates/cases.html:46
 #: mymwebsite/templates/cases/assetmanagement.html:11
@@ -291,6 +291,10 @@ msgid ""
 "manager, it does not mater the size of the business. Keeping track of asset "
 "data, location and condition can be a time consuming task. Or, maybe not?"
 msgstr ""
+"Cuidar de nossas instalações e ferramentas de trabalho é uma tarefa diária "
+"para cada gerente, não importa o tamanho do negócio. Manter um registro dos "
+"dados, localização e condições dos bens pode ser uma tarefa demorada. Ou "
+"talvez não?"
 
 #: mymwebsite/templates/cases/assetmanagement.html:32
 msgid ""
@@ -299,6 +303,11 @@ msgid ""
 "work. As a result, this will mean that we need to keep an organized "
 "photography and numerical data file of every and all equipment and tools."
 msgstr ""
+"No mínimo, devemos acompanhar todos os recursos que nosso pessoal da empresa "
+"usa no dia a dia do trabalho e garantir que tudo esteja pronto para "
+"funcionar. Como resultado, isso significa que precisamos manter organizados "
+"os registros fotográficos e os arquivos de dados numéricos de todos os "
+"equipamentos e ferramentas."
 
 #: mymwebsite/templates/cases/assetmanagement.html:33
 msgid ""
@@ -307,6 +316,11 @@ msgid ""
 "coming from various different places. The more structured solutions are just "
 "too expensive and time consuming to setup to be of any value to us."
 msgstr ""
+"Em pequenas empresas, onde temos que lutar todos os dias para manter nosso "
+"negócio em funcionamento, normalmente fazemos isso usando planilhas simples "
+"e arquivos de fotos provenientes de vários lugares diferentes. As soluções "
+"mais estruturadas são muito caras e demoradas para configurar para ser de "
+"qualquer valor para nós."
 
 #: mymwebsite/templates/cases/assetmanagement.html:34
 msgid ""
@@ -315,24 +329,30 @@ msgid ""
 "be done even for remote deployment of equipment, as when we rent something "
 "to somebody, as an example."
 msgstr ""
+"Usando o MyMensor Media and Data Plan, pode-se seguir todas as instalações e "
+"ferramentas da sua empresa usando a mídia certificada e os dados. Isso pode "
+"ser feito mesmo para localização remota de equipamentos, como quando "
+"alugamos algo para alguém, como um exemplo."
 
 #: mymwebsite/templates/cases/assetmanagement.html:35
 msgid ""
 "You will never loose an equipment photo again, and you will know exactly "
-"when and where that photo was taken. Do you need more reliable readings from "
+"when and where that photo was taken. If you need more reliable readings from "
 "your equipment hour meters to have a better planning for your maintenance, "
 "you can do that as well!"
 msgstr ""
+"Você nunca perderá uma foto de equipamento novamente, e você saberá "
+"exatamente quando e onde essa foto foi tirada. Se você precisa de leituras "
+"mais confiáveis dos contadores de horas do seu equipamento para ter um "
+"melhor planejamento para sua manutenção, você também pode fazer isso!"
 
 #: mymwebsite/templates/cases/assetmanagement.html:36
 msgid "Do you think that this can make your life easier? We agree with that! "
-msgstr ""
+msgstr "Você acha que isso pode tornar sua vida mais fácil? Nós também! "
 
 #: mymwebsite/templates/cases/assetmanagement.html:38
-#, fuzzy
-#| msgid "start your 30-day free-trial now! "
 msgid "Start your 30-day free-trial now! "
-msgstr "comece sua avaliação gratuita de 30 dias agora! "
+msgstr "Comece sua avaliação gratuita de 30 dias agora! "
 
 #: mymwebsite/templates/cases/assetmanagement.html:38
 #: mymwebsite/templates/cases/usingyourowndata.html:46
@@ -394,7 +414,7 @@ msgstr "Controle simples da força de vendas usando rotas certificada"
 
 #: mymwebsite/templates/cases/businessideas.html:28
 msgid "New out of the box idea."
-msgstr ""
+msgstr "Nova ideia fora da caixa."
 
 #: mymwebsite/templates/cases/businessideas.html:29
 #: mymwebsite/templates/cases/genusemediaplan.html:31
@@ -1888,11 +1908,8 @@ msgstr ""
 "o MyMensor construirá isso para <u>você</u>. "
 
 #: mymwebsite/templates/howto.html:46
-#, fuzzy
-#| msgid "Liked the case? Click here to see how to do it using MyMensor! "
 msgid "Let's have a walk through on how to do that using MyMensor."
-msgstr ""
-"Gostou do caso? Clique aqui para ver como fazer isso usando o MyMensor! "
+msgstr "Vamos fazer uma visita guiada sobre como fazer isso usando o MyMensor."
 
 #: mymwebsite/templates/howto/assetmanagement.html:4
 #: mymwebsite/templates/howto/businessideas.html:4
@@ -1918,6 +1935,9 @@ msgid ""
 "Use MyMensor to keep track of all the assets your company personnel uses in "
 "their day to day work and make sure that everything is ready to work."
 msgstr ""
+"Use o MyMensor para acompanhar todos os recursos que seu pessoal da empresa "
+"usa no trabalho diariamente e certifique-se de que tudo esteja pronto para "
+"funcionar."
 
 #: mymwebsite/templates/howto/assetmanagement.html:12
 msgid ""
@@ -1925,6 +1945,9 @@ msgid ""
 "the simpler one, that is just to have your photos organized. Ok, let's got "
 "step by step on how you do it."
 msgstr ""
+"Existem algumas maneiras diferentes de fazê-lo usando o MyMensor. Mas vamos "
+"começar com o mais simples, isto é, apenas para organizar suas fotos. Ok, "
+"vamos passo a passo sobre como você faz isso."
 
 #: mymwebsite/templates/howto/assetmanagement.html:13
 #: mymwebsite/templates/howto/businessideas.html:13
@@ -2010,6 +2033,8 @@ msgid ""
 "<strong>5.</strong> You can always rearrange your photos across different "
 "VPs in the WebApp."
 msgstr ""
+"<strong> 5. </strong> Você sempre pode reorganizar suas fotos em diferentes "
+"VPs na WebApp."
 
 #: mymwebsite/templates/howto/assetmanagement.html:20
 #: mymwebsite/templates/howto/businessideas.html:20
@@ -2093,38 +2118,39 @@ msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:45
 msgid ""
-"You can, for instance organize your assets per groups in the differnt VPs. "
+"You can, for instance organize your assets per groups in the different VPs. "
 "The photos will always be organized and available in our cloud storage."
 msgstr ""
+"Você pode, por exemplo, organizar seus ativos por grupos nos diferentes VPs. "
+"As fotos sempre estarão organizadas e disponíveis no nosso armazenamento na "
+"nuvem."
 
 #: mymwebsite/templates/howto/assetmanagement.html:46
 msgid ""
 "We hope this will make your life easier! But, as we said before, this is "
 "just the simpler way of doing this with MyMensor. Please refer to our case "
 msgstr ""
+"Esperamos que isso facilite sua vida! Mas, como dissemos antes, esta é "
+"apenas a maneira mais simples de fazer isso com o MyMensor. Consulte o nosso "
+"caso "
 
 #: mymwebsite/templates/howto/assetmanagement.html:46
-#, fuzzy
-#| msgid "Build your own bigdata"
 msgid "Using your own data"
-msgstr "Construa seu próprio bigdata"
+msgstr "Usando seus dados"
 
 #: mymwebsite/templates/howto/assetmanagement.html:46
-msgid " to learn how to gather the data related to your equipemnt and tools."
+msgid " to learn how to gather the data related to your equipment and tools."
 msgstr ""
+" para aprender a reunir os dados relacionados aos seus equipamentos e "
+"ferramentas."
 
 #: mymwebsite/templates/howto/assetmanagement.html:47
-#, fuzzy
-#| msgid ""
-#| "But that is just the tip of he iceberg! There is a lot more to MyMensor "
-#| "Media: automatic filing, automatic sharing etc. So, look no further, "
 msgid ""
 "But that is just the tip of he iceberg! There is a lot more to MyMensor: "
 "automatic filing, automatic sharing etc. So, look no further, "
 msgstr ""
-"Mas isto é só a ponta do iceberg! Há muito mais no MyMensor Media: "
-"arquivamento automático, compartilhamento automático etc. Portanto, não "
-"procure mais, "
+"Mas isto é só a ponta do iceberg! Há muito mais no MyMensor: arquivamento "
+"automático, compartilhamento automático etc. Portanto, não procure mais, "
 
 #: mymwebsite/templates/howto/businessideas.html:11
 #: mymwebsite/templates/howto/genusemediaplan.html:11
