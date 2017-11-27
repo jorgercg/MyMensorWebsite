@@ -69,5 +69,6 @@ urlpatterns += i18n_patterns(
     url(r'^howto/profsurveyors/$', TemplateView.as_view(template_name="howto/profsurveyors.html"), name='profsurveyorshowto'),
     url(r'^howto/businessideas/$', TemplateView.as_view(template_name="howto/businessideas.html"), name='businessideashowto'),
     url(r'^howto/assetmanagement/$', TemplateView.as_view(template_name="howto/assetmanagement.html"), name='assetmanagementhowto'),
+    url(r'^howto/setupautoshare/$', TemplateView.as_view(template_name="howto/setupautoshare.html"), name='setupautosharehowto'),
 
 )
