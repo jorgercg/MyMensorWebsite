@@ -4,10 +4,10 @@
 {% block title %}{% trans "How To" %} - {{ block.super }}{% endblock %}
 {% block content %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
-        <h6 class="text-uppercase text-dark">{% trans "How To?" %}</h6>
-        <h1 class="pb-3">{% trans "Making Sure that a Photo is NOT a Fake" %}</h1>
-        <img class="card-img-top img-fluid pb-3" src="{% static 'images/genusemediaplan.jpg' %}"
-             alt={% trans "Pinocchio sitting over a mobile phone." %}>
+        <a href="{% url 'howto' %}"><h6 class="text-uppercase text-dark">{% trans "How To?" %}</h6></a>
+        <h1 class="pb-3">{% trans "New Business Ideas Using MyMensor" %}</h1>
+        <img class="card-img-top img-fluid pb-3" src="{% static 'images/businessidea.jpg' %}"
+             alt={% trans "New out of the box idea." %}>
         <p>{% trans "To prove to somebody that your media is real is very simple: use MyMensor to produce and share your media!" %}</p>
         <p>{% trans "Ok, let's got step by step on how you do it." %}</p>
         <p>{% trans "<strong>1.</strong> Install MyMensor Mobile app from " %}<a
