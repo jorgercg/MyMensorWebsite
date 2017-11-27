@@ -38,6 +38,14 @@
                 <p class="card-text">{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}</p>
             </div>
         </div>
+        <div id="assetmanagement" class="card m-3 card-outline-secondary" style="width: 22rem;">
+            <img class="card-img-top img-fluid" src="{% static 'images/assetmanagement.jpg' %}"
+                 alt={% trans "Symbols of different facilities types." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "Facility Management, Managing Assets in a Simple Way" %}</h4>
+                <p class="card-text">{% trans "Taking care of our facilities and work tools is an everyday task to every manager, it does not mater the size of the business. Keeping track of asset data, location and condition can be a time consuming task. Or, maybe not?" %}</p>
+            </div>
+        </div>
     </div>
 
 {% endblock %}
@@ -49,7 +57,7 @@
             event.preventDefault();
             var idclicked = $(this).attr('id');
             console.log("Clicked on: id=" + idclicked);
-            window.location = '/{{ LANGUAGE_CODE }}/cases/'+idclicked;
+            window.location = '/{{ LANGUAGE_CODE }}/cases/' + idclicked;
         });
 
 
