@@ -6,36 +6,54 @@
     <meta name="description" content="MyMensor">
     <meta name="keywords" content="MyMensor">
     <meta name="author" content="Celtapps">
-    <meta property="og:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
-    <meta property="og:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
-    <meta property="og:image" content="{% static 'images/trademarketing.jpg' %}">
+    <meta property="og:title" content="{% trans "New Business Ideas Using MyMensor" %}">
+    <meta property="og:description" content="{% trans "You want to start something new, something different. We know exactly what you are talking about! We did it, and I think that our product can help you a lot in your quest for a new life!" %}">
+    <meta property="og:image" content="{% static 'images/businessidea.jpg' %}">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="720">
-    <meta property="og:url" content="{% url 'routestrademarketing' %}">
+    <meta property="og:url" content="{% url 'businessidea' %}">
     <meta property="og:site_name" content="MyMensor Website">
     <meta property="fb:app_id" content="286196915140475"/>
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% trans "Simple Trade Marketing Control with Certified Routes" %}">
-    <meta name="twitter:description" content="{% trans "Control efficiently the way your trade marketing promoter moves around the city, make remotely checking merchandising actions at the point of sale a simple task." %}">
-    <meta name="twitter:image" content="{% static 'images/trademarketing.jpg' %}">
+    <meta name="twitter:title" content="{% trans "New Business Ideas Using MyMensor" %}">
+    <meta name="twitter:description" content="{% trans "You want to start something new, something different. We know exactly what you are talking about! We did it, and I think that our product can help you a lot in your quest for a new life!" %}">
+    <meta name="twitter:image" content="{% static 'images/businessidea.jpg' %}">
 {% endblock %}
 {% block content %}
     <div class="mx-auto w-75" style="padding-top: 2rem; padding-bottom: 2rem;">
-        <h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6>
-        <h1 class="pb-3">{% trans "Simple control of Sales Force using Certified Routes" %}</h1>
+        <a href="{% url 'cases' %}"><h6 class="text-uppercase text-dark">{% trans "MyMensor Use Cases" %}</h6></a>
+        <h1 class="pb-3">{% trans "New Business Ideas Using MyMensor" %}</h1>
         <img class="card-img-top img-fluid pb-3" src="{% static 'images/businessidea.jpg' %}"
                  alt={% trans "New out of the box idea." %}>
-        <p>{% trans "Since we have created the first version of SeaMensor (that was the “father” of MyMensor), our friends ask us: - What can I do with this piece of software that I cannot do with my phone camera already?" %}</p>
-        <p>{% trans "At that time, it seemed to be a good question, but as time passes it became abundantly clear that <mark>forgery in the online world has become epidemic.</mark> So, seeing a photo or video that was sent to you in the usual channels is not enough anymore, you need proof!" %}</p>
-        <p>{% trans "One simple but defining feature of MyMensor is that <mark>you cannot insert any media into our system that was not produced by our mobile app.</mark> So, what you see in a video or photo coming from MyMensor was actually made by a smartphone camera, with no tampering, modification, enhancing, whatever, you name it." %}</p>
-        <p>{% trans "On top of that, MyMensor will tell you if time and location were certified and then you can trust that the media is really what it seems to be." %}</p>
-        <p>{% trans "This what I call a general, simple use to MyMensor Media: media certification." %}</p>
-        <p>{% trans "But that is just the tip of he iceberg! There is a lot more to MyMensor Media: automatic filing, automatic sharing etc. So, look no further, " %}
+        <p>{% trans "When the moment comes and we decide that it is time to start our own business, initially it can be a daunting task to cope with all the details that are needed to take an idea out of its box." %}</p>
+        <p>{% trans "Everybody have ideas, very few make them become true new businesses." %}</p>
+        <p>{% trans "So, our very humble advice to you, inventive entrepreneurs: keep it simple, keep it lean, streamlined, from the beginning until the end. And yes, there will be an end, and you have to plan ahead for it!" %}</p>
+        <p>{% trans "We will describe a couple of possible uses that you will have for the tool that MyMensor can be in your new business. We think that this will be very beneficial for your new endeavor, as it will keep costs down, it is very modern and safe, and if all goes wrong, you can just cancel with no hidden costs!" %}</p>
+        <p>{% trans "Ok, let’s say you are starting a new renovation small company, where your clients would contract you to renovate old houses and apartments. You can use our tool in two different fronts: the first one is internal, to follow up your subcontractors, track problems etc; the second one to show transparency to your client, by setting up, for instance, a Twitter account and automatically showing the progress online or sending automatic emails with photos showing ongoing jobs. By doing this you will better control your subcontractors and better inform your clients, all using the MyMensor Media Plan." %}</p>
+        <p>{% trans "The same approach can be used for countless other service types, where certified proof of work will be an obvious added value to your business." %}</p>
+        <p>{% trans "Another example would be a new Trade Marketing Agency, where your clients would contract you to promote their products. Here you can see in the case for trade marketing exactly how MyMensor can help you run a small agency, with no big setups, no IT infrastructure, just using our service." %}</p>
+        <p>{% trans "Do you think that this can bring value to your new business? We agree with that! " %}
             <a id="registerbtn" class="registerbtn"
-               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even when you have subscribed, you can easily cancel at any time, just clicking a button!" %}
+               href="https://app.mymensor.com/{{ LANGUAGE_CODE }}/accounts/register/">{% trans "Start your 30-day free-trial now! " %}</a>{% trans "<mark>No Credit Card is required during trial period</mark> and, even after you have subscribed, you can easily cancel at any time, just clicking a button!" %}
         </p>
-        <p><a href="{% url 'genusemediaplanhowto' %}" class="text-primary">{% trans "Liked the case? Click here to see how to do it using MyMensor! " %}</a></p>
+        <p>{% trans "Use your trial period to learn in our website how to setup a simple an efficient way to drive your business profits up! And, of course, drop us an email in case you need more info!" %}</p>
+        <p><a href="{% url 'businessideashowto' %}" class="text-primary">{% trans "Liked the case? Click here to see how to do it using MyMensor! " %}</a></p>
+        <div id="sharebtns" class="ssk-xs ssk-group">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="whatsapp://send?text=https%3A%2F%2Fmymensor.com%2F{{ LANGUAGE_CODE }}%2Fcases%2Fassetmanagement"
+               class="ssk ssk-whatsapp"></a>
+            <a href="" class="ssk ssk-email"></a>
+        </div>
     </div>
-
+{% endblock %}
+{% block javascript %}
+    <script type="text/javascript">
+        SocialShareKit.init({
+            selector: '.ssk',
+            url: 'https://mymensor.com/{{ LANGUAGE_CODE }}/cases/assetmanagement/'
+        });
+    </script>
 {% endblock %}
