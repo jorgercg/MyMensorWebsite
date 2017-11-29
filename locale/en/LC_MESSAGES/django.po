@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 20:50+0000\n"
+"POT-Creation-Date: 2017-11-29 21:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,6 +268,29 @@ msgid ""
 "beneficial for your new endeavor, as it will keep costs down, it is very "
 "modern and safe, and if all goes wrong, you can just cancel with no hidden "
 "costs!"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:59
+#: mymwebsite/templates/cases/routesservices.html:32
+#: mymwebsite/templates/cases/routesservices.html:60
+#: mymwebsite/templates/cases/routesservices.html:88
+#: mymwebsite/templates/howto.html:67
+#: mymwebsite/templates/howto/routesservices.html:10
+msgid "Concept of service personnel routes in a city."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:61
+#: mymwebsite/templates/cases/routesservices.html:9
+#: mymwebsite/templates/cases/routesservices.html:20
+#: mymwebsite/templates/howto.html:69
+#: mymwebsite/templates/howto/routesservices.html:8
+msgid "Simple Services Control with Certified Routes"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:62
+msgid ""
+"Control efficiently the way your services personnel moves around the city, "
+"make remotely checking remote services on client's premises a simple task."
 msgstr ""
 
 #: mymwebsite/templates/cases/assetmanagement.html:32
@@ -587,24 +610,11 @@ msgstr ""
 msgid "Many different routes in a city."
 msgstr ""
 
-#: mymwebsite/templates/cases/routesservices.html:9
-#: mymwebsite/templates/cases/routesservices.html:20
-#: mymwebsite/templates/howto/routesservices.html:8
-msgid "Simple Services Control with Certified Routes"
-msgstr ""
-
 #: mymwebsite/templates/cases/routesservices.html:11
 #: mymwebsite/templates/cases/routesservices.html:22
 msgid ""
 "Control efficiently the way your personnel moves around the city, make "
 "remotely checking services performed at client premises a simple task."
-msgstr ""
-
-#: mymwebsite/templates/cases/routesservices.html:32
-#: mymwebsite/templates/cases/routesservices.html:60
-#: mymwebsite/templates/cases/routesservices.html:88
-#: mymwebsite/templates/howto/routesservices.html:10
-msgid "Concept of service personnel routes in a city."
 msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:9
@@ -1535,6 +1545,10 @@ msgstr ""
 msgid ""
 "In MyMensor you can set up automatic sharing to a Twitter account that you "
 "choose and also to an email account! Click and learn how to do it!"
+msgstr ""
+
+#: mymwebsite/templates/howto.html:70
+msgid "How this can be done using MyMensor???? Click and learn!!!"
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:4

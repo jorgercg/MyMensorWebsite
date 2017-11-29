@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 20:50+0000\n"
-"PO-Revision-Date: 2017-11-29 20:54+0000\n"
+"POT-Creation-Date: 2017-11-29 21:02+0000\n"
+"PO-Revision-Date: 2017-11-29 21:05+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -294,6 +294,32 @@ msgstr ""
 "para a sua nova empreitada, pois manterá os custos baixos, é muito moderno e "
 "seguro, e se tudo der errado, você pode simplesmente cancelar sem custos "
 "ocultos!"
+
+#: mymwebsite/templates/cases.html:59
+#: mymwebsite/templates/cases/routesservices.html:32
+#: mymwebsite/templates/cases/routesservices.html:60
+#: mymwebsite/templates/cases/routesservices.html:88
+#: mymwebsite/templates/howto.html:67
+#: mymwebsite/templates/howto/routesservices.html:10
+msgid "Concept of service personnel routes in a city."
+msgstr "Conceito de rotas de pessoal de serviço em uma cidade."
+
+#: mymwebsite/templates/cases.html:61
+#: mymwebsite/templates/cases/routesservices.html:9
+#: mymwebsite/templates/cases/routesservices.html:20
+#: mymwebsite/templates/howto.html:69
+#: mymwebsite/templates/howto/routesservices.html:8
+msgid "Simple Services Control with Certified Routes"
+msgstr "Controle Simples de Serviços com Rotas Certificadas"
+
+#: mymwebsite/templates/cases.html:62
+msgid ""
+"Control efficiently the way your services personnel moves around the city, "
+"make remotely checking remote services on client's premises a simple task."
+msgstr ""
+"Controle de forma eficiente como o seu pessoal se movimenta pela cidade, "
+"faça de uma verificação remota dos serviços feitos nas instalações dos "
+"clientes uma tarefa simples."
 
 #: mymwebsite/templates/cases/assetmanagement.html:32
 msgid ""
@@ -710,12 +736,6 @@ msgstr "Controle simples da força de vendas usando rotas certificada"
 msgid "Many different routes in a city."
 msgstr "Muitas rotas diferentes em uma cidade."
 
-#: mymwebsite/templates/cases/routesservices.html:9
-#: mymwebsite/templates/cases/routesservices.html:20
-#: mymwebsite/templates/howto/routesservices.html:8
-msgid "Simple Services Control with Certified Routes"
-msgstr "Controle Simples de Serviços com Rotas Certificadas"
-
 #: mymwebsite/templates/cases/routesservices.html:11
 #: mymwebsite/templates/cases/routesservices.html:22
 msgid ""
@@ -725,13 +745,6 @@ msgstr ""
 "Controle de forma eficiente como o seu pessoal se movimenta pela cidade, "
 "faça de uma verificação remota dos serviços feitos nas instalações dos "
 "clientes uma tarefa simples."
-
-#: mymwebsite/templates/cases/routesservices.html:32
-#: mymwebsite/templates/cases/routesservices.html:60
-#: mymwebsite/templates/cases/routesservices.html:88
-#: mymwebsite/templates/howto/routesservices.html:10
-msgid "Concept of service personnel routes in a city."
-msgstr "Conceito de rotas de pessoal de serviço em uma cidade."
 
 #: mymwebsite/templates/cases/usingyourowndata.html:9
 #: mymwebsite/templates/cases/usingyourowndata.html:20
@@ -1936,6 +1949,10 @@ msgstr ""
 "No MyMensor você pode configurar o partilhamento automático para uma conta "
 "do Twitter que você escolhe e também para uma conta de e-mail! Clique e "
 "saiba como fazê-lo!"
+
+#: mymwebsite/templates/howto.html:70
+msgid "How this can be done using MyMensor???? Click and learn!!!"
+msgstr "Como posso fazer isto usando o MyMensor???? Clique a aprenda!!!"
 
 #: mymwebsite/templates/howto/assetmanagement.html:4
 #: mymwebsite/templates/howto/businessideas.html:4
