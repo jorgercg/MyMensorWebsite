@@ -6,14 +6,6 @@
     <h1 class="mt-5 mb-5 ml-4">{% trans "How to?" %}</h1>
     <hr>
     <div id="casestext" class="d-flex justify-content-start flex-wrap">
-        <div id="genusemediaplan" class="card m-3 card-outline-secondary" style="width: 22rem;">
-            <img class="card-img-top img-fluid" src="{% static 'images/genusemediaplan.jpg' %}"
-                 alt={% trans "Pinocchio sitting over a mobile phone." %}>
-            <div class="card-body p-3">
-                <h4 class="card-title">{% trans "Making Sure that a Photo is NOT a Fake" %}</h4>
-                <p class="card-text">{% trans "How to do that using MyMensor???? Click and learn!!!" %}</p>
-            </div>
-        </div>
         <div id="followingjobs" class="card m-3 card-outline-secondary" style="width: 22rem;">
             <img class="card-img-top img-fluid" src="{% static 'images/followingremotejobs.jpg' %}"
                  alt={% trans "Staging for producing a fake photo." %}>
@@ -46,8 +38,31 @@
                 <p class="card-text">{% trans "Let's have a walk through on how to do that using MyMensor." %}</p>
             </div>
         </div>
+        <div id="genusemediaplan" class="card m-3 card-outline-secondary" style="width: 22rem;">
+            <img class="card-img-top img-fluid" src="{% static 'images/genusemediaplan.jpg' %}"
+                 alt={% trans "Pinocchio sitting over a mobile phone." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "Making Sure that a Photo is NOT a Fake" %}</h4>
+                <p class="card-text">{% trans "How to do that using MyMensor???? Click and learn!!!" %}</p>
+            </div>
+        </div>
+        <div id="businessideas" class="card m-3 card-outline-secondary" style="width: 22rem;">
+            <img class="card-img-top img-fluid" src="{% static 'images/businessidea.jpg' %}"
+                 alt={% trans "New out of the box idea." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "New Business Ideas Using MyMensor" %}</h4>
+                <p class="card-text">{% trans "It can be done using MyMensor! Click and follow!" %}</p>
+            </div>
+        </div>
+        <div id="setupautoshare" class="card m-3 card-outline-secondary" style="width: 22rem;">
+            <img class="card-img-top img-fluid" src="{% static 'images/setupautoshare.jpg' %}"
+                 alt={% trans "Concept of a connected world." %}>
+            <div class="card-body p-3">
+                <h4 class="card-title">{% trans "Set Up Automatic Sharing" %}</h4>
+                <p class="card-text">{% trans "In MyMensor you can set up automatic sharing to a Twitter account that you choose and also to an email account! Click and learn how to do it!" %}</p>
+            </div>
+        </div>
     </div>
-
 {% endblock %}
 {% block javascript %}
 

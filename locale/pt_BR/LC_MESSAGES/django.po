@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-27 13:46+0000\n"
-"PO-Revision-Date: 2017-11-27 13:48+0000\n"
+"POT-Creation-Date: 2017-11-29 17:31+0000\n"
+"PO-Revision-Date: 2017-11-29 17:31+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -137,9 +137,112 @@ msgid "MyMensor Use Cases"
 msgstr "Casos de Uso do MyMensor"
 
 #: mymwebsite/templates/cases.html:11
-#: mymwebsite/templates/cases/genusemediaplan.html:30
+#: mymwebsite/templates/cases/followingremotejobs.html:30
 #: mymwebsite/templates/howto.html:11
-#: mymwebsite/templates/howto/businessideas.html:10
+#: mymwebsite/templates/howto/followingremotejobs.html:10
+msgid "Staging for producing a fake photo."
+msgstr "Preparo para produzir uma foto falsa."
+
+#: mymwebsite/templates/cases.html:13 mymwebsite/templates/howto.html:13
+msgid "Following Jobs Remotely "
+msgstr "Acompanhando Trabalhos Remotamente "
+
+#: mymwebsite/templates/cases.html:14
+#: mymwebsite/templates/cases/followingremotejobs.html:11
+#: mymwebsite/templates/cases/followingremotejobs.html:22
+msgid ""
+"One cannot be in more than one place at the same time, sure? Not quite, if "
+"we use the technology that is available right now!"
+msgstr ""
+"Não podemos estar em mais de um lugar ao mesmo tempo, certo? Não exatamente, "
+"se usarmos a tecnologia que está disponível agora mesmo!"
+
+#: mymwebsite/templates/cases.html:19
+#: mymwebsite/templates/cases/usingyourowndata.html:30
+#: mymwebsite/templates/howto.html:19
+#: mymwebsite/templates/howto/usingyourowndata.html:10
+msgid "Man surfing the bigdata wave, in form of a dollar sign."
+msgstr "Homem surfando a onda bigdata, sob forma de um sinal de cifrão."
+
+#: mymwebsite/templates/cases.html:21 mymwebsite/templates/howto.html:21
+msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
+msgstr "Usando Seus Dados Em Benefício Próprio "
+
+#: mymwebsite/templates/cases.html:22
+#: mymwebsite/templates/cases/usingyourowndata.html:11
+#: mymwebsite/templates/cases/usingyourowndata.html:22
+msgid ""
+"Do like all big tech corporations are doing. They are using <u>your</u> data "
+"for <u>their</u> benefit, and most of the time we cannot prevent that. "
+"<mark>But we can use our own data for our own benefit, can't we?</mark>. "
+msgstr ""
+"Faça o que estão fazendo todas as corporações de alta tecnologia. Elas estão "
+"usando os <u>seus</u> dados em benefício <u>delas</u>, e na maioria das "
+"vezes não podemos evitar isso. <mark>Mas podemos usar nossos próprios dados "
+"para nosso próprio benefício, não podemos?</mark>. "
+
+#: mymwebsite/templates/cases.html:27
+#: mymwebsite/templates/cases/routestrademarketing.html:32
+#: mymwebsite/templates/cases/routestrademarketing.html:60
+#: mymwebsite/templates/cases/routestrademarketing.html:88
+#: mymwebsite/templates/howto.html:27
+#: mymwebsite/templates/howto/routestrademarketing.html:10
+msgid "Shopping cart in supermarket."
+msgstr "Carrinho de compras no supermercado."
+
+#: mymwebsite/templates/cases.html:29
+#: mymwebsite/templates/cases/routestrademarketing.html:9
+#: mymwebsite/templates/cases/routestrademarketing.html:20
+#: mymwebsite/templates/howto.html:29
+#: mymwebsite/templates/howto/routestrademarketing.html:8
+msgid "Simple Trade Marketing Control with Certified Routes"
+msgstr "Controle Simples de Trade Marketing com Rotas Certificadas"
+
+#: mymwebsite/templates/cases.html:30
+#: mymwebsite/templates/cases/routestrademarketing.html:11
+#: mymwebsite/templates/cases/routestrademarketing.html:22
+msgid ""
+"Control efficiently the way your trade marketing promoter moves around the "
+"city, make remotely checking merchandising actions at the point of sale a "
+"simple task."
+msgstr ""
+"Controle de forma eficiente como o seu promotor de trade marketing se "
+"movimenta pela cidade, faça de uma verificação remota das ações de "
+"merchandising no ponto de venda uma tarefa simples."
+
+#: mymwebsite/templates/cases.html:35
+#: mymwebsite/templates/cases/assetmanagement.html:30
+#: mymwebsite/templates/howto.html:35
+#: mymwebsite/templates/howto/assetmanagement.html:10
+msgid "Symbols of different facilities types."
+msgstr "Símbolos de diferentes tipos de instalações."
+
+#: mymwebsite/templates/cases.html:37
+#: mymwebsite/templates/cases/assetmanagement.html:9
+#: mymwebsite/templates/cases/assetmanagement.html:20
+#: mymwebsite/templates/cases/assetmanagement.html:28
+#: mymwebsite/templates/howto.html:37
+#: mymwebsite/templates/howto/assetmanagement.html:8
+msgid "Facility Management, Managing Assets in a Simple Way"
+msgstr "Gestão de Instalações e Gestão de Ativos de Forma Simples"
+
+#: mymwebsite/templates/cases.html:38
+#: mymwebsite/templates/cases/assetmanagement.html:11
+#: mymwebsite/templates/cases/assetmanagement.html:22
+#: mymwebsite/templates/cases/assetmanagement.html:31
+msgid ""
+"Taking care of our facilities and work tools is an everyday task to every "
+"manager, it does not mater the size of the business. Keeping track of asset "
+"data, location and condition can be a time consuming task. Or, maybe not?"
+msgstr ""
+"Cuidar de nossas instalações e ferramentas de trabalho é uma tarefa diária "
+"para cada gerente, não importa o tamanho do negócio. Manter um registro dos "
+"dados, localização e condições dos bens pode ser uma tarefa demorada. Ou "
+"talvez não?"
+
+#: mymwebsite/templates/cases.html:43
+#: mymwebsite/templates/cases/genusemediaplan.html:30
+#: mymwebsite/templates/howto.html:43
 #: mymwebsite/templates/howto/genusemediaplan.html:10
 #: mymwebsite/templates/howto/productivity.html:10
 #: mymwebsite/templates/howto/profsurveyors.html:10
@@ -154,12 +257,11 @@ msgstr "Casos de Uso do MyMensor"
 msgid "Pinocchio sitting over a mobile phone."
 msgstr "Pinóquio, sentado sobre um telefone móvel."
 
-#: mymwebsite/templates/cases.html:13
+#: mymwebsite/templates/cases.html:45
 #: mymwebsite/templates/cases/genusemediaplan.html:9
 #: mymwebsite/templates/cases/genusemediaplan.html:20
 #: mymwebsite/templates/cases/genusemediaplan.html:28
-#: mymwebsite/templates/howto.html:13
-#: mymwebsite/templates/howto/businessideas.html:8
+#: mymwebsite/templates/howto.html:45
 #: mymwebsite/templates/howto/genusemediaplan.html:8
 #: mymwebsite/templates/howto/productivity.html:8
 #: mymwebsite/templates/howto/profsurveyors.html:8
@@ -174,7 +276,7 @@ msgstr "Pinóquio, sentado sobre um telefone móvel."
 msgid "Making Sure that a Photo is NOT a Fake"
 msgstr "Certificando-se que uma Foto NÃO é FALSA"
 
-#: mymwebsite/templates/cases.html:14
+#: mymwebsite/templates/cases.html:46
 #: mymwebsite/templates/cases/genusemediaplan.html:11
 #: mymwebsite/templates/cases/genusemediaplan.html:22
 msgid ""
@@ -188,113 +290,36 @@ msgstr ""
 "assegurar isso, com uma alta porcentagem de confiança. Mas se soubéssemos, "
 "com certeza, como a foto foi tirada? Não seria uma solução mais fácil?"
 
-#: mymwebsite/templates/cases.html:19
-#: mymwebsite/templates/cases/followingremotejobs.html:30
-#: mymwebsite/templates/howto.html:19
-#: mymwebsite/templates/howto/followingremotejobs.html:10
-msgid "Staging for producing a fake photo."
-msgstr "Preparo para produzir uma foto falsa."
+#: mymwebsite/templates/cases.html:51
+#: mymwebsite/templates/cases/businessideas.html:28
+#: mymwebsite/templates/howto.html:51
+#: mymwebsite/templates/howto/businessideas.html:10
+msgid "New out of the box idea."
+msgstr "Nova ideia fora da caixa."
 
-#: mymwebsite/templates/cases.html:21 mymwebsite/templates/howto.html:21
-msgid "Following Jobs Remotely "
-msgstr "Acompanhando Trabalhos Remotamente "
-
-#: mymwebsite/templates/cases.html:22
-#: mymwebsite/templates/cases/followingremotejobs.html:11
-#: mymwebsite/templates/cases/followingremotejobs.html:22
-msgid ""
-"One cannot be in more than one place at the same time, sure? Not quite, if "
-"we use the technology that is available right now!"
-msgstr ""
-"Não podemos estar em mais de um lugar ao mesmo tempo, certo? Não exatamente, "
-"se usarmos a tecnologia que está disponível agora mesmo!"
-
-#: mymwebsite/templates/cases.html:27
-#: mymwebsite/templates/cases/usingyourowndata.html:30
-#: mymwebsite/templates/howto.html:27
-#: mymwebsite/templates/howto/usingyourowndata.html:10
-msgid "Man surfing the bigdata wave, in form of a dollar sign."
-msgstr "Homem surfando a onda bigdata, sob forma de um sinal de cifrão."
-
-#: mymwebsite/templates/cases.html:29 mymwebsite/templates/howto.html:29
-msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
-msgstr "Usando Seus Dados Em Benefício Próprio "
-
-#: mymwebsite/templates/cases.html:30
-#: mymwebsite/templates/cases/usingyourowndata.html:11
-#: mymwebsite/templates/cases/usingyourowndata.html:22
-msgid ""
-"Do like all big tech corporations are doing. They are using <u>your</u> data "
-"for <u>their</u> benefit, and most of the time we cannot prevent that. "
-"<mark>But we can use our own data for our own benefit, can't we?</mark>. "
-msgstr ""
-"Faça o que estão fazendo todas as corporações de alta tecnologia. Elas estão "
-"usando os <u>seus</u> dados em benefício <u>delas</u>, e na maioria das "
-"vezes não podemos evitar isso. <mark>Mas podemos usar nossos próprios dados "
-"para nosso próprio benefício, não podemos?</mark>. "
-
-#: mymwebsite/templates/cases.html:35
-#: mymwebsite/templates/cases/routestrademarketing.html:32
-#: mymwebsite/templates/cases/routestrademarketing.html:60
-#: mymwebsite/templates/cases/routestrademarketing.html:88
-#: mymwebsite/templates/howto.html:35
-#: mymwebsite/templates/howto/routestrademarketing.html:10
-msgid "Shopping cart in supermarket."
-msgstr "Carrinho de compras no supermercado."
-
-#: mymwebsite/templates/cases.html:37
+#: mymwebsite/templates/cases.html:53
 #: mymwebsite/templates/cases/businessideas.html:9
 #: mymwebsite/templates/cases/businessideas.html:19
-#: mymwebsite/templates/cases/routestrademarketing.html:9
-#: mymwebsite/templates/cases/routestrademarketing.html:20
-#: mymwebsite/templates/howto.html:37
-#: mymwebsite/templates/howto/routestrademarketing.html:8
-msgid "Simple Trade Marketing Control with Certified Routes"
-msgstr "Controle Simples de Trade Marketing com Rotas Certificadas"
+#: mymwebsite/templates/cases/businessideas.html:26
+#: mymwebsite/templates/howto.html:53
+#: mymwebsite/templates/howto/businessideas.html:8
+msgid "New Business Ideas Using MyMensor"
+msgstr "Novas Ideias de Negócios Usando MyMensor"
 
-#: mymwebsite/templates/cases.html:38
-#: mymwebsite/templates/cases/businessideas.html:10
-#: mymwebsite/templates/cases/businessideas.html:20
-#: mymwebsite/templates/cases/routestrademarketing.html:11
-#: mymwebsite/templates/cases/routestrademarketing.html:22
+#: mymwebsite/templates/cases.html:54
+#: mymwebsite/templates/cases/businessideas.html:32
 msgid ""
-"Control efficiently the way your trade marketing promoter moves around the "
-"city, make remotely checking merchandising actions at the point of sale a "
-"simple task."
+"We will describe a couple of possible uses that you will have for the tool "
+"that MyMensor can be in your new business. We think that this will be very "
+"beneficial for your new endeavor, as it will keep costs down, it is very "
+"modern and safe, and if all goes wrong, you can just cancel with no hidden "
+"costs!"
 msgstr ""
-"Controle de forma eficiente como o seu promotor de trade marketing se "
-"movimenta pela cidade, faça de uma verificação remota das ações de "
-"merchandising no ponto de venda uma tarefa simples."
-
-#: mymwebsite/templates/cases.html:43
-#: mymwebsite/templates/cases/assetmanagement.html:30
-#: mymwebsite/templates/howto.html:43
-#: mymwebsite/templates/howto/assetmanagement.html:10
-msgid "Symbols of different facilities types."
-msgstr "Símbolos de diferentes tipos de instalações."
-
-#: mymwebsite/templates/cases.html:45
-#: mymwebsite/templates/cases/assetmanagement.html:9
-#: mymwebsite/templates/cases/assetmanagement.html:20
-#: mymwebsite/templates/cases/assetmanagement.html:28
-#: mymwebsite/templates/howto.html:45
-#: mymwebsite/templates/howto/assetmanagement.html:8
-msgid "Facility Management, Managing Assets in a Simple Way"
-msgstr "Gestão de Instalações e Gestão de Ativos de Forma Simples"
-
-#: mymwebsite/templates/cases.html:46
-#: mymwebsite/templates/cases/assetmanagement.html:11
-#: mymwebsite/templates/cases/assetmanagement.html:22
-#: mymwebsite/templates/cases/assetmanagement.html:31
-msgid ""
-"Taking care of our facilities and work tools is an everyday task to every "
-"manager, it does not mater the size of the business. Keeping track of asset "
-"data, location and condition can be a time consuming task. Or, maybe not?"
-msgstr ""
-"Cuidar de nossas instalações e ferramentas de trabalho é uma tarefa diária "
-"para cada gerente, não importa o tamanho do negócio. Manter um registro dos "
-"dados, localização e condições dos bens pode ser uma tarefa demorada. Ou "
-"talvez não?"
+"Descreveremos alguns dos possíveis usos que você terá para a ferramenta "
+"MyMensor em seu novo negócio. Temos a certeza que isso será muito benéfico "
+"para a sua nova empreitada, pois manterá os custos baixos, é muito moderno e "
+"seguro, e se tudo der errado, você pode simplesmente cancelar sem custos "
+"ocultos!"
 
 #: mymwebsite/templates/cases/assetmanagement.html:32
 msgid ""
@@ -351,10 +376,12 @@ msgid "Do you think that this can make your life easier? We agree with that! "
 msgstr "Você acha que isso pode tornar sua vida mais fácil? Nós também! "
 
 #: mymwebsite/templates/cases/assetmanagement.html:38
+#: mymwebsite/templates/cases/businessideas.html:38
 msgid "Start your 30-day free-trial now! "
 msgstr "Comece sua avaliação gratuita de 30 dias agora! "
 
 #: mymwebsite/templates/cases/assetmanagement.html:38
+#: mymwebsite/templates/cases/businessideas.html:38
 #: mymwebsite/templates/cases/usingyourowndata.html:46
 #: mymwebsite/templates/howto/usingyourowndata.html:37
 msgid ""
@@ -367,6 +394,7 @@ msgstr ""
 "qualquer momento, apenas clicando em um botão!"
 
 #: mymwebsite/templates/cases/assetmanagement.html:40
+#: mymwebsite/templates/cases/businessideas.html:40
 #: mymwebsite/templates/cases/usingyourowndata.html:48
 #: mymwebsite/templates/howto/usingyourowndata.html:38
 msgid ""
@@ -380,7 +408,7 @@ msgstr ""
 "informações!"
 
 #: mymwebsite/templates/cases/assetmanagement.html:42
-#: mymwebsite/templates/cases/businessideas.html:38
+#: mymwebsite/templates/cases/businessideas.html:41
 #: mymwebsite/templates/cases/followingremotejobs.html:42
 #: mymwebsite/templates/cases/genusemediaplan.html:41
 #: mymwebsite/templates/cases/productivity.html:20
@@ -398,230 +426,103 @@ msgid "Liked the case? Click here to see how to do it using MyMensor! "
 msgstr ""
 "Gostou do caso? Clique aqui para ver como fazer isso usando o MyMensor! "
 
-#: mymwebsite/templates/cases/businessideas.html:26
-#: mymwebsite/templates/cases/productivity.html:8
-#: mymwebsite/templates/cases/profsurveyors.html:8
-#: mymwebsite/templates/cases/routessales.html:8
-#: mymwebsite/templates/cases/routessecurity.html:8
-#: mymwebsite/templates/cases/routesservices.html:8
-#: mymwebsite/templates/cases/shipmaintenance.html:8
-#: mymwebsite/templates/cases/transparencygeneral.html:8
-#: mymwebsite/templates/cases/transparencyhousmng.html:8
-#: mymwebsite/templates/cases/transparencyngo.html:8
-#: mymwebsite/templates/cases/transparencypub.html:8
-msgid "Simple control of Sales Force using Certified Routes"
-msgstr "Controle simples da força de vendas usando rotas certificada"
-
-#: mymwebsite/templates/cases/businessideas.html:28
-msgid "New out of the box idea."
-msgstr "Nova ideia fora da caixa."
+#: mymwebsite/templates/cases/businessideas.html:10
+#: mymwebsite/templates/cases/businessideas.html:20
+msgid ""
+"You want to start something new, something different. We know exactly what "
+"you are talking about! We did it, and I think that our product can help you "
+"a lot in your quest for a new life!"
+msgstr ""
+"Você quer começar algo novo, algo diferente. Nós sabemos exatamente sobre o "
+"que você está falando! Nós fizemos isso, e eu acho que nosso produto pode "
+"ajudá-lo muito na sua busca por uma nova vida!"
 
 #: mymwebsite/templates/cases/businessideas.html:29
-#: mymwebsite/templates/cases/genusemediaplan.html:31
-#: mymwebsite/templates/cases/productivity.html:11
-#: mymwebsite/templates/cases/profsurveyors.html:11
-#: mymwebsite/templates/cases/routessales.html:11
-#: mymwebsite/templates/cases/routessecurity.html:11
-#: mymwebsite/templates/cases/routesservices.html:11
-#: mymwebsite/templates/cases/shipmaintenance.html:11
-#: mymwebsite/templates/cases/transparencygeneral.html:11
-#: mymwebsite/templates/cases/transparencyhousmng.html:11
-#: mymwebsite/templates/cases/transparencyngo.html:11
-#: mymwebsite/templates/cases/transparencypub.html:11
 msgid ""
-"Since we have created the first version of SeaMensor (that was the “father” "
-"of MyMensor), our friends ask us: - What can I do with this piece of "
-"software that I cannot do with my phone camera already?"
+"When the moment comes and we decide that it is time to start our own "
+"business, initially it can be a daunting task to cope with all the details "
+"that are needed to take an idea out of its box."
 msgstr ""
-"Desde que criamos a primeira versão do SeaMensor (que foi o “pai” do "
-"MyMensor), nossos amigos nos perguntam: - O que posso fazer com este "
-"software que eu já não podia fazer com a câmera do meu telefone?"
+"Quando chega o momento e decidimos que é hora de iniciar o nosso próprio "
+"negócio, inicialmente pode ser uma tarefa assustadora fazer face a todos os "
+"detalhes que são necessários para tirar uma ideia de dentro da sua caixa."
 
 #: mymwebsite/templates/cases/businessideas.html:30
-#: mymwebsite/templates/cases/genusemediaplan.html:32
-#: mymwebsite/templates/cases/productivity.html:12
-#: mymwebsite/templates/cases/profsurveyors.html:12
-#: mymwebsite/templates/cases/routessales.html:12
-#: mymwebsite/templates/cases/routessecurity.html:12
-#: mymwebsite/templates/cases/routesservices.html:12
-#: mymwebsite/templates/cases/shipmaintenance.html:12
-#: mymwebsite/templates/cases/transparencygeneral.html:12
-#: mymwebsite/templates/cases/transparencyhousmng.html:12
-#: mymwebsite/templates/cases/transparencyngo.html:12
-#: mymwebsite/templates/cases/transparencypub.html:12
-msgid ""
-"At that time, it seemed to be a good question, but as time passes it became "
-"abundantly clear that <mark>forgery in the online world has become epidemic."
-"</mark> So, seeing a photo or video that was sent to you in the usual "
-"channels is not enough anymore, you need proof!"
+msgid "Everybody have ideas, very few make them become true new businesses."
 msgstr ""
-"Naquela época, esta parecia ser uma boa pergunta, mas com o passar do tempo, "
-"tornou-se bastante claro que <mark>a falsificação no mundo on-line se tornou "
-"uma epidemia.</mark> Então, ver uma foto ou um vídeo que foi enviado para "
-"você nos canais usuais já não é suficiente, você precisa de uma prova!"
+"Todo mundo tem idéias, muito poucos as tornam verdadeiros novos negócios."
 
 #: mymwebsite/templates/cases/businessideas.html:31
-#: mymwebsite/templates/cases/genusemediaplan.html:33
-#: mymwebsite/templates/cases/productivity.html:13
-#: mymwebsite/templates/cases/profsurveyors.html:13
-#: mymwebsite/templates/cases/routessales.html:13
-#: mymwebsite/templates/cases/routessecurity.html:13
-#: mymwebsite/templates/cases/routesservices.html:13
-#: mymwebsite/templates/cases/shipmaintenance.html:13
-#: mymwebsite/templates/cases/transparencygeneral.html:13
-#: mymwebsite/templates/cases/transparencyhousmng.html:13
-#: mymwebsite/templates/cases/transparencyngo.html:13
-#: mymwebsite/templates/cases/transparencypub.html:13
 msgid ""
-"One simple but defining feature of MyMensor is that <mark>you cannot insert "
-"any media into our system that was not produced by our mobile app.</mark> "
-"So, what you see in a video or photo coming from MyMensor was actually made "
-"by a smartphone camera, with no tampering, modification, enhancing, "
-"whatever, you name it."
+"So, our very humble advice to you, inventive entrepreneurs: keep it simple, "
+"keep it lean, streamlined, from the beginning until the end. And yes, there "
+"will be an end, and you have to plan ahead for it!"
 msgstr ""
-"Um recurso simples, mas decisivo do MyMensor é que <mark>você não pode "
-"inserir qualquer mídia em nosso sistema, que não tenha sido produzida pelo "
-"nosso aplicativo móvel.</mark> Então, o que você vê em um vídeo ou foto "
-"vindo do MyMensor foi realmente produzido por uma câmera de smartphone, sem "
-"nenhuma alteração, modificação, melhoria, o que seja, você decide."
-
-#: mymwebsite/templates/cases/businessideas.html:32
-#: mymwebsite/templates/cases/genusemediaplan.html:34
-#: mymwebsite/templates/cases/productivity.html:14
-#: mymwebsite/templates/cases/profsurveyors.html:14
-#: mymwebsite/templates/cases/routessales.html:14
-#: mymwebsite/templates/cases/routessecurity.html:14
-#: mymwebsite/templates/cases/routesservices.html:14
-#: mymwebsite/templates/cases/shipmaintenance.html:14
-#: mymwebsite/templates/cases/transparencygeneral.html:14
-#: mymwebsite/templates/cases/transparencyhousmng.html:14
-#: mymwebsite/templates/cases/transparencyngo.html:14
-#: mymwebsite/templates/cases/transparencypub.html:14
-msgid ""
-"On top of that, MyMensor will tell you if time and location were certified "
-"and then you can trust that the media is really what it seems to be."
-msgstr ""
-"Além disso, o MyMensor irá dizer-lhe se o tempo e a localização foram "
-"certificados e, então, você pode confiar que a mídia é realmente o que "
-"parece ser."
+"Então, nosso conselho muito humilde para vocês, empreendedores inventivos: "
+"mantenha tudo simples, mantenha tudo enxuto, simplificado, desde o início "
+"até o fim. E sim, haverá um fim, e você deve planejar com antecedência para "
+"isso!"
 
 #: mymwebsite/templates/cases/businessideas.html:33
-#: mymwebsite/templates/cases/genusemediaplan.html:35
-#: mymwebsite/templates/cases/productivity.html:15
-#: mymwebsite/templates/cases/profsurveyors.html:15
-#: mymwebsite/templates/cases/routessales.html:15
-#: mymwebsite/templates/cases/routessecurity.html:15
-#: mymwebsite/templates/cases/routesservices.html:15
-#: mymwebsite/templates/cases/shipmaintenance.html:15
-#: mymwebsite/templates/cases/transparencygeneral.html:15
-#: mymwebsite/templates/cases/transparencyhousmng.html:15
-#: mymwebsite/templates/cases/transparencyngo.html:15
-#: mymwebsite/templates/cases/transparencypub.html:15
 msgid ""
-"This what I call a general, simple use to MyMensor Media: media "
-"certification."
+"Ok, let’s say you are starting a new renovation small company, where your "
+"clients would contract you to renovate old houses and apartments. You can "
+"use our tool in two different fronts: the first one is internal, to follow "
+"up your subcontractors, track problems etc; the second one to show "
+"transparency to your client, by setting up, for instance, a Twitter account "
+"and automatically showing the progress online or sending automatic emails "
+"with photos showing ongoing jobs. By doing this you will better control your "
+"subcontractors and better inform your clients, all using the MyMensor Media "
+"Plan."
 msgstr ""
-"Isso é o que eu chamo de um uso geral e simples para o MyMensor Media: "
-"certificação de mídia."
+"Ok, digamos que você está começando uma nova empresa de reformas, onde seus "
+"clientes contratariam você para reformar casas antigas e apartamentos. Você "
+"pode usar nossa ferramenta em duas frentes diferentes: a primeira é interna, "
+"para acompanhar seus subcontratados, rastrear problemas, etc; a segunda para "
+"mostrar transparência ao seu cliente, configurando, por exemplo, uma conta "
+"do Twitter e mostrando automaticamente o progresso on-line ou enviando "
+"emails automáticos com fotos mostrando trabalhos em andamento. Ao fazer "
+"isso, você melhorará seus subcontratados e informará melhor seus clientes, "
+"tuo isso usando o MyMensor Media Plan."
 
 #: mymwebsite/templates/cases/businessideas.html:34
-#: mymwebsite/templates/cases/genusemediaplan.html:36
-#: mymwebsite/templates/cases/productivity.html:16
-#: mymwebsite/templates/cases/profsurveyors.html:16
-#: mymwebsite/templates/cases/routessales.html:16
-#: mymwebsite/templates/cases/routessecurity.html:16
-#: mymwebsite/templates/cases/routesservices.html:16
-#: mymwebsite/templates/cases/shipmaintenance.html:16
-#: mymwebsite/templates/cases/transparencygeneral.html:16
-#: mymwebsite/templates/cases/transparencyhousmng.html:16
-#: mymwebsite/templates/cases/transparencyngo.html:16
-#: mymwebsite/templates/cases/transparencypub.html:16
-#: mymwebsite/templates/howto/businessideas.html:46
-#: mymwebsite/templates/howto/genusemediaplan.html:46
-#: mymwebsite/templates/howto/productivity.html:46
-#: mymwebsite/templates/howto/profsurveyors.html:46
-#: mymwebsite/templates/howto/routessales.html:46
-#: mymwebsite/templates/howto/routessecurity.html:46
-#: mymwebsite/templates/howto/routesservices.html:46
-#: mymwebsite/templates/howto/shipmaintenance.html:46
-#: mymwebsite/templates/howto/transparencygeneral.html:46
-#: mymwebsite/templates/howto/transparencyhousmng.html:46
-#: mymwebsite/templates/howto/transparencyngo.html:46
-#: mymwebsite/templates/howto/transparencypub.html:46
 msgid ""
-"But that is just the tip of he iceberg! There is a lot more to MyMensor "
-"Media: automatic filing, automatic sharing etc. So, look no further, "
+"The same approach can be used for countless other service types, where "
+"certified proof of work will be an obvious added value to your business."
 msgstr ""
-"Mas isto é só a ponta do iceberg! Há muito mais no MyMensor Media: "
-"arquivamento automático, compartilhamento automático etc. Portanto, não "
-"procure mais, "
+"A mesma abordagem pode ser usada para inúmeros outros tipos de serviços, "
+"onde a prova de trabalho certificada trará um grande valor adicionado para "
+"sua empresa."
+
+#: mymwebsite/templates/cases/businessideas.html:35
+msgid ""
+"Another example would be a new Trade Marketing Agency, where your clients "
+"would contract you to promote their products. Here you can find in the case "
+"for "
+msgstr ""
+"Outro exemplo seria uma nova Agência de Trade Marketing, onde seus clientes "
+"contratariam você para promover seus produtos. Aqui você pode encontrar no "
+"nosso caso de "
+
+#: mymwebsite/templates/cases/businessideas.html:35
+#: mymwebsite/templates/howto/businessideas.html:13
+msgid "trade marketing"
+msgstr "trade marketing"
+
+#: mymwebsite/templates/cases/businessideas.html:35
+msgid ""
+" exactly how MyMensor can help you run a small agency, with no big setups, "
+"no IT infrastructure, just using our service."
+msgstr ""
+" exatamente como o MyMensor pode ajudá-lo a operar uma pequena agência, sem "
+"grandes configurações, sem infraestrutura de TI, apenas usando nosso serviço."
 
 #: mymwebsite/templates/cases/businessideas.html:36
-#: mymwebsite/templates/cases/genusemediaplan.html:38
-#: mymwebsite/templates/cases/productivity.html:18
-#: mymwebsite/templates/cases/profsurveyors.html:18
-#: mymwebsite/templates/cases/routessales.html:18
-#: mymwebsite/templates/cases/routessecurity.html:18
-#: mymwebsite/templates/cases/routesservices.html:18
-#: mymwebsite/templates/cases/shipmaintenance.html:18
-#: mymwebsite/templates/cases/transparencygeneral.html:18
-#: mymwebsite/templates/cases/transparencyhousmng.html:18
-#: mymwebsite/templates/cases/transparencyngo.html:18
-#: mymwebsite/templates/cases/transparencypub.html:18
-#: mymwebsite/templates/cases/usingyourowndata.html:46
-#: mymwebsite/templates/howto/assetmanagement.html:49
-#: mymwebsite/templates/howto/businessideas.html:48
-#: mymwebsite/templates/howto/genusemediaplan.html:48
-#: mymwebsite/templates/howto/productivity.html:48
-#: mymwebsite/templates/howto/profsurveyors.html:48
-#: mymwebsite/templates/howto/routessales.html:48
-#: mymwebsite/templates/howto/routessecurity.html:48
-#: mymwebsite/templates/howto/routesservices.html:48
-#: mymwebsite/templates/howto/shipmaintenance.html:48
-#: mymwebsite/templates/howto/transparencygeneral.html:48
-#: mymwebsite/templates/howto/transparencyhousmng.html:48
-#: mymwebsite/templates/howto/transparencyngo.html:48
-#: mymwebsite/templates/howto/transparencypub.html:48
-#: mymwebsite/templates/howto/usingyourowndata.html:37
-msgid "start your 30-day free-trial now! "
-msgstr "comece sua avaliação gratuita de 30 dias agora! "
-
-#: mymwebsite/templates/cases/businessideas.html:36
-#: mymwebsite/templates/cases/followingremotejobs.html:39
-#: mymwebsite/templates/cases/genusemediaplan.html:38
-#: mymwebsite/templates/cases/productivity.html:18
-#: mymwebsite/templates/cases/profsurveyors.html:18
-#: mymwebsite/templates/cases/routessales.html:18
-#: mymwebsite/templates/cases/routessecurity.html:18
-#: mymwebsite/templates/cases/routesservices.html:18
-#: mymwebsite/templates/cases/shipmaintenance.html:18
-#: mymwebsite/templates/cases/transparencygeneral.html:18
-#: mymwebsite/templates/cases/transparencyhousmng.html:18
-#: mymwebsite/templates/cases/transparencyngo.html:18
-#: mymwebsite/templates/cases/transparencypub.html:18
-#: mymwebsite/templates/howto/assetmanagement.html:49
-#: mymwebsite/templates/howto/businessideas.html:48
-#: mymwebsite/templates/howto/followingremotejobs.html:29
-#: mymwebsite/templates/howto/genusemediaplan.html:48
-#: mymwebsite/templates/howto/productivity.html:48
-#: mymwebsite/templates/howto/profsurveyors.html:48
-#: mymwebsite/templates/howto/routessales.html:48
-#: mymwebsite/templates/howto/routessecurity.html:48
-#: mymwebsite/templates/howto/routesservices.html:48
-#: mymwebsite/templates/howto/routestrademarketing.html:35
-#: mymwebsite/templates/howto/shipmaintenance.html:48
-#: mymwebsite/templates/howto/transparencygeneral.html:48
-#: mymwebsite/templates/howto/transparencyhousmng.html:48
-#: mymwebsite/templates/howto/transparencyngo.html:48
-#: mymwebsite/templates/howto/transparencypub.html:48
 msgid ""
-"<mark>No Credit Card is required during trial period</mark> and, even when "
-"you have subscribed, you can easily cancel at any time, just clicking a "
-"button!"
+"Do you think that this can bring value to your new business? We agree with "
+"that! "
 msgstr ""
-"<mark>Não é necessário cartão de crédito durante o período de avaliação</"
-"mark> e, mesmo depois que você assinou, poderá cancelar facilmente a "
-"qualquer momento, apenas clicando em um botão!"
+"Você acha que isso pode trazer valor para o seu novo negócio? Nós também! "
 
 #: mymwebsite/templates/cases/followingremotejobs.html:9
 #: mymwebsite/templates/cases/followingremotejobs.html:20
@@ -705,6 +606,219 @@ msgstr ""
 msgid "Start your 30-day free-trial now. "
 msgstr "Comece sua avaliação gratuita de 30 dias agora. "
 
+#: mymwebsite/templates/cases/followingremotejobs.html:39
+#: mymwebsite/templates/cases/genusemediaplan.html:38
+#: mymwebsite/templates/cases/productivity.html:18
+#: mymwebsite/templates/cases/profsurveyors.html:18
+#: mymwebsite/templates/cases/routessales.html:18
+#: mymwebsite/templates/cases/routessecurity.html:18
+#: mymwebsite/templates/cases/routesservices.html:18
+#: mymwebsite/templates/cases/shipmaintenance.html:18
+#: mymwebsite/templates/cases/transparencygeneral.html:18
+#: mymwebsite/templates/cases/transparencyhousmng.html:18
+#: mymwebsite/templates/cases/transparencyngo.html:18
+#: mymwebsite/templates/cases/transparencypub.html:18
+#: mymwebsite/templates/howto/assetmanagement.html:51
+#: mymwebsite/templates/howto/businessideas.html:17
+#: mymwebsite/templates/howto/followingremotejobs.html:29
+#: mymwebsite/templates/howto/genusemediaplan.html:48
+#: mymwebsite/templates/howto/productivity.html:48
+#: mymwebsite/templates/howto/profsurveyors.html:48
+#: mymwebsite/templates/howto/routessales.html:48
+#: mymwebsite/templates/howto/routessecurity.html:48
+#: mymwebsite/templates/howto/routesservices.html:48
+#: mymwebsite/templates/howto/routestrademarketing.html:35
+#: mymwebsite/templates/howto/setupautoshare.html:30
+#: mymwebsite/templates/howto/shipmaintenance.html:48
+#: mymwebsite/templates/howto/transparencygeneral.html:48
+#: mymwebsite/templates/howto/transparencyhousmng.html:48
+#: mymwebsite/templates/howto/transparencyngo.html:48
+#: mymwebsite/templates/howto/transparencypub.html:48
+msgid ""
+"<mark>No Credit Card is required during trial period</mark> and, even when "
+"you have subscribed, you can easily cancel at any time, just clicking a "
+"button!"
+msgstr ""
+"<mark>Não é necessário cartão de crédito durante o período de avaliação</"
+"mark> e, mesmo depois que você assinou, poderá cancelar facilmente a "
+"qualquer momento, apenas clicando em um botão!"
+
+#: mymwebsite/templates/cases/genusemediaplan.html:31
+#: mymwebsite/templates/cases/productivity.html:11
+#: mymwebsite/templates/cases/profsurveyors.html:11
+#: mymwebsite/templates/cases/routessales.html:11
+#: mymwebsite/templates/cases/routessecurity.html:11
+#: mymwebsite/templates/cases/routesservices.html:11
+#: mymwebsite/templates/cases/shipmaintenance.html:11
+#: mymwebsite/templates/cases/transparencygeneral.html:11
+#: mymwebsite/templates/cases/transparencyhousmng.html:11
+#: mymwebsite/templates/cases/transparencyngo.html:11
+#: mymwebsite/templates/cases/transparencypub.html:11
+msgid ""
+"Since we have created the first version of SeaMensor (that was the “father” "
+"of MyMensor), our friends ask us: - What can I do with this piece of "
+"software that I cannot do with my phone camera already?"
+msgstr ""
+"Desde que criamos a primeira versão do SeaMensor (que foi o “pai” do "
+"MyMensor), nossos amigos nos perguntam: - O que posso fazer com este "
+"software que eu já não podia fazer com a câmera do meu telefone?"
+
+#: mymwebsite/templates/cases/genusemediaplan.html:32
+#: mymwebsite/templates/cases/productivity.html:12
+#: mymwebsite/templates/cases/profsurveyors.html:12
+#: mymwebsite/templates/cases/routessales.html:12
+#: mymwebsite/templates/cases/routessecurity.html:12
+#: mymwebsite/templates/cases/routesservices.html:12
+#: mymwebsite/templates/cases/shipmaintenance.html:12
+#: mymwebsite/templates/cases/transparencygeneral.html:12
+#: mymwebsite/templates/cases/transparencyhousmng.html:12
+#: mymwebsite/templates/cases/transparencyngo.html:12
+#: mymwebsite/templates/cases/transparencypub.html:12
+msgid ""
+"At that time, it seemed to be a good question, but as time passes it became "
+"abundantly clear that <mark>forgery in the online world has become epidemic."
+"</mark> So, seeing a photo or video that was sent to you in the usual "
+"channels is not enough anymore, you need proof!"
+msgstr ""
+"Naquela época, esta parecia ser uma boa pergunta, mas com o passar do tempo, "
+"tornou-se bastante claro que <mark>a falsificação no mundo on-line se tornou "
+"uma epidemia.</mark> Então, ver uma foto ou um vídeo que foi enviado para "
+"você nos canais usuais já não é suficiente, você precisa de uma prova!"
+
+#: mymwebsite/templates/cases/genusemediaplan.html:33
+#: mymwebsite/templates/cases/productivity.html:13
+#: mymwebsite/templates/cases/profsurveyors.html:13
+#: mymwebsite/templates/cases/routessales.html:13
+#: mymwebsite/templates/cases/routessecurity.html:13
+#: mymwebsite/templates/cases/routesservices.html:13
+#: mymwebsite/templates/cases/shipmaintenance.html:13
+#: mymwebsite/templates/cases/transparencygeneral.html:13
+#: mymwebsite/templates/cases/transparencyhousmng.html:13
+#: mymwebsite/templates/cases/transparencyngo.html:13
+#: mymwebsite/templates/cases/transparencypub.html:13
+msgid ""
+"One simple but defining feature of MyMensor is that <mark>you cannot insert "
+"any media into our system that was not produced by our mobile app.</mark> "
+"So, what you see in a video or photo coming from MyMensor was actually made "
+"by a smartphone camera, with no tampering, modification, enhancing, "
+"whatever, you name it."
+msgstr ""
+"Um recurso simples, mas decisivo do MyMensor é que <mark>você não pode "
+"inserir qualquer mídia em nosso sistema, que não tenha sido produzida pelo "
+"nosso aplicativo móvel.</mark> Então, o que você vê em um vídeo ou foto "
+"vindo do MyMensor foi realmente produzido por uma câmera de smartphone, sem "
+"nenhuma alteração, modificação, melhoria, o que seja, você decide."
+
+#: mymwebsite/templates/cases/genusemediaplan.html:34
+#: mymwebsite/templates/cases/productivity.html:14
+#: mymwebsite/templates/cases/profsurveyors.html:14
+#: mymwebsite/templates/cases/routessales.html:14
+#: mymwebsite/templates/cases/routessecurity.html:14
+#: mymwebsite/templates/cases/routesservices.html:14
+#: mymwebsite/templates/cases/shipmaintenance.html:14
+#: mymwebsite/templates/cases/transparencygeneral.html:14
+#: mymwebsite/templates/cases/transparencyhousmng.html:14
+#: mymwebsite/templates/cases/transparencyngo.html:14
+#: mymwebsite/templates/cases/transparencypub.html:14
+msgid ""
+"On top of that, MyMensor will tell you if time and location were certified "
+"and then you can trust that the media is really what it seems to be."
+msgstr ""
+"Além disso, o MyMensor irá dizer-lhe se o tempo e a localização foram "
+"certificados e, então, você pode confiar que a mídia é realmente o que "
+"parece ser."
+
+#: mymwebsite/templates/cases/genusemediaplan.html:35
+#: mymwebsite/templates/cases/productivity.html:15
+#: mymwebsite/templates/cases/profsurveyors.html:15
+#: mymwebsite/templates/cases/routessales.html:15
+#: mymwebsite/templates/cases/routessecurity.html:15
+#: mymwebsite/templates/cases/routesservices.html:15
+#: mymwebsite/templates/cases/shipmaintenance.html:15
+#: mymwebsite/templates/cases/transparencygeneral.html:15
+#: mymwebsite/templates/cases/transparencyhousmng.html:15
+#: mymwebsite/templates/cases/transparencyngo.html:15
+#: mymwebsite/templates/cases/transparencypub.html:15
+msgid ""
+"This what I call a general, simple use to MyMensor Media: media "
+"certification."
+msgstr ""
+"Isso é o que eu chamo de um uso geral e simples para o MyMensor Media: "
+"certificação de mídia."
+
+#: mymwebsite/templates/cases/genusemediaplan.html:36
+#: mymwebsite/templates/cases/productivity.html:16
+#: mymwebsite/templates/cases/profsurveyors.html:16
+#: mymwebsite/templates/cases/routessales.html:16
+#: mymwebsite/templates/cases/routessecurity.html:16
+#: mymwebsite/templates/cases/routesservices.html:16
+#: mymwebsite/templates/cases/shipmaintenance.html:16
+#: mymwebsite/templates/cases/transparencygeneral.html:16
+#: mymwebsite/templates/cases/transparencyhousmng.html:16
+#: mymwebsite/templates/cases/transparencyngo.html:16
+#: mymwebsite/templates/cases/transparencypub.html:16
+#: mymwebsite/templates/howto/genusemediaplan.html:46
+#: mymwebsite/templates/howto/productivity.html:46
+#: mymwebsite/templates/howto/profsurveyors.html:46
+#: mymwebsite/templates/howto/routessales.html:46
+#: mymwebsite/templates/howto/routessecurity.html:46
+#: mymwebsite/templates/howto/routesservices.html:46
+#: mymwebsite/templates/howto/shipmaintenance.html:46
+#: mymwebsite/templates/howto/transparencygeneral.html:46
+#: mymwebsite/templates/howto/transparencyhousmng.html:46
+#: mymwebsite/templates/howto/transparencyngo.html:46
+#: mymwebsite/templates/howto/transparencypub.html:46
+msgid ""
+"But that is just the tip of he iceberg! There is a lot more to MyMensor "
+"Media: automatic filing, automatic sharing etc. So, look no further, "
+msgstr ""
+"Mas isto é só a ponta do iceberg! Há muito mais no MyMensor Media: "
+"arquivamento automático, compartilhamento automático etc. Portanto, não "
+"procure mais, "
+
+#: mymwebsite/templates/cases/genusemediaplan.html:38
+#: mymwebsite/templates/cases/productivity.html:18
+#: mymwebsite/templates/cases/profsurveyors.html:18
+#: mymwebsite/templates/cases/routessales.html:18
+#: mymwebsite/templates/cases/routessecurity.html:18
+#: mymwebsite/templates/cases/routesservices.html:18
+#: mymwebsite/templates/cases/shipmaintenance.html:18
+#: mymwebsite/templates/cases/transparencygeneral.html:18
+#: mymwebsite/templates/cases/transparencyhousmng.html:18
+#: mymwebsite/templates/cases/transparencyngo.html:18
+#: mymwebsite/templates/cases/transparencypub.html:18
+#: mymwebsite/templates/cases/usingyourowndata.html:46
+#: mymwebsite/templates/howto/assetmanagement.html:51
+#: mymwebsite/templates/howto/businessideas.html:17
+#: mymwebsite/templates/howto/genusemediaplan.html:48
+#: mymwebsite/templates/howto/productivity.html:48
+#: mymwebsite/templates/howto/profsurveyors.html:48
+#: mymwebsite/templates/howto/routessales.html:48
+#: mymwebsite/templates/howto/routessecurity.html:48
+#: mymwebsite/templates/howto/routesservices.html:48
+#: mymwebsite/templates/howto/setupautoshare.html:30
+#: mymwebsite/templates/howto/shipmaintenance.html:48
+#: mymwebsite/templates/howto/transparencygeneral.html:48
+#: mymwebsite/templates/howto/transparencyhousmng.html:48
+#: mymwebsite/templates/howto/transparencyngo.html:48
+#: mymwebsite/templates/howto/transparencypub.html:48
+#: mymwebsite/templates/howto/usingyourowndata.html:37
+msgid "start your 30-day free-trial now! "
+msgstr "comece sua avaliação gratuita de 30 dias agora! "
+
+#: mymwebsite/templates/cases/productivity.html:8
+#: mymwebsite/templates/cases/profsurveyors.html:8
+#: mymwebsite/templates/cases/routessales.html:8
+#: mymwebsite/templates/cases/routessecurity.html:8
+#: mymwebsite/templates/cases/routesservices.html:8
+#: mymwebsite/templates/cases/shipmaintenance.html:8
+#: mymwebsite/templates/cases/transparencygeneral.html:8
+#: mymwebsite/templates/cases/transparencyhousmng.html:8
+#: mymwebsite/templates/cases/transparencyngo.html:8
+#: mymwebsite/templates/cases/transparencypub.html:8
+msgid "Simple control of Sales Force using Certified Routes"
+msgstr "Controle simples da força de vendas usando rotas certificada"
+
 #: mymwebsite/templates/cases/productivity.html:10
 #: mymwebsite/templates/cases/profsurveyors.html:10
 #: mymwebsite/templates/cases/routessales.html:10
@@ -787,7 +901,6 @@ msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:37
 #: mymwebsite/templates/howto/assetmanagement.html:15
-#: mymwebsite/templates/howto/businessideas.html:15
 #: mymwebsite/templates/howto/followingremotejobs.html:16
 #: mymwebsite/templates/howto/genusemediaplan.html:15
 #: mymwebsite/templates/howto/productivity.html:15
@@ -1875,6 +1988,7 @@ msgstr ""
 #: mymwebsite/templates/howto/routessecurity.html:7
 #: mymwebsite/templates/howto/routesservices.html:7
 #: mymwebsite/templates/howto/routestrademarketing.html:7
+#: mymwebsite/templates/howto/setupautoshare.html:7
 #: mymwebsite/templates/howto/shipmaintenance.html:7
 #: mymwebsite/templates/howto/transparencygeneral.html:7
 #: mymwebsite/templates/howto/transparencyhousmng.html:7
@@ -1888,18 +2002,14 @@ msgstr "Como fazer?"
 msgid "How to?"
 msgstr "Como fazer?"
 
-#: mymwebsite/templates/howto.html:14
-msgid "How to do that using MyMensor???? Click and learn!!!"
-msgstr "Como faço isto usando o MyMensor???? Clique a aprenda!!!"
-
-#: mymwebsite/templates/howto.html:22 mymwebsite/templates/howto.html:38
+#: mymwebsite/templates/howto.html:14 mymwebsite/templates/howto.html:30
 msgid ""
 "MyMensor will empower you to accomplish that! Follow our step by step how-to "
 "guide."
 msgstr ""
 "MyMensor irá capacitá-lo a realizar isso! Siga o nosso guia passo a passo."
 
-#: mymwebsite/templates/howto.html:30
+#: mymwebsite/templates/howto.html:22
 msgid ""
 "How can <u>I do that?</u> Find here a detailed guide on how MyMensor will "
 "build that for <u>YOU</u>. "
@@ -1907,9 +2017,36 @@ msgstr ""
 "Como <u>eu posso fazer isso?</u> Encontre aqui um guia detalhado sobre como "
 "o MyMensor construirá isso para <u>você</u>. "
 
-#: mymwebsite/templates/howto.html:46
+#: mymwebsite/templates/howto.html:38
 msgid "Let's have a walk through on how to do that using MyMensor."
 msgstr "Vamos fazer uma visita guiada sobre como fazer isso usando o MyMensor."
+
+#: mymwebsite/templates/howto.html:46
+msgid "How to do that using MyMensor???? Click and learn!!!"
+msgstr "Como faço isto usando o MyMensor???? Clique a aprenda!!!"
+
+#: mymwebsite/templates/howto.html:54
+msgid "It can be done using MyMensor! Click and follow!"
+msgstr "Podemos fazer isto usando o MyMensor! Clique a aprenda!"
+
+#: mymwebsite/templates/howto.html:59
+#: mymwebsite/templates/howto/setupautoshare.html:10
+msgid "Concept of a connected world."
+msgstr "Conceito de um mundo conectado."
+
+#: mymwebsite/templates/howto.html:61
+#: mymwebsite/templates/howto/setupautoshare.html:8
+msgid "Set Up Automatic Sharing"
+msgstr "Configure Compartilhamento Automático"
+
+#: mymwebsite/templates/howto.html:62
+msgid ""
+"In MyMensor you can set up automatic sharing to a Twitter account that you "
+"choose and also to an email account! Click and learn how to do it!"
+msgstr ""
+"No MyMensor você pode configurar o compartilhamento automático para uma "
+"conta do Twitter que você escolhe e também para uma conta de e-mail! Clique "
+"e saiba como fazê-lo!"
 
 #: mymwebsite/templates/howto/assetmanagement.html:4
 #: mymwebsite/templates/howto/businessideas.html:4
@@ -1921,6 +2058,7 @@ msgstr "Vamos fazer uma visita guiada sobre como fazer isso usando o MyMensor."
 #: mymwebsite/templates/howto/routessecurity.html:4
 #: mymwebsite/templates/howto/routesservices.html:4
 #: mymwebsite/templates/howto/routestrademarketing.html:4
+#: mymwebsite/templates/howto/setupautoshare.html:4
 #: mymwebsite/templates/howto/shipmaintenance.html:4
 #: mymwebsite/templates/howto/transparencygeneral.html:4
 #: mymwebsite/templates/howto/transparencyhousmng.html:4
@@ -1950,7 +2088,6 @@ msgstr ""
 "vamos passo a passo sobre como você faz isso."
 
 #: mymwebsite/templates/howto/assetmanagement.html:13
-#: mymwebsite/templates/howto/businessideas.html:13
 #: mymwebsite/templates/howto/followingremotejobs.html:14
 #: mymwebsite/templates/howto/genusemediaplan.html:13
 #: mymwebsite/templates/howto/productivity.html:13
@@ -1969,7 +2106,6 @@ msgid "<strong>1.</strong> Install MyMensor Mobile app from "
 msgstr "<strong>1.</strong> Instale o aplicativo móvel MyMensor a partir de "
 
 #: mymwebsite/templates/howto/assetmanagement.html:16
-#: mymwebsite/templates/howto/businessideas.html:16
 #: mymwebsite/templates/howto/genusemediaplan.html:16
 #: mymwebsite/templates/howto/productivity.html:16
 #: mymwebsite/templates/howto/profsurveyors.html:16
@@ -1985,7 +2121,6 @@ msgid "<strong>2.</strong> Run app and create your user"
 msgstr "<strong>2.</strong> Execute o aplicativo e crie seu usuário"
 
 #: mymwebsite/templates/howto/assetmanagement.html:17
-#: mymwebsite/templates/howto/businessideas.html:17
 #: mymwebsite/templates/howto/genusemediaplan.html:17
 #: mymwebsite/templates/howto/productivity.html:17
 #: mymwebsite/templates/howto/profsurveyors.html:17
@@ -2005,7 +2140,6 @@ msgstr ""
 "fotografar e pressione o botão de câmera"
 
 #: mymwebsite/templates/howto/assetmanagement.html:18
-#: mymwebsite/templates/howto/businessideas.html:18
 #: mymwebsite/templates/howto/genusemediaplan.html:18
 #: mymwebsite/templates/howto/productivity.html:18
 #: mymwebsite/templates/howto/profsurveyors.html:18
@@ -2037,7 +2171,6 @@ msgstr ""
 "VPs na WebApp."
 
 #: mymwebsite/templates/howto/assetmanagement.html:20
-#: mymwebsite/templates/howto/businessideas.html:20
 #: mymwebsite/templates/howto/genusemediaplan.html:20
 #: mymwebsite/templates/howto/productivity.html:20
 #: mymwebsite/templates/howto/profsurveyors.html:20
@@ -2061,7 +2194,6 @@ msgstr ""
 "de volta à mesma página de verificação de mídia. </mark>"
 
 #: mymwebsite/templates/howto/assetmanagement.html:21
-#: mymwebsite/templates/howto/businessideas.html:21
 #: mymwebsite/templates/howto/genusemediaplan.html:21
 #: mymwebsite/templates/howto/productivity.html:21
 #: mymwebsite/templates/howto/profsurveyors.html:21
@@ -2077,7 +2209,6 @@ msgid "Check the video below for a visual guide!"
 msgstr "Verifique o vídeo abaixo para obter um guia visual!"
 
 #: mymwebsite/templates/howto/assetmanagement.html:38
-#: mymwebsite/templates/howto/businessideas.html:38
 #: mymwebsite/templates/howto/genusemediaplan.html:38
 #: mymwebsite/templates/howto/productivity.html:38
 #: mymwebsite/templates/howto/profsurveyors.html:38
@@ -2099,7 +2230,6 @@ msgstr ""
 "você pode baixar um exemplo de PDF que será gerado."
 
 #: mymwebsite/templates/howto/assetmanagement.html:41
-#: mymwebsite/templates/howto/businessideas.html:41
 #: mymwebsite/templates/howto/genusemediaplan.html:41
 #: mymwebsite/templates/howto/productivity.html:41
 #: mymwebsite/templates/howto/profsurveyors.html:41
@@ -2133,17 +2263,17 @@ msgstr ""
 "apenas a maneira mais simples de fazer isso com o MyMensor. Consulte o nosso "
 "caso "
 
-#: mymwebsite/templates/howto/assetmanagement.html:46
+#: mymwebsite/templates/howto/assetmanagement.html:47
 msgid "Using your own data"
 msgstr "Usando seus dados"
 
-#: mymwebsite/templates/howto/assetmanagement.html:46
+#: mymwebsite/templates/howto/assetmanagement.html:47
 msgid " to learn how to gather the data related to your equipment and tools."
 msgstr ""
 " para aprender a reunir os dados relacionados aos seus equipamentos e "
 "ferramentas."
 
-#: mymwebsite/templates/howto/assetmanagement.html:47
+#: mymwebsite/templates/howto/assetmanagement.html:49
 msgid ""
 "But that is just the tip of he iceberg! There is a lot more to MyMensor: "
 "automatic filing, automatic sharing etc. So, look no further, "
@@ -2152,76 +2282,64 @@ msgstr ""
 "automático, compartilhamento automático etc. Portanto, não procure mais, "
 
 #: mymwebsite/templates/howto/businessideas.html:11
-#: mymwebsite/templates/howto/genusemediaplan.html:11
-#: mymwebsite/templates/howto/productivity.html:11
-#: mymwebsite/templates/howto/profsurveyors.html:11
-#: mymwebsite/templates/howto/routessales.html:11
-#: mymwebsite/templates/howto/routessecurity.html:11
-#: mymwebsite/templates/howto/routesservices.html:11
-#: mymwebsite/templates/howto/shipmaintenance.html:11
-#: mymwebsite/templates/howto/transparencygeneral.html:11
-#: mymwebsite/templates/howto/transparencyhousmng.html:11
-#: mymwebsite/templates/howto/transparencyngo.html:11
-#: mymwebsite/templates/howto/transparencypub.html:11
 msgid ""
-"To prove to somebody that your media is real is very simple: use MyMensor to "
-"produce and share your media!"
+"In order to use MyMensor to follow up subcontractor work you will use a "
+"combination of two cases: "
 msgstr ""
-"Provar a alguém que sua mídia é real é muito simples: use o MyMensor para "
-"produzir e compartilhar sua mídia!"
+"Para usar o MyMensor para acompanhar o trabalho do subcontratado, você usará "
+"uma combinação de dois casos: "
+
+#: mymwebsite/templates/howto/businessideas.html:11
+msgid "photo certification"
+msgstr "certificação de fotos"
+
+#: mymwebsite/templates/howto/businessideas.html:11
+msgid " and "
+msgstr " e "
+
+#: mymwebsite/templates/howto/businessideas.html:11
+msgid "following remote jobs."
+msgstr "acompanhando trabalhos à distância."
 
 #: mymwebsite/templates/howto/businessideas.html:12
-#: mymwebsite/templates/howto/genusemediaplan.html:12
-#: mymwebsite/templates/howto/productivity.html:12
-#: mymwebsite/templates/howto/profsurveyors.html:12
-#: mymwebsite/templates/howto/routessales.html:12
-#: mymwebsite/templates/howto/routessecurity.html:12
-#: mymwebsite/templates/howto/routesservices.html:12
-#: mymwebsite/templates/howto/shipmaintenance.html:12
-#: mymwebsite/templates/howto/transparencygeneral.html:12
-#: mymwebsite/templates/howto/transparencyhousmng.html:12
-#: mymwebsite/templates/howto/transparencyngo.html:12
-#: mymwebsite/templates/howto/transparencypub.html:12
-msgid "Ok, let's got step by step on how you do it."
-msgstr "Ok, vamos passo a passo mostrar como você faz isso."
-
-#: mymwebsite/templates/howto/businessideas.html:19
-#: mymwebsite/templates/howto/genusemediaplan.html:19
-#: mymwebsite/templates/howto/productivity.html:19
-#: mymwebsite/templates/howto/profsurveyors.html:19
-#: mymwebsite/templates/howto/routessales.html:19
-#: mymwebsite/templates/howto/routessecurity.html:19
-#: mymwebsite/templates/howto/routesservices.html:19
-#: mymwebsite/templates/howto/shipmaintenance.html:19
-#: mymwebsite/templates/howto/transparencygeneral.html:19
-#: mymwebsite/templates/howto/transparencyhousmng.html:19
-#: mymwebsite/templates/howto/transparencyngo.html:19
-#: mymwebsite/templates/howto/transparencypub.html:19
 msgid ""
-"<strong>5.</strong> Now, the best way of proving you mean business, is to "
-"send the link to the media check page to whoever you want. Do this by "
-"pressing the blue sharing button and follow the sharing instructions of your "
-"specific android operating system."
+"Please refer to the cases and associated how-tos of those cases to "
+"understand how to perform such tasks."
 msgstr ""
-"<strong>5.</strong> Agora, a melhor maneira de provar que o assunto é sério, "
-"é enviar o link para a página de verificação de mídia para quem você quiser. "
-"Faça isso pressionando o botão azul de compartilhamento e siga as instruções "
-"de compartilhamento do seu sistema operacional Android específico."
+"Consulte os casos e os procedimentos associados desses casos para entender "
+"como executar tais tarefas."
 
-#: mymwebsite/templates/howto/businessideas.html:45
-#: mymwebsite/templates/howto/genusemediaplan.html:45
-#: mymwebsite/templates/howto/productivity.html:45
-#: mymwebsite/templates/howto/profsurveyors.html:45
-#: mymwebsite/templates/howto/routessales.html:45
-#: mymwebsite/templates/howto/routessecurity.html:45
-#: mymwebsite/templates/howto/routesservices.html:45
-#: mymwebsite/templates/howto/shipmaintenance.html:45
-#: mymwebsite/templates/howto/transparencygeneral.html:45
-#: mymwebsite/templates/howto/transparencyhousmng.html:45
-#: mymwebsite/templates/howto/transparencyngo.html:45
-#: mymwebsite/templates/howto/transparencypub.html:45
-msgid "We hope this will make your life easier!"
-msgstr "Esperamos que isso facilite sua vida!"
+#: mymwebsite/templates/howto/businessideas.html:13
+msgid ""
+"To understand how MyMensor can support a Trade Marketing Agency, please "
+"refer to the "
+msgstr ""
+"Para entender como o MyMensor pode ajudar uma Agência de Trade Marketing, "
+"consulte o "
+
+#: mymwebsite/templates/howto/businessideas.html:13
+msgid " case and associated how-to."
+msgstr " caso e o como fazer associado."
+
+#: mymwebsite/templates/howto/businessideas.html:14
+msgid "In either case, refer to the "
+msgstr "Em ambos os casos, consulte o "
+
+#: mymwebsite/templates/howto/businessideas.html:14
+msgid "how to setup auto-sharing guide"
+msgstr "guia de como configurar o compartilhamento automático"
+
+#: mymwebsite/templates/howto/businessideas.html:14
+msgid " to configure this feature."
+msgstr " para configurar esta função."
+
+#: mymwebsite/templates/howto/businessideas.html:15
+msgid ""
+"But that is just the begining! MyMensor can help you a lot with your new "
+"business. So, look no further, "
+msgstr ""
+"Mas isto é só o começo! MyMensor pode ajudá-lo muito em seu novo negócio. "
+"Portanto, não procure mais, "
 
 #: mymwebsite/templates/howto/followingremotejobs.html:11
 msgid ""
@@ -2376,6 +2494,75 @@ msgstr ""
 "</mark> dá-lhe um tremendo poder para fiscalizar trabalhos em diferentes "
 "locais com <mark> grande confiança. </mark>"
 
+#: mymwebsite/templates/howto/genusemediaplan.html:11
+#: mymwebsite/templates/howto/productivity.html:11
+#: mymwebsite/templates/howto/profsurveyors.html:11
+#: mymwebsite/templates/howto/routessales.html:11
+#: mymwebsite/templates/howto/routessecurity.html:11
+#: mymwebsite/templates/howto/routesservices.html:11
+#: mymwebsite/templates/howto/shipmaintenance.html:11
+#: mymwebsite/templates/howto/transparencygeneral.html:11
+#: mymwebsite/templates/howto/transparencyhousmng.html:11
+#: mymwebsite/templates/howto/transparencyngo.html:11
+#: mymwebsite/templates/howto/transparencypub.html:11
+msgid ""
+"To prove to somebody that your media is real is very simple: use MyMensor to "
+"produce and share your media!"
+msgstr ""
+"Provar a alguém que sua mídia é real é muito simples: use o MyMensor para "
+"produzir e compartilhar sua mídia!"
+
+#: mymwebsite/templates/howto/genusemediaplan.html:12
+#: mymwebsite/templates/howto/productivity.html:12
+#: mymwebsite/templates/howto/profsurveyors.html:12
+#: mymwebsite/templates/howto/routessales.html:12
+#: mymwebsite/templates/howto/routessecurity.html:12
+#: mymwebsite/templates/howto/routesservices.html:12
+#: mymwebsite/templates/howto/shipmaintenance.html:12
+#: mymwebsite/templates/howto/transparencygeneral.html:12
+#: mymwebsite/templates/howto/transparencyhousmng.html:12
+#: mymwebsite/templates/howto/transparencyngo.html:12
+#: mymwebsite/templates/howto/transparencypub.html:12
+msgid "Ok, let's got step by step on how you do it."
+msgstr "Ok, vamos passo a passo mostrar como você faz isso."
+
+#: mymwebsite/templates/howto/genusemediaplan.html:19
+#: mymwebsite/templates/howto/productivity.html:19
+#: mymwebsite/templates/howto/profsurveyors.html:19
+#: mymwebsite/templates/howto/routessales.html:19
+#: mymwebsite/templates/howto/routessecurity.html:19
+#: mymwebsite/templates/howto/routesservices.html:19
+#: mymwebsite/templates/howto/shipmaintenance.html:19
+#: mymwebsite/templates/howto/transparencygeneral.html:19
+#: mymwebsite/templates/howto/transparencyhousmng.html:19
+#: mymwebsite/templates/howto/transparencyngo.html:19
+#: mymwebsite/templates/howto/transparencypub.html:19
+msgid ""
+"<strong>5.</strong> Now, the best way of proving you mean business, is to "
+"send the link to the media check page to whoever you want. Do this by "
+"pressing the blue sharing button and follow the sharing instructions of your "
+"specific android operating system."
+msgstr ""
+"<strong>5.</strong> Agora, a melhor maneira de provar que o assunto é sério, "
+"é enviar o link para a página de verificação de mídia para quem você quiser. "
+"Faça isso pressionando o botão azul de compartilhamento e siga as instruções "
+"de compartilhamento do seu sistema operacional Android específico."
+
+#: mymwebsite/templates/howto/genusemediaplan.html:45
+#: mymwebsite/templates/howto/productivity.html:45
+#: mymwebsite/templates/howto/profsurveyors.html:45
+#: mymwebsite/templates/howto/routessales.html:45
+#: mymwebsite/templates/howto/routessecurity.html:45
+#: mymwebsite/templates/howto/routesservices.html:45
+#: mymwebsite/templates/howto/setupautoshare.html:27
+#: mymwebsite/templates/howto/shipmaintenance.html:45
+#: mymwebsite/templates/howto/transparencygeneral.html:45
+#: mymwebsite/templates/howto/transparencyhousmng.html:45
+#: mymwebsite/templates/howto/transparencyngo.html:45
+#: mymwebsite/templates/howto/transparencypub.html:45
+msgid "We hope this will make your life easier!"
+msgstr "Esperamos que isso facilite sua vida!"
+
 #: mymwebsite/templates/howto/routestrademarketing.html:11
 msgid ""
 "How to<mark> simply control Trade Marketing using MyMensor? </mark> Do I "
@@ -2434,6 +2621,133 @@ msgstr " e vamos construir um feito especialmente para sua organização!"
 #: mymwebsite/templates/howto/routestrademarketing.html:33
 msgid "In anyway, "
 msgstr "De qualquer forma, "
+
+#: mymwebsite/templates/howto/setupautoshare.html:11
+msgid ""
+"In MyMensor you can set up automatic sharing to a Twitter account that you "
+"choose and also to an email account."
+msgstr ""
+"No MyMensor você pode configurar o compartilhamento automático para uma "
+"conta do Twitter que você escolher e também para uma conta de e-mail."
+
+#: mymwebsite/templates/howto/setupautoshare.html:12
+msgid ""
+"When using Twitter you will be able to configure one account to be used for "
+"all your captures, in case of email you can configure a different email "
+"account for each VP."
+msgstr ""
+"Ao usar o Twitter, você poderá configurar uma conta para ser usada para "
+"todas as suas capturas, em caso de e-mail você pode configurar uma conta de "
+"e-mail diferente para cada VP."
+
+#: mymwebsite/templates/howto/setupautoshare.html:13
+msgid ""
+"To configure the automatic sharing you have to be logged in at the MyMensor "
+"WebApp."
+msgstr ""
+"Para configurar o compartilhamento automático, você precisa estar logado no "
+"MyMensor WebApp."
+
+#: mymwebsite/templates/howto/setupautoshare.html:14
+msgid "Now let's check how to do it with Twitter:"
+msgstr "Agora vamos verificar como fazê-lo com o Twitter:"
+
+#: mymwebsite/templates/howto/setupautoshare.html:15
+msgid ""
+"<strong>1.</strong> In the top right of your screen you will see your "
+"username in bold letters, click on it to open a dropdown menu. In this menu "
+"click on <strong>Twitter Account</strong>."
+msgstr ""
+"<strong>1.</strong> No canto superior direito da tela você verá o nome de "
+"usuário em negrito, clique nele para abrir um menu suspenso. Neste menu, "
+"clique em <strong>Conta do Twitter</strong>."
+
+#: mymwebsite/templates/howto/setupautoshare.html:16
+msgid ""
+"<strong>2.</strong> Follow the instructions in the screen to authorize the "
+"app to use your Twitter account to post. You can always come back here and "
+"disconnect your account."
+msgstr ""
+"<strong>2.</strong> Siga as instruções na tela para autorizar o aplicativo a "
+"usar sua conta do Twitter para postar. Você sempre pode voltar aqui e "
+"desconectar sua conta."
+
+#: mymwebsite/templates/howto/setupautoshare.html:17
+msgid ""
+"<strong>3.</strong> Click now on the <strong>Setup</strong> menu item and "
+"the on <strong>VPs</strong> in the dropdown menu."
+msgstr ""
+"<strong>3.</strong> Clique no item <strong>Configuração</strong> no menu e "
+"então em <strong>VPs</strong> no menu suspenso."
+
+#: mymwebsite/templates/howto/setupautoshare.html:18
+msgid ""
+"<strong>4.</strong> Select the VP that you want to publish using Twitter and "
+"check the checkbox for <strong>Share all of this vp captures to the Twitter "
+"Account configured.</strong> Following Twitter procedures MyMensor has to "
+"ask for an explicit consent from you to post your media automatically to "
+"Twitter. To do so you have to type in your username."
+msgstr ""
+"<strong>4.</strong> Selecione o VP que você deseja postar usando o Twitter e "
+"marque a caixa de seleção de <strong>Compartilhar todas as capturas deste VP "
+"para a conta do Twitter configurada.</strong> Seguindo os procedimentos do "
+"Twitter, MyMensor precisa pedir um consentimento explícito seu para publicar "
+"sua mídia automaticamente no Twitter. Para fazer isso, você deve digitar seu "
+"nome de usuário."
+
+#: mymwebsite/templates/howto/setupautoshare.html:19
+msgid ""
+"<strong>5.</strong> Please remember that you can remark your medias in the "
+"Mobile app prior to posting!"
+msgstr ""
+"<strong>5.</strong> Lembre-se que você pode comentar suas mídias no "
+"aplicativo mobile antes de postar!"
+
+#: mymwebsite/templates/howto/setupautoshare.html:20
+msgid "<strong>6.</strong> Press <strong>Submit</strong> to save your changes!"
+msgstr ""
+"<strong>6.</strong> Pressione <strong>Enviar</strong> para salvar suas "
+"alterações!"
+
+#: mymwebsite/templates/howto/setupautoshare.html:22
+msgid "You can share also to email:"
+msgstr "Você também pode compartilhar por e-mail:"
+
+#: mymwebsite/templates/howto/setupautoshare.html:23
+msgid ""
+"<strong>1.</strong> Click on the <strong>Setup</strong> menu item and the on "
+"<strong>VPs</strong> in the dropdown menu."
+msgstr ""
+"<strong>1.</strong> Clique no item <strong>Configuração</strong> no menu e "
+"então em <strong>VPs</strong> no menu suspenso."
+
+#: mymwebsite/templates/howto/setupautoshare.html:24
+msgid ""
+"<strong>2.</strong> Select the VP that you want to publish using Email and "
+"fill the field <strong>Send all of this vp captures to the following email</"
+"strong> with the email that you want to send the captures to."
+msgstr ""
+"<strong>2.</strong> Selecione o VP que deseja publicar usando o Email e "
+"preencha o campo <strong>Enviar todas as capturas deste VP para o email "
+"abaixo</strong> com o email para o qual deseja enviar as capturas."
+
+#: mymwebsite/templates/howto/setupautoshare.html:25
+msgid ""
+"<strong>3.</strong> Please remember that you can remark your medias in the "
+"Mobile app prior to posting!"
+msgstr ""
+"<strong>3.</strong> Lembre-se que você pode comentar suas mídias no "
+"aplicativo mobile antes de postar!"
+
+#: mymwebsite/templates/howto/setupautoshare.html:26
+msgid "<strong>4.</strong> Press <strong>Submit</strong> to save your changes!"
+msgstr ""
+"<strong>4.</strong> Pressione <strong>Enviar</strong> para salvar suas "
+"alterações!"
+
+#: mymwebsite/templates/howto/setupautoshare.html:28
+msgid "So, look no further, "
+msgstr "Portanto, não procure mais, "
 
 #: mymwebsite/templates/howto/usingyourowndata.html:11
 msgid ""

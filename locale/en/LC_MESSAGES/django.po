@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-27 13:46+0000\n"
+"POT-Creation-Date: 2017-11-29 17:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,9 +134,99 @@ msgid "MyMensor Use Cases"
 msgstr ""
 
 #: mymwebsite/templates/cases.html:11
-#: mymwebsite/templates/cases/genusemediaplan.html:30
+#: mymwebsite/templates/cases/followingremotejobs.html:30
 #: mymwebsite/templates/howto.html:11
-#: mymwebsite/templates/howto/businessideas.html:10
+#: mymwebsite/templates/howto/followingremotejobs.html:10
+msgid "Staging for producing a fake photo."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:13 mymwebsite/templates/howto.html:13
+msgid "Following Jobs Remotely "
+msgstr ""
+
+#: mymwebsite/templates/cases.html:14
+#: mymwebsite/templates/cases/followingremotejobs.html:11
+#: mymwebsite/templates/cases/followingremotejobs.html:22
+msgid ""
+"One cannot be in more than one place at the same time, sure? Not quite, if "
+"we use the technology that is available right now!"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:19
+#: mymwebsite/templates/cases/usingyourowndata.html:30
+#: mymwebsite/templates/howto.html:19
+#: mymwebsite/templates/howto/usingyourowndata.html:10
+msgid "Man surfing the bigdata wave, in form of a dollar sign."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:21 mymwebsite/templates/howto.html:21
+msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
+msgstr ""
+
+#: mymwebsite/templates/cases.html:22
+#: mymwebsite/templates/cases/usingyourowndata.html:11
+#: mymwebsite/templates/cases/usingyourowndata.html:22
+msgid ""
+"Do like all big tech corporations are doing. They are using <u>your</u> data "
+"for <u>their</u> benefit, and most of the time we cannot prevent that. "
+"<mark>But we can use our own data for our own benefit, can't we?</mark>. "
+msgstr ""
+
+#: mymwebsite/templates/cases.html:27
+#: mymwebsite/templates/cases/routestrademarketing.html:32
+#: mymwebsite/templates/cases/routestrademarketing.html:60
+#: mymwebsite/templates/cases/routestrademarketing.html:88
+#: mymwebsite/templates/howto.html:27
+#: mymwebsite/templates/howto/routestrademarketing.html:10
+msgid "Shopping cart in supermarket."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:29
+#: mymwebsite/templates/cases/routestrademarketing.html:9
+#: mymwebsite/templates/cases/routestrademarketing.html:20
+#: mymwebsite/templates/howto.html:29
+#: mymwebsite/templates/howto/routestrademarketing.html:8
+msgid "Simple Trade Marketing Control with Certified Routes"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:30
+#: mymwebsite/templates/cases/routestrademarketing.html:11
+#: mymwebsite/templates/cases/routestrademarketing.html:22
+msgid ""
+"Control efficiently the way your trade marketing promoter moves around the "
+"city, make remotely checking merchandising actions at the point of sale a "
+"simple task."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:35
+#: mymwebsite/templates/cases/assetmanagement.html:30
+#: mymwebsite/templates/howto.html:35
+#: mymwebsite/templates/howto/assetmanagement.html:10
+msgid "Symbols of different facilities types."
+msgstr ""
+
+#: mymwebsite/templates/cases.html:37
+#: mymwebsite/templates/cases/assetmanagement.html:9
+#: mymwebsite/templates/cases/assetmanagement.html:20
+#: mymwebsite/templates/cases/assetmanagement.html:28
+#: mymwebsite/templates/howto.html:37
+#: mymwebsite/templates/howto/assetmanagement.html:8
+msgid "Facility Management, Managing Assets in a Simple Way"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:38
+#: mymwebsite/templates/cases/assetmanagement.html:11
+#: mymwebsite/templates/cases/assetmanagement.html:22
+#: mymwebsite/templates/cases/assetmanagement.html:31
+msgid ""
+"Taking care of our facilities and work tools is an everyday task to every "
+"manager, it does not mater the size of the business. Keeping track of asset "
+"data, location and condition can be a time consuming task. Or, maybe not?"
+msgstr ""
+
+#: mymwebsite/templates/cases.html:43
+#: mymwebsite/templates/cases/genusemediaplan.html:30
+#: mymwebsite/templates/howto.html:43
 #: mymwebsite/templates/howto/genusemediaplan.html:10
 #: mymwebsite/templates/howto/productivity.html:10
 #: mymwebsite/templates/howto/profsurveyors.html:10
@@ -151,12 +241,11 @@ msgstr ""
 msgid "Pinocchio sitting over a mobile phone."
 msgstr ""
 
-#: mymwebsite/templates/cases.html:13
+#: mymwebsite/templates/cases.html:45
 #: mymwebsite/templates/cases/genusemediaplan.html:9
 #: mymwebsite/templates/cases/genusemediaplan.html:20
 #: mymwebsite/templates/cases/genusemediaplan.html:28
-#: mymwebsite/templates/howto.html:13
-#: mymwebsite/templates/howto/businessideas.html:8
+#: mymwebsite/templates/howto.html:45
 #: mymwebsite/templates/howto/genusemediaplan.html:8
 #: mymwebsite/templates/howto/productivity.html:8
 #: mymwebsite/templates/howto/profsurveyors.html:8
@@ -171,7 +260,7 @@ msgstr ""
 msgid "Making Sure that a Photo is NOT a Fake"
 msgstr ""
 
-#: mymwebsite/templates/cases.html:14
+#: mymwebsite/templates/cases.html:46
 #: mymwebsite/templates/cases/genusemediaplan.html:11
 #: mymwebsite/templates/cases/genusemediaplan.html:22
 msgid ""
@@ -181,99 +270,30 @@ msgid ""
 "taken? Is it not an easier solution?"
 msgstr ""
 
-#: mymwebsite/templates/cases.html:19
-#: mymwebsite/templates/cases/followingremotejobs.html:30
-#: mymwebsite/templates/howto.html:19
-#: mymwebsite/templates/howto/followingremotejobs.html:10
-msgid "Staging for producing a fake photo."
+#: mymwebsite/templates/cases.html:51
+#: mymwebsite/templates/cases/businessideas.html:28
+#: mymwebsite/templates/howto.html:51
+#: mymwebsite/templates/howto/businessideas.html:10
+msgid "New out of the box idea."
 msgstr ""
 
-#: mymwebsite/templates/cases.html:21 mymwebsite/templates/howto.html:21
-msgid "Following Jobs Remotely "
-msgstr ""
-
-#: mymwebsite/templates/cases.html:22
-#: mymwebsite/templates/cases/followingremotejobs.html:11
-#: mymwebsite/templates/cases/followingremotejobs.html:22
-msgid ""
-"One cannot be in more than one place at the same time, sure? Not quite, if "
-"we use the technology that is available right now!"
-msgstr ""
-
-#: mymwebsite/templates/cases.html:27
-#: mymwebsite/templates/cases/usingyourowndata.html:30
-#: mymwebsite/templates/howto.html:27
-#: mymwebsite/templates/howto/usingyourowndata.html:10
-msgid "Man surfing the bigdata wave, in form of a dollar sign."
-msgstr ""
-
-#: mymwebsite/templates/cases.html:29 mymwebsite/templates/howto.html:29
-msgid "Using <u>Your</u> Own Data for <u>Your</u> Own Benefit "
-msgstr ""
-
-#: mymwebsite/templates/cases.html:30
-#: mymwebsite/templates/cases/usingyourowndata.html:11
-#: mymwebsite/templates/cases/usingyourowndata.html:22
-msgid ""
-"Do like all big tech corporations are doing. They are using <u>your</u> data "
-"for <u>their</u> benefit, and most of the time we cannot prevent that. "
-"<mark>But we can use our own data for our own benefit, can't we?</mark>. "
-msgstr ""
-
-#: mymwebsite/templates/cases.html:35
-#: mymwebsite/templates/cases/routestrademarketing.html:32
-#: mymwebsite/templates/cases/routestrademarketing.html:60
-#: mymwebsite/templates/cases/routestrademarketing.html:88
-#: mymwebsite/templates/howto.html:35
-#: mymwebsite/templates/howto/routestrademarketing.html:10
-msgid "Shopping cart in supermarket."
-msgstr ""
-
-#: mymwebsite/templates/cases.html:37
+#: mymwebsite/templates/cases.html:53
 #: mymwebsite/templates/cases/businessideas.html:9
 #: mymwebsite/templates/cases/businessideas.html:19
-#: mymwebsite/templates/cases/routestrademarketing.html:9
-#: mymwebsite/templates/cases/routestrademarketing.html:20
-#: mymwebsite/templates/howto.html:37
-#: mymwebsite/templates/howto/routestrademarketing.html:8
-msgid "Simple Trade Marketing Control with Certified Routes"
+#: mymwebsite/templates/cases/businessideas.html:26
+#: mymwebsite/templates/howto.html:53
+#: mymwebsite/templates/howto/businessideas.html:8
+msgid "New Business Ideas Using MyMensor"
 msgstr ""
 
-#: mymwebsite/templates/cases.html:38
-#: mymwebsite/templates/cases/businessideas.html:10
-#: mymwebsite/templates/cases/businessideas.html:20
-#: mymwebsite/templates/cases/routestrademarketing.html:11
-#: mymwebsite/templates/cases/routestrademarketing.html:22
+#: mymwebsite/templates/cases.html:54
+#: mymwebsite/templates/cases/businessideas.html:32
 msgid ""
-"Control efficiently the way your trade marketing promoter moves around the "
-"city, make remotely checking merchandising actions at the point of sale a "
-"simple task."
-msgstr ""
-
-#: mymwebsite/templates/cases.html:43
-#: mymwebsite/templates/cases/assetmanagement.html:30
-#: mymwebsite/templates/howto.html:43
-#: mymwebsite/templates/howto/assetmanagement.html:10
-msgid "Symbols of different facilities types."
-msgstr ""
-
-#: mymwebsite/templates/cases.html:45
-#: mymwebsite/templates/cases/assetmanagement.html:9
-#: mymwebsite/templates/cases/assetmanagement.html:20
-#: mymwebsite/templates/cases/assetmanagement.html:28
-#: mymwebsite/templates/howto.html:45
-#: mymwebsite/templates/howto/assetmanagement.html:8
-msgid "Facility Management, Managing Assets in a Simple Way"
-msgstr ""
-
-#: mymwebsite/templates/cases.html:46
-#: mymwebsite/templates/cases/assetmanagement.html:11
-#: mymwebsite/templates/cases/assetmanagement.html:22
-#: mymwebsite/templates/cases/assetmanagement.html:31
-msgid ""
-"Taking care of our facilities and work tools is an everyday task to every "
-"manager, it does not mater the size of the business. Keeping track of asset "
-"data, location and condition can be a time consuming task. Or, maybe not?"
+"We will describe a couple of possible uses that you will have for the tool "
+"that MyMensor can be in your new business. We think that this will be very "
+"beneficial for your new endeavor, as it will keep costs down, it is very "
+"modern and safe, and if all goes wrong, you can just cancel with no hidden "
+"costs!"
 msgstr ""
 
 #: mymwebsite/templates/cases/assetmanagement.html:32
@@ -313,10 +333,12 @@ msgid "Do you think that this can make your life easier? We agree with that! "
 msgstr ""
 
 #: mymwebsite/templates/cases/assetmanagement.html:38
+#: mymwebsite/templates/cases/businessideas.html:38
 msgid "Start your 30-day free-trial now! "
 msgstr ""
 
 #: mymwebsite/templates/cases/assetmanagement.html:38
+#: mymwebsite/templates/cases/businessideas.html:38
 #: mymwebsite/templates/cases/usingyourowndata.html:46
 #: mymwebsite/templates/howto/usingyourowndata.html:37
 msgid ""
@@ -326,6 +348,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/cases/assetmanagement.html:40
+#: mymwebsite/templates/cases/businessideas.html:40
 #: mymwebsite/templates/cases/usingyourowndata.html:48
 #: mymwebsite/templates/howto/usingyourowndata.html:38
 msgid ""
@@ -335,7 +358,7 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/cases/assetmanagement.html:42
-#: mymwebsite/templates/cases/businessideas.html:38
+#: mymwebsite/templates/cases/businessideas.html:41
 #: mymwebsite/templates/cases/followingremotejobs.html:42
 #: mymwebsite/templates/cases/genusemediaplan.html:41
 #: mymwebsite/templates/cases/productivity.html:20
@@ -352,206 +375,73 @@ msgstr ""
 msgid "Liked the case? Click here to see how to do it using MyMensor! "
 msgstr ""
 
-#: mymwebsite/templates/cases/businessideas.html:26
-#: mymwebsite/templates/cases/productivity.html:8
-#: mymwebsite/templates/cases/profsurveyors.html:8
-#: mymwebsite/templates/cases/routessales.html:8
-#: mymwebsite/templates/cases/routessecurity.html:8
-#: mymwebsite/templates/cases/routesservices.html:8
-#: mymwebsite/templates/cases/shipmaintenance.html:8
-#: mymwebsite/templates/cases/transparencygeneral.html:8
-#: mymwebsite/templates/cases/transparencyhousmng.html:8
-#: mymwebsite/templates/cases/transparencyngo.html:8
-#: mymwebsite/templates/cases/transparencypub.html:8
-msgid "Simple control of Sales Force using Certified Routes"
-msgstr ""
-
-#: mymwebsite/templates/cases/businessideas.html:28
-msgid "New out of the box idea."
+#: mymwebsite/templates/cases/businessideas.html:10
+#: mymwebsite/templates/cases/businessideas.html:20
+msgid ""
+"You want to start something new, something different. We know exactly what "
+"you are talking about! We did it, and I think that our product can help you "
+"a lot in your quest for a new life!"
 msgstr ""
 
 #: mymwebsite/templates/cases/businessideas.html:29
-#: mymwebsite/templates/cases/genusemediaplan.html:31
-#: mymwebsite/templates/cases/productivity.html:11
-#: mymwebsite/templates/cases/profsurveyors.html:11
-#: mymwebsite/templates/cases/routessales.html:11
-#: mymwebsite/templates/cases/routessecurity.html:11
-#: mymwebsite/templates/cases/routesservices.html:11
-#: mymwebsite/templates/cases/shipmaintenance.html:11
-#: mymwebsite/templates/cases/transparencygeneral.html:11
-#: mymwebsite/templates/cases/transparencyhousmng.html:11
-#: mymwebsite/templates/cases/transparencyngo.html:11
-#: mymwebsite/templates/cases/transparencypub.html:11
 msgid ""
-"Since we have created the first version of SeaMensor (that was the “father” "
-"of MyMensor), our friends ask us: - What can I do with this piece of "
-"software that I cannot do with my phone camera already?"
+"When the moment comes and we decide that it is time to start our own "
+"business, initially it can be a daunting task to cope with all the details "
+"that are needed to take an idea out of its box."
 msgstr ""
 
 #: mymwebsite/templates/cases/businessideas.html:30
-#: mymwebsite/templates/cases/genusemediaplan.html:32
-#: mymwebsite/templates/cases/productivity.html:12
-#: mymwebsite/templates/cases/profsurveyors.html:12
-#: mymwebsite/templates/cases/routessales.html:12
-#: mymwebsite/templates/cases/routessecurity.html:12
-#: mymwebsite/templates/cases/routesservices.html:12
-#: mymwebsite/templates/cases/shipmaintenance.html:12
-#: mymwebsite/templates/cases/transparencygeneral.html:12
-#: mymwebsite/templates/cases/transparencyhousmng.html:12
-#: mymwebsite/templates/cases/transparencyngo.html:12
-#: mymwebsite/templates/cases/transparencypub.html:12
-msgid ""
-"At that time, it seemed to be a good question, but as time passes it became "
-"abundantly clear that <mark>forgery in the online world has become epidemic."
-"</mark> So, seeing a photo or video that was sent to you in the usual "
-"channels is not enough anymore, you need proof!"
+msgid "Everybody have ideas, very few make them become true new businesses."
 msgstr ""
 
 #: mymwebsite/templates/cases/businessideas.html:31
-#: mymwebsite/templates/cases/genusemediaplan.html:33
-#: mymwebsite/templates/cases/productivity.html:13
-#: mymwebsite/templates/cases/profsurveyors.html:13
-#: mymwebsite/templates/cases/routessales.html:13
-#: mymwebsite/templates/cases/routessecurity.html:13
-#: mymwebsite/templates/cases/routesservices.html:13
-#: mymwebsite/templates/cases/shipmaintenance.html:13
-#: mymwebsite/templates/cases/transparencygeneral.html:13
-#: mymwebsite/templates/cases/transparencyhousmng.html:13
-#: mymwebsite/templates/cases/transparencyngo.html:13
-#: mymwebsite/templates/cases/transparencypub.html:13
 msgid ""
-"One simple but defining feature of MyMensor is that <mark>you cannot insert "
-"any media into our system that was not produced by our mobile app.</mark> "
-"So, what you see in a video or photo coming from MyMensor was actually made "
-"by a smartphone camera, with no tampering, modification, enhancing, "
-"whatever, you name it."
-msgstr ""
-
-#: mymwebsite/templates/cases/businessideas.html:32
-#: mymwebsite/templates/cases/genusemediaplan.html:34
-#: mymwebsite/templates/cases/productivity.html:14
-#: mymwebsite/templates/cases/profsurveyors.html:14
-#: mymwebsite/templates/cases/routessales.html:14
-#: mymwebsite/templates/cases/routessecurity.html:14
-#: mymwebsite/templates/cases/routesservices.html:14
-#: mymwebsite/templates/cases/shipmaintenance.html:14
-#: mymwebsite/templates/cases/transparencygeneral.html:14
-#: mymwebsite/templates/cases/transparencyhousmng.html:14
-#: mymwebsite/templates/cases/transparencyngo.html:14
-#: mymwebsite/templates/cases/transparencypub.html:14
-msgid ""
-"On top of that, MyMensor will tell you if time and location were certified "
-"and then you can trust that the media is really what it seems to be."
+"So, our very humble advice to you, inventive entrepreneurs: keep it simple, "
+"keep it lean, streamlined, from the beginning until the end. And yes, there "
+"will be an end, and you have to plan ahead for it!"
 msgstr ""
 
 #: mymwebsite/templates/cases/businessideas.html:33
-#: mymwebsite/templates/cases/genusemediaplan.html:35
-#: mymwebsite/templates/cases/productivity.html:15
-#: mymwebsite/templates/cases/profsurveyors.html:15
-#: mymwebsite/templates/cases/routessales.html:15
-#: mymwebsite/templates/cases/routessecurity.html:15
-#: mymwebsite/templates/cases/routesservices.html:15
-#: mymwebsite/templates/cases/shipmaintenance.html:15
-#: mymwebsite/templates/cases/transparencygeneral.html:15
-#: mymwebsite/templates/cases/transparencyhousmng.html:15
-#: mymwebsite/templates/cases/transparencyngo.html:15
-#: mymwebsite/templates/cases/transparencypub.html:15
 msgid ""
-"This what I call a general, simple use to MyMensor Media: media "
-"certification."
+"Ok, let’s say you are starting a new renovation small company, where your "
+"clients would contract you to renovate old houses and apartments. You can "
+"use our tool in two different fronts: the first one is internal, to follow "
+"up your subcontractors, track problems etc; the second one to show "
+"transparency to your client, by setting up, for instance, a Twitter account "
+"and automatically showing the progress online or sending automatic emails "
+"with photos showing ongoing jobs. By doing this you will better control your "
+"subcontractors and better inform your clients, all using the MyMensor Media "
+"Plan."
 msgstr ""
 
 #: mymwebsite/templates/cases/businessideas.html:34
-#: mymwebsite/templates/cases/genusemediaplan.html:36
-#: mymwebsite/templates/cases/productivity.html:16
-#: mymwebsite/templates/cases/profsurveyors.html:16
-#: mymwebsite/templates/cases/routessales.html:16
-#: mymwebsite/templates/cases/routessecurity.html:16
-#: mymwebsite/templates/cases/routesservices.html:16
-#: mymwebsite/templates/cases/shipmaintenance.html:16
-#: mymwebsite/templates/cases/transparencygeneral.html:16
-#: mymwebsite/templates/cases/transparencyhousmng.html:16
-#: mymwebsite/templates/cases/transparencyngo.html:16
-#: mymwebsite/templates/cases/transparencypub.html:16
-#: mymwebsite/templates/howto/businessideas.html:46
-#: mymwebsite/templates/howto/genusemediaplan.html:46
-#: mymwebsite/templates/howto/productivity.html:46
-#: mymwebsite/templates/howto/profsurveyors.html:46
-#: mymwebsite/templates/howto/routessales.html:46
-#: mymwebsite/templates/howto/routessecurity.html:46
-#: mymwebsite/templates/howto/routesservices.html:46
-#: mymwebsite/templates/howto/shipmaintenance.html:46
-#: mymwebsite/templates/howto/transparencygeneral.html:46
-#: mymwebsite/templates/howto/transparencyhousmng.html:46
-#: mymwebsite/templates/howto/transparencyngo.html:46
-#: mymwebsite/templates/howto/transparencypub.html:46
 msgid ""
-"But that is just the tip of he iceberg! There is a lot more to MyMensor "
-"Media: automatic filing, automatic sharing etc. So, look no further, "
+"The same approach can be used for countless other service types, where "
+"certified proof of work will be an obvious added value to your business."
+msgstr ""
+
+#: mymwebsite/templates/cases/businessideas.html:35
+msgid ""
+"Another example would be a new Trade Marketing Agency, where your clients "
+"would contract you to promote their products. Here you can find in the case "
+"for "
+msgstr ""
+
+#: mymwebsite/templates/cases/businessideas.html:35
+#: mymwebsite/templates/howto/businessideas.html:13
+msgid "trade marketing"
+msgstr ""
+
+#: mymwebsite/templates/cases/businessideas.html:35
+msgid ""
+" exactly how MyMensor can help you run a small agency, with no big setups, "
+"no IT infrastructure, just using our service."
 msgstr ""
 
 #: mymwebsite/templates/cases/businessideas.html:36
-#: mymwebsite/templates/cases/genusemediaplan.html:38
-#: mymwebsite/templates/cases/productivity.html:18
-#: mymwebsite/templates/cases/profsurveyors.html:18
-#: mymwebsite/templates/cases/routessales.html:18
-#: mymwebsite/templates/cases/routessecurity.html:18
-#: mymwebsite/templates/cases/routesservices.html:18
-#: mymwebsite/templates/cases/shipmaintenance.html:18
-#: mymwebsite/templates/cases/transparencygeneral.html:18
-#: mymwebsite/templates/cases/transparencyhousmng.html:18
-#: mymwebsite/templates/cases/transparencyngo.html:18
-#: mymwebsite/templates/cases/transparencypub.html:18
-#: mymwebsite/templates/cases/usingyourowndata.html:46
-#: mymwebsite/templates/howto/assetmanagement.html:49
-#: mymwebsite/templates/howto/businessideas.html:48
-#: mymwebsite/templates/howto/genusemediaplan.html:48
-#: mymwebsite/templates/howto/productivity.html:48
-#: mymwebsite/templates/howto/profsurveyors.html:48
-#: mymwebsite/templates/howto/routessales.html:48
-#: mymwebsite/templates/howto/routessecurity.html:48
-#: mymwebsite/templates/howto/routesservices.html:48
-#: mymwebsite/templates/howto/shipmaintenance.html:48
-#: mymwebsite/templates/howto/transparencygeneral.html:48
-#: mymwebsite/templates/howto/transparencyhousmng.html:48
-#: mymwebsite/templates/howto/transparencyngo.html:48
-#: mymwebsite/templates/howto/transparencypub.html:48
-#: mymwebsite/templates/howto/usingyourowndata.html:37
-msgid "start your 30-day free-trial now! "
-msgstr ""
-
-#: mymwebsite/templates/cases/businessideas.html:36
-#: mymwebsite/templates/cases/followingremotejobs.html:39
-#: mymwebsite/templates/cases/genusemediaplan.html:38
-#: mymwebsite/templates/cases/productivity.html:18
-#: mymwebsite/templates/cases/profsurveyors.html:18
-#: mymwebsite/templates/cases/routessales.html:18
-#: mymwebsite/templates/cases/routessecurity.html:18
-#: mymwebsite/templates/cases/routesservices.html:18
-#: mymwebsite/templates/cases/shipmaintenance.html:18
-#: mymwebsite/templates/cases/transparencygeneral.html:18
-#: mymwebsite/templates/cases/transparencyhousmng.html:18
-#: mymwebsite/templates/cases/transparencyngo.html:18
-#: mymwebsite/templates/cases/transparencypub.html:18
-#: mymwebsite/templates/howto/assetmanagement.html:49
-#: mymwebsite/templates/howto/businessideas.html:48
-#: mymwebsite/templates/howto/followingremotejobs.html:29
-#: mymwebsite/templates/howto/genusemediaplan.html:48
-#: mymwebsite/templates/howto/productivity.html:48
-#: mymwebsite/templates/howto/profsurveyors.html:48
-#: mymwebsite/templates/howto/routessales.html:48
-#: mymwebsite/templates/howto/routessecurity.html:48
-#: mymwebsite/templates/howto/routesservices.html:48
-#: mymwebsite/templates/howto/routestrademarketing.html:35
-#: mymwebsite/templates/howto/shipmaintenance.html:48
-#: mymwebsite/templates/howto/transparencygeneral.html:48
-#: mymwebsite/templates/howto/transparencyhousmng.html:48
-#: mymwebsite/templates/howto/transparencyngo.html:48
-#: mymwebsite/templates/howto/transparencypub.html:48
 msgid ""
-"<mark>No Credit Card is required during trial period</mark> and, even when "
-"you have subscribed, you can easily cancel at any time, just clicking a "
-"button!"
+"Do you think that this can bring value to your new business? We agree with "
+"that! "
 msgstr ""
 
 #: mymwebsite/templates/cases/followingremotejobs.html:9
@@ -614,6 +504,196 @@ msgstr ""
 #: mymwebsite/templates/howto/followingremotejobs.html:29
 #: mymwebsite/templates/howto/routestrademarketing.html:35
 msgid "Start your 30-day free-trial now. "
+msgstr ""
+
+#: mymwebsite/templates/cases/followingremotejobs.html:39
+#: mymwebsite/templates/cases/genusemediaplan.html:38
+#: mymwebsite/templates/cases/productivity.html:18
+#: mymwebsite/templates/cases/profsurveyors.html:18
+#: mymwebsite/templates/cases/routessales.html:18
+#: mymwebsite/templates/cases/routessecurity.html:18
+#: mymwebsite/templates/cases/routesservices.html:18
+#: mymwebsite/templates/cases/shipmaintenance.html:18
+#: mymwebsite/templates/cases/transparencygeneral.html:18
+#: mymwebsite/templates/cases/transparencyhousmng.html:18
+#: mymwebsite/templates/cases/transparencyngo.html:18
+#: mymwebsite/templates/cases/transparencypub.html:18
+#: mymwebsite/templates/howto/assetmanagement.html:51
+#: mymwebsite/templates/howto/businessideas.html:17
+#: mymwebsite/templates/howto/followingremotejobs.html:29
+#: mymwebsite/templates/howto/genusemediaplan.html:48
+#: mymwebsite/templates/howto/productivity.html:48
+#: mymwebsite/templates/howto/profsurveyors.html:48
+#: mymwebsite/templates/howto/routessales.html:48
+#: mymwebsite/templates/howto/routessecurity.html:48
+#: mymwebsite/templates/howto/routesservices.html:48
+#: mymwebsite/templates/howto/routestrademarketing.html:35
+#: mymwebsite/templates/howto/setupautoshare.html:30
+#: mymwebsite/templates/howto/shipmaintenance.html:48
+#: mymwebsite/templates/howto/transparencygeneral.html:48
+#: mymwebsite/templates/howto/transparencyhousmng.html:48
+#: mymwebsite/templates/howto/transparencyngo.html:48
+#: mymwebsite/templates/howto/transparencypub.html:48
+msgid ""
+"<mark>No Credit Card is required during trial period</mark> and, even when "
+"you have subscribed, you can easily cancel at any time, just clicking a "
+"button!"
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:31
+#: mymwebsite/templates/cases/productivity.html:11
+#: mymwebsite/templates/cases/profsurveyors.html:11
+#: mymwebsite/templates/cases/routessales.html:11
+#: mymwebsite/templates/cases/routessecurity.html:11
+#: mymwebsite/templates/cases/routesservices.html:11
+#: mymwebsite/templates/cases/shipmaintenance.html:11
+#: mymwebsite/templates/cases/transparencygeneral.html:11
+#: mymwebsite/templates/cases/transparencyhousmng.html:11
+#: mymwebsite/templates/cases/transparencyngo.html:11
+#: mymwebsite/templates/cases/transparencypub.html:11
+msgid ""
+"Since we have created the first version of SeaMensor (that was the “father” "
+"of MyMensor), our friends ask us: - What can I do with this piece of "
+"software that I cannot do with my phone camera already?"
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:32
+#: mymwebsite/templates/cases/productivity.html:12
+#: mymwebsite/templates/cases/profsurveyors.html:12
+#: mymwebsite/templates/cases/routessales.html:12
+#: mymwebsite/templates/cases/routessecurity.html:12
+#: mymwebsite/templates/cases/routesservices.html:12
+#: mymwebsite/templates/cases/shipmaintenance.html:12
+#: mymwebsite/templates/cases/transparencygeneral.html:12
+#: mymwebsite/templates/cases/transparencyhousmng.html:12
+#: mymwebsite/templates/cases/transparencyngo.html:12
+#: mymwebsite/templates/cases/transparencypub.html:12
+msgid ""
+"At that time, it seemed to be a good question, but as time passes it became "
+"abundantly clear that <mark>forgery in the online world has become epidemic."
+"</mark> So, seeing a photo or video that was sent to you in the usual "
+"channels is not enough anymore, you need proof!"
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:33
+#: mymwebsite/templates/cases/productivity.html:13
+#: mymwebsite/templates/cases/profsurveyors.html:13
+#: mymwebsite/templates/cases/routessales.html:13
+#: mymwebsite/templates/cases/routessecurity.html:13
+#: mymwebsite/templates/cases/routesservices.html:13
+#: mymwebsite/templates/cases/shipmaintenance.html:13
+#: mymwebsite/templates/cases/transparencygeneral.html:13
+#: mymwebsite/templates/cases/transparencyhousmng.html:13
+#: mymwebsite/templates/cases/transparencyngo.html:13
+#: mymwebsite/templates/cases/transparencypub.html:13
+msgid ""
+"One simple but defining feature of MyMensor is that <mark>you cannot insert "
+"any media into our system that was not produced by our mobile app.</mark> "
+"So, what you see in a video or photo coming from MyMensor was actually made "
+"by a smartphone camera, with no tampering, modification, enhancing, "
+"whatever, you name it."
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:34
+#: mymwebsite/templates/cases/productivity.html:14
+#: mymwebsite/templates/cases/profsurveyors.html:14
+#: mymwebsite/templates/cases/routessales.html:14
+#: mymwebsite/templates/cases/routessecurity.html:14
+#: mymwebsite/templates/cases/routesservices.html:14
+#: mymwebsite/templates/cases/shipmaintenance.html:14
+#: mymwebsite/templates/cases/transparencygeneral.html:14
+#: mymwebsite/templates/cases/transparencyhousmng.html:14
+#: mymwebsite/templates/cases/transparencyngo.html:14
+#: mymwebsite/templates/cases/transparencypub.html:14
+msgid ""
+"On top of that, MyMensor will tell you if time and location were certified "
+"and then you can trust that the media is really what it seems to be."
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:35
+#: mymwebsite/templates/cases/productivity.html:15
+#: mymwebsite/templates/cases/profsurveyors.html:15
+#: mymwebsite/templates/cases/routessales.html:15
+#: mymwebsite/templates/cases/routessecurity.html:15
+#: mymwebsite/templates/cases/routesservices.html:15
+#: mymwebsite/templates/cases/shipmaintenance.html:15
+#: mymwebsite/templates/cases/transparencygeneral.html:15
+#: mymwebsite/templates/cases/transparencyhousmng.html:15
+#: mymwebsite/templates/cases/transparencyngo.html:15
+#: mymwebsite/templates/cases/transparencypub.html:15
+msgid ""
+"This what I call a general, simple use to MyMensor Media: media "
+"certification."
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:36
+#: mymwebsite/templates/cases/productivity.html:16
+#: mymwebsite/templates/cases/profsurveyors.html:16
+#: mymwebsite/templates/cases/routessales.html:16
+#: mymwebsite/templates/cases/routessecurity.html:16
+#: mymwebsite/templates/cases/routesservices.html:16
+#: mymwebsite/templates/cases/shipmaintenance.html:16
+#: mymwebsite/templates/cases/transparencygeneral.html:16
+#: mymwebsite/templates/cases/transparencyhousmng.html:16
+#: mymwebsite/templates/cases/transparencyngo.html:16
+#: mymwebsite/templates/cases/transparencypub.html:16
+#: mymwebsite/templates/howto/genusemediaplan.html:46
+#: mymwebsite/templates/howto/productivity.html:46
+#: mymwebsite/templates/howto/profsurveyors.html:46
+#: mymwebsite/templates/howto/routessales.html:46
+#: mymwebsite/templates/howto/routessecurity.html:46
+#: mymwebsite/templates/howto/routesservices.html:46
+#: mymwebsite/templates/howto/shipmaintenance.html:46
+#: mymwebsite/templates/howto/transparencygeneral.html:46
+#: mymwebsite/templates/howto/transparencyhousmng.html:46
+#: mymwebsite/templates/howto/transparencyngo.html:46
+#: mymwebsite/templates/howto/transparencypub.html:46
+msgid ""
+"But that is just the tip of he iceberg! There is a lot more to MyMensor "
+"Media: automatic filing, automatic sharing etc. So, look no further, "
+msgstr ""
+
+#: mymwebsite/templates/cases/genusemediaplan.html:38
+#: mymwebsite/templates/cases/productivity.html:18
+#: mymwebsite/templates/cases/profsurveyors.html:18
+#: mymwebsite/templates/cases/routessales.html:18
+#: mymwebsite/templates/cases/routessecurity.html:18
+#: mymwebsite/templates/cases/routesservices.html:18
+#: mymwebsite/templates/cases/shipmaintenance.html:18
+#: mymwebsite/templates/cases/transparencygeneral.html:18
+#: mymwebsite/templates/cases/transparencyhousmng.html:18
+#: mymwebsite/templates/cases/transparencyngo.html:18
+#: mymwebsite/templates/cases/transparencypub.html:18
+#: mymwebsite/templates/cases/usingyourowndata.html:46
+#: mymwebsite/templates/howto/assetmanagement.html:51
+#: mymwebsite/templates/howto/businessideas.html:17
+#: mymwebsite/templates/howto/genusemediaplan.html:48
+#: mymwebsite/templates/howto/productivity.html:48
+#: mymwebsite/templates/howto/profsurveyors.html:48
+#: mymwebsite/templates/howto/routessales.html:48
+#: mymwebsite/templates/howto/routessecurity.html:48
+#: mymwebsite/templates/howto/routesservices.html:48
+#: mymwebsite/templates/howto/setupautoshare.html:30
+#: mymwebsite/templates/howto/shipmaintenance.html:48
+#: mymwebsite/templates/howto/transparencygeneral.html:48
+#: mymwebsite/templates/howto/transparencyhousmng.html:48
+#: mymwebsite/templates/howto/transparencyngo.html:48
+#: mymwebsite/templates/howto/transparencypub.html:48
+#: mymwebsite/templates/howto/usingyourowndata.html:37
+msgid "start your 30-day free-trial now! "
+msgstr ""
+
+#: mymwebsite/templates/cases/productivity.html:8
+#: mymwebsite/templates/cases/profsurveyors.html:8
+#: mymwebsite/templates/cases/routessales.html:8
+#: mymwebsite/templates/cases/routessecurity.html:8
+#: mymwebsite/templates/cases/routesservices.html:8
+#: mymwebsite/templates/cases/shipmaintenance.html:8
+#: mymwebsite/templates/cases/transparencygeneral.html:8
+#: mymwebsite/templates/cases/transparencyhousmng.html:8
+#: mymwebsite/templates/cases/transparencyngo.html:8
+#: mymwebsite/templates/cases/transparencypub.html:8
+msgid "Simple control of Sales Force using Certified Routes"
 msgstr ""
 
 #: mymwebsite/templates/cases/productivity.html:10
@@ -680,7 +760,6 @@ msgstr ""
 
 #: mymwebsite/templates/cases/usingyourowndata.html:37
 #: mymwebsite/templates/howto/assetmanagement.html:15
-#: mymwebsite/templates/howto/businessideas.html:15
 #: mymwebsite/templates/howto/followingremotejobs.html:16
 #: mymwebsite/templates/howto/genusemediaplan.html:15
 #: mymwebsite/templates/howto/productivity.html:15
@@ -1518,6 +1597,7 @@ msgstr ""
 #: mymwebsite/templates/howto/routessecurity.html:7
 #: mymwebsite/templates/howto/routesservices.html:7
 #: mymwebsite/templates/howto/routestrademarketing.html:7
+#: mymwebsite/templates/howto/setupautoshare.html:7
 #: mymwebsite/templates/howto/shipmaintenance.html:7
 #: mymwebsite/templates/howto/transparencygeneral.html:7
 #: mymwebsite/templates/howto/transparencyhousmng.html:7
@@ -1531,24 +1611,44 @@ msgstr ""
 msgid "How to?"
 msgstr ""
 
-#: mymwebsite/templates/howto.html:14
-msgid "How to do that using MyMensor???? Click and learn!!!"
-msgstr ""
-
-#: mymwebsite/templates/howto.html:22 mymwebsite/templates/howto.html:38
+#: mymwebsite/templates/howto.html:14 mymwebsite/templates/howto.html:30
 msgid ""
 "MyMensor will empower you to accomplish that! Follow our step by step how-to "
 "guide."
 msgstr ""
 
-#: mymwebsite/templates/howto.html:30
+#: mymwebsite/templates/howto.html:22
 msgid ""
 "How can <u>I do that?</u> Find here a detailed guide on how MyMensor will "
 "build that for <u>YOU</u>. "
 msgstr ""
 
-#: mymwebsite/templates/howto.html:46
+#: mymwebsite/templates/howto.html:38
 msgid "Let's have a walk through on how to do that using MyMensor."
+msgstr ""
+
+#: mymwebsite/templates/howto.html:46
+msgid "How to do that using MyMensor???? Click and learn!!!"
+msgstr ""
+
+#: mymwebsite/templates/howto.html:54
+msgid "It can be done using MyMensor! Click and follow!"
+msgstr ""
+
+#: mymwebsite/templates/howto.html:59
+#: mymwebsite/templates/howto/setupautoshare.html:10
+msgid "Concept of a connected world."
+msgstr ""
+
+#: mymwebsite/templates/howto.html:61
+#: mymwebsite/templates/howto/setupautoshare.html:8
+msgid "Set Up Automatic Sharing"
+msgstr ""
+
+#: mymwebsite/templates/howto.html:62
+msgid ""
+"In MyMensor you can set up automatic sharing to a Twitter account that you "
+"choose and also to an email account! Click and learn how to do it!"
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:4
@@ -1561,6 +1661,7 @@ msgstr ""
 #: mymwebsite/templates/howto/routessecurity.html:4
 #: mymwebsite/templates/howto/routesservices.html:4
 #: mymwebsite/templates/howto/routestrademarketing.html:4
+#: mymwebsite/templates/howto/setupautoshare.html:4
 #: mymwebsite/templates/howto/shipmaintenance.html:4
 #: mymwebsite/templates/howto/transparencygeneral.html:4
 #: mymwebsite/templates/howto/transparencyhousmng.html:4
@@ -1584,7 +1685,6 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:13
-#: mymwebsite/templates/howto/businessideas.html:13
 #: mymwebsite/templates/howto/followingremotejobs.html:14
 #: mymwebsite/templates/howto/genusemediaplan.html:13
 #: mymwebsite/templates/howto/productivity.html:13
@@ -1603,7 +1703,6 @@ msgid "<strong>1.</strong> Install MyMensor Mobile app from "
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:16
-#: mymwebsite/templates/howto/businessideas.html:16
 #: mymwebsite/templates/howto/genusemediaplan.html:16
 #: mymwebsite/templates/howto/productivity.html:16
 #: mymwebsite/templates/howto/profsurveyors.html:16
@@ -1619,7 +1718,6 @@ msgid "<strong>2.</strong> Run app and create your user"
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:17
-#: mymwebsite/templates/howto/businessideas.html:17
 #: mymwebsite/templates/howto/genusemediaplan.html:17
 #: mymwebsite/templates/howto/productivity.html:17
 #: mymwebsite/templates/howto/profsurveyors.html:17
@@ -1637,7 +1735,6 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:18
-#: mymwebsite/templates/howto/businessideas.html:18
 #: mymwebsite/templates/howto/genusemediaplan.html:18
 #: mymwebsite/templates/howto/productivity.html:18
 #: mymwebsite/templates/howto/profsurveyors.html:18
@@ -1663,7 +1760,6 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:20
-#: mymwebsite/templates/howto/businessideas.html:20
 #: mymwebsite/templates/howto/genusemediaplan.html:20
 #: mymwebsite/templates/howto/productivity.html:20
 #: mymwebsite/templates/howto/profsurveyors.html:20
@@ -1683,7 +1779,6 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:21
-#: mymwebsite/templates/howto/businessideas.html:21
 #: mymwebsite/templates/howto/genusemediaplan.html:21
 #: mymwebsite/templates/howto/productivity.html:21
 #: mymwebsite/templates/howto/profsurveyors.html:21
@@ -1699,7 +1794,6 @@ msgid "Check the video below for a visual guide!"
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:38
-#: mymwebsite/templates/howto/businessideas.html:38
 #: mymwebsite/templates/howto/genusemediaplan.html:38
 #: mymwebsite/templates/howto/productivity.html:38
 #: mymwebsite/templates/howto/profsurveyors.html:38
@@ -1718,7 +1812,6 @@ msgid ""
 msgstr ""
 
 #: mymwebsite/templates/howto/assetmanagement.html:41
-#: mymwebsite/templates/howto/businessideas.html:41
 #: mymwebsite/templates/howto/genusemediaplan.html:41
 #: mymwebsite/templates/howto/productivity.html:41
 #: mymwebsite/templates/howto/profsurveyors.html:41
@@ -1746,84 +1839,70 @@ msgid ""
 "just the simpler way of doing this with MyMensor. Please refer to our case "
 msgstr ""
 
-#: mymwebsite/templates/howto/assetmanagement.html:46
+#: mymwebsite/templates/howto/assetmanagement.html:47
 msgid "Using your own data"
 msgstr ""
 
-#: mymwebsite/templates/howto/assetmanagement.html:46
+#: mymwebsite/templates/howto/assetmanagement.html:47
 msgid " to learn how to gather the data related to your equipment and tools."
 msgstr ""
 
-#: mymwebsite/templates/howto/assetmanagement.html:47
+#: mymwebsite/templates/howto/assetmanagement.html:49
 msgid ""
 "But that is just the tip of he iceberg! There is a lot more to MyMensor: "
 "automatic filing, automatic sharing etc. So, look no further, "
 msgstr ""
 
 #: mymwebsite/templates/howto/businessideas.html:11
-#: mymwebsite/templates/howto/genusemediaplan.html:11
-#: mymwebsite/templates/howto/productivity.html:11
-#: mymwebsite/templates/howto/profsurveyors.html:11
-#: mymwebsite/templates/howto/routessales.html:11
-#: mymwebsite/templates/howto/routessecurity.html:11
-#: mymwebsite/templates/howto/routesservices.html:11
-#: mymwebsite/templates/howto/shipmaintenance.html:11
-#: mymwebsite/templates/howto/transparencygeneral.html:11
-#: mymwebsite/templates/howto/transparencyhousmng.html:11
-#: mymwebsite/templates/howto/transparencyngo.html:11
-#: mymwebsite/templates/howto/transparencypub.html:11
 msgid ""
-"To prove to somebody that your media is real is very simple: use MyMensor to "
-"produce and share your media!"
+"In order to use MyMensor to follow up subcontractor work you will use a "
+"combination of two cases: "
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:11
+msgid "photo certification"
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:11
+msgid " and "
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:11
+msgid "following remote jobs."
 msgstr ""
 
 #: mymwebsite/templates/howto/businessideas.html:12
-#: mymwebsite/templates/howto/genusemediaplan.html:12
-#: mymwebsite/templates/howto/productivity.html:12
-#: mymwebsite/templates/howto/profsurveyors.html:12
-#: mymwebsite/templates/howto/routessales.html:12
-#: mymwebsite/templates/howto/routessecurity.html:12
-#: mymwebsite/templates/howto/routesservices.html:12
-#: mymwebsite/templates/howto/shipmaintenance.html:12
-#: mymwebsite/templates/howto/transparencygeneral.html:12
-#: mymwebsite/templates/howto/transparencyhousmng.html:12
-#: mymwebsite/templates/howto/transparencyngo.html:12
-#: mymwebsite/templates/howto/transparencypub.html:12
-msgid "Ok, let's got step by step on how you do it."
-msgstr ""
-
-#: mymwebsite/templates/howto/businessideas.html:19
-#: mymwebsite/templates/howto/genusemediaplan.html:19
-#: mymwebsite/templates/howto/productivity.html:19
-#: mymwebsite/templates/howto/profsurveyors.html:19
-#: mymwebsite/templates/howto/routessales.html:19
-#: mymwebsite/templates/howto/routessecurity.html:19
-#: mymwebsite/templates/howto/routesservices.html:19
-#: mymwebsite/templates/howto/shipmaintenance.html:19
-#: mymwebsite/templates/howto/transparencygeneral.html:19
-#: mymwebsite/templates/howto/transparencyhousmng.html:19
-#: mymwebsite/templates/howto/transparencyngo.html:19
-#: mymwebsite/templates/howto/transparencypub.html:19
 msgid ""
-"<strong>5.</strong> Now, the best way of proving you mean business, is to "
-"send the link to the media check page to whoever you want. Do this by "
-"pressing the blue sharing button and follow the sharing instructions of your "
-"specific android operating system."
+"Please refer to the cases and associated how-tos of those cases to "
+"understand how to perform such tasks."
 msgstr ""
 
-#: mymwebsite/templates/howto/businessideas.html:45
-#: mymwebsite/templates/howto/genusemediaplan.html:45
-#: mymwebsite/templates/howto/productivity.html:45
-#: mymwebsite/templates/howto/profsurveyors.html:45
-#: mymwebsite/templates/howto/routessales.html:45
-#: mymwebsite/templates/howto/routessecurity.html:45
-#: mymwebsite/templates/howto/routesservices.html:45
-#: mymwebsite/templates/howto/shipmaintenance.html:45
-#: mymwebsite/templates/howto/transparencygeneral.html:45
-#: mymwebsite/templates/howto/transparencyhousmng.html:45
-#: mymwebsite/templates/howto/transparencyngo.html:45
-#: mymwebsite/templates/howto/transparencypub.html:45
-msgid "We hope this will make your life easier!"
+#: mymwebsite/templates/howto/businessideas.html:13
+msgid ""
+"To understand how MyMensor can support a Trade Marketing Agency, please "
+"refer to the "
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:13
+msgid " case and associated how-to."
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:14
+msgid "In either case, refer to the "
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:14
+msgid "how to setup auto-sharing guide"
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:14
+msgid " to configure this feature."
+msgstr ""
+
+#: mymwebsite/templates/howto/businessideas.html:15
+msgid ""
+"But that is just the begining! MyMensor can help you a lot with your new "
+"business. So, look no further, "
 msgstr ""
 
 #: mymwebsite/templates/howto/followingremotejobs.html:11
@@ -1935,6 +2014,69 @@ msgid ""
 "confidence.</mark>"
 msgstr ""
 
+#: mymwebsite/templates/howto/genusemediaplan.html:11
+#: mymwebsite/templates/howto/productivity.html:11
+#: mymwebsite/templates/howto/profsurveyors.html:11
+#: mymwebsite/templates/howto/routessales.html:11
+#: mymwebsite/templates/howto/routessecurity.html:11
+#: mymwebsite/templates/howto/routesservices.html:11
+#: mymwebsite/templates/howto/shipmaintenance.html:11
+#: mymwebsite/templates/howto/transparencygeneral.html:11
+#: mymwebsite/templates/howto/transparencyhousmng.html:11
+#: mymwebsite/templates/howto/transparencyngo.html:11
+#: mymwebsite/templates/howto/transparencypub.html:11
+msgid ""
+"To prove to somebody that your media is real is very simple: use MyMensor to "
+"produce and share your media!"
+msgstr ""
+
+#: mymwebsite/templates/howto/genusemediaplan.html:12
+#: mymwebsite/templates/howto/productivity.html:12
+#: mymwebsite/templates/howto/profsurveyors.html:12
+#: mymwebsite/templates/howto/routessales.html:12
+#: mymwebsite/templates/howto/routessecurity.html:12
+#: mymwebsite/templates/howto/routesservices.html:12
+#: mymwebsite/templates/howto/shipmaintenance.html:12
+#: mymwebsite/templates/howto/transparencygeneral.html:12
+#: mymwebsite/templates/howto/transparencyhousmng.html:12
+#: mymwebsite/templates/howto/transparencyngo.html:12
+#: mymwebsite/templates/howto/transparencypub.html:12
+msgid "Ok, let's got step by step on how you do it."
+msgstr ""
+
+#: mymwebsite/templates/howto/genusemediaplan.html:19
+#: mymwebsite/templates/howto/productivity.html:19
+#: mymwebsite/templates/howto/profsurveyors.html:19
+#: mymwebsite/templates/howto/routessales.html:19
+#: mymwebsite/templates/howto/routessecurity.html:19
+#: mymwebsite/templates/howto/routesservices.html:19
+#: mymwebsite/templates/howto/shipmaintenance.html:19
+#: mymwebsite/templates/howto/transparencygeneral.html:19
+#: mymwebsite/templates/howto/transparencyhousmng.html:19
+#: mymwebsite/templates/howto/transparencyngo.html:19
+#: mymwebsite/templates/howto/transparencypub.html:19
+msgid ""
+"<strong>5.</strong> Now, the best way of proving you mean business, is to "
+"send the link to the media check page to whoever you want. Do this by "
+"pressing the blue sharing button and follow the sharing instructions of your "
+"specific android operating system."
+msgstr ""
+
+#: mymwebsite/templates/howto/genusemediaplan.html:45
+#: mymwebsite/templates/howto/productivity.html:45
+#: mymwebsite/templates/howto/profsurveyors.html:45
+#: mymwebsite/templates/howto/routessales.html:45
+#: mymwebsite/templates/howto/routessecurity.html:45
+#: mymwebsite/templates/howto/routesservices.html:45
+#: mymwebsite/templates/howto/setupautoshare.html:27
+#: mymwebsite/templates/howto/shipmaintenance.html:45
+#: mymwebsite/templates/howto/transparencygeneral.html:45
+#: mymwebsite/templates/howto/transparencyhousmng.html:45
+#: mymwebsite/templates/howto/transparencyngo.html:45
+#: mymwebsite/templates/howto/transparencypub.html:45
+msgid "We hope this will make your life easier!"
+msgstr ""
+
 #: mymwebsite/templates/howto/routestrademarketing.html:11
 msgid ""
 "How to<mark> simply control Trade Marketing using MyMensor? </mark> Do I "
@@ -1979,6 +2121,99 @@ msgstr ""
 
 #: mymwebsite/templates/howto/routestrademarketing.html:33
 msgid "In anyway, "
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:11
+msgid ""
+"In MyMensor you can set up automatic sharing to a Twitter account that you "
+"choose and also to an email account."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:12
+msgid ""
+"When using Twitter you will be able to configure one account to be used for "
+"all your captures, in case of email you can configure a different email "
+"account for each VP."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:13
+msgid ""
+"To configure the automatic sharing you have to be logged in at the MyMensor "
+"WebApp."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:14
+msgid "Now let's check how to do it with Twitter:"
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:15
+msgid ""
+"<strong>1.</strong> In the top right of your screen you will see your "
+"username in bold letters, click on it to open a dropdown menu. In this menu "
+"click on <strong>Twitter Account</strong>."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:16
+msgid ""
+"<strong>2.</strong> Follow the instructions in the screen to authorize the "
+"app to use your Twitter account to post. You can always come back here and "
+"disconnect your account."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:17
+msgid ""
+"<strong>3.</strong> Click now on the <strong>Setup</strong> menu item and "
+"the on <strong>VPs</strong> in the dropdown menu."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:18
+msgid ""
+"<strong>4.</strong> Select the VP that you want to publish using Twitter and "
+"check the checkbox for <strong>Share all of this vp captures to the Twitter "
+"Account configured.</strong> Following Twitter procedures MyMensor has to "
+"ask for an explicit consent from you to post your media automatically to "
+"Twitter. To do so you have to type in your username."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:19
+msgid ""
+"<strong>5.</strong> Please remember that you can remark your medias in the "
+"Mobile app prior to posting!"
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:20
+msgid "<strong>6.</strong> Press <strong>Submit</strong> to save your changes!"
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:22
+msgid "You can share also to email:"
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:23
+msgid ""
+"<strong>1.</strong> Click on the <strong>Setup</strong> menu item and the on "
+"<strong>VPs</strong> in the dropdown menu."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:24
+msgid ""
+"<strong>2.</strong> Select the VP that you want to publish using Email and "
+"fill the field <strong>Send all of this vp captures to the following email</"
+"strong> with the email that you want to send the captures to."
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:25
+msgid ""
+"<strong>3.</strong> Please remember that you can remark your medias in the "
+"Mobile app prior to posting!"
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:26
+msgid "<strong>4.</strong> Press <strong>Submit</strong> to save your changes!"
+msgstr ""
+
+#: mymwebsite/templates/howto/setupautoshare.html:28
+msgid "So, look no further, "
 msgstr ""
 
 #: mymwebsite/templates/howto/usingyourowndata.html:11
