@@ -14,8 +14,8 @@ CSRF_COOKIE_SECURE = True
 ALLOWED_HOSTS = ['www.mymensor.com','mymensor.com']
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
-DEBUG = False
+#ALLOWED_HOSTS = ['*']
+#DEBUG = False
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
